@@ -5,7 +5,6 @@
 > Toolkit to help you get started with Spec-Driven Development
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Claude-Powered-blueviolet?logo=anthropic" alt="Claude Powered" />
   <img src="https://img.shields.io/badge/Spec--Driven-Development-orange" alt="Spec-Driven Development" />
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen" alt="PRs Welcome" />
   <img src="https://img.shields.io/badge/lang-中文%20%7C%20EN-blue" alt="Language" />
