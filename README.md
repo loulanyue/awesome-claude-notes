@@ -163,4 +163,4 @@ ls notes/
 
 ## 📄 License
 
-[MIT](./LICENSE) © 2025 awesome-claude-notes contributors
+[MIT](./LICENSE) © 2026 awesome-claude-notes contributors
