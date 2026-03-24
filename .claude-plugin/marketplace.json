@@ -1,0 +1,49 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "awesome-claude-notes",
+  "description": "Battle-tested Claude Code configurations from an Anthropic hackathon winner — agents, skills, hooks, commands, and rules evolved over 10+ months of intensive daily use",
+  "owner": {
+    "name": "Affaan Mustafa",
+    "email": "me@affaanmustafa.com"
+  },
+  "metadata": {
+    "description": "Battle-tested Claude Code configurations from an Anthropic hackathon winner"
+  },
+  "plugins": [
+    {
+      "name": "awesome-claude-notes",
+      "source": "./",
+      "description": "The most comprehensive Claude Code plugin — 14+ agents, 56+ skills, 33+ commands, and production-ready hooks for TDD, security scanning, code review, and continuous learning",
+      "version": "1.9.0",
+      "author": {
+        "name": "Affaan Mustafa",
+        "email": "me@affaanmustafa.com"
+      },
+      "homepage": "https://github.com/loulanyue/awesome-claude-notes",
+      "repository": "https://github.com/loulanyue/awesome-claude-notes",
+      "license": "MIT",
+      "keywords": [
+        "agents",
+        "skills",
+        "hooks",
+        "commands",
+        "tdd",
+        "code-review",
+        "security",
+        "best-practices"
+      ],
+      "category": "workflow",
+      "tags": [
+        "agents",
+        "skills",
+        "hooks",
+        "commands",
+        "tdd",
+        "code-review",
+        "security",
+        "best-practices"
+      ],
+      "strict": false
+    }
+  ]
+}

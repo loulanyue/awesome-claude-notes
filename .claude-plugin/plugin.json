@@ -1,0 +1,25 @@
+{
+  "name": "awesome-claude-notes",
+  "version": "1.9.0",
+  "description": "Complete collection of battle-tested Claude Code configs from an Anthropic hackathon winner - agents, skills, hooks, and rules evolved over 10+ months of intensive daily use",
+  "author": {
+    "name": "Affaan Mustafa",
+    "url": "https://x.com/affaanmustafa"
+  },
+  "homepage": "https://github.com/loulanyue/awesome-claude-notes",
+  "repository": "https://github.com/loulanyue/awesome-claude-notes",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "agents",
+    "skills",
+    "hooks",
+    "rules",
+    "tdd",
+    "code-review",
+    "security",
+    "workflow",
+    "automation",
+    "best-practices"
+  ]
+}
