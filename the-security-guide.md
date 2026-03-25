@@ -24,7 +24,7 @@ E.g., my agent is connected via a gateway layer to WhatsApp. An adversary knows 
 
 Even this Good Rudi jailbreak clips people laugh at (its funny ngl) point at the same class of problem: repeated attempts, eventually a sensitive reveal, humorous on the surface but the underlying failure is serious - I mean the thing is meant for kids after all, extrapolate a bit from this and you'll quickly come to the conclusion on why this could be catastrophic. The same pattern goes a lot further when the model is attached to real tools and real permissions.
 
-[Video: Bad Rudi Exploit](./assets/images/security/badrudi-exploit.mp4) — good rudi (grok animated AI character for children) gets exploited with a prompt jailbreak after repeated attempts in order to reveal sensitive information. its a humorous example but nonetheless the possibilities go a lot further.
+The Bad Rudi exploit video is no longer bundled in this repo, but the example still illustrates the same class of issue: repeated prompt attempts, eventual sensitive disclosure, and how much worse that becomes once real tools and permissions are attached.
 
 WhatsApp is just one example. Email attachments are a massive vector. An attacker sends a PDF with an embedded prompt; your agent reads the attachment as part of the job, and now text that should have stayed helpful data has become malicious instruction. Screenshots and scans are just as bad if you are doing OCR on them. Anthropic's own prompt injection work explicitly calls out hidden text and manipulated images as real attack material.
 

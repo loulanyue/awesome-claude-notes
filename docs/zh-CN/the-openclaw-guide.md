@@ -1,6 +1,6 @@
 # OpenClaw 的隐藏危险
 
-![标题：OpenClaw 的隐藏危险——来自智能体前沿的安全教训](../../assets/images/openclaw/01-header.png)
+> 封面图当前未随仓库一起提供，因此这里改为文本说明，不再保留失效图片链接。
 
 ***
 
