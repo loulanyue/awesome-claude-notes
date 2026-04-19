@@ -20,6 +20,8 @@
 
 > 一套面向 Claude Code 与多种 AI coding harness 的生产级工作流资产库。
 
+Access to 28 agents, 125 skills, and 60 commands, packaged for practical multi-harness development.
+
 把 AI coding agent 从“偶尔好用”，推进到“稳定可复用”。
 
 awesome claude notes 提供已经打磨过的 agents、skills、commands、rules、hooks、
