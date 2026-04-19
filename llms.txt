@@ -1,0 +1,24 @@
+# awesome claude notes
+
+> Production-ready AI coding workflow assets for Claude Code, Cursor, Codex, OpenCode, and related harnesses.
+
+Core docs:
+- README.md
+- AGENTS.md
+- docs/zh-CN/README.md
+- TROUBLESHOOTING.md
+- docs/SELECTIVE-INSTALL-ARCHITECTURE.md
+
+Core assets:
+- agents/
+- commands/
+- skills/
+- hooks/
+- rules/
+- mcp-configs/
+- manifests/
+
+CLI entrypoints:
+- npx ecc <language>
+- npx ecc-install <language>
+- node scripts/install-apply.js --profile <name>
