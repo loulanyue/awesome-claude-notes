@@ -78,6 +78,14 @@ npx ecc typescript
 如果你是手动安装命令，也可以直接使用：
 `/plan "Add user authentication"`。
 
+## 资源规模一览
+
+| Capability | Coverage | Notes |
+| --- | --- | --- |
+| Agents | ✅ 28 agents | Planner, architect, reviewer, resolver, and domain specialists |
+| Commands | ✅ 60 commands | Slash commands for planning, TDD, review, and orchestration |
+| Skills | ✅ 125 skills | Workflow, engineering, domain, and platform knowledge modules |
+
 ## 接下来该看哪份文档
 
 - **想先判断项目是否适合你**：[`the-shortform-guide.md`](the-shortform-guide.md)
