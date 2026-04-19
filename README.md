@@ -153,3 +153,17 @@ Node.js 版本要求见 `package.json`（`>=18`）。
 
 MIT。欢迎按现有目录约定贡献新的 agents、skills、commands、hooks、rules、
 文档和翻译。
+
+---
+
+<a id="star-history"></a>
+## ⭐ Star History
+
+<a href="https://www.star-history.com/?repos=loulanyue%2Fawesome-claude-notes&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=loulanyue/awesome-claude-notes&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=loulanyue/awesome-claude-notes&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=loulanyue/awesome-claude-notes&type=date&legend=top-left" />
+ </picture>
+</a>
+
