@@ -185,3 +185,10 @@ The agent will stop and report if:
 
 - Agent: `agents/rust-build-resolver.md`
 - Skill: `skills/rust-patterns/`
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

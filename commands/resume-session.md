@@ -153,3 +153,10 @@ Ready to continue. What would you like to do?
 - The briefing format is fixed — do not skip sections even if they are empty
 - "What Not To Retry" must always be shown, even if it just says "None" — it's too important to miss
 - After resuming, the user may want to run `/save-session` again at the end of the new session to create a new dated file
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

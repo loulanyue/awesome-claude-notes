@@ -10,6 +10,7 @@ Thanks for wanting to contribute! This repo is a community resource for Claude C
 - [Contributing Agents](#contributing-agents)
 - [Contributing Hooks](#contributing-hooks)
 - [Contributing Commands](#contributing-commands)
+- [Contributing Contexts](#contributing-contexts)
 - [MCP and documentation (e.g. Context7)](#mcp-and-documentation-eg-context7)
 - [Cross-Harness and Translations](#cross-harness-and-translations)
 - [Pull Request Process](#pull-request-process)
@@ -188,6 +189,12 @@ Action: [what you do]
 Output: [what you return]
 ```
 
+### Agent Structure Checklist
+
+- [ ] Includes required frontmatter fields (`name`, `description`, `tools`, `model`)
+- [ ] Ends with a `## Navigation` section linking back to shared repo entry points
+- [ ] Uses stable, repository-relative links where possible
+
 ### Agent Fields
 
 | Field | Description | Options |
@@ -337,7 +344,62 @@ What this command does.
 ## Output
 
 What the user receives.
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)
 ```
+
+### Command Structure Checklist
+
+- [ ] Includes `description` frontmatter
+- [ ] Uses clear section headers for usage and workflow
+- [ ] Ends with a `## Navigation` section using repository-relative links
+
+---
+
+## Contributing Contexts
+
+Contexts are shared operating modes used by commands and agents.
+
+### File Location
+
+```
+contexts/your-context.md
+```
+
+### Context Template
+
+```markdown
+---
+description: Shared context preset for a focused mode of work.
+---
+
+# Context Name
+
+Mode: Explain the operating mode
+Focus: Explain what this context optimizes for
+
+## Behavior
+- Working norm one
+- Working norm two
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Commands directory](../commands)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contributing guide](../CONTRIBUTING.md)
+```
+
+### Context Structure Checklist
+
+- [ ] Includes `description` frontmatter
+- [ ] Documents mode, focus, and expected behavior
+- [ ] Ends with a `## Navigation` section using repository-relative links
 
 ### Example Commands
 

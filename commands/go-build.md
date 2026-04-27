@@ -181,3 +181,10 @@ The agent will stop and report if:
 
 - Agent: `agents/go-build-resolver.md`
 - Skill: `skills/golang-patterns/`
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

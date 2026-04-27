@@ -273,3 +273,10 @@ Then test with Postman — the response should include a `Set-Cookie` header.
 - The file is meant to be read by Claude at the start of the next session via `/resume-session`
 - Use the canonical global session store: `~/.claude/sessions/`
 - Prefer the short-id filename form (`YYYY-MM-DD-<short-id>-session.tmp`) for any new session file
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

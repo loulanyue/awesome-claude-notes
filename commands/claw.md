@@ -49,3 +49,10 @@ exit                           Quit
 - Sessions are stored at `~/.claude/claw/<session>.md`.
 - Compaction keeps the most recent turns and writes a compaction header.
 - Export supports markdown, JSON turns, and plain text.
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

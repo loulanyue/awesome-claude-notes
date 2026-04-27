@@ -1,3 +1,7 @@
+---
+description: "Run a deterministic repository harness audit and return a prioritized scorecard."
+---
+
 # Harness Audit Command
 
 Run a deterministic repository harness audit and return a prioritized scorecard.
@@ -69,3 +73,10 @@ Top 3 Actions:
 $ARGUMENTS:
 - `repo|hooks|skills|commands|agents` (optional scope)
 - `--format text|json` (optional output format)
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

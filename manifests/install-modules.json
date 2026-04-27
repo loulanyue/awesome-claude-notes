@@ -23,7 +23,6 @@
       "kind": "agents",
       "description": "Agent definitions and project-level agent guidance.",
       "paths": [
-        ".agents",
         "agents",
         "AGENTS.md"
       ],
@@ -90,7 +89,6 @@
       "targets": [
         "claude",
         "cursor",
-        "antigravity",
         "codex",
         "opencode"
       ],
@@ -141,7 +139,6 @@
       "targets": [
         "claude",
         "cursor",
-        "antigravity",
         "codex",
         "opencode"
       ],

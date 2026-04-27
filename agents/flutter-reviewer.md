@@ -241,3 +241,10 @@ Verdict: BLOCK — HIGH issues must be fixed before merge.
 - **Block**: Any CRITICAL or HIGH issues — must fix before merge
 
 Refer to the `flutter-dart-code-review` skill for the comprehensive review checklist.
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

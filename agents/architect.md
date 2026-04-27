@@ -209,3 +209,10 @@ Example architecture for an AI-powered SaaS platform:
 - **10M users**: Event-driven architecture, distributed caching, multi-region
 
 **Remember**: Good architecture enables rapid development, easy maintenance, and confident scaling. The best architecture is simple, clear, and follows established patterns.
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

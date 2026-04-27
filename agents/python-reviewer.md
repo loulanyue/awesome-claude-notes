@@ -96,3 +96,10 @@ For detailed Python patterns, security examples, and code samples, see skill: `p
 ---
 
 Review with the mindset: "Would this code pass review at a top Python shop or open-source project?"
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

@@ -34,3 +34,10 @@ Escalate when any condition is true:
 - repeated failures with identical stack traces
 - cost drift outside budget window
 - merge conflicts blocking queue advancement
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

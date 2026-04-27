@@ -162,3 +162,10 @@ Node.js server but would be a real problem with worker threads or clustering.
 - Keep answers focused: the goal is to unblock the user quickly, not to deliver a lecture
 - If an aside sparks a larger discussion, finish the current task first unless the aside reveals a blocker
 - Asides are not saved to session files unless explicitly relevant to the task outcome
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

@@ -172,3 +172,10 @@ For advanced features (10k+ commits, team sharing, auto-PRs), use the [Skill Cre
 ---
 
 *Part of [awesome claude notes](https://github.com/loulanyue/awesome-claude-notes)*
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

@@ -266,3 +266,10 @@ go test -race -cover ./...
 
 - Skill: `skills/golang-testing/`
 - Skill: `skills/tdd-workflow/`
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

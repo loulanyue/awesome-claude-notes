@@ -48,6 +48,8 @@ MCP configs 和跨平台脚本，帮助你更快搭起一套可落地的 agent h
 
 推荐路径只保留一条：先安装插件，再安装你当前语言需要的规则和命令。
 
+Quick start gives you access to 28 agents, 125 skills, and 60 commands.
+
 ### 1. 安装插件
 
 ```bash
@@ -94,6 +96,12 @@ npx ecc typescript
 ## 仓库里包含什么
 
 这个仓库的核心目录与能力如下：
+
+| Category | Snapshot | Notes |
+| --- | --- | --- |
+| Agents | ✅ 28 agents | Specialized subagents for planning, review, build fixing, and orchestration |
+| Commands | ✅ 60 commands | Slash-command workflows for planning, testing, review, and maintenance |
+| Skills | ✅ 125 skills | Reusable workflow and domain-knowledge modules across harnesses |
 
 - `agents/`：专用子代理，例如 planner、architect、code-reviewer、build resolver。
 - `skills/`：工作流定义与领域知识模块。
@@ -166,4 +174,3 @@ MIT。欢迎按现有目录约定贡献新的 agents、skills、commands、hooks
    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=loulanyue/awesome-claude-notes&type=date&legend=top-left" />
  </picture>
 </a>
-

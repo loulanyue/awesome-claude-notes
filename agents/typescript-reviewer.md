@@ -110,3 +110,10 @@ This repo does not yet ship a dedicated `typescript-patterns` skill. For detaile
 ---
 
 Review with the mindset: "Would this code pass review at a top TypeScript shop or well-maintained open-source project?"
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

@@ -36,3 +36,10 @@ instead of presenting it as a `/...` command.
 ## User Input
 
 $ARGUMENTS
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

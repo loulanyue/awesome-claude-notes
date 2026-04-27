@@ -1,3 +1,7 @@
+---
+description: "Multi-model collaborative planning - Context retrieval + Dual-model analysis → Generate step-by-step implementation plan."
+---
+
 # Plan - Multi-Model Collaborative Planning
 
 Multi-model collaborative planning - Context retrieval + Dual-model analysis → Generate step-by-step implementation plan.
@@ -266,3 +270,10 @@ After user approves, **manually** execute:
 3. **Trust Rules** – Backend follows Codex, Frontend follows Gemini
 4. External models have **zero filesystem write access**
 5. **SESSION_ID Handoff** – Plan must include `CODEX_SESSION` / `GEMINI_SESSION` at end (for `/ccg:execute resume <SESSION_ID>` use)
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

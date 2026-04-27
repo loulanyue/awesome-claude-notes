@@ -1,3 +1,7 @@
+---
+description: "Analyze the codebase structure and generate token-lean architecture documentation."
+---
+
 # Update Codemaps
 
 Analyze the codebase structure and generate token-lean architecture documentation.
@@ -70,3 +74,10 @@ Write a summary to `.reports/codemap-diff.txt`:
 - Keep each codemap under **1000 tokens** for efficient context loading
 - Use ASCII diagrams for data flow instead of verbose descriptions
 - Run after major feature additions or refactoring sessions
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

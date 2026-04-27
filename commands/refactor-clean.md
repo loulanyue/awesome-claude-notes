@@ -1,3 +1,7 @@
+---
+description: "Safely identify and remove dead code with test verification at every step."
+---
+
 # Refactor Clean
 
 Safely identify and remove dead code with test verification at every step.
@@ -78,3 +82,10 @@ All tests passing ✅
 - **One deletion at a time** — Atomic changes make rollback easy
 - **Skip if uncertain** — Better to keep dead code than break production
 - **Don't refactor while cleaning** — Separate concerns (clean first, refactor later)
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

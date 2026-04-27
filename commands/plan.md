@@ -113,3 +113,10 @@ This command invokes the `planner` agent provided by ECC.
 
 For manual installs, the source file lives at:
 `agents/planner.md`
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

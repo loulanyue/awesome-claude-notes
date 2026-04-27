@@ -1,3 +1,7 @@
+---
+description: "Run comprehensive verification on current codebase state."
+---
+
 # Verification Command
 
 Run comprehensive verification on current codebase state.
@@ -57,3 +61,10 @@ $ARGUMENTS can be:
 - `full` - All checks (default)
 - `pre-commit` - Checks relevant for commits
 - `pre-pr` - Full checks plus security scan
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

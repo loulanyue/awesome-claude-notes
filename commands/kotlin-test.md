@@ -310,3 +310,10 @@ open build/reports/kover/html/index.html
 
 - Skill: `skills/kotlin-testing/`
 - Skill: `skills/tdd-workflow/`
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

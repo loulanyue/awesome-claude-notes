@@ -78,3 +78,10 @@ To see current package manager detection results, run:
 ```bash
 node scripts/setup-package-manager.js --detect
 ```
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

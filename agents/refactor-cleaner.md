@@ -83,3 +83,10 @@ After each batch:
 - Build succeeds
 - No regressions
 - Bundle size reduced
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)
