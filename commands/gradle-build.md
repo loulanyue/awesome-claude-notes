@@ -68,3 +68,10 @@ Report:
 | Duplicate class | Check for conflicting dependencies with `./gradlew dependencies` |
 | KSP error | Run `./gradlew kspCommonMainKotlinMetadata` to regenerate |
 | Configuration cache issue | Check for non-serializable task inputs |
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

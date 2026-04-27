@@ -70,3 +70,10 @@ cmake --build build 2>&1 | head -50
 - **Block**: CRITICAL or HIGH issues found
 
 For detailed C++ coding standards and anti-patterns, see `skill: cpp-coding-standards`.
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

@@ -363,3 +363,10 @@ npx playwright codegen http://localhost:3000
 # View report
 npx playwright show-report
 ```
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

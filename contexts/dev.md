@@ -1,3 +1,7 @@
+---
+description: "Shared context preset for active development and implementation work."
+---
+
 # Development Context
 
 Mode: Active development
@@ -18,3 +22,10 @@ Focus: Implementation, coding, building features
 - Edit, Write for code changes
 - Bash for running tests/builds
 - Grep, Glob for finding code
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Commands directory](../commands)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contributing guide](../CONTRIBUTING.md)

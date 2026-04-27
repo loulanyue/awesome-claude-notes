@@ -1,3 +1,7 @@
+---
+description: "Analyze test coverage, identify gaps, and generate missing tests to reach 80%+ coverage."
+---
+
 # Test Coverage
 
 Analyze test coverage, identify gaps, and generate missing tests to reach 80%+ coverage.
@@ -67,3 +71,10 @@ Overall:               67%     84%  ✅
 - Utility functions used across the codebase
 - API endpoint handlers (request → response flow)
 - Edge cases: null, undefined, empty string, empty array, zero, negative numbers
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

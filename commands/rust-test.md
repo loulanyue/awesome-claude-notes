@@ -306,3 +306,10 @@ cargo test --no-fail-fast
 
 - Skill: `skills/rust-testing/`
 - Skill: `skills/rust-patterns/`
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

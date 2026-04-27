@@ -1,3 +1,7 @@
+---
+description: "Backend-focused workflow (Research → Ideation → Plan → Execute → Optimize → Review), Codex-led."
+---
+
 # Backend - Backend-Focused Development
 
 Backend-focused workflow (Research → Ideation → Plan → Execute → Optimize → Review), Codex-led.
@@ -156,3 +160,10 @@ Integrate review feedback, execute optimization after user confirmation.
 2. **Gemini backend opinions for reference only**
 3. External models have **zero filesystem write access**
 4. Claude handles all code writes and file operations
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

@@ -1,3 +1,7 @@
+---
+description: "Inspect active loop state, progress, and failure signals."
+---
+
 # Loop Status Command
 
 Inspect active loop state, progress, and failure signals.
@@ -22,3 +26,10 @@ When `--watch` is present, refresh status periodically and surface state changes
 
 $ARGUMENTS:
 - `--watch` optional
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

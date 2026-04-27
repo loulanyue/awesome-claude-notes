@@ -1,3 +1,7 @@
+---
+description: "Start a managed autonomous loop pattern with safety defaults."
+---
+
 # Loop Start Command
 
 Start a managed autonomous loop pattern with safety defaults.
@@ -30,3 +34,10 @@ Start a managed autonomous loop pattern with safety defaults.
 $ARGUMENTS:
 - `<pattern>` optional (`sequential|continuous-pr|rfc-dag|infinite`)
 - `--mode safe|fast` optional
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

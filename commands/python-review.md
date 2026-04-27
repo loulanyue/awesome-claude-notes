@@ -295,3 +295,10 @@ The reviewer notes when code uses features from newer Python versions:
 | Type unions (&#96;x &#124; None&#96;) | 3.10+ |
 
 Ensure your project's `pyproject.toml` or `setup.py` specifies the correct minimum Python version.
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

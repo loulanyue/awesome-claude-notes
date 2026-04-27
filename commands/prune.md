@@ -29,3 +29,10 @@ python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py prune
 /prune --max-age 60      # Custom age threshold (days)
 /prune --dry-run         # Preview without deleting
 ```
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

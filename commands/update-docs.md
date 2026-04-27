@@ -1,3 +1,7 @@
+---
+description: "Sync documentation with the codebase, generating from source-of-truth files."
+---
+
 # Update Documentation
 
 Sync documentation with the codebase, generating from source-of-truth files.
@@ -82,3 +86,10 @@ Skipped:  docs/API.md (no changes detected)
 - **Preserve manual sections**: Only update generated sections; leave hand-written prose intact
 - **Mark generated content**: Use `<!-- AUTO-GENERATED -->` markers around generated sections
 - **Don't create docs unprompted**: Only create new doc files if the command explicitly requests it
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

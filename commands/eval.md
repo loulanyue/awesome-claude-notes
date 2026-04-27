@@ -1,3 +1,7 @@
+---
+description: "Manage eval-driven development workflow."
+---
+
 # Eval Command
 
 Manage eval-driven development workflow.
@@ -118,3 +122,10 @@ $ARGUMENTS:
 - `report <name>` - Generate full report
 - `list` - Show all evals
 - `clean` - Remove old eval logs (keeps last 10 runs)
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

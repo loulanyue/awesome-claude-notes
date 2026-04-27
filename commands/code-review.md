@@ -1,3 +1,7 @@
+---
+description: "Comprehensive security and quality review of uncommitted changes:"
+---
+
 # Code Review
 
 Comprehensive security and quality review of uncommitted changes:
@@ -38,3 +42,10 @@ Comprehensive security and quality review of uncommitted changes:
 4. Block commit if CRITICAL or HIGH issues found
 
 Never approve code with security vulnerabilities!
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

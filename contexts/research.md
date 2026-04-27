@@ -1,3 +1,7 @@
+---
+description: "Shared context preset for repository research and investigation work."
+---
+
 # Research Context
 
 Mode: Exploration, investigation, learning
@@ -24,3 +28,10 @@ Focus: Understanding before acting
 
 ## Output
 Findings first, recommendations second
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Commands directory](../commands)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contributing guide](../CONTRIBUTING.md)

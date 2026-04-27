@@ -9,3 +9,10 @@ Scan installed skills, extract cross-cutting principles, and distill them into r
 ## Process
 
 Follow the full workflow defined in the `rules-distill` skill.
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

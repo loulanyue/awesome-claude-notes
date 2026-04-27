@@ -1,3 +1,7 @@
+---
+description: "Shared context preset for code review and quality analysis work."
+---
+
 # Code Review Context
 
 Mode: PR review, code analysis
@@ -20,3 +24,10 @@ Focus: Quality, security, maintainability
 
 ## Output Format
 Group findings by file, severity first
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Commands directory](../commands)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contributing guide](../CONTRIBUTING.md)

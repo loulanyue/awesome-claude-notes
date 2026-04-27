@@ -1,3 +1,7 @@
+---
+description: "Incrementally fix build and type errors with minimal, safe changes."
+---
+
 # Build and Fix
 
 Incrementally fix build and type errors with minimal, safe changes.
@@ -60,3 +64,10 @@ Show results:
 | Build tool misconfiguration | Read config file; compare with working defaults |
 
 Fix one error at a time for safety. Prefer minimal diffs over refactoring.
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

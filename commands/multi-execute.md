@@ -1,3 +1,7 @@
+---
+description: "Multi-model collaborative execution - Get prototype from plan → Claude refactors and implements → Multi-model audit and delivery."
+---
+
 # Execute - Multi-Model Collaborative Execution
 
 Multi-model collaborative execution - Get prototype from plan → Claude refactors and implements → Multi-model audit and delivery.
@@ -313,3 +317,10 @@ After audit passes, report to user:
 1. `/ccg:plan` generates plan + SESSION_ID
 2. User confirms with "Y"
 3. `/ccg:execute` reads plan, reuses SESSION_ID, executes implementation
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

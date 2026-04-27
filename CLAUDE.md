@@ -46,6 +46,7 @@ The project is organized into several core components:
 - Package manager detection: npm, pnpm, yarn, bun (configurable via `CLAUDE_PACKAGE_MANAGER` env var or project config)
 - Cross-platform: Windows, macOS, Linux support via Node.js scripts
 - Agent format: Markdown with YAML frontmatter (name, description, tools, model)
+- Context format: Markdown with description frontmatter and a shared navigation footer
 - Skill format: Markdown with clear sections for when to use, how it works, examples
 - Skill placement: Curated in skills/; generated/imported under ~/.claude/skills/. See docs/SKILL-PLACEMENT-POLICY.md
 - Hook format: JSON with matcher conditions and command/notification hooks
@@ -54,8 +55,9 @@ The project is organized into several core components:
 
 Follow the formats in CONTRIBUTING.md:
 - Agents: Markdown with frontmatter (name, description, tools, model)
+- Contexts: Markdown with description frontmatter and a `## Navigation` section
 - Skills: Clear sections (When to Use, How It Works, Examples)
-- Commands: Markdown with description frontmatter
+- Commands: Markdown with description frontmatter and a `## Navigation` section
 - Hooks: JSON with matcher and hooks array
 
 File naming: lowercase with hyphens (e.g., `python-reviewer.md`, `tdd-workflow.md`)

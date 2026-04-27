@@ -1,3 +1,7 @@
+---
+description: "Auto-analyze project and generate PM2 service commands."
+---
+
 # PM2 Init
 
 Auto-analyze project and generate PM2 service commands.
@@ -270,3 +274,10 @@ pm2 resurrect          # Restore saved processes
 
 **Tip:** Run `pm2 save` after first start to enable simplified commands.
 ```
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

@@ -90,3 +90,10 @@ Read `pom.xml`, `build.gradle`, or `build.gradle.kts` to determine the build too
 - **Block**: CRITICAL or HIGH issues found
 
 For detailed Spring Boot patterns and examples, see `skill: springboot-patterns`.
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

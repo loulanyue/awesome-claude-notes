@@ -66,3 +66,10 @@ Input: "What are the Supabase auth methods?"
 Action: Call the resolve-library-id tool with libraryName "Supabase", query "Supabase auth methods"; then call the query-docs tool with the chosen libraryId; list methods and show minimal examples from docs.
 
 Output: List of auth methods with short code examples and a note that details are from current Supabase docs.
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

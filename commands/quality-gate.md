@@ -1,3 +1,7 @@
+---
+description: "Run the ECC quality pipeline on demand for a file or project scope."
+---
+
 # Quality Gate Command
 
 Run the ECC quality pipeline on demand for a file or project scope.
@@ -27,3 +31,10 @@ $ARGUMENTS:
 - `[path|.]` optional target path
 - `--fix` optional
 - `--strict` optional
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

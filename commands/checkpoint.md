@@ -1,3 +1,7 @@
+---
+description: "Create or verify a checkpoint in your workflow."
+---
+
 # Checkpoint Command
 
 Create or verify a checkpoint in your workflow.
@@ -72,3 +76,10 @@ $ARGUMENTS:
 - `verify <name>` - Verify against named checkpoint
 - `list` - Show all checkpoints
 - `clear` - Remove old checkpoints (keeps last 5)
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)

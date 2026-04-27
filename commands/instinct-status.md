@@ -57,3 +57,10 @@ python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py status
     █████████░  85%  validate-user-input [global]
               trigger: when handling user input
 ```
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)
