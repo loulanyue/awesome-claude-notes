@@ -1,3 +1,7 @@
+---
+description: 調査、探索、比較検討に集中するための共有コンテキストです。
+source_path: contexts/research.md
+---
 # 調査コンテキスト
 
 モード: 探索、調査、学習
@@ -24,3 +28,14 @@
 
 ## 出力
 発見を最初に、推奨事項を次に
+
+## 原文
+- [英語版の原文](../../../contexts/research.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

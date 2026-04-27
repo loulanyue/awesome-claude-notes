@@ -1,3 +1,7 @@
+---
+description: レビュー、検証、リスク抽出に集中するための共有コンテキストです。
+source_path: contexts/review.md
+---
 # コードレビューコンテキスト
 
 モード: PRレビュー、コード分析
@@ -20,3 +24,14 @@
 
 ## 出力フォーマット
 ファイルごとにグループ化し、深刻度の高いものを優先
+
+## 原文
+- [英語版の原文](../../../contexts/review.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

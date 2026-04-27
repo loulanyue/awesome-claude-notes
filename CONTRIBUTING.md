@@ -444,6 +444,13 @@ Check existing skills in those directories for the expected structure. Keeping t
 
 Translations live under `docs/` (e.g. `docs/zh-CN`, `docs/zh-TW`, `docs/ja-JP`). If you change agents, commands, or skills that are translated, consider updating the corresponding translation files or opening an issue so maintainers or translators can update them.
 
+Localized command, agent, and context docs under `docs/ja-JP/` should also keep shared structure metadata aligned with their canonical English instruction docs.
+
+- Add a `source_path` frontmatter field pointing to the canonical instruction doc (`commands/...`, `agents/...`, or `contexts/...`).
+- Keep a dedicated source section that links back to the canonical English file.
+- End each localized instruction doc with a localized navigation section that points to the Japanese indexes plus the shared command-agent map.
+- Run `npm run docs:sync:ja-instructions` after editing Japanese instruction docs so metadata and navigation stay normalized.
+
 ---
 
 ## Pull Request Process

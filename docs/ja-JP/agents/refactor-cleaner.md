@@ -3,6 +3,7 @@ name: refactor-cleaner
 description: デッドコードクリーンアップと統合スペシャリスト。未使用コード、重複の削除、リファクタリングに積極的に使用してください。分析ツール（knip、depcheck、ts-prune）を実行してデッドコードを特定し、安全に削除します。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+source_path: agents/refactor-cleaner.md
 ---
 
 # リファクタ&デッドコードクリーナー
@@ -304,3 +305,14 @@ components/Button.tsx (variantプロップ付き)
 ---
 
 **覚えておいてください**: デッドコードは技術的負債です。定期的なクリーンアップはコードベースを保守しやすく高速に保ちます。ただし安全第一 - なぜ存在するのか理解せずにコードを削除しないでください。
+
+## 原文
+- [英語版の原文](../../../agents/refactor-cleaner.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

@@ -1,3 +1,7 @@
+---
+description: Manage Claude Code session history, aliases, and session metadata.
+source_path: commands/sessions.md
+---
 # Sessionsコマンド
 
 Claude Codeセッション履歴を管理 - `~/.claude/sessions/` に保存されたセッションのリスト表示、読み込み、エイリアス設定、編集を行います。
@@ -303,3 +307,14 @@ $ARGUMENTS:
 - エイリアスは `~/.claude/session-aliases.json` に保存されます
 - セッションIDは短縮できます（通常、最初の4〜8文字で一意になります）
 - 頻繁に参照するセッションにはエイリアスを使用してください
+
+## 原文
+- [英語版の原文](../../../commands/sessions.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

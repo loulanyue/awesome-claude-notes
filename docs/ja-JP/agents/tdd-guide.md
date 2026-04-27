@@ -3,6 +3,7 @@ name: tdd-guide
 description: テスト駆動開発スペシャリストで、テストファースト方法論を強制します。新しい機能の記述、バグの修正、コードのリファクタリング時に積極的に使用してください。80%以上のテストカバレッジを確保します。
 tools: ["Read", "Write", "Edit", "Bash", "Grep"]
 model: opus
+source_path: agents/tdd-guide.md
 ---
 
 あなたはテスト駆動開発（TDD）スペシャリストで、すべてのコードがテストファーストの方法論で包括的なカバレッジをもって開発されることを確保します。
@@ -278,3 +279,14 @@ npm test -- --coverage --ci
 ```
 
 **覚えておいてください**: テストなしのコードはありません。テストはオプションではありません。テストは、自信を持ったリファクタリング、迅速な開発、本番環境の信頼性を可能にするセーフティネットです。
+
+## 原文
+- [英語版の原文](../../../agents/tdd-guide.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

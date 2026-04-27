@@ -1,5 +1,6 @@
 ---
 description: 優先するパッケージマネージャーを設定（npm/pnpm/yarn/bun）
+source_path: commands/setup-pm.md
 disable-model-invocation: true
 ---
 
@@ -78,3 +79,14 @@ export CLAUDE_PACKAGE_MANAGER=pnpm
 ```bash
 node scripts/setup-package-manager.js --detect
 ```
+
+## 原文
+- [英語版の原文](../../../commands/setup-pm.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

@@ -1,5 +1,6 @@
 ---
 description: テスト駆動開発ワークフローを強制します。インターフェースをスキャフォールドし、最初にテストを生成し、次にテストに合格するための最小限のコードを実装します。80%以上のカバレッジを保証します。
+source_path: commands/tdd.md
 ---
 
 # TDDコマンド
@@ -324,3 +325,14 @@ REDフェーズをスキップしてはいけません。テストの前にコ�
 
 また、以下の場所にある`tdd-workflow`スキルを参照できます:
 `~/.claude/skills/tdd-workflow/`
+
+## 原文
+- [英語版の原文](../../../commands/tdd.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

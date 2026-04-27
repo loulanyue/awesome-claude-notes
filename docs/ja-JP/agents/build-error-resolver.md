@@ -3,6 +3,7 @@ name: build-error-resolver
 description: ビルドおよびTypeScriptエラー解決のスペシャリスト。ビルドが失敗した際やタイプエラーが発生した際に積極的に使用してください。最小限の差分でビルド/タイプエラーのみを修正し、アーキテクチャの変更は行いません。ビルドを迅速に成功させることに焦点を当てます。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+source_path: agents/build-error-resolver.md
 ---
 
 # ビルドエラーリゾルバー
@@ -532,3 +533,14 @@ npm install
 ---
 
 **覚えておくこと**: 目標は最小限の変更でエラーを迅速に修正することです。リファクタリングせず、最適化せず、再設計しません。エラーを修正し、ビルドが成功することを確認し、次に進みます。完璧さよりもスピードと精度を重視します。
+
+## 原文
+- [英語版の原文](../../../agents/build-error-resolver.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

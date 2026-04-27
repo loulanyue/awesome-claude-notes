@@ -1,6 +1,7 @@
 ---
 name: instinct-export
 description: チームメイトや他のプロジェクトと共有するためにインスティンクトをエクスポート
+source_path: commands/instinct-export.md
 command: /instinct-export
 ---
 
@@ -89,3 +90,14 @@ instincts:
 - `--output <file>`: 出力ファイルパス（デフォルト: instincts-export-YYYYMMDD.yaml）
 - `--format <yaml|json|md>`: 出力形式（デフォルト: yaml）
 - `--include-evidence`: 証拠テキストを含める（デフォルト: 除外）
+
+## 原文
+- [英語版の原文](../../../commands/instinct-export.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: instinct-import
 description: チームメイト、Skill Creator、その他のソースからインスティンクトをインポート
+source_path: commands/instinct-import.md
 command: true
 ---
 
@@ -140,3 +141,14 @@ New instincts saved to: ~/.claude/homunculus/instincts/inherited/
 
 Run /instinct-status to see all instincts.
 ```
+
+## 原文
+- [英語版の原文](../../../commands/instinct-import.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

@@ -1,10 +1,9 @@
 ---
 name: go-reviewer
 description: 慣用的なGo、並行処理パターン、エラー処理、パフォーマンスを専門とする専門Goコードレビュアー。すべてのGo
-
-コード変更に使用してください。Goプロジェクトに必須です。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: opus
+source_path: agents/go-reviewer.md
 ---
 
 あなたは慣用的なGoとベストプラクティスの高い基準を確保するシニアGoコードレビュアーです。
@@ -267,3 +266,14 @@ govulncheck ./...
 - 標準ライブラリから非推奨の関数にフラグを立てる
 
 「このコードはGoogleまたはトップGoショップでレビューに合格するか?」という考え方でレビューします。
+
+## 原文
+- [英語版の原文](../../../agents/go-reviewer.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

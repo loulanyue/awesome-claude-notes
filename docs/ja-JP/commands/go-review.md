@@ -1,5 +1,6 @@
 ---
 description: 慣用的なパターン、並行性の安全性、エラーハンドリング、セキュリティについての包括的なGoコードレビュー。go-reviewerエージェントを呼び出します。
+source_path: commands/go-review.md
 ---
 
 # Go Code Review
@@ -146,3 +147,14 @@ return fmt.Errorf("get user %s: %w", userID, err)
 
 - Agent: `agents/go-reviewer.md`
 - Skills: `skills/golang-patterns/`, `skills/golang-testing/`
+
+## 原文
+- [英語版の原文](../../../commands/go-review.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

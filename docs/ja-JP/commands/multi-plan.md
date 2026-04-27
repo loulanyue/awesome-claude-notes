@@ -1,3 +1,7 @@
+---
+description: "Multi-model collaborative planning - Context retrieval + Dual-model analysis → Generate step-by-step implementation plan."
+source_path: commands/multi-plan.md
+---
 # Plan - マルチモデル協調計画
 
 マルチモデル協調計画 - コンテキスト取得 + デュアルモデル分析 → ステップバイステップの実装計画を生成。
@@ -266,3 +270,14 @@ Claudeの統合計画での欠落リスクを減らすために、両方のモ�
 3. **信頼ルール** – バックエンドはCodexに従い、フロントエンドはGeminiに従う
 4. 外部モデルは**ファイルシステムへの書き込みアクセスがゼロ**
 5. **SESSION_IDの引き継ぎ** – 計画には最後に`CODEX_SESSION` / `GEMINI_SESSION`を含める必要があります(`/ccg:execute resume <SESSION_ID>`使用のため)
+
+## 原文
+- [英語版の原文](../../../commands/multi-plan.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

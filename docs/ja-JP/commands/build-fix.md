@@ -1,3 +1,7 @@
+---
+description: "Incrementally fix build and type errors with minimal, safe changes."
+source_path: commands/build-fix.md
+---
 # ビルド修正
 
 TypeScript およびビルドエラーを段階的に修正します：
@@ -27,3 +31,14 @@ TypeScript およびビルドエラーを段階的に修正します：
    * 新たに導入されたエラー
 
 安全のため、一度に 1 つのエラーのみを修正してください！
+
+## 原文
+- [英語版の原文](../../../commands/build-fix.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

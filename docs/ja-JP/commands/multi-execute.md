@@ -1,3 +1,7 @@
+---
+description: "Multi-model collaborative execution - Get prototype from plan → Claude refactors and implements → Multi-model audit and delivery."
+source_path: commands/multi-execute.md
+---
 # Execute - マルチモデル協調実装
 
 マルチモデル協調実装 - 計画からプロトタイプを取得 → Claudeがリファクタリングして実装 → マルチモデル監査と配信。
@@ -313,3 +317,14 @@ mcp__ace-tool__search_context({
 1. `/ccg:plan`が計画 + SESSION_IDを生成
 2. ユーザーが「Y」で確認
 3. `/ccg:execute`が計画を読み取り、SESSION_IDを再利用し、実装を実行
+
+## 原文
+- [英語版の原文](../../../commands/multi-execute.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

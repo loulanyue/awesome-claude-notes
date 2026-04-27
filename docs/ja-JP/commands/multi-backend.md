@@ -1,3 +1,7 @@
+---
+description: "Backend-focused workflow (Research → Ideation → Plan → Execute → Optimize → Review), Codex-led."
+source_path: commands/multi-backend.md
+---
 # Backend - バックエンド中心の開発
 
 バックエンド中心のワークフロー(調査 → アイデア創出 → 計画 → 実装 → 最適化 → レビュー)、Codex主導。
@@ -156,3 +160,14 @@ Claudeが計画を統合し、ユーザーの承認後に`.claude/plan/task-name
 2. **Geminiのバックエンド意見は参考のみ**
 3. 外部モデルは**ファイルシステムへの書き込みアクセスがゼロ**
 4. Claudeがすべてのコード書き込みとファイル操作を処理
+
+## 原文
+- [英語版の原文](../../../commands/multi-backend.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

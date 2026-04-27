@@ -1,5 +1,6 @@
 ---
 description: Goのテスト駆動開発(TDD)ワークフローを適用します。テーブル駆動テストを最初に記述し、その後実装します。go test -coverで80%以上のカバレッジを確認します。
+source_path: commands/go-test.md
 ---
 
 # Go TDD コマンド
@@ -266,3 +267,14 @@ go test -race -cover ./...
 
 - スキル: `skills/golang-testing/`
 - スキル: `skills/tdd-workflow/`
+
+## 原文
+- [英語版の原文](../../../commands/go-test.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

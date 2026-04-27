@@ -1,6 +1,7 @@
 ---
 name: instinct-status
 description: すべての学習済みインスティンクトと信頼度レベルを表示
+source_path: commands/instinct-status.md
 command: true
 ---
 
@@ -84,3 +85,14 @@ Observer: Running (last analysis: 5 min ago)
 - `--high-confidence`: 信頼度 >= 0.7のインスティンクトのみを表示
 - `--source <type>`: ソースでフィルタリング（session-observation、repo-analysis、inherited）
 - `--json`: プログラムで使用するためにJSON形式で出力
+
+## 原文
+- [英語版の原文](../../../commands/instinct-status.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

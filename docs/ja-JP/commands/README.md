@@ -61,6 +61,13 @@ Claude Code でコマンドを実行：
 Claude：実行 → `/plan` コマンド
 ```
 
+## 関連ドキュメント
+
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)
+
 ## よく使うコマンド
 
 ### 開発ワークフロー

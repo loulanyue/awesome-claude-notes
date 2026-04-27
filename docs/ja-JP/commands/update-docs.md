@@ -1,3 +1,7 @@
+---
+description: "Sync documentation with the codebase, generating from source-of-truth files."
+source_path: commands/update-docs.md
+---
 # Update Documentation
 
 信頼できる情報源からドキュメントを同期:
@@ -29,3 +33,14 @@
 6. 差分サマリーを表示
 
 信頼できる唯一の情報源: package.jsonと.env.example
+
+## 原文
+- [英語版の原文](../../../commands/update-docs.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

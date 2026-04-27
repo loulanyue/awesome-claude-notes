@@ -1,3 +1,7 @@
+---
+description: "Safely identify and remove dead code with test verification at every step."
+source_path: commands/refactor-clean.md
+---
 # Refactor Clean
 
 テスト検証でデッドコードを安全に特定して削除します:
@@ -26,3 +30,14 @@
 6. クリーンアップされたアイテムのサマリーを表示
 
 まずテストを実行せずにコードを削除しないでください!
+
+## 原文
+- [英語版の原文](../../../commands/refactor-clean.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)
