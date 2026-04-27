@@ -1,3 +1,7 @@
+---
+description: "Multi-model collaborative development workflow (Research → Ideation → Plan → Execute → Optimize → Review), with intelligent routing: Frontend → Gemini, Backend → Codex."
+source_path: commands/multi-workflow.md
+---
 # Workflow - マルチモデル協調開発
 
 マルチモデル協調開発ワークフロー(調査 → アイデア創出 → 計画 → 実装 → 最適化 → レビュー)、インテリジェントルーティング: フロントエンド → Gemini、バックエンド → Codex。
@@ -181,3 +185,14 @@ TaskOutput({ task_id: "<task_id>", block: true, timeout: 600000 })
 1. フェーズの順序はスキップできません(ユーザーが明示的に指示しない限り)
 2. 外部モデルは**ファイルシステムへの書き込みアクセスがゼロ**、すべての変更はClaudeが実行
 3. スコア < 7またはユーザーが承認しない場合は**強制停止**
+
+## 原文
+- [英語版の原文](../../../commands/multi-workflow.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

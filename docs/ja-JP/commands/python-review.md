@@ -1,5 +1,6 @@
 ---
 description: PEP 8準拠、型ヒント、セキュリティ、Pythonic慣用句についての包括的なPythonコードレビュー。python-reviewerエージェントを呼び出します。
+source_path: commands/python-review.md
 ---
 
 # Python Code Review
@@ -295,3 +296,14 @@ result = "".join(str(item) for item in items)
 | 型ユニオン(&#96;x &#124; None&#96;) | 3.10+ |
 
 プロジェクトの`pyproject.toml`または`setup.py`が正しい最小Pythonバージョンを指定していることを確認してください。
+
+## 原文
+- [英語版の原文](../../../commands/python-review.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

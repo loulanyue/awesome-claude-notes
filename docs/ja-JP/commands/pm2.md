@@ -1,3 +1,7 @@
+---
+description: "Auto-analyze project and generate PM2 service commands."
+source_path: commands/pm2.md
+---
 # PM2 初期化
 
 プロジェクトを自動分析し、PM2サービスコマンドを生成します。
@@ -270,3 +274,14 @@ pm2 resurrect          # 保存したプロセスを復元
 
 **ヒント:** 初回起動後に`pm2 save`を実行すると、簡略化されたコマンドが使用できます。
 ```
+
+## 原文
+- [英語版の原文](../../../commands/pm2.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

@@ -1,3 +1,7 @@
+---
+description: "Comprehensive security and quality review of uncommitted changes:"
+source_path: commands/code-review.md
+---
 # コードレビュー
 
 未コミットの変更を包括的にセキュリティと品質に対してレビューします：
@@ -41,3 +45,14 @@
 4. 重大または高優先度の問題が見つかった場合、コミットをブロック
 
 セキュリティ脆弱性を含むコードは絶対に許可しないこと！
+
+## 原文
+- [英語版の原文](../../../commands/code-review.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

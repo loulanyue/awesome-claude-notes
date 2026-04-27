@@ -27,6 +27,33 @@ const TARGETS = [
     requireDescription: true
   }
 ];
+const LOCALIZED_TARGETS = [
+  {
+    dir: path.join(ROOT_DIR, 'docs/ja-JP/commands'),
+    label: 'localized command',
+    requireDescription: true,
+    requireSourcePath: true,
+    expectedSourcePrefix: 'commands/',
+    requiredSections: ['## 原文', '## ナビゲーション']
+  },
+  {
+    dir: path.join(ROOT_DIR, 'docs/ja-JP/agents'),
+    label: 'localized agent',
+    requireDescription: true,
+    requireSourcePath: true,
+    expectedSourcePrefix: 'agents/',
+    requiredFrontmatterFields: ['name', 'tools', 'model'],
+    requiredSections: ['## 原文', '## ナビゲーション']
+  },
+  {
+    dir: path.join(ROOT_DIR, 'docs/ja-JP/contexts'),
+    label: 'localized context',
+    requireDescription: true,
+    requireSourcePath: true,
+    expectedSourcePrefix: 'contexts/',
+    requiredSections: ['## 原文', '## ナビゲーション']
+  }
+];
 
 function extractFrontmatter(content) {
   const cleanContent = content.replace(/^\uFEFF/, '');
@@ -83,6 +110,76 @@ function validateInstructionDocs() {
       if (!/\n## Navigation\r?\n/.test(content)) {
         console.error(`ERROR: ${target.label} ${file} - Missing "## Navigation" section`);
         hasErrors = true;
+      }
+    }
+  }
+
+  for (const target of LOCALIZED_TARGETS) {
+    if (!fs.existsSync(target.dir)) continue;
+
+    const files = fs.readdirSync(target.dir)
+      .filter(file => file.endsWith('.md') && file.toLowerCase() !== 'readme.md')
+      .sort();
+
+    for (const file of files) {
+      const filePath = path.join(target.dir, file);
+      let content;
+      try {
+        content = fs.readFileSync(filePath, 'utf-8');
+      } catch (err) {
+        console.error(`ERROR: ${target.label} ${file} - ${err.message}`);
+        hasErrors = true;
+        continue;
+      }
+
+      validatedCount += 1;
+      const frontmatter = extractFrontmatter(content);
+      if (!frontmatter) {
+        console.error(`ERROR: ${target.label} ${file} - Missing frontmatter`);
+        hasErrors = true;
+        continue;
+      }
+
+      if (target.requireDescription) {
+        const description = frontmatter.description;
+        if (!description || !String(description).trim()) {
+          console.error(`ERROR: ${target.label} ${file} - Missing frontmatter description`);
+          hasErrors = true;
+        }
+      }
+
+      if (target.requireSourcePath) {
+        const sourcePath = frontmatter.source_path;
+        if (!sourcePath || !String(sourcePath).trim()) {
+          console.error(`ERROR: ${target.label} ${file} - Missing frontmatter source_path`);
+          hasErrors = true;
+        } else {
+          const normalizedSourcePath = String(sourcePath).trim();
+          if (!normalizedSourcePath.startsWith(target.expectedSourcePrefix)) {
+            console.error(
+              `ERROR: ${target.label} ${file} - source_path must start with "${target.expectedSourcePrefix}"`
+            );
+            hasErrors = true;
+          } else if (!fs.existsSync(path.join(ROOT_DIR, normalizedSourcePath))) {
+            console.error(`ERROR: ${target.label} ${file} - source_path does not exist: ${normalizedSourcePath}`);
+            hasErrors = true;
+          }
+        }
+      }
+
+      for (const field of target.requiredFrontmatterFields || []) {
+        const value = frontmatter[field];
+        if (!value || !String(value).trim()) {
+          console.error(`ERROR: ${target.label} ${file} - Missing frontmatter ${field}`);
+          hasErrors = true;
+        }
+      }
+
+      for (const section of target.requiredSections || []) {
+        if (!content.includes(`\n${section}\n`)) {
+          console.error(`ERROR: ${target.label} ${file} - Missing "${section}" section`);
+          hasErrors = true;
+        }
       }
     }
   }

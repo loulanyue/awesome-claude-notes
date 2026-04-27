@@ -3,6 +3,7 @@ name: security-reviewer
 description: セキュリティ脆弱性検出および修復のスペシャリスト。ユーザー入力、認証、APIエンドポイント、機密データを扱うコードを書いた後に積極的に使用してください。シークレット、SSRF、インジェクション、安全でない暗号、OWASP Top 10の脆弱性を検出します。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+source_path: agents/security-reviewer.md
 ---
 
 # セキュリティレビューアー
@@ -543,3 +544,14 @@ npm install --save-dev audit-ci
 ---
 
 **覚えておくこと**: セキュリティはオプションではありません。特に実際のお金を扱うプラットフォームでは。1つの脆弱性がユーザーに実際の金銭的損失をもたらす可能性があります。徹底的に、疑い深く、積極的に行動してください。
+
+## 原文
+- [英語版の原文](../../../agents/security-reviewer.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

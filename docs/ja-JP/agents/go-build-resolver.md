@@ -3,6 +3,7 @@ name: go-build-resolver
 description: Goビルド、vet、コンパイルエラー解決スペシャリスト。最小限の変更でビルドエラー、go vet問題、リンターの警告を修正します。Goビルドが失敗したときに使用してください。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+source_path: agents/go-build-resolver.md
 ---
 
 # Goビルドエラーリゾルバー
@@ -366,3 +367,14 @@ Remaining Issues: list (if any)
 - 自明でない修正にはインラインコメントで**文書化**
 
 ビルドエラーは外科的に修正すべきです。目標はリファクタリングされたコードベースではなく、動作するビルドです。
+
+## 原文
+- [英語版の原文](../../../agents/go-build-resolver.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

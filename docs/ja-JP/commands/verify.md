@@ -1,3 +1,7 @@
+---
+description: "Run comprehensive verification on current codebase state."
+source_path: commands/verify.md
+---
 # 検証コマンド
 
 現在のコードベースの状態に対して包括的な検証を実行します。
@@ -57,3 +61,14 @@ $ARGUMENTS は以下のいずれか:
 - `full` - すべてのチェック（デフォルト）
 - `pre-commit` - コミットに関連するチェック
 - `pre-pr` - 完全なチェック + セキュリティスキャン
+
+## 原文
+- [英語版の原文](../../../commands/verify.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

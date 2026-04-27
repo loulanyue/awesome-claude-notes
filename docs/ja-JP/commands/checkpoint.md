@@ -1,3 +1,7 @@
+---
+description: "Create or verify a checkpoint in your workflow."
+source_path: commands/checkpoint.md
+---
 # チェックポイントコマンド
 
 ワークフロー内でチェックポイントを作成または検証します。
@@ -76,3 +80,14 @@ $ARGUMENTS:
 * `verify <name>` - 指定の名前のチェックポイントに対して検証
 * `list` - すべてのチェックポイントを表示
 * `clear` - 古いチェックポイント削除（最新 5 個を保持）
+
+## 原文
+- [英語版の原文](../../../commands/checkpoint.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

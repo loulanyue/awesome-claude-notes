@@ -1,3 +1,7 @@
+---
+description: Sequential and tmux/worktree orchestration guidance for multi-agent workflows.
+source_path: commands/orchestrate.md
+---
 # Orchestrateコマンド
 
 複雑なタスクのための連続的なエージェントワークフロー。
@@ -170,3 +174,14 @@ $ARGUMENTS:
 3. 認証/決済/個人情報には**security-reviewerを使用**
 4. **ハンドオフを簡潔に保つ** - 次のエージェントが必要とするものに焦点を当てる
 5. 必要に応じて**エージェント間で検証を実行**
+
+## 原文
+- [英語版の原文](../../../commands/orchestrate.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

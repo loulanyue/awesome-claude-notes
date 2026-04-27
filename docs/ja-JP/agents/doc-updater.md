@@ -3,6 +3,7 @@ name: doc-updater
 description: ドキュメントとコードマップのスペシャリスト。コードマップとドキュメントの更新に積極的に使用してください。/update-codemapsと/update-docsを実行し、docs/CODEMAPS/*を生成し、READMEとガイドを更新します。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+source_path: agents/doc-updater.md
 ---
 
 # ドキュメント & コードマップスペシャリスト
@@ -450,3 +451,14 @@ function extractJSDoc(pattern: string) {
 ---
 
 **覚えておいてください**: 現実と一致しないドキュメントは、ドキュメントがないよりも悪いです。常に真実の源（実際のコード）から生成してください。
+
+## 原文
+- [英語版の原文](../../../agents/doc-updater.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

@@ -1,5 +1,6 @@
 ---
 description: Playwright を使用してエンドツーエンドテストを生成して実行します。テストジャーニーを作成し、テストを実行し、スクリーンショット/ビデオ/トレースをキャプチャし、アーティファクトをアップロードします。
+source_path: commands/e2e.md
 ---
 
 # E2E コマンド
@@ -368,3 +369,14 @@ npx playwright codegen http://localhost:3000
 # View report
 npx playwright show-report
 ```
+
+## 原文
+- [英語版の原文](../../../commands/e2e.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

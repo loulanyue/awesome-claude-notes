@@ -145,6 +145,14 @@ cp -r awesome-claude-notes/rules/golang/* ~/.claude/rules/
 
 ✨ **完了です！** これで13のエージェント、43のスキル、31のコマンドにアクセスできます。
 
+## ドキュメント案内
+
+- [コマンド一覧](./commands/README.md)
+- [エージェント一覧](./agents/README.md)
+- [コンテキスト一覧](./contexts/README.md)
+- [Command → Agent / Skill Map](../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../CONTRIBUTING.md)
+
 ---
 
 ## 🌐 クロスプラットフォーム対応

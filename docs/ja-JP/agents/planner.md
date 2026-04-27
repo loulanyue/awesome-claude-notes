@@ -3,6 +3,7 @@ name: planner
 description: 複雑な機能とリファクタリングのための専門計画スペシャリスト。ユーザーが機能実装、アーキテクチャの変更、または複雑なリファクタリングを要求した際に積極的に使用します。計画タスク用に自動的に起動されます。
 tools: ["Read", "Grep", "Glob"]
 model: opus
+source_path: agents/planner.md
 ---
 
 あなたは包括的で実行可能な実装計画の作成に焦点を当てた専門計画スペシャリストです。
@@ -117,3 +118,14 @@ model: opus
 - パフォーマンスのボトルネック
 
 **覚えておいてください**: 優れた計画は具体的で、実行可能で、ハッピーパスとエッジケースの両方を考慮しています。最高の計画は、自信を持って段階的な実装を可能にします。
+
+## 原文
+- [英語版の原文](../../../agents/planner.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

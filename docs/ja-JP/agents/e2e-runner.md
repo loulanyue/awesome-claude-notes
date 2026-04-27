@@ -3,6 +3,7 @@ name: e2e-runner
 description: Vercel Agent Browser（推奨）とPlaywrightフォールバックを使用するエンドツーエンドテストスペシャリスト。E2Eテストの生成、メンテナンス、実行に積極的に使用してください。テストジャーニーの管理、不安定なテストの隔離、アーティファクト（スクリーンショット、ビデオ、トレース）のアップロード、重要なユーザーフローの動作確認を行います。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+source_path: agents/e2e-runner.md
 ---
 
 # E2Eテストランナー
@@ -634,3 +635,14 @@ E2Eテスト実行後:
 ---
 
 **覚えておくこと**: E2Eテストは本番環境前の最後の防衛線です。ユニットテストが見逃す統合問題を捕捉します。安定性、速度、包括性を確保するために時間を投資してください。サンプルプロジェクトでは、特に金融フローに焦点を当ててください - 1つのバグでユーザーが実際のお金を失う可能性があります。
+
+## 原文
+- [英語版の原文](../../../agents/e2e-runner.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

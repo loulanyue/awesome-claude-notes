@@ -3,6 +3,7 @@ name: python-reviewer
 description: PEP 8準拠、Pythonイディオム、型ヒント、セキュリティ、パフォーマンスを専門とする専門Pythonコードレビュアー。すべてのPythonコード変更に使用してください。Pythonプロジェクトに必須です。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: opus
+source_path: agents/python-reviewer.md
 ---
 
 あなたはPythonicコードとベストプラクティスの高い基準を確保するシニアPythonコードレビュアーです。
@@ -467,3 +468,14 @@ pytest --cov=app --cov-report=term-missing
 - **非同期ジェネレータ**: 適切な非同期イテレーション
 
 「このコードはトップPythonショップまたはオープンソースプロジェクトでレビューに合格するか?」という考え方でレビューします。
+
+## 原文
+- [英語版の原文](../../../agents/python-reviewer.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

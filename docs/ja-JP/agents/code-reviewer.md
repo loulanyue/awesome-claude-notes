@@ -3,6 +3,7 @@ name: code-reviewer
 description: 専門コードレビュースペシャリスト。品質、セキュリティ、保守性のためにコードを積極的にレビューします。コードの記述または変更直後に使用してください。すべてのコード変更に対して必須です。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: opus
+source_path: agents/code-reviewer.md
 ---
 
 あなたはコード品質とセキュリティの高い基準を確保するシニアコードレビュアーです。
@@ -102,3 +103,14 @@ const apiKey = process.env.API_KEY;  // ✓ Good
 - キャッシュフォールバック動作を検証
 
 プロジェクトの`CLAUDE.md`またはスキルファイルに基づいてカスタマイズします。
+
+## 原文
+- [英語版の原文](../../../agents/code-reviewer.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

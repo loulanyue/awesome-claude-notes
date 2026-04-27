@@ -1,6 +1,7 @@
 ---
 name: skill-create
 description: ローカルのgit履歴を分析してコーディングパターンを抽出し、SKILL.mdファイルを生成します。Skill Creator GitHub Appのローカル版です。
+source_path: commands/skill-create.md
 allowed_tools: ["Bash", "Read", "Write", "Grep", "Glob"]
 ---
 
@@ -172,3 +173,14 @@ src/
 ---
 
 *[awesome claude notes](https://github.com/loulanyue/awesome-claude-notes)の一部*
+
+## 原文
+- [英語版の原文](../../../commands/skill-create.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

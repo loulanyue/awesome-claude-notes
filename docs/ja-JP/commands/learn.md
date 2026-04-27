@@ -1,3 +1,7 @@
+---
+description: "Analyze the current session and extract any patterns worth saving as skills."
+source_path: commands/learn.md
+---
 # /learn - 再利用可能なパターンの抽出
 
 現在のセッションを分析し、スキルとして保存する価値のあるパターンを抽出します。
@@ -68,3 +72,14 @@
 - 一度限りの問題（特定のAPIの障害など）は抽出しない
 - 将来のセッションで時間を節約できるパターンに焦点を当てる
 - スキルは集中させる - 1つのスキルに1つのパターン
+
+## 原文
+- [英語版の原文](../../../commands/learn.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

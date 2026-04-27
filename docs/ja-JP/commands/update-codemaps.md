@@ -1,3 +1,7 @@
+---
+description: "Analyze the codebase structure and generate token-lean architecture documentation."
+source_path: commands/update-codemaps.md
+---
 # コードマップの更新
 
 コードベース構造を分析してアーキテクチャドキュメントを更新します。
@@ -15,3 +19,14 @@
 6. レポートを .reports/codemap-diff.txt に保存
 
 TypeScript/Node.jsを使用して分析します。実装の詳細ではなく、高レベルの構造に焦点を当ててください。
+
+## 原文
+- [英語版の原文](../../../commands/update-codemaps.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

@@ -1,3 +1,7 @@
+---
+description: "Analyze test coverage, identify gaps, and generate missing tests to reach 80%+ coverage."
+source_path: commands/test-coverage.md
+---
 # テストカバレッジ
 
 テストカバレッジを分析し、不足しているテストを生成します。
@@ -25,3 +29,14 @@
 - エラーハンドリング
 - エッジケース（null、undefined、空）
 - 境界条件
+
+## 原文
+- [英語版の原文](../../../commands/test-coverage.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
+- [コンテキスト一覧](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)
