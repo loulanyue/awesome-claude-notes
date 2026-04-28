@@ -3,6 +3,7 @@ name: tdd-guide
 description: 테스트 주도 개발 전문가. 테스트 먼저 작성 방법론을 강제합니다. 새 기능 작성, 버그 수정, 코드 리팩토링 시 사용하세요. 80% 이상 테스트 커버리지를 보장합니다.
 tools: ["Read", "Write", "Edit", "Bash", "Grep"]
 model: sonnet
+source_path: agents/tdd-guide.md
 ---
 
 테스트 주도 개발(TDD) 전문가로서 모든 코드가 테스트 우선으로 개발되고 포괄적인 커버리지를 갖추도록 보장합니다.
@@ -99,3 +100,13 @@ TDD 흐름에 eval 주도 개발 통합:
 4. 테스트와 eval 재실행; pass@1과 pass@3 보고.
 
 릴리스 핵심 경로는 merge 전에 pass^3 안정성을 목표로 해야 합니다.
+
+## 원문
+- [영문 원문](../../../agents/tdd-guide.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

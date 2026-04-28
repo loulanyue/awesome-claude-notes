@@ -1,3 +1,7 @@
+---
+description: "Sync documentation with the codebase, generating from source-of-truth files."
+source_path: commands/update-docs.md
+---
 # Atualizar Documentação
 
 Sincronize a documentação com o codebase, gerando a partir de arquivos fonte da verdade.
@@ -82,3 +86,13 @@ Skipped:  docs/API.md (no changes detected)
 - **Preserve seções manuais**: Atualize apenas seções geradas; mantenha prosa escrita manualmente intacta
 - **Marque conteúdo gerado**: Use marcadores `<!-- AUTO-GENERATED -->` ao redor das seções geradas
 - **Não crie docs sem solicitação**: Só crie novos arquivos de docs se o comando solicitar explicitamente
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/update-docs.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

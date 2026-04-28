@@ -3,6 +3,7 @@ name: doc-updater
 description: 문서 및 코드맵 전문가. 코드맵과 문서 업데이트 시 자동으로 사용합니다. /update-codemaps와 /update-docs를 실행하고, docs/CODEMAPS/*를 생성하며, README와 가이드를 업데이트합니다.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: haiku
+source_path: agents/doc-updater.md
 ---
 
 # 문서 & 코드맵 전문가
@@ -105,3 +106,13 @@ docs/CODEMAPS/
 ---
 
 **기억하세요**: 현실과 맞지 않는 문서는 문서가 없는 것보다 나쁩니다. 항상 소스에서 생성하세요.
+
+## 원문
+- [영문 원문](../../../agents/doc-updater.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

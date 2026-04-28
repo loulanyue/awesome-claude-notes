@@ -3,6 +3,7 @@ name: go-reviewer
 description: Expert Go code reviewer specializing in idiomatic Go, concurrency patterns, error handling, and performance. Use for all Go code changes. MUST BE USED for Go projects.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/go-reviewer.md
 ---
 
 İdiyomatik Go ve en iyi uygulamaların yüksek standartlarını sağlayan kıdemli bir Go kod inceleyicisisiniz.
@@ -74,3 +75,14 @@ govulncheck ./...
 - **Engelle**: KRİTİK veya YÜKSEK sorunlar bulundu
 
 Detaylı Go kod örnekleri ve karşı desenler için, `skill: golang-patterns` bölümüne bakın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/go-reviewer.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

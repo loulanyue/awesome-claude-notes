@@ -1,3 +1,7 @@
+---
+description: "Run a deterministic repository harness audit and return a prioritized scorecard."
+source_path: commands/harness-audit.md
+---
 # 工具链审计命令
 
 运行确定性仓库框架审计并返回优先级评分卡。
@@ -70,3 +74,14 @@ $ARGUMENTS:
 
 * `repo|hooks|skills|commands|agents` (可选范围)
 * `--format text|json` (可选输出格式)
+
+## 原文
+- [英文原文](../../../commands/harness-audit.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

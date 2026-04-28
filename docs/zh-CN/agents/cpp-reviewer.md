@@ -3,6 +3,7 @@ name: cpp-reviewer
 description: 专注于内存安全、现代C++惯用法、并发和性能的C++代码评审专家。适用于所有C++代码变更。C++项目必须使用。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/cpp-reviewer.md
 ---
 
 您是一名资深 C++ 代码审查员，负责确保现代 C++ 和高标准最佳实践的遵循。
@@ -77,3 +78,14 @@ cmake --build build 2>&1 | head -50
 * **阻止**：发现关键或高级别问题
 
 有关详细的 C++ 编码标准和反模式，请参阅 `skill: cpp-coding-standards`。
+
+## 原文
+- [英文原文](../../../agents/cpp-reviewer.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

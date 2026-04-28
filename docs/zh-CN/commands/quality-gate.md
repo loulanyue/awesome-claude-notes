@@ -1,3 +1,7 @@
+---
+description: "Run the ECC quality pipeline on demand for a file or project scope."
+source_path: commands/quality-gate.md
+---
 # 质量门命令
 
 按需对文件或项目范围运行 ECC 质量管道。
@@ -28,3 +32,14 @@ $ARGUMENTS:
 * `[path|.]` 可选的目标路径
 * `--fix` 可选
 * `--strict` 可选
+
+## 原文
+- [英文原文](../../../commands/quality-gate.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

@@ -1,3 +1,7 @@
+---
+description: "Sync documentation with the codebase, generating from source-of-truth files."
+source_path: commands/update-docs.md
+---
 # 更新文档
 
 将文档与代码库同步，从单一事实来源文件生成。
@@ -84,3 +88,14 @@
 * **保留手动编写部分**：仅更新生成的部分；保持手写内容不变
 * **标记生成的内容**：在生成的部分周围使用 `<!-- AUTO-GENERATED -->` 标记
 * **不主动创建文档**：仅在命令明确要求时才创建新的文档文件
+
+## 原文
+- [英文原文](../../../commands/update-docs.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

@@ -3,6 +3,7 @@ name: go-build-resolver
 description: Go build, vet, and compilation error resolution specialist. Fixes build errors, go vet issues, and linter warnings with minimal changes. Use when Go builds fail.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+source_path: agents/go-build-resolver.md
 ---
 
 # Go 建置錯誤解決專家
@@ -366,3 +367,13 @@ x = x  // 移除無意義的賦值
 - **記錄**任何不明顯的修復，用行內註解
 
 建置錯誤應該精確修復。目標是讓建置可用，而不是重構程式碼庫。
+
+## 原文
+- [英文原文](../../../agents/go-build-resolver.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

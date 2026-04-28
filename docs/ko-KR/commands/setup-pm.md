@@ -1,5 +1,6 @@
 ---
 description: 선호하는 패키지 매니저(npm/pnpm/yarn/bun) 설정
+source_path: commands/setup-pm.md
 disable-model-invocation: true
 ---
 
@@ -78,3 +79,13 @@ export CLAUDE_PACKAGE_MANAGER=pnpm
 ```bash
 node scripts/setup-package-manager.js --detect
 ```
+
+## 원문
+- [영문 원문](../../../commands/setup-pm.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

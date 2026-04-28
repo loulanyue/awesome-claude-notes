@@ -3,6 +3,7 @@ name: refactor-cleaner
 description: Ölü kod temizleme ve birleştirme specialisti. Kullanılmayan kodu, tekrarları kaldırma ve refactoring için PROAKTİF olarak kullanın. Ölü kodu belirlemek için analiz araçları (knip, depcheck, ts-prune) çalıştırır ve güvenli bir şekilde kaldırır.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/refactor-cleaner.md
 ---
 
 # Refactor & Dead Code Cleaner
@@ -83,3 +84,14 @@ Her gruptan sonra:
 - Build başarılı
 - Regresyon yok
 - Bundle boyutu azaldı
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/refactor-cleaner.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

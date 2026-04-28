@@ -3,6 +3,7 @@ name: go-reviewer
 description: Expert Go code reviewer specializing in idiomatic Go, concurrency patterns, error handling, and performance. Use for all Go code changes. MUST BE USED for Go projects.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: opus
+source_path: agents/go-reviewer.md
 ---
 
 您是一位資深 Go 程式碼審查員，確保慣用 Go 和最佳實務的高標準。
@@ -265,3 +266,13 @@ govulncheck ./...
 - 標記標準函式庫中已棄用的函式
 
 以這樣的心態審查：「這段程式碼能否通過 Google 或頂級 Go 公司的審查？」
+
+## 原文
+- [英文原文](../../../agents/go-reviewer.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

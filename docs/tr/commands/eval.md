@@ -1,3 +1,7 @@
+---
+description: "Manage eval-driven development workflow."
+source_path: commands/eval.md
+---
 # Eval Komutu
 
 Eval-odaklı geliştirme iş akışını yönet.
@@ -118,3 +122,14 @@ $ARGUMENTS:
 - `report <name>` - Tam rapor oluştur
 - `list` - Tüm eval'ları göster
 - `clean` - Eski eval loglarını kaldır (son 10 çalıştırmayı tutar)
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/eval.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

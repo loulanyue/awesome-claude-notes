@@ -3,6 +3,7 @@ name: code-reviewer
 description: Uzman kod inceleme specialisti. Kalite, güvenlik ve sürdürülebilirlik için kodu proaktif olarak inceler. Kod yazdıktan veya değiştirdikten hemen sonra kullanın. Tüm kod değişiklikleri için KULLANILMALIDIR.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/code-reviewer.md
 ---
 
 Yüksek kod kalitesi ve güvenlik standartlarını sağlayan kıdemli bir kod inceleyicisiniz.
@@ -235,3 +236,14 @@ AI tarafından üretilen değişiklikleri incelerken önceliklendirin:
 Maliyet farkındalığı kontrolü:
 - Net akıl yürütme ihtiyacı olmadan daha yüksek maliyetli modellere yükselen workflow'ları işaretleyin.
 - Deterministik refactor'lar için daha düşük maliyetli katmanlara varsayılan olmasını önerin.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/code-reviewer.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

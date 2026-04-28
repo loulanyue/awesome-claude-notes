@@ -1,3 +1,7 @@
+---
+description: "Analyze test coverage, identify gaps, and generate missing tests to reach 80%+ coverage."
+source_path: commands/test-coverage.md
+---
 # Cobertura de Testes
 
 Analise cobertura de testes, identifique lacunas e gere testes faltantes para alcançar cobertura de 80%+.
@@ -67,3 +71,13 @@ Overall:               67%     84%  ✅
 - Funções utilitárias usadas em todo o codebase
 - Handlers de endpoint de API (fluxo request → response)
 - Casos de borda: null, undefined, string vazia, array vazio, zero, números negativos
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/test-coverage.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

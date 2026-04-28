@@ -3,6 +3,7 @@ name: kotlin-reviewer
 description: Kotlin 和 Android/KMP 代码审查员。审查 Kotlin 代码以检查惯用模式、协程安全性、Compose 最佳实践、违反清洁架构原则以及常见的 Android 陷阱。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/kotlin-reviewer.md
 ---
 
 您是一位资深的 Kotlin 和 Android/KMP 代码审查员，确保代码符合语言习惯、安全且易于维护。
@@ -159,3 +160,14 @@ Button(onClick = onClick)
 
 * **批准**：没有**严重**或**高**级别问题
 * **阻止**：存在任何**严重**或**高**级别问题 —— 必须在合并前修复
+
+## 原文
+- [英文原文](../../../agents/kotlin-reviewer.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

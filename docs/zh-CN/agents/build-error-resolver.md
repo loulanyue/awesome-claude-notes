@@ -3,6 +3,7 @@ name: build-error-resolver
 description: 构建和TypeScript错误解决专家。在构建失败或类型错误发生时主动使用。仅以最小差异修复构建/类型错误，不进行架构编辑。专注于快速使构建通过。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/build-error-resolver.md
 ---
 
 # 构建错误解决器
@@ -117,3 +118,14 @@ npx eslint . --fix
 ***
 
 **记住**：修复错误，验证构建通过，然后继续。速度和精确度胜过完美。
+
+## 原文
+- [英文原文](../../../agents/build-error-resolver.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

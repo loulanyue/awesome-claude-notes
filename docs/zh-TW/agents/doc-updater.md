@@ -3,6 +3,7 @@ name: doc-updater
 description: Documentation and codemap specialist. Use PROACTIVELY for updating codemaps and documentation. Runs /update-codemaps and /update-docs, generates docs/CODEMAPS/*, updates READMEs and guides.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+source_path: agents/doc-updater.md
 ---
 
 # 文件與程式碼地圖專家
@@ -308,3 +309,13 @@ npm run build
 ---
 
 **記住**：不符合現實的文件比沒有文件更糟。總是從真相來源（實際程式碼）產生。
+
+## 原文
+- [英文原文](../../../agents/doc-updater.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

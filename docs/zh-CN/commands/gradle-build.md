@@ -1,5 +1,6 @@
 ---
 description: 修复 Android 和 KMP 项目的 Gradle 构建错误
+source_path: commands/gradle-build.md
 ---
 
 # Gradle 构建修复
@@ -70,3 +71,14 @@ description: 修复 Android 和 KMP 项目的 Gradle 构建错误
 | 重复类 | 使用 `./gradlew dependencies` 检查是否存在冲突的依赖项 |
 | KSP 错误 | 运行 `./gradlew kspCommonMainKotlinMetadata` 重新生成 |
 | 配置缓存问题 | 检查是否存在不可序列化的任务输入 |
+
+## 原文
+- [英文原文](../../../commands/gradle-build.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

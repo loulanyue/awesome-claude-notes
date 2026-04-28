@@ -1,3 +1,7 @@
+---
+description: "Multi-model collaborative planning - Context retrieval + Dual-model analysis → Generate step-by-step implementation plan."
+source_path: commands/multi-plan.md
+---
 # 计划 - 多模型协同规划
 
 多模型协同规划 - 上下文检索 + 双模型分析 → 生成分步实施计划。
@@ -276,3 +280,14 @@ mcp__ace-tool__search_context({
 3. **信任规则** – 后端遵循 Codex，前端遵循 Gemini
 4. 外部模型 **零文件系统写入权限**
 5. **SESSION\_ID 交接** – 计划末尾必须包含 `CODEX_SESSION` / `GEMINI_SESSION`（供 `/ccg:execute resume <SESSION_ID>` 使用）
+
+## 原文
+- [英文原文](../../../commands/multi-plan.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

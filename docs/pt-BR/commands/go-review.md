@@ -1,5 +1,6 @@
 ---
 description: Revisão completa de código Go para padrões idiomáticos, segurança de concorrência, tratamento de erro e segurança. Invoca o agente go-reviewer.
+source_path: commands/go-review.md
 ---
 
 # Code Review Go
@@ -145,3 +146,13 @@ Recommendation: ❌ Block merge until CRITICAL issue is fixed
 
 - Agent: `agents/go-reviewer.md`
 - Skills: `skills/golang-patterns/`, `skills/golang-testing/`
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/go-review.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

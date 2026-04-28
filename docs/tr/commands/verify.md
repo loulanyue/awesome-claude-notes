@@ -1,3 +1,7 @@
+---
+description: "Run comprehensive verification on current codebase state."
+source_path: commands/verify.md
+---
 # Verification Komutu
 
 Mevcut kod tabanı durumu üzerinde kapsamlı doğrulama çalıştır.
@@ -57,3 +61,14 @@ $ARGUMENTS şunlar olabilir:
 - `full` - Tüm kontroller (varsayılan)
 - `pre-commit` - Commit'ler için ilgili kontroller
 - `pre-pr` - Güvenlik taraması artı tam kontroller
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/verify.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

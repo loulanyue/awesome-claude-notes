@@ -1,3 +1,7 @@
+---
+description: İnceleme, doğrulama ve risk belirlemeye odaklanmak için kullanılan paylaşılan bağlam.
+source_path: contexts/review.md
+---
 # Kod İnceleme Bağlamı
 
 Mod: PR incelemesi, kod analizi
@@ -20,3 +24,14 @@ Odak: Kalite, güvenlik, sürdürülebilirlik
 
 ## Çıktı Formatı
 Bulguları dosyaya göre grupla, önce önem derecesi
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../contexts/review.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

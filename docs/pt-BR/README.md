@@ -507,3 +507,14 @@ Por favor contribua! Veja [CONTRIBUTING.md](CONTRIBUTING.md) para diretrizes.
 ## 📄 Licença
 
 MIT — consulte o [arquivo LICENSE](../../LICENSE) para detalhes.
+
+<!-- localized-instruction-docs:start -->
+## Guia de documentação
+
+Esses índices ajudam a navegar pelos instruction docs localizados por comando, agente e contexto.
+
+- [Índice de comandos](./commands/README.md) (18)
+- [Índice de agentes](./agents/README.md) (12)
+- [Command → Agent / Skill Map](../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../CONTRIBUTING.md)
+<!-- localized-instruction-docs:end -->

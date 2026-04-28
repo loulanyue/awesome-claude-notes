@@ -1,26 +1,27 @@
 # エージェント
 
-エージェントは Claude Code が委任に使う専門サブエージェントです。複雑な作業を役割ごとに分割し、計画、レビュー、ビルド修正、ドキュメント整備などを担当します。
+エージェントは Claude Code が委任に使う専門サブエージェントです。
 
-## 主なエージェント
-
-- `planner.md` - 複雑な変更の実装計画を作成
-- `tdd-guide.md` - テスト駆動開発を主導
-- `code-reviewer.md` - 品質と保守性をレビュー
-- `security-reviewer.md` - セキュリティ上の懸念を抽出
-- `doc-updater.md` - ドキュメントや codemap の更新を支援
-
-## 使い分けの目安
-
-- 実装前の整理: `planner.md`
-- 実装中の品質保証: `tdd-guide.md`, `build-error-resolver.md`
-- 実装後のレビュー: `code-reviewer.md`, `security-reviewer.md`
-- ドキュメント整備: `doc-updater.md`
+## 収録ファイル
+- [ADR-001: セマンティック検索のベクトル保存にRedisを使用](./architect.md)
+- [ビルドエラーリゾルバー](./build-error-resolver.md)
+- [code-reviewer](./code-reviewer.md)
+- [データベースレビューアー](./database-reviewer.md)
+- [ドキュメント & コードマップスペシャリスト](./doc-updater.md)
+- [E2Eテストランナー](./e2e-runner.md)
+- [Goビルドエラーリゾルバー](./go-build-resolver.md)
+- [静的解析](./go-reviewer.md)
+- [実装計画: [機能名]](./planner.md)
+- [型チェック](./python-reviewer.md)
+- [リファクタ&デッドコードクリーナー](./refactor-cleaner.md)
+- [セキュリティレビューアー](./security-reviewer.md)
+- [テストは失敗するはず - まだ実装していない](./tdd-guide.md)
 
 ## ナビゲーション
-
 - [日本語ドキュメント一覧](../README.md)
 - [コマンド一覧](../commands/README.md)
+- [エージェント一覧](../agents/README.md)
 - [コンテキスト一覧](../contexts/README.md)
 - [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
 - [貢献ガイド](../../../CONTRIBUTING.md)
+

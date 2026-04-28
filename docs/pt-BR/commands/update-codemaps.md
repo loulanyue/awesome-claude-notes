@@ -1,3 +1,7 @@
+---
+description: "Analyze the codebase structure and generate token-lean architecture documentation."
+source_path: commands/update-codemaps.md
+---
 # Atualizar Codemaps
 
 Analise a estrutura do codebase e gere documentação arquitetural enxuta em tokens.
@@ -70,3 +74,13 @@ Escreva um resumo em `.reports/codemap-diff.txt`:
 - Mantenha cada codemap abaixo de **1000 tokens** para carregamento eficiente de contexto
 - Use diagramas ASCII para fluxo de dados em vez de descrições verbosas
 - Rode após grandes adições de feature ou sessões de refatoração
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/update-codemaps.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

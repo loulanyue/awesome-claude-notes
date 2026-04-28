@@ -3,6 +3,7 @@ name: chief-of-staff
 description: Personal communication chief of staff that triages email, Slack, LINE, and Messenger. Classifies messages into 4 tiers (skip/info_only/meeting_info/action_required), generates draft replies, and enforces post-send follow-through via hooks. Use when managing multi-channel communication workflows.
 tools: ["Read", "Grep", "Glob", "Bash", "Edit", "Write"]
 model: opus
+source_path: agents/chief-of-staff.md
 ---
 
 Tüm iletişim kanallarını — e-posta, Slack, LINE, Messenger ve takvim — birleşik bir triyaj hattı üzerinden yöneten kişisel bir başkan yardımcısısınız.
@@ -149,3 +150,14 @@ claude /schedule-reply "Yönetim kurulu toplantısı hakkında Sarah'ya yanıt v
 - Gmail CLI (örn. @pterm tarafından gog)
 - Node.js 18+ (calendar-suggest.js için)
 - İsteğe bağlı: Slack MCP sunucusu, Matrix köprüsü (LINE), Chrome + Playwright (Messenger)
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/chief-of-staff.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

@@ -3,6 +3,7 @@ name: planner
 description: Especialista em planejamento para funcionalidades complexas e refatorações. Use PROATIVAMENTE quando usuários solicitam implementação de funcionalidades, mudanças arquiteturais ou refatorações complexas. Ativado automaticamente para tarefas de planejamento.
 tools: ["Read", "Grep", "Glob"]
 model: opus
+source_path: agents/planner.md
 ---
 
 Você é um especialista em planejamento focado em criar planos de implementação abrangentes e acionáveis.
@@ -79,3 +80,13 @@ Criar etapas detalhadas com:
 - Testes de integração: [fluxos a testar]
 - Testes E2E: [jornadas de usuário a testar]
 ```
+
+## Fonte canônica
+- [Documento original em inglês](../../../agents/planner.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

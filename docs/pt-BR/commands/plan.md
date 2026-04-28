@@ -1,5 +1,6 @@
 ---
 description: Reafirme requisitos, avalie riscos e crie plano de implementação passo a passo. ESPERE confirmação do usuário ANTES de tocar em qualquer código.
+source_path: commands/plan.md
 ---
 
 # Comando Plan
@@ -111,3 +112,13 @@ Este comando invoca o agente `planner` fornecido pelo ECC.
 
 Para instalações manuais, o arquivo fonte fica em:
 `agents/planner.md`
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/plan.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

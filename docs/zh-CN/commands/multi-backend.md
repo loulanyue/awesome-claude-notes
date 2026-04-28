@@ -1,3 +1,7 @@
+---
+description: "Backend-focused workflow (Research → Ideation → Plan → Execute → Optimize → Review), Codex-led."
+source_path: commands/multi-backend.md
+---
 # 后端 - 后端导向开发
 
 后端导向的工作流程（研究 → 构思 → 规划 → 执行 → 优化 → 评审），由 Codex 主导。
@@ -160,3 +164,14 @@ Claude 综合规划，在用户批准后保存到 `.claude/plan/task-name.md`。
 2. **Gemini 的后端意见仅供参考**
 3. 外部模型**对文件系统零写入权限**
 4. Claude 处理所有代码写入和文件操作
+
+## 原文
+- [英文原文](../../../commands/multi-backend.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

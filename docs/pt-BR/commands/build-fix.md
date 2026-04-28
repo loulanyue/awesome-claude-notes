@@ -1,3 +1,7 @@
+---
+description: "Incrementally fix build and type errors with minimal, safe changes."
+source_path: commands/build-fix.md
+---
 # Build e Correção
 
 Corrija erros de build e de tipos incrementalmente com mudanças mínimas e seguras.
@@ -60,3 +64,13 @@ Mostre resultados:
 | Build tool misconfiguration | Read config file; compare with working defaults |
 
 Corrija um erro por vez por segurança. Prefira diffs mínimos em vez de refatoração.
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/build-fix.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

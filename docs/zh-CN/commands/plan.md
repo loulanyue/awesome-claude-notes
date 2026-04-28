@@ -1,5 +1,6 @@
 ---
 description: 重新阐述需求、评估风险并创建分步实施计划。在接触任何代码之前，等待用户确认。
+source_path: commands/plan.md
 ---
 
 # 计划命令
@@ -116,3 +117,14 @@ Agent (planner):
 
 对于手动安装，源文件位于：
 `agents/planner.md`
+
+## 原文
+- [英文原文](../../../commands/plan.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

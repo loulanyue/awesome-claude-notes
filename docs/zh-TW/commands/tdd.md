@@ -1,5 +1,6 @@
 ---
 description: Enforce test-driven development workflow. Scaffold interfaces, generate tests FIRST, then implement minimal code to pass. Ensure 80%+ coverage.
+source_path: commands/tdd.md
 ---
 
 # TDD 指令
@@ -98,3 +99,13 @@ REPEAT:   下一個功能/情境
 
 並可參考位於以下位置的 `tdd-workflow` 技能：
 `~/.claude/skills/tdd-workflow/`
+
+## 原文
+- [英文原文](../../../commands/tdd.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

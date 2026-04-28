@@ -3,6 +3,7 @@ name: go-build-resolver
 description: Go build, vet, and compilation error resolution specialist. Fixes build errors, go vet issues, and linter warnings with minimal changes. Use when Go builds fail.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/go-build-resolver.md
 ---
 
 # Go Build Hata Çözücü
@@ -92,3 +93,14 @@ Kalan hatalar: 3
 Son: `Build Durumu: BAŞARILI/BAŞARISIZ | Düzeltilen Hatalar: N | Değiştirilen Dosyalar: liste`
 
 Detaylı Go hata desenleri ve kod örnekleri için, `skill: golang-patterns` bölümüne bakın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/go-build-resolver.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

@@ -3,6 +3,7 @@ name: doc-updater
 description: 文档和代码映射专家。主动用于更新代码映射和文档。运行 /update-codemaps 和 /update-docs，生成 docs/CODEMAPS/*，更新 README 和指南。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: haiku
+source_path: agents/doc-updater.md
 ---
 
 # 文档与代码映射专家
@@ -108,3 +109,14 @@ docs/CODEMAPS/
 ***
 
 **记住：** 与现实不符的文档比没有文档更糟糕。始终从事实来源生成。
+
+## 原文
+- [英文原文](../../../agents/doc-updater.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

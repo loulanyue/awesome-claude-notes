@@ -1,3 +1,7 @@
+---
+description: "Comprehensive security and quality review of uncommitted changes:"
+source_path: commands/code-review.md
+---
 # 程式碼審查
 
 對未提交變更進行全面的安全性和品質審查：
@@ -38,3 +42,13 @@
 4. 如果發現關鍵或高優先問題則阻擋提交
 
 絕不批准有安全弱點的程式碼！
+
+## 原文
+- [英文原文](../../../commands/code-review.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

@@ -1,5 +1,6 @@
 ---
 description: 为Go强制执行TDD工作流程。首先编写表驱动测试，然后实现。使用go test -cover验证80%以上的覆盖率。
+source_path: commands/go-test.md
 ---
 
 # Go TDD 命令
@@ -272,3 +273,14 @@ go test -race -cover ./...
 
 * 技能：`skills/golang-testing/`
 * 技能：`skills/tdd-workflow/`
+
+## 原文
+- [英文原文](../../../commands/go-test.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

@@ -1,3 +1,7 @@
+---
+description: "Create or verify a checkpoint in your workflow."
+source_path: commands/checkpoint.md
+---
 # 检查点命令
 
 在你的工作流中创建或验证一个检查点。
@@ -76,3 +80,14 @@ $ARGUMENTS:
 * `verify <name>` - 根据指定名称的检查点进行验证
 * `list` - 显示所有检查点
 * `clear` - 删除旧的检查点（保留最后5个）
+
+## 原文
+- [英文原文](../../../commands/checkpoint.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

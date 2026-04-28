@@ -1,3 +1,7 @@
+---
+description: "Analyze the codebase structure and generate token-lean architecture documentation."
+source_path: commands/update-codemaps.md
+---
 # 코드맵 업데이트
 
 코드베이스 구조를 분석하고 토큰 효율적인 아키텍처 문서를 생성합니다.
@@ -77,3 +81,13 @@ src/repos/user.ts (데이터베이스 접근, 80줄)
 - 효율적인 컨텍스트 로딩을 위해 각 코드맵을 **1000 토큰 미만**으로 유지
 - 장황한 설명 대신 데이터 흐름에 ASCII 다이어그램 사용
 - 주요 기능 추가 또는 리팩토링 세션 후 `npx tsx scripts/codemaps/generate.ts` 실행
+
+## 원문
+- [영문 원문](../../../commands/update-codemaps.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

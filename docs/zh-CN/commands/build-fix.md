@@ -1,3 +1,7 @@
+---
+description: "Incrementally fix build and type errors with minimal, safe changes."
+source_path: commands/build-fix.md
+---
 # 构建与修复
 
 以最小、安全的更改逐步修复构建和类型错误。
@@ -62,3 +66,14 @@
 | 构建工具配置错误 | 读取配置文件；与有效的默认配置进行比较 |
 
 为了安全起见，一次只修复一个错误。优先使用最小的改动，而不是重构。
+
+## 原文
+- [英文原文](../../../commands/build-fix.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

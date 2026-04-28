@@ -1,5 +1,6 @@
 ---
 description: Comprehensive Go code review for idiomatic patterns, concurrency safety, error handling, and security. Invokes the go-reviewer agent.
+source_path: commands/go-review.md
 ---
 
 # Go 程式碼審查
@@ -85,3 +86,13 @@ govulncheck ./...
 
 - Agent：`agents/go-reviewer.md`
 - 技能：`skills/golang-patterns/`、`skills/golang-testing/`
+
+## 原文
+- [英文原文](../../../commands/go-review.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

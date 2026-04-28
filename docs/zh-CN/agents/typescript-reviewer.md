@@ -3,6 +3,7 @@ name: typescript-reviewer
 description: 专业的TypeScript/JavaScript代码审查专家，专注于类型安全、异步正确性、Node/Web安全以及惯用模式。适用于所有TypeScript和JavaScript代码变更。在TypeScript/JavaScript项目中必须使用。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/typescript-reviewer.md
 ---
 
 你是一位高级 TypeScript 工程师，致力于确保类型安全、符合语言习惯的 TypeScript 和 JavaScript 达到高标准。
@@ -120,3 +121,14 @@ jest --ci                           # Tests (Jest)
 ***
 
 以这种心态进行审查："这段代码能否通过顶级 TypeScript 公司或维护良好的开源项目的审查？"
+
+## 原文
+- [英文原文](../../../agents/typescript-reviewer.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

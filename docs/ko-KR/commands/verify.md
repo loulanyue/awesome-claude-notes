@@ -1,3 +1,7 @@
+---
+description: "Run comprehensive verification on current codebase state."
+source_path: commands/verify.md
+---
 # 검증 커맨드
 
 현재 코드베이스 상태에 대한 포괄적인 검증을 실행합니다.
@@ -61,3 +65,13 @@ $ARGUMENTS:
 - `full` - 모든 검사 (기본값)
 - `pre-commit` - 커밋에 관련된 검사
 - `pre-pr` - 전체 검사 + 보안 스캔
+
+## 원문
+- [영문 원문](../../../commands/verify.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

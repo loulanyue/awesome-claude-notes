@@ -1,3 +1,7 @@
+---
+description: "Safely identify and remove dead code with test verification at every step."
+source_path: commands/refactor-clean.md
+---
 # Refactor Clean
 
 Her adımda test doğrulaması ile ölü kodu güvenle tanımla ve kaldır.
@@ -78,3 +82,14 @@ Tüm testler geçiyor ✅
 - **Bir seferde bir silme** — Atomik değişiklikler geri almayı kolaylaştırır
 - **Emin değilseniz atlayın** — Üretimi bozmaktansa ölü kodu tutmak daha iyidir
 - **Temizlerken refactor etmeyin** — Endişeleri ayırın (önce temizle, sonra refactor et)
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/refactor-clean.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

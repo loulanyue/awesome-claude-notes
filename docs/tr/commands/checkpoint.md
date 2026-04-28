@@ -1,3 +1,7 @@
+---
+description: "Create or verify a checkpoint in your workflow."
+source_path: commands/checkpoint.md
+---
 # Checkpoint Komutu
 
 İş akışınızda bir checkpoint oluşturun veya doğrulayın.
@@ -72,3 +76,14 @@ $ARGUMENTS:
 - `verify <isim>` - İsimlendirilmiş checkpoint'e karşı doğrula
 - `list` - Tüm checkpoint'leri göster
 - `clear` - Eski checkpoint'leri kaldır (son 5'i tutar)
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/checkpoint.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

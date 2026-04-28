@@ -1,3 +1,7 @@
+---
+description: "Backend-focused workflow (Research → Ideation → Plan → Execute → Optimize → Review), Codex-led."
+source_path: commands/multi-backend.md
+---
 # Backend - Backend Odaklı Geliştirme
 
 Backend odaklı iş akışı (Research → Ideation → Plan → Execute → Optimize → Review), Codex liderliğinde.
@@ -156,3 +160,14 @@ Review geri bildirimlerini entegre et, kullanıcı onayından sonra optimizasyon
 2. **Gemini backend görüşleri sadece referans için**
 3. Harici modellerin **sıfır dosya sistemi yazma erişimi**
 4. Claude tüm kod yazma ve dosya operasyonlarını yönetir
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/multi-backend.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

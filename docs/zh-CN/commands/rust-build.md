@@ -1,5 +1,6 @@
 ---
 description: 逐步修复 Rust 构建错误、借用检查器问题和依赖问题。调用 rust-build-resolver 代理以进行最小化、精确的修复。
+source_path: commands/rust-build.md
 ---
 
 # Rust 构建与修复
@@ -187,3 +188,14 @@ Build Status: SUCCESS
 
 * 代理：`agents/rust-build-resolver.md`
 * 技能：`skills/rust-patterns/`
+
+## 原文
+- [英文原文](../../../commands/rust-build.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

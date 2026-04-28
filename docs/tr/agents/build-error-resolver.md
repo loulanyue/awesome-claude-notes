@@ -3,6 +3,7 @@ name: build-error-resolver
 description: Build ve TypeScript hata çözümleme specialisti. Build başarısız olduğunda veya tip hataları oluştuğunda PROAKTİF olarak kullanın. Minimal diff'lerle sadece build/tip hatalarını düzeltir, mimari düzenlemeler yapmaz. Build'i hızlıca yeşile getirmeye odaklanır.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/build-error-resolver.md
 ---
 
 # Build Error Resolver
@@ -112,3 +113,14 @@ npx eslint . --fix
 ---
 
 **Unutmayın**: Hatayı düzeltin, build'in geçtiğini doğrulayın, devam edin. Mükemmellikten çok hız ve hassasiyet.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/build-error-resolver.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

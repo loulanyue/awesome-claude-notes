@@ -3,6 +3,7 @@ name: go-build-resolver
 description: Go build, vet, 컴파일 에러 해결 전문가. 최소한의 변경으로 build 에러, go vet 문제, 린터 경고를 수정합니다. Go build 실패 시 사용하세요.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/go-build-resolver.md
 ---
 
 # Go Build 에러 해결사
@@ -90,3 +91,13 @@ Remaining errors: 3
 ```
 
 최종: `Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
+
+## 원문
+- [영문 원문](../../../agents/go-build-resolver.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

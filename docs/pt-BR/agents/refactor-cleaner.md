@@ -3,6 +3,7 @@ name: refactor-cleaner
 description: Especialista em limpeza de código morto e consolidação. Use PROATIVAMENTE para remover código não utilizado, duplicatas e refatorar. Executa ferramentas de análise (knip, depcheck, ts-prune) para identificar código morto e removê-lo com segurança.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/refactor-cleaner.md
 ---
 
 # Limpador de Refatoração & Código Morto
@@ -83,3 +84,13 @@ Após cada lote:
 - Compilação concluída com sucesso
 - Sem regressões
 - Tamanho do pacote reduzido
+
+## Fonte canônica
+- [Documento original em inglês](../../../agents/refactor-cleaner.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

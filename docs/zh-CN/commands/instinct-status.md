@@ -1,6 +1,7 @@
 ---
 name: instinct-status
 description: 展示已学习的本能（项目+全局）并充满信心
+source_path: commands/instinct-status.md
 command: true
 ---
 
@@ -57,3 +58,14 @@ python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py status
     █████████░  85%  validate-user-input [global]
               触发条件: 当处理用户输入时
 ```
+
+## 原文
+- [英文原文](../../../commands/instinct-status.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

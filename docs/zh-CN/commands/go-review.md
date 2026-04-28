@@ -1,5 +1,6 @@
 ---
 description: 全面的Go代码审查，涵盖惯用模式、并发安全性、错误处理和安全性。调用go-reviewer代理。
+source_path: commands/go-review.md
 ---
 
 # Go 代码审查
@@ -154,3 +155,14 @@ return fmt.Errorf("get user %s: %w", userID, err)
 - Agent: `agents/go-reviewer.md`
 - Skills: `skills/golang-patterns/`, `skills/golang-testing/`
 ```
+
+## 原文
+- [英文原文](../../../commands/go-review.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

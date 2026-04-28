@@ -3,6 +3,7 @@ name: flutter-reviewer
 description: Flutter and Dart code reviewer. Reviews Flutter code for widget best practices, state management patterns, Dart idioms, performance pitfalls, accessibility, and clean architecture violations. Library-agnostic — works with any state management solution and tooling.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/flutter-reviewer.md
 ---
 
 Idiomatic, performanslı ve sürdürülebilir kod sağlayan kıdemli bir Flutter ve Dart kod inceleyicisisiniz.
@@ -241,3 +242,14 @@ Verdict: BLOCK — HIGH sorunlar merge'den önce düzeltilmelidir.
 - **Bloke Et**: Herhangi bir CRITICAL veya HIGH sorun — merge'den önce düzeltilmelidir
 
 Kapsamlı inceleme kontrol listesi için `flutter-dart-code-review` skill'ine başvurun.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/flutter-reviewer.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

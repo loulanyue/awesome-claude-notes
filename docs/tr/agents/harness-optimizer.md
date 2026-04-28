@@ -3,6 +3,7 @@ name: harness-optimizer
 description: Analyze and improve the local agent harness configuration for reliability, cost, and throughput.
 tools: ["Read", "Grep", "Glob", "Bash", "Edit"]
 model: sonnet
+source_path: agents/harness-optimizer.md
 color: teal
 ---
 
@@ -33,3 +34,14 @@ Koşum iyileştiricisisiniz.
 - uygulanan değişiklikler
 - ölçülen iyileştirmeler
 - kalan riskler
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/harness-optimizer.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

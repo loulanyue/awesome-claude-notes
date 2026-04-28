@@ -1,3 +1,7 @@
+---
+description: "Analyze the codebase structure and generate token-lean architecture documentation."
+source_path: commands/update-codemaps.md
+---
 # 更新代码地图
 
 分析代码库结构并生成简洁的架构文档。
@@ -71,3 +75,14 @@ src/repos/user.ts (数据库访问，80行)
 * 为高效加载上下文，将每个代码地图保持在 **1000 个 token 以内**
 * 使用 ASCII 图表表示数据流，而非冗长的描述
 * 在主要功能添加或重构会话后运行
+
+## 原文
+- [英文原文](../../../commands/update-codemaps.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

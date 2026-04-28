@@ -3,6 +3,7 @@ name: kotlin-build-resolver
 description: Kotlin/Gradle 构建、编译和依赖错误解决专家。以最小改动修复构建错误、Kotlin 编译器错误和 Gradle 问题。适用于 Kotlin 构建失败时。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/kotlin-build-resolver.md
 ---
 
 # Kotlin 构建错误解决器
@@ -117,3 +118,14 @@ kotlin {
 最终：`Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 有关详细的 Kotlin 模式和代码示例，请参阅 `skill: kotlin-patterns`。
+
+## 原文
+- [英文原文](../../../agents/kotlin-build-resolver.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

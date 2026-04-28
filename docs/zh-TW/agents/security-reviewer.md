@@ -3,6 +3,7 @@ name: security-reviewer
 description: Security vulnerability detection and remediation specialist. Use PROACTIVELY after writing code that handles user input, authentication, API endpoints, or sensitive data. Flags secrets, SSRF, injection, unsafe crypto, and OWASP Top 10 vulnerabilities.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+source_path: agents/security-reviewer.md
 ---
 
 # 安全性審查員
@@ -376,3 +377,13 @@ console.log('User login:', {
 ---
 
 **記住**：安全性不是可選的，特別是對於處理真實金錢的平台。一個弱點可能導致使用者真正的財務損失。要徹底、要謹慎、要主動。
+
+## 原文
+- [英文原文](../../../agents/security-reviewer.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

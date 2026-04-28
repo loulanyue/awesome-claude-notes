@@ -1,5 +1,6 @@
 ---
 description: Go용 TDD 워크플로우 강제. 테이블 기반 테스트를 먼저 작성한 후 구현. go test -cover로 80% 이상 커버리지 검증.
+source_path: commands/go-test.md
 ---
 
 # Go TDD 커맨드
@@ -266,3 +267,13 @@ go test -race -cover ./...
 
 - 스킬: `skills/golang-testing/`
 - 스킬: `skills/tdd-workflow/`
+
+## 원문
+- [영문 원문](../../../commands/go-test.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

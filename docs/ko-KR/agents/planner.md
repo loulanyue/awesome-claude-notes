@@ -3,6 +3,7 @@ name: planner
 description: 복잡한 기능 및 리팩토링을 위한 전문 계획 스페셜리스트. 기능 구현, 아키텍처 변경, 복잡한 리팩토링 요청 시 자동으로 활성화됩니다.
 tools: ["Read", "Grep", "Glob"]
 model: opus
+source_path: agents/planner.md
 ---
 
 포괄적이고 실행 가능한 구현 계획을 만드는 전문 계획 스페셜리스트입니다.
@@ -207,3 +208,13 @@ model: opus
 - 독립적으로 전달할 수 없는 Phase
 
 **기억하세요**: 좋은 계획은 구체적이고, 실행 가능하며, 해피 패스와 엣지 케이스 모두를 고려합니다. 최고의 계획은 자신감 있고 점진적인 구현을 가능하게 합니다.
+
+## 원문
+- [영문 원문](../../../agents/planner.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

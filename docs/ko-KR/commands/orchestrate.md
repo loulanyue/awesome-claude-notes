@@ -1,3 +1,7 @@
+---
+description: Sequential and tmux/worktree orchestration guidance for multi-agent workflows.
+source_path: commands/orchestrate.md
+---
 # Orchestrate 커맨드
 
 복잡한 작업을 위한 순차적 에이전트 워크플로우입니다.
@@ -170,3 +174,13 @@ $ARGUMENTS:
 3. 인증/결제/개인정보 처리에는 **security-reviewer를 사용**하세요
 4. **핸드오프는 간결하게** 유지하세요 - 다음 에이전트에 필요한 것에 집중
 5. 필요한 경우 에이전트 사이에 **검증을 실행**하세요
+
+## 원문
+- [영문 원문](../../../commands/orchestrate.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

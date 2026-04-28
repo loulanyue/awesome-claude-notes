@@ -1,5 +1,6 @@
 ---
 description: Gereksinimleri yeniden ifade et, riskleri değerlendir ve adım adım uygulama planı oluştur. Herhangi bir koda dokunmadan önce kullanıcı ONAYINI BEKLE.
+source_path: commands/plan.md
 ---
 
 # Plan Komutu
@@ -113,3 +114,14 @@ Bu komut, ECC tarafından sağlanan `planner` agent'ını çağırır.
 
 Manuel kurulumlar için, kaynak dosya şurada bulunur:
 `agents/planner.md`
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/plan.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

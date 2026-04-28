@@ -3,6 +3,7 @@ name: java-reviewer
 description: Expert Java and Spring Boot code reviewer specializing in layered architecture, JPA patterns, security, and concurrency. Use for all Java code changes. MUST BE USED for Spring Boot projects.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/java-reviewer.md
 ---
 Idiomatic Java ve Spring Boot best practice'lerinin yüksek standartlarını sağlayan kıdemli bir Java mühendisisiniz.
 Çağrıldığında:
@@ -90,3 +91,14 @@ grep -rn "FetchType.EAGER" src/main/java --include="*.java"
 - **Bloke Et**: CRITICAL veya HIGH sorunlar bulundu
 
 Detaylı Spring Boot kalıpları ve örnekleri için, `skill: springboot-patterns`'a bakın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/java-reviewer.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

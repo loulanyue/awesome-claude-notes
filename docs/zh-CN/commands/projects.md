@@ -1,6 +1,7 @@
 ---
 name: projects
 description: 列出已知项目及其本能统计数据
+source_path: commands/projects.md
 command: true
 ---
 
@@ -37,3 +38,14 @@ python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py projects
    * 观察事件计数
    * 最后看到的时间戳
 3. 同时显示全局本能总数
+
+## 原文
+- [英文原文](../../../commands/projects.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

@@ -1,3 +1,7 @@
+---
+description: "Frontend-focused workflow (Research → Ideation → Plan → Execute → Optimize → Review), Gemini-led."
+source_path: commands/multi-frontend.md
+---
 # 前端 - 前端聚焦开发
 
 前端聚焦的工作流（研究 → 构思 → 规划 → 执行 → 优化 → 评审），由 Gemini 主导。
@@ -160,3 +164,14 @@ Claude 综合规划，在用户批准后保存到 `.claude/plan/task-name.md`。
 2. **Codex 的前端意见仅供参考**
 3. 外部模型**没有文件系统写入权限**
 4. Claude 处理所有代码写入和文件操作
+
+## 原文
+- [英文原文](../../../commands/multi-frontend.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

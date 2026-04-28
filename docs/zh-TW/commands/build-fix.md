@@ -1,3 +1,7 @@
+---
+description: "Incrementally fix build and type errors with minimal, safe changes."
+source_path: commands/build-fix.md
+---
 # 建置與修復
 
 增量修復 TypeScript 和建置錯誤：
@@ -27,3 +31,13 @@
    - 新引入的錯誤
 
 為了安全，一次修復一個錯誤！
+
+## 原文
+- [英文原文](../../../commands/build-fix.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

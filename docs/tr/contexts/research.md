@@ -1,3 +1,7 @@
+---
+description: Araştırma, karşılaştırma ve keşif çalışmalarına odaklanmak için kullanılan paylaşılan bağlam.
+source_path: contexts/research.md
+---
 # Araştırma Bağlamı
 
 Mod: Keşif, inceleme, öğrenme
@@ -24,3 +28,14 @@ Odak: Harekete geçmeden önce anlama
 
 ## Çıktı
 Önce bulgular, sonra öneriler
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../contexts/research.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

@@ -1,5 +1,6 @@
 ---
 description: 全面的Python代码审查，确保符合PEP 8标准、类型提示、安全性以及Pythonic惯用法。调用python-reviewer代理。
+source_path: commands/python-review.md
 ---
 
 # Python 代码审查
@@ -317,3 +318,14 @@ result = "".join(str(item) for item in items)
 | 类型联合 (\`x | None\`) | 3.10+ |
 
 确保你的项目 `pyproject.toml` 或 `setup.py` 指定了正确的最低 Python 版本。
+
+## 原文
+- [英文原文](../../../commands/python-review.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

@@ -1,3 +1,7 @@
+---
+description: Sequential and tmux/worktree orchestration guidance for multi-agent workflows.
+source_path: commands/orchestrate.md
+---
 # Orchestrate 指令
 
 複雜任務的循序 Agent 工作流程。
@@ -138,3 +142,13 @@ $ARGUMENTS:
 3. **對驗證/支付/PII 使用 security-reviewer**
 4. **保持交接簡潔** - 專注於下一個 Agent 需要的內容
 5. **如有需要，在 Agents 之間執行 verification**
+
+## 原文
+- [英文原文](../../../commands/orchestrate.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

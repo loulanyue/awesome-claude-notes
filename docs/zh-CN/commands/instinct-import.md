@@ -1,6 +1,7 @@
 ---
 name: instinct-import
 description: 从文件或URL导入本能到项目/全局作用域
+source_path: commands/instinct-import.md
 command: true
 ---
 
@@ -115,3 +116,14 @@ project_name: "my-project"
 
 运行 /instinct-status 以查看所有本能。
 ```
+
+## 原文
+- [英文原文](../../../commands/instinct-import.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

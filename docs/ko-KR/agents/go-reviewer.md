@@ -3,6 +3,7 @@ name: go-reviewer
 description: Go 코드 리뷰 전문가. 관용적 Go, 동시성 패턴, 에러 처리, 성능을 전문으로 합니다. 모든 Go 코드 변경에 사용하세요. Go 프로젝트에서 반드시 사용해야 합니다.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/go-reviewer.md
 ---
 
 시니어 Go 코드 리뷰어로서 관용적 Go와 모범 사례의 높은 기준을 보장합니다.
@@ -72,3 +73,13 @@ govulncheck ./...
 - **승인**: CRITICAL 또는 HIGH 이슈 없음
 - **경고**: MEDIUM 이슈만
 - **차단**: CRITICAL 또는 HIGH 이슈 발견
+
+## 원문
+- [영문 원문](../../../agents/go-reviewer.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

@@ -1,5 +1,6 @@
 ---
 description: Fix Go build errors, go vet warnings, and linter issues incrementally. Invokes the go-build-resolver agent for minimal, surgical fixes.
+source_path: commands/go-build.md
 ---
 
 # Go 建置與修復
@@ -79,3 +80,13 @@ Agent 會在以下情況停止並報告：
 
 - Agent：`agents/go-build-resolver.md`
 - 技能：`skills/golang-patterns/`
+
+## 原文
+- [英文原文](../../../commands/go-build.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

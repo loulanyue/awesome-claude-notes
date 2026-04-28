@@ -1,5 +1,6 @@
 ---
 description: Impõe fluxo de desenvolvimento orientado a testes. Estruture interfaces, gere testes PRIMEIRO e depois implemente código mínimo para passar. Garanta cobertura de 80%+.
+source_path: commands/tdd.md
 ---
 
 # Comando TDD
@@ -326,3 +327,13 @@ A skill relacionada `tdd-workflow` também é distribuída com o ECC.
 Para instalações manuais, os arquivos fonte ficam em:
 - `agents/tdd-guide.md`
 - `skills/tdd-workflow/SKILL.md`
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/tdd.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

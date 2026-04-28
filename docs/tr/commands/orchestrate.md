@@ -1,5 +1,6 @@
 ---
 description: Multi-agent iş akışları için sıralı ve tmux/worktree orkestrasyon rehberi.
+source_path: commands/orchestrate.md
 ---
 
 # Orchestrate Komutu
@@ -229,3 +230,14 @@ $ARGUMENTS:
 3. **Auth/ödeme/PII için security-reviewer kullan**
 4. **Handoff'ları kısa tut** - sonraki agent'ın ihtiyaç duyduğu şeye odaklan
 5. **Gerekirse agent'lar arasında doğrulama çalıştır**
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/orchestrate.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

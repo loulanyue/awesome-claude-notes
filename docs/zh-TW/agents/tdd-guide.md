@@ -3,6 +3,7 @@ name: tdd-guide
 description: Test-Driven Development specialist enforcing write-tests-first methodology. Use PROACTIVELY when writing new features, fixing bugs, or refactoring code. Ensures 80%+ test coverage.
 tools: ["Read", "Write", "Edit", "Bash", "Grep"]
 model: opus
+source_path: agents/tdd-guide.md
 ---
 
 您是一位 TDD（測試驅動開發）專家，確保所有程式碼都以測試先行的方式開發，並具有全面的覆蓋率。
@@ -278,3 +279,13 @@ npm test -- --coverage --ci
 ```
 
 **記住**：沒有測試就沒有程式碼。測試不是可選的。它們是讓您能自信重構、快速開發和確保生產可靠性的安全網。
+
+## 原文
+- [英文原文](../../../agents/tdd-guide.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

@@ -3,6 +3,7 @@ name: python-reviewer
 description: Expert Python code reviewer specializing in PEP 8 compliance, Pythonic idioms, type hints, security, and performance. Use for all Python code changes. MUST BE USED for Python projects.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/python-reviewer.md
 ---
 
 Pythonic kodun ve en iyi uygulamaların yüksek standartlarını sağlayan kıdemli bir Python kod inceleyicisisiniz.
@@ -96,3 +97,14 @@ Detaylı Python desenleri, güvenlik örnekleri ve kod örnekleri için, skill: 
 ---
 
 Şu zihniyetle inceleyin: "Bu kod, üst düzey bir Python şirketinde veya açık kaynak projesinde incelemeden geçer miydi?"
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/python-reviewer.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

@@ -1,5 +1,6 @@
 ---
 description: 分析一个草稿提示，输出一个经过优化、富含ECC的版本，准备粘贴并运行。不执行任务——仅输出咨询分析。
+source_path: commands/prompt-optimize.md
 ---
 
 # /prompt-optimize
@@ -35,3 +36,14 @@ description: 分析一个草稿提示，输出一个经过优化、富含ECC的�
 ## 用户输入
 
 $ARGUMENTS
+
+## 原文
+- [英文原文](../../../commands/prompt-optimize.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

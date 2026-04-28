@@ -1,5 +1,6 @@
 ---
 description: 将当前会话状态保存到 ~/.claude/sessions/ 目录下带日期的文件中，以便在未来的会话中恢复完整上下文并继续工作。
+source_path: commands/save-session.md
 ---
 
 # 保存会话命令
@@ -250,3 +251,14 @@ mkdir -p ~/.claude/sessions
 * 该文件旨在通过 `/resume-session` 在下次会话开始时由 Claude 读取
 * 使用规范的全局会话存储：`~/.claude/sessions/`
 * 对于任何新的会话文件，首选短 ID 文件名形式（`YYYY-MM-DD-<short-id>-session.tmp`）
+
+## 原文
+- [英文原文](../../../commands/save-session.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

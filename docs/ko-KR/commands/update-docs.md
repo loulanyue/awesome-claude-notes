@@ -1,6 +1,7 @@
 ---
 name: update-docs
 description: 코드베이스를 기준으로 문서를 동기화하고 생성된 섹션을 갱신합니다.
+source_path: commands/update-docs.md
 ---
 
 # 문서 업데이트
@@ -87,3 +88,13 @@ description: 코드베이스를 기준으로 문서를 동기화하고 생성된
 - **수동 섹션 보존**: 생성된 섹션만 업데이트; 수기 작성 내용은 그대로 유지
 - **생성된 콘텐츠 표시**: 생성된 섹션 주변에 `<!-- AUTO-GENERATED -->` 마커 사용
 - **요청 없이 문서 생성하지 않기**: 커맨드가 명시적으로 요청한 경우에만 새 문서 파일 생성
+
+## 원문
+- [영문 원문](../../../commands/update-docs.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

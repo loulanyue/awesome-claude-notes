@@ -3,6 +3,7 @@ name: build-error-resolver
 description: Build and TypeScript error resolution specialist. Use PROACTIVELY when build fails or type errors occur. Fixes build/type errors only with minimal diffs, no architectural edits. Focuses on getting the build green quickly.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+source_path: agents/build-error-resolver.md
 ---
 
 # 建置錯誤解決專家
@@ -298,3 +299,13 @@ Parameter 'market' implicitly has an 'any' type.
 ---
 
 **記住**：目標是用最小變更快速修復錯誤。不要重構、不要優化、不要重新設計。修復錯誤、驗證建置通過、繼續前進。速度和精確優先於完美。
+
+## 原文
+- [英文原文](../../../agents/build-error-resolver.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

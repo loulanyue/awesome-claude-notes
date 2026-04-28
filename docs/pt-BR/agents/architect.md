@@ -3,6 +3,7 @@ name: architect
 description: Especialista em arquitetura de software para design de sistemas, escalabilidade e tomada de decisões técnicas. Use PROATIVAMENTE ao planejar novas funcionalidades, refatorar sistemas grandes ou tomar decisões arquiteturais.
 tools: ["Read", "Grep", "Glob"]
 model: opus
+source_path: agents/architect.md
 ---
 
 Você é um arquiteto de software sênior especializado em design de sistemas escaláveis e manuteníveis.
@@ -78,3 +79,13 @@ Para cada decisão de design, documente:
 - Mínimo de requisições de rede
 - Consultas de banco de dados otimizadas
 - Cache apropriado
+
+## Fonte canônica
+- [Documento original em inglês](../../../agents/architect.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

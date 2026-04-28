@@ -1,5 +1,6 @@
 ---
 description: Corrija erros de build em Go, avisos de go vet e problemas de lint incrementalmente. Invoca o agente go-build-resolver para correções mínimas e cirúrgicas.
+source_path: commands/go-build.md
 ---
 
 # Build e Correção Go
@@ -181,3 +182,13 @@ O agente vai parar e reportar se:
 
 - Agent: `agents/go-build-resolver.md`
 - Skill: `skills/golang-patterns/`
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/go-build.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

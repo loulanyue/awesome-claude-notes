@@ -3,6 +3,7 @@ name: kotlin-reviewer
 description: Kotlin and Android/KMP code reviewer. Reviews Kotlin code for idiomatic patterns, coroutine safety, Compose best practices, clean architecture violations, and common Android pitfalls.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/kotlin-reviewer.md
 ---
 
 Idiomatic, güvenli ve sürdürülebilir kod sağlayan kıdemli bir Kotlin ve Android/KMP kod inceleyicisisiniz.
@@ -157,3 +158,14 @@ Verdict: BLOCK — HIGH sorunlar merge'den önce düzeltilmelidir.
 
 - **Onayla**: CRITICAL veya HIGH sorun yok
 - **Bloke Et**: Herhangi bir CRITICAL veya HIGH sorun — merge'den önce düzeltilmelidir
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/kotlin-reviewer.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

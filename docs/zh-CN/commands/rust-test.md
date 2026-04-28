@@ -1,5 +1,6 @@
 ---
 description: 为Rust强制执行TDD工作流。先写测试，然后实现。使用cargo-llvm-cov验证80%以上的覆盖率。
+source_path: commands/rust-test.md
 ---
 
 # Rust TDD 命令
@@ -309,3 +310,14 @@ cargo test --no-fail-fast
 
 * 技能：`skills/rust-testing/`
 * 技能：`skills/rust-patterns/`
+
+## 原文
+- [英文原文](../../../commands/rust-test.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

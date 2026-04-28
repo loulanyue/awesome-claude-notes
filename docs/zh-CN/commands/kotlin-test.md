@@ -1,5 +1,6 @@
 ---
 description: 为Kotlin强制执行TDD工作流程。首先编写Kotest测试，然后实施。使用Kover验证80%以上的覆盖率。
+source_path: commands/kotlin-test.md
 ---
 
 # Kotlin TDD 命令
@@ -313,3 +314,14 @@ open build/reports/kover/html/index.html
 
 * 技能：`skills/kotlin-testing/`
 * 技能：`skills/tdd-workflow/`
+
+## 原文
+- [英文原文](../../../commands/kotlin-test.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

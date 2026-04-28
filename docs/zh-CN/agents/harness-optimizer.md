@@ -3,6 +3,7 @@ name: harness-optimizer
 description: 分析并改进本地代理工具配置以提高可靠性、降低成本并增加吞吐量。
 tools: ["Read", "Grep", "Glob", "Bash", "Edit"]
 model: sonnet
+source_path: agents/harness-optimizer.md
 color: teal
 ---
 
@@ -33,3 +34,14 @@ color: teal
 * 应用的更改
 * 测量的改进
 * 剩余风险
+
+## 原文
+- [英文原文](../../../agents/harness-optimizer.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)
