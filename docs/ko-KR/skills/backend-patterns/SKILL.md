@@ -1,6 +1,7 @@
 ---
 name: backend-patterns
 description: Node.js, Express, Next.js API 라우트를 위한 백엔드 아키텍처 패턴, API 설계, 데이터베이스 최적화 및 서버 사이드 모범 사례.
+source_path: skills/backend-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -597,3 +598,10 @@ export async function GET(request: Request) {
 ```
 
 **기억하세요**: 백엔드 패턴은 확장 가능하고 유지보수 가능한 서버 사이드 애플리케이션을 가능하게 합니다. 복잡도 수준에 맞는 패턴을 선택하세요.
+
+## 원문
+- [영문 원문](../../../../skills/backend-patterns/SKILL.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

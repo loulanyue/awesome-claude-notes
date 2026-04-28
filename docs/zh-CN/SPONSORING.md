@@ -1,3 +1,6 @@
+---
+source_path: SPONSORING.md
+---
 # 赞助 ECC
 
 ECC 作为一个开源智能体性能测试系统，在 Claude Code、Cursor、OpenCode 和 Codex 应用程序/CLI 中得到维护。
@@ -41,3 +44,10 @@ ECC 作为一个开源智能体性能测试系统，在 Claude Code、Cursor、O
 
 * GitHub Sponsors: <https://github.com/sponsors/affaan-m>
 * 项目网站: <https://ecc.tools>
+
+## 原文
+- [英文原文](../../SPONSORING.md)
+
+## 导航
+- [中文文档导航](README.md)
+- [贡献指南](../../CONTRIBUTING.md)

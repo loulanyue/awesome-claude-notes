@@ -1,6 +1,7 @@
 ---
 name: continuous-learning-v2
 description: フックを介してセッションを観察し、信頼度スコアリング付きのアトミックなインスティンクトを作成し、スキル/コマンド/エージェントに進化させるインスティンクトベースの学習システム。
+source_path: skills/continuous-learning-v2/SKILL.md
 version: 2.0.0
 ---
 
@@ -282,3 +283,11 @@ v2はv1と完全に互換性があります：
 ---
 
 *インスティンクトベースの学習：一度に1つの観察で、Claudeにあなたのパターンを教える。*
+
+## 原文
+- [英語版の原文](../../../../skills/continuous-learning-v2/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

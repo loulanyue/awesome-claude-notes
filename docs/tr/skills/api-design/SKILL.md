@@ -1,6 +1,7 @@
 ---
 name: api-design
 description: REST API tasarım kalıpları; kaynak isimlendirme, durum kodları, sayfalama, filtreleme, hata yanıtları, versiyonlama ve üretim API'leri için hız sınırlama içerir.
+source_path: skills/api-design/SKILL.md
 origin: ECC
 ---
 
@@ -521,3 +522,10 @@ Yeni bir endpoint yayınlamadan önce:
 - [ ] Yanıt dahili detayları sızdırmıyor (stack trace'ler, SQL hataları)
 - [ ] Mevcut endpoint'lerle tutarlı isimlendirme (camelCase vs snake_case)
 - [ ] Dokümante edilmiş (OpenAPI/Swagger spec güncellenmiş)
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/api-design/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

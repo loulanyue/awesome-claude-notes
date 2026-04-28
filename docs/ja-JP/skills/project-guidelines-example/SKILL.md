@@ -1,3 +1,7 @@
+---
+description: "Example project-specific skill template based on a real production application."
+source_path: skills/project-guidelines-example/SKILL.md
+---
 # プロジェクトガイドラインスキル（例）
 
 これはプロジェクト固有のスキルの例です。自分のプロジェクトのテンプレートとして使用してください。
@@ -343,3 +347,11 @@ SUPABASE_KEY=eyJ...
 - `backend-patterns.md` - APIとデータベースパターン
 - `frontend-patterns.md` - ReactとNext.jsパターン
 - `tdd-workflow/` - テスト駆動開発の方法論
+
+## 原文
+- [英語版の原文](../../../../skills/project-guidelines-example/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

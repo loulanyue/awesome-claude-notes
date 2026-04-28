@@ -1,6 +1,7 @@
 ---
 name: laravel-tdd
 description: 使用 PHPUnit 和 Pest、工厂、数据库测试、模拟以及覆盖率目标进行 Laravel 的测试驱动开发。
+source_path: skills/laravel-tdd/SKILL.md
 origin: ECC
 ---
 
@@ -281,3 +282,10 @@ final class DashboardInertiaTest extends TestCase
 ```
 
 优先使用 `assertInertia` 而非原始 JSON 断言，以保持测试与 Inertia 响应一致。
+
+## 原文
+- [英文原文](../../../../skills/laravel-tdd/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

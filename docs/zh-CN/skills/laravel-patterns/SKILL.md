@@ -1,6 +1,7 @@
 ---
 name: laravel-patterns
 description: Laravel架构模式、路由/控制器、Eloquent ORM、服务层、队列、事件、缓存以及用于生产应用的API资源。
+source_path: skills/laravel-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -413,3 +414,10 @@ return response()->json([
 
 * 将机密信息保存在 `.env` 中，将配置保存在 `config/*.php` 中
 * 使用按环境配置覆盖，并在生产环境中使用 `config:cache`
+
+## 原文
+- [英文原文](../../../../skills/laravel-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

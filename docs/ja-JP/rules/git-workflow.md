@@ -1,3 +1,6 @@
+---
+source_path: rules/common/git-workflow.md
+---
 # Git ワークフロー
 
 ## コミットメッセージフォーマット
@@ -43,3 +46,11 @@ PR を作成する際:
 4. **コミット & プッシュ**
    - 詳細なコミットメッセージ
    - Conventional Commits フォーマットに従う
+
+## 原文
+- [英語版の原文](../../../rules/common/git-workflow.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [rules/README.md](README.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

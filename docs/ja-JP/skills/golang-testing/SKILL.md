@@ -1,6 +1,7 @@
 ---
 name: golang-testing
 description: テスト駆動開発とGoコードの高品質を保証するための包括的なテスト戦略。
+source_path: skills/golang-testing/SKILL.md
 ---
 
 # Go テスト
@@ -957,3 +958,11 @@ func TestCheckError(t *testing.T) {
 | `-tags=integration` | ビルドタグでテストを実行 |
 
 **覚えておいてください**: 良いテストは高速で、信頼性があり、保守可能で、明確です。複雑さより明確さを目指してください。
+
+## 原文
+- [英語版の原文](../../../../skills/golang-testing/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: golang-patterns
 description: 堅牢で効率的かつ保守可能なGoアプリケーションを構築するための慣用的なGoパターン、ベストプラクティス、規約。
+source_path: skills/golang-patterns/SKILL.md
 ---
 
 # Go開発パターン
@@ -671,3 +672,11 @@ func (c *Counter) Increment() { c.n++ }        // Pointer receiver
 ```
 
 **覚えておいてください**: Goコードは最良の意味で退屈であるべきです - 予測可能で、一貫性があり、理解しやすい。迷ったときは、シンプルに保ってください。
+
+## 原文
+- [英語版の原文](../../../../skills/golang-patterns/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: investor-outreach
 description: 草拟冷邮件、热情介绍简介、跟进邮件、更新邮件和投资者沟通以筹集资金。当用户需要向天使投资人、风险投资公司、战略投资者或加速器进行推广，并需要简洁、个性化的面向投资者的消息时使用。
+source_path: skills/investor-outreach/SKILL.md
 origin: ECC
 ---
 
@@ -79,3 +80,10 @@ origin: ECC
 * 没有废话或乞求性语言
 * 证据点具体
 * 字数保持紧凑
+
+## 原文
+- [英文原文](../../../../skills/investor-outreach/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

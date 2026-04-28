@@ -1,3 +1,6 @@
+---
+source_path: rules/common/hooks.md
+---
 # 훅 시스템
 
 ## 훅 유형
@@ -28,3 +31,10 @@ Todo 목록으로 확인 가능한 것:
 - 불필요한 추가 항목
 - 잘못된 세분화 수준
 - 잘못 해석된 요구사항
+
+## 원문
+- [영문 원문](../../../rules/common/hooks.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

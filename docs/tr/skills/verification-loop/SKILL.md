@@ -1,6 +1,7 @@
 ---
 name: verification-loop
 description: "Claude Code oturumları için kapsamlı doğrulama sistemi."
+source_path: skills/verification-loop/SKILL.md
 origin: ECC
 ---
 
@@ -124,3 +125,10 @@ Mental kontrol noktası belirle:
 
 Bu skill PostToolUse hook'larını tamamlar ancak daha derin doğrulama sağlar.
 Hook'lar sorunları anında yakalar; bu skill kapsamlı inceleme sağlar.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/verification-loop/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

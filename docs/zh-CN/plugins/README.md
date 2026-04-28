@@ -1,3 +1,6 @@
+---
+source_path: plugins/README.md
+---
 # 插件与市场
 
 插件扩展了 Claude Code 的功能，为其添加新工具和能力。本指南仅涵盖安装部分 - 关于何时以及为何使用插件，请参阅[完整文章](https://x.com/affaanmustafa/status/2012378465664745795)。
@@ -87,3 +90,10 @@ claude plugin marketplace add https://github.com/mixedbread-ai/mgrep
 |-- known_marketplaces.json   # 已添加的市场
 |-- marketplaces/             # 市场数据
 ```
+
+## 原文
+- [英文原文](../../../plugins/README.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [贡献指南](../../../CONTRIBUTING.md)

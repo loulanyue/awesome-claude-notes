@@ -1,6 +1,7 @@
 ---
 name: kotlin-patterns
 description: Coroutine'ler, null safety ve DSL builder'lar ile sağlam, verimli ve sürdürülebilir Kotlin uygulamaları oluşturmak için idiomatic Kotlin kalıpları, en iyi uygulamalar ve konvansiyonlar.
+source_path: skills/kotlin-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -533,3 +534,10 @@ user?.address?.city?.let { process(it) }
 ```
 
 **Hatırla**: Kotlin kodu kısa ama okunabilir olmalı. Güvenlik için tip sisteminden yararlanın, immutability tercih edin ve eşzamanlılık için coroutine'ler kullanın. Şüpheye düştüğünüzde, derleyicinin size yardım etmesine izin verin.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/kotlin-patterns/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

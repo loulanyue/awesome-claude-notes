@@ -1,3 +1,6 @@
+---
+source_path: rules/common/git-workflow.md
+---
 # Fluxo de Trabalho Git
 
 ## Formato de Mensagem de Commit
@@ -22,3 +25,10 @@ Ao criar PRs:
 
 > Para o processo de desenvolvimento completo (planejamento, TDD, revisão de código) antes de operações git,
 > veja [development-workflow.md](../../../rules/common/development-workflow.md).
+
+## Fonte canônica
+- [Documento original em inglês](../../../rules/common/git-workflow.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

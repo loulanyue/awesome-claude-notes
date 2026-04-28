@@ -444,12 +444,12 @@ Check existing skills in those directories for the expected structure. Keeping t
 
 Translations live under `docs/` (e.g. `docs/zh-CN`, `docs/zh-TW`, `docs/ja-JP`, `docs/ko-KR`, `docs/pt-BR`, `docs/tr`). If you change agents, commands, or skills that are translated, consider updating the corresponding translation files or opening an issue so maintainers or translators can update them.
 
-Localized command, agent, and context docs under `docs/<locale>/` should also keep shared structure metadata aligned with their canonical English instruction docs.
+Localized command, agent, context, rule, skill, example, and supporting docs under `docs/<locale>/` should keep shared structure metadata aligned with their canonical English source files whenever a canonical source exists.
 
 - Add a `source_path` frontmatter field pointing to the canonical instruction doc (`commands/...`, `agents/...`, or `contexts/...`).
 - Keep a dedicated source section that links back to the canonical English file.
-- End each localized instruction doc with a localized navigation section that points to the locale indexes plus the shared command-agent map.
-- Run `npm run docs:sync:localized-instructions` after editing localized instruction docs so metadata, index pages, and navigation stay normalized repo-wide.
+- End each localized markdown doc with a localized navigation section that points back to the locale landing page and relevant indexes.
+- Run `npm run docs:sync:localized-docs` after editing translated markdown so metadata, index pages, and navigation stay normalized repo-wide.
 
 ---
 

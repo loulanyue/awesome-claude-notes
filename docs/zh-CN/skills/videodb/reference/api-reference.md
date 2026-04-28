@@ -1,3 +1,6 @@
+---
+source_path: skills/videodb/reference/api-reference.md
+---
 # 完整 API 参考
 
 VideoDB 技能参考材料。关于使用指南和工作流选择，请从 [../SKILL.md](../SKILL.md) 开始。
@@ -548,3 +551,10 @@ from videodb.exceptions import (
 | `RequestTimeoutError` | 服务器响应时间过长 |
 | `SearchError` | 在索引前进行搜索、无效的搜索类型 |
 | `VideodbError` | 服务器错误、网络问题、通用故障 |
+
+## 原文
+- [英文原文](../../../../../skills/videodb/reference/api-reference.md)
+
+## 导航
+- [中文文档导航](../../../README.md)
+- [贡献指南](../../../../../CONTRIBUTING.md)

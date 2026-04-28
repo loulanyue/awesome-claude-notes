@@ -1,6 +1,7 @@
 ---
 name: verification-loop
 description: "Claude Code 세션을 위한 포괄적인 검증 시스템."
+source_path: skills/verification-loop/SKILL.md
 origin: ECC
 ---
 
@@ -125,3 +126,10 @@ Run: /verify
 
 이 스킬은 PostToolUse Hook을 보완하지만 더 깊은 검증을 제공합니다.
 Hook은 즉시 문제를 포착하고, 이 스킬은 포괄적인 검토를 제공합니다.
+
+## 원문
+- [영문 원문](../../../../skills/verification-loop/SKILL.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

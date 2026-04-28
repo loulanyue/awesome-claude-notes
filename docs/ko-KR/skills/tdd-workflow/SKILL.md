@@ -1,6 +1,7 @@
 ---
 name: tdd-workflow
 description: 새 기능 작성, 버그 수정 또는 코드 리팩터링 시 이 스킬을 사용하세요. 단위, 통합, E2E 테스트를 포함한 80% 이상의 커버리지로 테스트 주도 개발을 시행합니다.
+source_path: skills/tdd-workflow/SKILL.md
 origin: ECC
 ---
 
@@ -406,3 +407,10 @@ npm test && npm run lint
 ---
 
 **기억하세요**: 테스트는 선택 사항이 아닙니다. 테스트는 자신감 있는 리팩터링, 빠른 개발, 그리고 프로덕션 안정성을 가능하게 하는 안전망입니다.
+
+## 원문
+- [영문 원문](../../../../skills/tdd-workflow/SKILL.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

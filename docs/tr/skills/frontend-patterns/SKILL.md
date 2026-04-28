@@ -1,6 +1,7 @@
 ---
 name: frontend-patterns
 description: React, Next.js, state yönetimi, performans optimizasyonu ve UI en iyi uygulamaları için frontend geliştirme kalıpları.
+source_path: skills/frontend-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -640,3 +641,10 @@ export function Modal({ isOpen, onClose, children }: ModalProps) {
 ```
 
 **Unutmayın**: Modern frontend kalıpları sürdürülebilir, performanslı kullanıcı arayüzleri sağlar. Proje karmaşıklığınıza uyan kalıpları seçin.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/frontend-patterns/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

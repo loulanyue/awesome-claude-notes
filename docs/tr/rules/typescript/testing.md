@@ -1,9 +1,6 @@
 ---
-paths:
-  - "**/*.ts"
-  - "**/*.tsx"
-  - "**/*.js"
-  - "**/*.jsx"
+source_path: rules/typescript/testing.md
+paths: 
 ---
 # TypeScript/JavaScript Testing
 
@@ -16,3 +13,11 @@ Kritik kullanıcı akışları için E2E test framework'ü olarak **Playwright**
 ## Agent Desteği
 
 - **e2e-runner** - Playwright E2E testing uzmanı
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/typescript/testing.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

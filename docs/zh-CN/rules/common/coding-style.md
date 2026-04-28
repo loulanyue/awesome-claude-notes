@@ -1,3 +1,6 @@
+---
+source_path: rules/common/coding-style.md
+---
 # 编码风格
 
 ## 不可变性（关键）
@@ -50,3 +53,11 @@ CORRECT: update(original, field, value) → 返回包含更改的新副本
 * \[ ] 正确的错误处理
 * \[ ] 没有硬编码的值（使用常量或配置）
 * \[ ] 没有突变（使用不可变模式）
+
+## 原文
+- [英文原文](../../../../rules/common/coding-style.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

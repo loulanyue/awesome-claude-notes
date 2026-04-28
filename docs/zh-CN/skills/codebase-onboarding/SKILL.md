@@ -1,6 +1,7 @@
 ---
 name: codebase-onboarding
 description: 分析一个陌生的代码库，并生成一个结构化的入门指南，包括架构图、关键入口点、规范和一个起始的CLAUDE.md文件。适用于加入新项目或首次在代码仓库中设置Claude Code时。
+source_path: skills/codebase-onboarding/SKILL.md
 origin: ECC
 ---
 
@@ -241,3 +242,10 @@ scripts/         → 构建和部署脚本
 **用户**：“用当前项目规范更新 CLAUDE.md”
 **操作**：读取现有 CLAUDE.md，运行阶段 1-3，合并新发现
 **输出**：更新后的 `CLAUDE.md`，并明确标记了新增内容
+
+## 原文
+- [英文原文](../../../../skills/codebase-onboarding/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

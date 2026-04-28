@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.py"
-  - "**/*.pyi"
+source_path: rules/python/hooks.md
+paths: 
 ---
 
 # Python 钩子
@@ -18,3 +17,11 @@ paths:
 ## 警告
 
 * 对编辑文件中的 `print()` 语句发出警告（应使用 `logging` 模块替代）
+
+## 原文
+- [英文原文](../../../../rules/python/hooks.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

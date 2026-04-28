@@ -1,3 +1,6 @@
+---
+source_path: skills/visa-doc-translate/README.md
+---
 # 签证文件翻译器
 
 自动将签证申请文件从图像翻译为专业的英文 PDF。
@@ -89,3 +92,10 @@ pip install pytesseract
 ## 许可证
 
 MIT
+
+## 原文
+- [英文原文](../../../../skills/visa-doc-translate/README.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

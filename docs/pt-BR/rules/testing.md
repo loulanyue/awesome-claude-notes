@@ -1,3 +1,6 @@
+---
+source_path: rules/common/testing.md
+---
 # Requisitos de Teste
 
 ## Cobertura Mínima de Teste: 80%
@@ -27,3 +30,10 @@ Fluxo de trabalho OBRIGATÓRIO:
 ## Suporte de Agentes
 
 - **tdd-guide** - Use PROATIVAMENTE para novos recursos, aplica escrever-testes-primeiro
+
+## Fonte canônica
+- [Documento original em inglês](../../../rules/common/testing.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

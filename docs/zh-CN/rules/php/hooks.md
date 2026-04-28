@@ -1,10 +1,6 @@
 ---
-paths:
-  - "**/*.php"
-  - "**/composer.json"
-  - "**/phpstan.neon"
-  - "**/phpstan.neon.dist"
-  - "**/psalm.xml"
+source_path: rules/php/hooks.md
+paths: 
 ---
 
 # PHP 钩子
@@ -23,3 +19,11 @@ paths:
 
 * 当编辑过的文件中存在 `var_dump`、`dd`、`dump` 或 `die()` 时发出警告。
 * 当编辑的 PHP 文件添加了原始 SQL 或禁用了 CSRF/会话保护时发出警告。
+
+## 原文
+- [英文原文](../../../../rules/php/hooks.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

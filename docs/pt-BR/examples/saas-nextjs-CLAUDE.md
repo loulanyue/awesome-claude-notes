@@ -1,3 +1,6 @@
+---
+source_path: examples/saas-nextjs-CLAUDE.md
+---
 # Aplicação SaaS — CLAUDE.md de Projeto
 
 > Exemplo real para uma aplicação SaaS com Next.js + Supabase + Stripe.
@@ -164,3 +167,10 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 - Branches de feature a partir da `main`, PRs obrigatórios
 - CI roda: lint, type-check, unit tests, E2E tests
 - Deploy: preview da Vercel em PR, produção no merge para `main`
+
+## Fonte canônica
+- [Documento original em inglês](../../../examples/saas-nextjs-CLAUDE.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

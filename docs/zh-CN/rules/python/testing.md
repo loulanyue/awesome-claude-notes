@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.py"
-  - "**/*.pyi"
+source_path: rules/python/testing.md
+paths: 
 ---
 
 # Python 测试
@@ -37,3 +36,11 @@ def test_database_connection():
 ## 参考
 
 查看技能：`python-testing` 以获取详细的 pytest 模式和夹具信息。
+
+## 原文
+- [英文原文](../../../../rules/python/testing.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

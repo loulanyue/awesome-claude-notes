@@ -1,3 +1,6 @@
+---
+source_path: rules/common/patterns.md
+---
 # 常见模式
 
 ## 骨架项目
@@ -32,3 +35,11 @@
 * 包含数据载荷（出错时可为空）
 * 包含一个错误消息字段（成功时可为空）
 * 为分页响应包含元数据（总数、页码、限制）
+
+## 原文
+- [英文原文](../../../../rules/common/patterns.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

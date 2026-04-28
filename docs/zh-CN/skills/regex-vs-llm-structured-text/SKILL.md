@@ -1,6 +1,7 @@
 ---
 name: regex-vs-llm-structured-text
 description: 选择在解析结构化文本时使用正则表达式还是大型语言模型的决策框架——从正则表达式开始，仅在低置信度的边缘情况下添加大型语言模型。
+source_path: skills/regex-vs-llm-structured-text/SKILL.md
 origin: ECC
 ---
 
@@ -215,3 +216,10 @@ def process_document(
 * 发票/收据处理
 * 文档结构解析（标题、章节、表格）
 * 任何具有重复模式且成本重要的结构化文本
+
+## 原文
+- [英文原文](../../../../skills/regex-vs-llm-structured-text/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

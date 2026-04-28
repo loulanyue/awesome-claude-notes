@@ -1,6 +1,7 @@
 ---
 name: backend-patterns
 description: 后端架构模式、API设计、数据库优化以及适用于Node.js、Express和Next.js API路由的服务器端最佳实践。
+source_path: skills/backend-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -596,3 +597,10 @@ export async function GET(request: Request) {
 ```
 
 **记住**：后端模式支持可扩展、可维护的服务器端应用程序。选择适合你复杂程度的模式。
+
+## 原文
+- [英文原文](../../../../skills/backend-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

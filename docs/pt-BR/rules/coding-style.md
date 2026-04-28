@@ -1,3 +1,6 @@
+---
+source_path: rules/common/coding-style.md
+---
 # Estilo de Código
 
 ## Imutabilidade (CRÍTICO)
@@ -46,3 +49,10 @@ Antes de marcar o trabalho como concluído:
 - [ ] Tratamento adequado de erros
 - [ ] Sem valores hardcoded (use constantes ou config)
 - [ ] Sem mutação (padrões imutáveis usados)
+
+## Fonte canônica
+- [Documento original em inglês](../../../rules/common/coding-style.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

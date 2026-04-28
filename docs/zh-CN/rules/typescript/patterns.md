@@ -1,9 +1,6 @@
 ---
-paths:
-  - "**/*.ts"
-  - "**/*.tsx"
-  - "**/*.js"
-  - "**/*.jsx"
+source_path: rules/typescript/patterns.md
+paths: 
 ---
 
 # TypeScript/JavaScript 模式
@@ -51,3 +48,11 @@ interface Repository<T> {
   delete(id: string): Promise<void>
 }
 ```
+
+## 原文
+- [英文原文](../../../../rules/typescript/patterns.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

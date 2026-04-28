@@ -1,6 +1,6 @@
 ---
-paths:
-  - "**/*.rs"
+source_path: rules/rust/coding-style.md
+paths: 
 ---
 
 # Rust 编码风格
@@ -151,3 +151,11 @@ src/
 ## 参考
 
 有关全面的 Rust 惯用法和模式，请参阅技能：`rust-patterns`。
+
+## 原文
+- [英文原文](../../../../rules/rust/coding-style.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

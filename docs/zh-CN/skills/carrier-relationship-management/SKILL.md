@@ -1,13 +1,14 @@
 ---
 name: carrier-relationship-management
 description: 用于管理承运商组合、协商运费、跟踪承运商绩效、分配货运以及维护战略承运商关系的编码专业知识。基于拥有15年以上经验的运输经理提供的信息。包括记分卡框架、RFP流程、市场情报和合规性审查。适用于管理承运商、协商费率、评估承运商绩效或制定货运策略时使用。license: Apache-2.0
+source_path: skills/carrier-relationship-management/SKILL.md
 version: 1.0.0
 homepage: https://github.com/loulanyue/awesome-claude-notes
 origin: ECC
-metadata:
-  author: evos
-  clawdbot:
-    emoji: "🤝"
+metadata: 
+author: evos
+clawdbot: 
+emoji: "🤝"
 ---
 
 # 承运商关系管理
@@ -197,3 +198,10 @@ metadata:
 
 * 在同一运营审查中跟踪承运人记分卡、异常趋势和路由指南合规情况，以便定价和服务决策保持关联。
 * 在将此技能用于生产环境之前，请先记录您组织偏好的谈判立场、附加费护栏和升级触发条件。
+
+## 原文
+- [英文原文](../../../../skills/carrier-relationship-management/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

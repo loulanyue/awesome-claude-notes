@@ -1,6 +1,7 @@
 ---
 name: springboot-verification
 description: "Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR."
+source_path: skills/springboot-verification/SKILL.md
 origin: ECC
 ---
 
@@ -229,3 +230,10 @@ Düzeltilecek Sorunlar:
 - Kısa döngü tutun: hızlı geri bildirim için `mvn -T 4 test` + spotbugs
 
 **Unutmayın**: Hızlı geri bildirim geç sürprizleri yener. Kapıyı sıkı tutun—production sistemlerinde uyarıları kusur olarak değerlendirin.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/springboot-verification/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

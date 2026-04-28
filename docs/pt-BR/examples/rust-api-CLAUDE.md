@@ -1,3 +1,6 @@
+---
+source_path: examples/rust-api-CLAUDE.md
+---
 # Serviço de API Rust — CLAUDE.md de Projeto
 
 > Exemplo real para um serviço de API Rust com Axum, PostgreSQL e Docker.
@@ -283,3 +286,10 @@ cargo fmt -- --check
 - Branches de feature a partir da `main`, PRs obrigatórios
 - CI: `cargo fmt --check`, `cargo clippy`, `cargo test`, `cargo audit`
 - Deploy: Docker multi-stage build com base `scratch` ou `distroless`
+
+## Fonte canônica
+- [Documento original em inglês](../../../examples/rust-api-CLAUDE.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

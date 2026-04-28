@@ -1,6 +1,7 @@
 ---
 name: tdd-workflow
 description: 在编写新功能、修复错误或重构代码时使用此技能。强制执行测试驱动开发，确保单元测试、集成测试和端到端测试的覆盖率超过80%。
+source_path: skills/tdd-workflow/SKILL.md
 origin: ECC
 ---
 
@@ -438,3 +439,10 @@ npm test && npm run lint
 ***
 
 **记住**：测试不是可选的。它们是安全网，能够实现自信的重构、快速的开发和生产的可靠性。
+
+## 原文
+- [英文原文](../../../../skills/tdd-workflow/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: iterative-retrieval
 description: サブエージェントのコンテキスト問題を解決するために、コンテキスト取得を段階的に洗練するパターン
+source_path: skills/iterative-retrieval/SKILL.md
 ---
 
 # 反復検索パターン
@@ -200,3 +201,11 @@ async function iterativeRetrieve(task, maxCycles = 3) {
 - [The Longform Guide](https://x.com/affaanmustafa/status/2014040193557471352) - サブエージェントオーケストレーションセクション
 - `continuous-learning`スキル - 時間とともに改善するパターン用
 - `~/.claude/agents/`内のエージェント定義
+
+## 原文
+- [英語版の原文](../../../../skills/iterative-retrieval/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

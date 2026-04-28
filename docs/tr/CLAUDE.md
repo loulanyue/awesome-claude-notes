@@ -1,3 +1,6 @@
+---
+source_path: CLAUDE.md
+---
 # CLAUDE.md
 
 Bu dosya, bu depodaki kodlarla çalışırken Claude Code'a (claude.ai/code) rehberlik sağlar.
@@ -58,3 +61,10 @@ CONTRIBUTING.md'deki formatları takip edin:
 - Hooks: Matcher ve hooks array ile JSON
 
 Dosya isimlendirme: tire ile küçük harfler (örn., `python-reviewer.md`, `tdd-workflow.md`)
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../CLAUDE.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](README.md)
+- [Katkı rehberi](../../CONTRIBUTING.md)

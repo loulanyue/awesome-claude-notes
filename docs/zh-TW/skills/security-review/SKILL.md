@@ -1,6 +1,7 @@
 ---
 name: security-review
 description: Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.
+source_path: skills/security-review/SKILL.md
 ---
 
 # 安全性審查技能
@@ -492,3 +493,10 @@ test('enforces rate limits', async () => {
 ---
 
 **記住**：安全性不是可選的。一個漏洞可能危及整個平台。有疑慮時，選擇謹慎的做法。
+
+## 原文
+- [英文原文](../../../../skills/security-review/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

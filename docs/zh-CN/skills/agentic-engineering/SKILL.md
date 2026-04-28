@@ -1,6 +1,7 @@
 ---
 name: agentic-engineering
 description: 作为代理工程师，采用评估优先执行、分解和成本感知模型路由进行操作。
+source_path: skills/agentic-engineering/SKILL.md
 origin: ECC
 ---
 
@@ -64,3 +65,10 @@ origin: ECC
 * 成功/失败
 
 仅当较低层级的模型失败且存在清晰的推理差距时，才升级模型层级。
+
+## 原文
+- [英文原文](../../../../skills/agentic-engineering/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

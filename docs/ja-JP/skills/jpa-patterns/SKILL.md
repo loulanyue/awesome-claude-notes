@@ -1,6 +1,7 @@
 ---
 name: jpa-patterns
 description: JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditing, indexing, pagination, and pooling in Spring Boot.
+source_path: skills/jpa-patterns/SKILL.md
 ---
 
 # JPA/Hibernate パターン
@@ -139,3 +140,11 @@ spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 - ログを使用してSQL効率をアサート: パラメータ値には `logging.level.org.hibernate.SQL=DEBUG` と `logging.level.org.hibernate.orm.jdbc.bind=TRACE` を設定
 
 **注意**: エンティティを軽量に保ち、クエリを意図的にし、トランザクションを短く保ちます。フェッチ戦略とプロジェクションでN+1を防ぎ、読み取り/書き込みパスにインデックスを作成します。
+
+## 原文
+- [英語版の原文](../../../../skills/jpa-patterns/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: the-longform-guide.md
+---
 # Claude Code'un Her Şeyine Dair Uzun Kılavuz
 
 ![Header: The Longform Guide to awesome claude notes](../../assets/images/longform/01-header.png)
@@ -352,3 +355,10 @@ alias q='cd ~/Desktop/projects'
 ---
 
 *Her iki kılavuzda ele alınan her şey GitHub'da [awesome-claude-notes](https://github.com/loulanyue/awesome-claude-notes) adresinde mevcuttur*
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../the-longform-guide.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](README.md)
+- [Katkı rehberi](../../CONTRIBUTING.md)

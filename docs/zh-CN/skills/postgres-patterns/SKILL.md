@@ -1,6 +1,7 @@
 ---
 name: postgres-patterns
 description: 用于查询优化、模式设计、索引和安全性的PostgreSQL数据库模式。基于Supabase最佳实践。
+source_path: skills/postgres-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -152,3 +153,10 @@ SELECT pg_reload_conf();
 ***
 
 *基于 Supabase 代理技能（致谢：Supabase 团队）（MIT 许可证）*
+
+## 原文
+- [英文原文](../../../../skills/postgres-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

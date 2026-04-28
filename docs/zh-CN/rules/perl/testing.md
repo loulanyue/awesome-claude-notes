@@ -1,10 +1,6 @@
 ---
-paths:
-  - "**/*.pl"
-  - "**/*.pm"
-  - "**/*.t"
-  - "**/*.psgi"
-  - "**/*.cgi"
+source_path: rules/perl/testing.md
+paths: 
 ---
 
 # Perl 测试
@@ -53,3 +49,11 @@ cover -test
 ## 参考
 
 有关使用 Test2::V0、prove 和 Devel::Cover 的详细 Perl TDD 模式，请参阅技能：`perl-testing`。
+
+## 原文
+- [英文原文](../../../../rules/perl/testing.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

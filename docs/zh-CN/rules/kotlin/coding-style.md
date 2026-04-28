@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.kt"
-  - "**/*.kts"
+source_path: rules/kotlin/coding-style.md
+paths: 
 ---
 
 # Kotlin 编码风格
@@ -88,3 +87,11 @@ val user = try { repository.getUser(id) } catch (e: NotFoundException) { null }
 // GOOD — nullable return
 val user: User? = repository.findUser(id)
 ```
+
+## 原文
+- [英文原文](../../../../rules/kotlin/coding-style.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

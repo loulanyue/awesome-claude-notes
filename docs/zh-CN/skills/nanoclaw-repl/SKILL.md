@@ -1,6 +1,7 @@
 ---
 name: nanoclaw-repl
 description: 操作并扩展NanoClaw v2，这是ECC基于claude -p构建的零依赖会话感知REPL。
+source_path: skills/nanoclaw-repl/SKILL.md
 origin: ECC
 ---
 
@@ -31,3 +32,10 @@ origin: ECC
 * 保持零外部运行时依赖
 * 保持以 Markdown 作为数据库的兼容性
 * 保持命令处理器的确定性和本地性
+
+## 原文
+- [英文原文](../../../../skills/nanoclaw-repl/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

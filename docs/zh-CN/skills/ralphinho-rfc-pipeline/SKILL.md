@@ -1,6 +1,7 @@
 ---
 name: ralphinho-rfc-pipeline
 description: 基于RFC驱动的多智能体DAG执行模式，包含质量门、合并队列和工作单元编排。
+source_path: skills/ralphinho-rfc-pipeline/SKILL.md
 origin: ECC
 ---
 
@@ -67,3 +68,10 @@ origin: ECC
 * 单元记分卡
 * 依赖关系图快照
 * 集成风险摘要
+
+## 原文
+- [英文原文](../../../../skills/ralphinho-rfc-pipeline/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

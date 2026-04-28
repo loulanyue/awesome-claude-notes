@@ -1,6 +1,7 @@
 ---
 name: crosspost
 description: 跨X、LinkedIn、Threads和Bluesky的多平台内容分发。使用内容引擎模式根据平台适配内容。从不跨平台发布相同内容。当用户希望跨社交平台分发内容时使用。
+source_path: skills/crosspost/SKILL.md
 origin: ECC
 ---
 
@@ -205,3 +206,10 @@ resp.raise_for_status()
 
 * `content-engine` — 生成平台原生内容
 * `x-api` — X/Twitter API 集成
+
+## 原文
+- [英文原文](../../../../skills/crosspost/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

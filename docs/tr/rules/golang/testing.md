@@ -1,8 +1,6 @@
 ---
-paths:
-  - "**/*.go"
-  - "**/go.mod"
-  - "**/go.sum"
+source_path: rules/golang/testing.md
+paths: 
 ---
 # Go Testing
 
@@ -29,3 +27,11 @@ go test -cover ./...
 ## Referans
 
 Detaylı Go test pattern'leri ve helper'lar için skill: `golang-testing` dosyasına bakın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/golang/testing.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

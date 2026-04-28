@@ -1,3 +1,6 @@
+---
+source_path: examples/rust-api-CLAUDE.md
+---
 # Rust API 服务 — 项目 CLAUDE.md
 
 > 使用 Axum、PostgreSQL 和 Docker 构建 Rust API 服务的真实示例。
@@ -283,3 +286,10 @@ cargo fmt -- --check
 * 从 `main` 创建功能分支，需要 PR
 * CI：`cargo fmt --check`、`cargo clippy`、`cargo test`、`cargo audit`
 * 部署：使用 `scratch` 或 `distroless` 基础镜像的 Docker 多阶段构建
+
+## 原文
+- [英文原文](../../../examples/rust-api-CLAUDE.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [贡献指南](../../../CONTRIBUTING.md)

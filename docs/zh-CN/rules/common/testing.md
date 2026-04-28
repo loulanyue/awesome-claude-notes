@@ -1,3 +1,6 @@
+---
+source_path: rules/common/testing.md
+---
 # 测试要求
 
 ## 最低测试覆盖率：80%
@@ -29,3 +32,11 @@
 ## 代理支持
 
 * **tdd-guide** - 主动用于新功能，强制执行测试优先
+
+## 原文
+- [英文原文](../../../../rules/common/testing.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

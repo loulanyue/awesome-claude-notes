@@ -2,6 +2,7 @@
 name: eval-harness
 description: Claude Codeセッションの正式な評価フレームワークで、評価駆動開発（EDD）の原則を実装します
 tools: Read, Write, Edit, Bash, Grep, Glob
+source_path: skills/eval-harness/SKILL.md
 ---
 
 # Eval Harnessスキル
@@ -225,3 +226,11 @@ Capability: 5/5 passed (pass@3: 100%)
 Regression: 3/3 passed (pass^3: 100%)
 Status: SHIP IT
 ```
+
+## 原文
+- [英語版の原文](../../../../skills/eval-harness/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

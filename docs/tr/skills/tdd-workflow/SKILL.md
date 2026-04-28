@@ -1,6 +1,7 @@
 ---
 name: tdd-workflow
 description: Yeni özellikler yazarken, hata düzeltirken veya kod refactor ederken bu skill'i kullanın. Unit, integration ve E2E testlerini içeren %80+ kapsam ile test güdümlü geliştirmeyi zorlar.
+source_path: skills/tdd-workflow/SKILL.md
 origin: ECC
 ---
 
@@ -408,3 +409,10 @@ npm test && npm run lint
 ---
 
 **Unutmayın**: Testler opsiyonel değildir. Güvenli refactoring, hızlı geliştirme ve production güvenilirliği sağlayan güvenlik ağıdırlar.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/tdd-workflow/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

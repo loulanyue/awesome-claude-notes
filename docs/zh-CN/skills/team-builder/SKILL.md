@@ -1,6 +1,7 @@
 ---
 name: team-builder
 description: 用于组合和派遣并行团队的交互式代理选择器
+source_path: skills/team-builder/SKILL.md
 origin: community
 ---
 
@@ -163,3 +164,10 @@ Claude:
 冲突点：安全建议的CSP阻止内联样式，SEO需要内联模式标记。解决方案：[...]
 后续步骤：[...]
 ```
+
+## 原文
+- [英文原文](../../../../skills/team-builder/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

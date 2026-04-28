@@ -1,6 +1,7 @@
 ---
 name: data-scraper-agent
 description: 构建一个全自动化的AI驱动数据收集代理，适用于任何公共来源——招聘网站、价格信息、新闻、GitHub、体育赛事等任何内容。按计划进行抓取，使用免费LLM（Gemini Flash）丰富数据，将结果存储在Notion/Sheets/Supabase中，并从用户反馈中学习。完全免费在GitHub Actions上运行。适用于用户希望自动监控、收集或跟踪任何公共数据的场景。
+source_path: skills/data-scraper-agent/SKILL.md
 origin: community
 ---
 
@@ -770,3 +771,10 @@ notion-client==2.2.1   # 如需使用 Notion
 一个使用此确切架构构建的完整工作代理将抓取4+个数据源，
 批量处理Gemini调用，从存储在Notion中的"已应用"/"已拒绝"决策中学习，并且
 在GitHub Actions上100%免费运行。按照上述步骤1-9构建您自己的代理。
+
+## 原文
+- [英文原文](../../../../skills/data-scraper-agent/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

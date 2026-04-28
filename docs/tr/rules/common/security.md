@@ -1,3 +1,6 @@
+---
+source_path: rules/common/security.md
+---
 # Güvenlik Kuralları
 
 ## Zorunlu Güvenlik Kontrolleri
@@ -27,3 +30,11 @@ Güvenlik sorunu bulunursa:
 3. Devam etmeden önce CRITICAL sorunları düzelt
 4. İfşa olmuş secret'ları rotate et
 5. Benzer sorunlar için tüm kod tabanını incele
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/common/security.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: rust-testing
 description: Rust测试模式，包括单元测试、集成测试、异步测试、基于属性的测试、模拟和覆盖率。遵循TDD方法学。
+source_path: skills/rust-testing/SKILL.md
 origin: ECC
 ---
 
@@ -500,3 +501,10 @@ test:
 ```
 
 **记住**：测试就是文档。它们展示了你的代码应如何使用。清晰编写并保持更新。
+
+## 原文
+- [英文原文](../../../../skills/rust-testing/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

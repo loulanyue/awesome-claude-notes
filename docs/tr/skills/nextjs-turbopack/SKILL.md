@@ -1,6 +1,7 @@
 ---
 name: nextjs-turbopack
 description: Next.js 16+ and Turbopack — incremental bundling, FS caching, dev speed, and when to use Turbopack vs webpack.
+source_path: skills/nextjs-turbopack/SKILL.md
 origin: ECC
 ---
 
@@ -42,3 +43,10 @@ Turbopack ile yerel geliştirme için `next dev` çalıştırın. Code-splitting
 - Kararlı Turbopack ve önbellekleme davranışı için güncel bir Next.js 16.x sürümünde kalın.
 - Dev yavaşsa, Turbopack'te (varsayılan) olduğunuzdan ve önbelleğin gereksiz yere temizlenmediğinden emin olun.
 - Production bundle boyutu sorunları için, sürümünüz için resmi Next.js bundle analiz araçlarını kullanın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/nextjs-turbopack/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

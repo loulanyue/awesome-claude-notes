@@ -1,13 +1,14 @@
 ---
 name: returns-reverse-logistics
 description: 用于退货授权、接收与检验、处置决策、退款处理、欺诈检测以及保修索赔管理的标准化专业知识。基于拥有15年以上经验的退货运营经理的见解。包括分级框架、处置经济学、欺诈模式识别和供应商回收流程。适用于处理产品退货、逆向物流、退款决策、退货欺诈检测或保修索赔时使用。license: Apache-2.0
+source_path: skills/returns-reverse-logistics/SKILL.md
 version: 1.0.0
 homepage: https://github.com/loulanyue/awesome-claude-notes
 origin: ECC
-metadata:
-  author: evos
-  clawdbot:
-    emoji: "🔄"
+metadata: 
+author: evos
+clawdbot: 
+emoji: "🔄"
 ---
 
 # 退货与逆向物流
@@ -223,3 +224,10 @@ metadata:
 
 * 在将此技能投入生产使用前，请将其与你的评分标准、欺诈审查阈值和退款授权矩阵配对。
 * 将补货标准、危险品退货处理和清算规则交由负责执行决策的运营团队就近保管。
+
+## 原文
+- [英文原文](../../../../skills/returns-reverse-logistics/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

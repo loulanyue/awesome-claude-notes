@@ -1,6 +1,7 @@
 ---
 name: agent-harness-construction
 description: 设计和优化AI代理的动作空间、工具定义和观察格式，以提高完成率。
+source_path: skills/agent-harness-construction/SKILL.md
 origin: ECC
 ---
 
@@ -75,3 +76,10 @@ origin: ECC
 * 不透明的工具输出，没有恢复提示。
 * 仅输出错误而没有后续步骤。
 * 上下文过载，包含不相关的引用。
+
+## 原文
+- [英文原文](../../../../skills/agent-harness-construction/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

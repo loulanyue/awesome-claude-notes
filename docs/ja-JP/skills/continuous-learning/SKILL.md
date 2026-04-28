@@ -1,6 +1,7 @@
 ---
 name: continuous-learning
 description: Claude Codeセッションから再利用可能なパターンを自動的に抽出し、将来の使用のために学習済みスキルとして保存します。
+source_path: skills/continuous-learning/SKILL.md
 ---
 
 # 継続学習スキル
@@ -108,3 +109,11 @@ Homunculus v2はより洗練されたアプローチを採用:
 5. **進化パス** - 関連する本能をスキル/コマンドにクラスタ化
 
 詳細: `docs/continuous-learning-v2-spec.md`を参照。
+
+## 原文
+- [英語版の原文](../../../../skills/continuous-learning/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

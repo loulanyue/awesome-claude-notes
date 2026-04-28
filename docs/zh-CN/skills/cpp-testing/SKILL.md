@@ -1,6 +1,7 @@
 ---
 name: cpp-testing
 description: 仅用于编写/更新/修复C++测试、配置GoogleTest/CTest、诊断失败或不稳定的测试，或添加覆盖率/消毒器时使用。
+source_path: skills/cpp-testing/SKILL.md
 origin: ECC
 ---
 
@@ -322,3 +323,10 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size) {
 
 * **Catch2**：仅头文件，表达性强的匹配器
 * **doctest**：轻量级，编译开销最小
+
+## 原文
+- [英文原文](../../../../skills/cpp-testing/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

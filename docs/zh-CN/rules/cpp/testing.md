@@ -1,12 +1,6 @@
 ---
-paths:
-  - "**/*.cpp"
-  - "**/*.hpp"
-  - "**/*.cc"
-  - "**/*.hh"
-  - "**/*.cxx"
-  - "**/*.h"
-  - "**/CMakeLists.txt"
+source_path: rules/cpp/testing.md
+paths: 
 ---
 
 # C++ 测试
@@ -43,3 +37,11 @@ cmake -DCMAKE_CXX_FLAGS="-fsanitize=address,undefined" ..
 ## 参考
 
 查看技能：`cpp-testing` 以获取详细的 C++ 测试模式、TDD 工作流以及 GoogleTest/GMock 使用指南。
+
+## 原文
+- [英文原文](../../../../rules/cpp/testing.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

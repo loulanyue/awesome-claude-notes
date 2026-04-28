@@ -1,9 +1,6 @@
 ---
-paths:
-  - "**/*.ts"
-  - "**/*.tsx"
-  - "**/*.js"
-  - "**/*.jsx"
+source_path: rules/typescript/security.md
+paths: 
 ---
 # TypeScript/JavaScript Güvenlik
 
@@ -26,3 +23,11 @@ if (!apiKey) {
 ## Agent Desteği
 
 - Kapsamlı güvenlik denetimleri için **security-reviewer** skill kullan
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/typescript/security.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

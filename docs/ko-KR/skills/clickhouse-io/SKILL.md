@@ -1,6 +1,7 @@
 ---
 name: clickhouse-io
 description: 고성능 분석 워크로드를 위한 ClickHouse 데이터베이스 패턴, 쿼리 최적화, 분석 및 데이터 엔지니어링 모범 사례.
+source_path: skills/clickhouse-io/SKILL.md
 origin: ECC
 ---
 
@@ -445,3 +446,10 @@ pgClient.on('notification', async (msg) => {
 - 슬로우 쿼리 로그 검토
 
 **기억하세요**: ClickHouse는 분석 워크로드에 탁월합니다. 쿼리 패턴에 맞게 테이블을 설계하고, 배치 삽입을 사용하며, 실시간 집계를 위해 구체화된 뷰를 활용하세요.
+
+## 원문
+- [영문 원문](../../../../skills/clickhouse-io/SKILL.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.php"
-  - "**/composer.json"
+source_path: rules/php/patterns.md
+paths: 
 ---
 
 # PHP 设计模式
@@ -32,3 +31,11 @@ paths:
 
 参见技能：`api-design` 了解端点约定和响应格式指导。
 参见技能：`laravel-patterns` 了解 Laravel 特定架构指导。
+
+## 原文
+- [英文原文](../../../../rules/php/patterns.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

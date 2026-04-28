@@ -1,6 +1,7 @@
 ---
 name: springboot-security
 description: Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services.
+source_path: skills/springboot-security/SKILL.md
 origin: ECC
 ---
 
@@ -270,3 +271,10 @@ public class RateLimitFilter extends OncePerRequestFilter {
 - [ ] Loglar hassas verilerden arınmış
 
 **Unutmayın**: Varsayılan olarak reddet, girişleri doğrula, en az ayrıcalık ve önce yapılandırma ile güvenli.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/springboot-security/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

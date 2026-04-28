@@ -1,3 +1,6 @@
+---
+source_path: rules/common/git-workflow.md
+---
 # Git 워크플로우
 
 ## 커밋 메시지 형식
@@ -22,3 +25,10 @@ PR을 만들 때:
 
 > git 작업 전 전체 개발 프로세스(계획, TDD, 코드 리뷰)는
 > [development-workflow.md](../../../rules/common/development-workflow.md)를 참고하세요.
+
+## 원문
+- [영문 원문](../../../rules/common/git-workflow.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

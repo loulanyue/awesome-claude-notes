@@ -1,6 +1,7 @@
 ---
 name: docker-patterns
 description: 用于本地开发的Docker和Docker Compose模式，包括容器安全、网络、卷策略和多服务编排。
+source_path: skills/docker-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -363,3 +364,10 @@ docker network inspect <project>_default
 # 错误做法：将密钥放入 docker-compose.yml
 # 使用 .env 文件（在 git 中忽略）或 Docker secrets
 ```
+
+## 原文
+- [英文原文](../../../../skills/docker-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

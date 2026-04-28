@@ -1,6 +1,7 @@
 ---
 name: security-review
 description: Kimlik doğrulama eklerken, kullanıcı girdisi işlerken, secret'larla çalışırken, API endpoint'leri oluştururken veya ödeme/hassas özellikler uygularken bu skill'i kullanın. Kapsamlı güvenlik kontrol listesi ve kalıplar sağlar.
+source_path: skills/security-review/SKILL.md
 origin: ECC
 ---
 
@@ -493,3 +494,10 @@ HERHANGİ bir production deployment'ından önce:
 ---
 
 **Unutmayın**: Güvenlik opsiyonel değildir. Bir güvenlik açığı tüm platformu tehlikeye atabilir. Şüphe duyduğunuzda ihtiyatlı olun.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/security-review/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

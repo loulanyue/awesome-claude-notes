@@ -1,6 +1,7 @@
 ---
 name: golang-testing
 description: 테이블 주도 테스트, 서브테스트, 벤치마크, 퍼징, 테스트 커버리지를 포함한 Go 테스팅 패턴. 관용적 Go 관행과 함께 TDD 방법론을 따릅니다.
+source_path: skills/golang-testing/SKILL.md
 origin: ECC
 ---
 
@@ -718,3 +719,10 @@ test:
 ```
 
 **기억하세요**: 테스트는 문서입니다. 코드가 어떻게 사용되어야 하는지를 보여줍니다. 명확하게 작성하고 최신 상태로 유지하세요.
+
+## 원문
+- [영문 원문](../../../../skills/golang-testing/SKILL.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: strategic-compact
 description: 任意の自動コンパクションではなく、タスクフェーズを通じてコンテキストを保持するための論理的な間隔での手動コンパクションを提案します。
+source_path: skills/strategic-compact/SKILL.md
 ---
 
 # Strategic Compactスキル
@@ -61,3 +62,11 @@ description: 任意の自動コンパクションではなく、タスクフェ�
 
 - [The Longform Guide](https://x.com/affaanmustafa/status/2014040193557471352) - トークン最適化セクション
 - メモリ永続化フック - コンパクションを超えて存続する状態用
+
+## 原文
+- [英語版の原文](../../../../skills/strategic-compact/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

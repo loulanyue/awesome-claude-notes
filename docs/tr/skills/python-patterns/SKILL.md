@@ -1,6 +1,7 @@
 ---
 name: python-patterns
 description: Pythonic idiomlar, PEP 8 standartları, type hint'ler ve sağlam, verimli ve bakımı kolay Python uygulamaları oluşturmak için en iyi uygulamalar.
+source_path: skills/python-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -748,3 +749,10 @@ except SpecificError as e:
 ```
 
 __Unutmayın__: Python kodu okunabilir, açık ve en az sürpriz ilkesine uygun olmalıdır. Şüphe duyduğunuzda, açıklığı zekiceden öncelikli kılın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/python-patterns/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: rules/common/security.md
+---
 # Diretrizes de Segurança
 
 ## Verificações de Segurança Obrigatórias
@@ -27,3 +30,10 @@ Se um problema de segurança for encontrado:
 3. Corrija problemas CRÍTICOS antes de continuar
 4. Rotacione quaisquer segredos expostos
 5. Revise toda a base de código por problemas similares
+
+## Fonte canônica
+- [Documento original em inglês](../../../rules/common/security.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

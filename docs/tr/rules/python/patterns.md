@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.py"
-  - "**/*.pyi"
+source_path: rules/python/patterns.md
+paths: 
 ---
 # Python Pattern'leri
 
@@ -37,3 +36,11 @@ class CreateUserRequest:
 ## Referans
 
 Decorator'lar, concurrency ve paket organizasyonu dahil kapsamlı pattern'ler için skill: `python-patterns` dosyasına bakın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/python/patterns.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

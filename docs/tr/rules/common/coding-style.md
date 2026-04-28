@@ -1,3 +1,6 @@
+---
+source_path: rules/common/coding-style.md
+---
 # Kodlama Stili
 
 ## Immutability (KRİTİK)
@@ -46,3 +49,11 @@ Sistem sınırlarında DAIMA validate et:
 - [ ] Düzgün hata yönetimi
 - [ ] Hardcoded değer yok (sabit veya config kullan)
 - [ ] Mutasyon yok (immutable pattern'ler kullanıldı)
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/common/coding-style.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

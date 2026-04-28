@@ -1,3 +1,6 @@
+---
+source_path: skills/security-review/cloud-infrastructure-security.md
+---
 | name | description |
 |------|-------------|
 | cloud-infrastructure-security | クラウドプラットフォームへのデプロイ、インフラストラクチャの設定、IAMポリシーの管理、ロギング/モニタリングの設定、CI/CDパイプラインの実装時にこのスキルを使用します。ベストプラクティスに沿ったクラウドセキュリティチェックリストを提供します。 |
@@ -359,3 +362,11 @@ resource "aws_db_instance" "good" {
 - [Terraform Security Best Practices](https://www.terraform.io/docs/cloud/guides/recommended-practices/)
 
 **覚えておいてください**：クラウドの設定ミスはデータ侵害の主要な原因です。1つの露出したS3バケットまたは過度に許容されたIAMポリシーは、インフラストラクチャ全体を危険にさらす可能性があります。常に最小権限の原則と多層防御に従ってください。
+
+## 原文
+- [英語版の原文](../../../../skills/security-review/cloud-infrastructure-security.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

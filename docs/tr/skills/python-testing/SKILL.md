@@ -1,6 +1,7 @@
 ---
 name: python-testing
 description: pytest, TDD metodolojisi, fixture'lar, mocking, parametrizasyon ve coverage gereksinimleri kullanarak Python test stratejileri.
+source_path: skills/python-testing/SKILL.md
 origin: ECC
 ---
 
@@ -814,3 +815,10 @@ pytest --pdb
 | `assert` | Basit ve okunabilir assertion'lar |
 
 **Unutmayın**: Testler de koddur. Temiz, okunabilir ve bakımı kolay tutun. İyi testler hata yakalar; harika testler hataları önler.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/python-testing/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: examples/go-microservice-CLAUDE.md
+---
 # Go Microservice — CLAUDE.md de Projeto
 
 > Exemplo real para um microserviço Go com PostgreSQL, gRPC e Docker.
@@ -265,3 +268,10 @@ staticcheck ./...
 - Branches de feature a partir da `main`, PRs obrigatórios
 - CI: `go vet`, `staticcheck`, `go test -race`, `golangci-lint`
 - Deploy: imagem Docker gerada no CI e publicada em Kubernetes
+
+## Fonte canônica
+- [Documento original em inglês](../../../examples/go-microservice-CLAUDE.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

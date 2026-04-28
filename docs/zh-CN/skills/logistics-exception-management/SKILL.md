@@ -1,13 +1,14 @@
 ---
 name: logistics-exception-management
 description: 针对货运异常、货物延误、损坏、丢失和承运商纠纷的编码化专业知识，由拥有15年以上运营经验的物流专业人士提供。包括升级协议、承运商特定行为、索赔程序和判断框架。在处理运输异常、货运索赔、交付问题或承运商纠纷时使用。license: Apache-2.0
+source_path: skills/logistics-exception-management/SKILL.md
 version: 1.0.0
 homepage: https://github.com/loulanyue/awesome-claude-notes
 origin: ECC
-metadata:
-  author: evos
-  clawdbot:
-    emoji: "📦"
+metadata: 
+author: evos
+clawdbot: 
+emoji: "📦"
 ---
 
 # 物流异常管理
@@ -216,3 +217,10 @@ metadata:
 
 * 将此技能与您内部的索赔截止日期、特定运输模式的升级矩阵以及保险公司的通知要求结合使用。
 * 将承运人特定的交货证明规则和OS\&D检查清单放在执行本手册的团队附近。
+
+## 原文
+- [英文原文](../../../../skills/logistics-exception-management/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

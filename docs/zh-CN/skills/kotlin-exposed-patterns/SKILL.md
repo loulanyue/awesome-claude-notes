@@ -1,6 +1,7 @@
 ---
 name: kotlin-exposed-patterns
 description: JetBrains Exposed ORM 模式，包括 DSL 查询、DAO 模式、事务、HikariCP 连接池、Flyway 迁移和仓库模式。
+source_path: skills/kotlin-exposed-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -717,3 +718,10 @@ dependencies {
 | `count()` / `sum()` / `avg()` | 聚合函数 |
 
 **记住**：对于简单查询使用 DSL 风格，当需要实体生命周期管理时使用 DAO 风格。始终使用 `newSuspendedTransaction` 以获得协程支持，并将数据库操作包装在仓储接口之后以提高可测试性。
+
+## 原文
+- [英文原文](../../../../skills/kotlin-exposed-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

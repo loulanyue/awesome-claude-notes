@@ -1,3 +1,6 @@
+---
+source_path: AGENTS.md
+---
 # awesome claude notes (ECC) — Agent Talimatları
 
 Bu, yazılım geliştirme için 28 özel agent, 116 skill, 59 command ve otomatik hook iş akışları sağlayan **üretime hazır bir AI kodlama eklentisidir**.
@@ -158,3 +161,10 @@ tests/           — Test paketi
 - Kod okunabilir ve sürdürülebilirdir
 - Performans kabul edilebilirdir
 - Kullanıcı gereksinimleri karşılanmıştır
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../AGENTS.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](README.md)
+- [Katkı rehberi](../../CONTRIBUTING.md)

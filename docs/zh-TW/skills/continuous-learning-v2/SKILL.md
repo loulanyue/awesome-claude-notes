@@ -1,6 +1,7 @@
 ---
 name: continuous-learning-v2
 description: Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents.
+source_path: skills/continuous-learning-v2/SKILL.md
 version: 2.0.0
 ---
 
@@ -255,3 +256,10 @@ v2 完全相容 v1：
 ---
 
 *基於本能的學習：一次一個觀察，教導 Claude 你的模式。*
+
+## 原文
+- [英文原文](../../../../skills/continuous-learning-v2/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

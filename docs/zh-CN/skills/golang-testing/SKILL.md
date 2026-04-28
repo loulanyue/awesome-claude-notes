@@ -1,6 +1,7 @@
 ---
 name: golang-testing
 description: Go测试模式包括表格驱动测试、子测试、基准测试、模糊测试和测试覆盖率。遵循TDD方法论，采用地道的Go实践。
+source_path: skills/golang-testing/SKILL.md
 origin: ECC
 ---
 
@@ -720,3 +721,10 @@ test:
 ```
 
 **记住**：测试即文档。它们展示了你的代码应如何使用。清晰地编写它们并保持更新。
+
+## 原文
+- [英文原文](../../../../skills/golang-testing/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

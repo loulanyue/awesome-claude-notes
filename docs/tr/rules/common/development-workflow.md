@@ -1,3 +1,6 @@
+---
+source_path: rules/common/development-workflow.md
+---
 # Geliştirme İş Akışı
 
 > Bu dosya [common/git-workflow.md](./git-workflow.md) dosyasını git işlemlerinden önce gerçekleşen tam özellik geliştirme süreci ile genişletir.
@@ -36,3 +39,11 @@ Feature Implementation Workflow geliştirme pipeline'ını tanımlar: araştırm
    - Detaylı commit mesajları
    - Conventional commits formatını takip et
    - Commit mesaj formatı ve PR süreci için [git-workflow.md](./git-workflow.md) dosyasına bak
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/common/development-workflow.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

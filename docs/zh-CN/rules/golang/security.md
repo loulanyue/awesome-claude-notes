@@ -1,8 +1,6 @@
 ---
-paths:
-  - "**/*.go"
-  - "**/go.mod"
-  - "**/go.sum"
+source_path: rules/golang/security.md
+paths: 
 ---
 
 # Go 安全
@@ -33,3 +31,11 @@ if apiKey == "" {
 ctx, cancel := context.WithTimeout(ctx, 5*time.Second)
 defer cancel()
 ```
+
+## 原文
+- [英文原文](../../../../rules/golang/security.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

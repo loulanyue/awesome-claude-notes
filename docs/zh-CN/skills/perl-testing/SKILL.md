@@ -1,6 +1,7 @@
 ---
 name: perl-testing
 description: 使用Test2::V0、Test::More、prove runner、模拟、Devel::Cover覆盖率和TDD方法的Perl测试模式。
+source_path: skills/perl-testing/SKILL.md
 origin: ECC
 ---
 
@@ -473,3 +474,10 @@ prove -l t/unit/user.t
 在子测试内部使用 `my` 变量 —— 永远不要用 `our` —— 以防止状态在测试之间泄漏。
 
 **记住**：测试是你的安全网。保持它们快速、专注和独立。新项目使用 Test2::V0，运行使用 prove，问责使用 Devel::Cover。
+
+## 原文
+- [英文原文](../../../../skills/perl-testing/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

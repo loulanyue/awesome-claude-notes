@@ -1,6 +1,7 @@
 ---
 name: verification-loop
 description: "Claude Code 会话的全面验证系统。"
+source_path: skills/verification-loop/SKILL.md
 origin: ECC
 ---
 
@@ -134,3 +135,10 @@ git diff HEAD~1 --name-only
 
 此技能补充 PostToolUse 钩子，但提供更深入的验证。
 钩子会立即捕获问题；此技能提供全面的审查。
+
+## 原文
+- [英文原文](../../../../skills/verification-loop/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

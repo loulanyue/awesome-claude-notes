@@ -1,6 +1,7 @@
 ---
 name: continuous-learning-v2
 description: 基于本能的学习系统，通过钩子观察会话，创建带置信度评分的原子本能，并将其进化为技能/命令/代理。v2.1版本增加了项目范围的本能，以防止跨项目污染。
+source_path: skills/continuous-learning-v2/SKILL.md
 origin: ECC
 version: 2.1.0
 ---
@@ -370,3 +371,10 @@ v2.1 与 v2.0 和 v1 完全兼容：
 ***
 
 *基于本能的学习：一次一个项目，教会 Claude 您的模式。*
+
+## 原文
+- [英文原文](../../../../skills/continuous-learning-v2/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

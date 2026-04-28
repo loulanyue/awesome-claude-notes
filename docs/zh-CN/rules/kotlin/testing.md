@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.kt"
-  - "**/*.kts"
+source_path: rules/kotlin/testing.md
+paths: 
 ---
 
 # Kotlin 测试
@@ -127,3 +126,11 @@ src/
 ```
 
 最低测试覆盖率：每个功能都需要覆盖 ViewModel + UseCase。
+
+## 原文
+- [英文原文](../../../../rules/kotlin/testing.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: CONTRIBUTING.md
+---
 # awesome claude notesに貢献する
 
 貢献いただきありがとうございます！このリポジトリはClaude Codeユーザーのためのコミュニティリソースです。
@@ -428,3 +431,10 @@ docs: improve contributing guide
 ---
 
 貢献いただきありがとうございます。一緒に素晴らしいリソースを構築しましょう。
+
+## 原文
+- [英語版の原文](../../CONTRIBUTING.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](README.md)
+- [貢献ガイド](../../CONTRIBUTING.md)

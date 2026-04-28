@@ -1,6 +1,7 @@
 ---
 name: continuous-learning-v2
 description: 훅을 통해 세션을 관찰하고, 신뢰도 점수가 있는 원자적 본능을 생성하며, 이를 스킬/명령어/에이전트로 진화시키는 본능 기반 학습 시스템. v2.1에서는 프로젝트 간 오염을 방지하기 위한 프로젝트 범위 본능이 추가되었습니다.
+source_path: skills/continuous-learning-v2/SKILL.md
 origin: ECC
 version: 2.1.0
 ---
@@ -361,3 +362,10 @@ v2.1은 v2.0 및 v1과 완전히 호환됩니다:
 ---
 
 *본능 기반 학습: Claude에게 당신의 패턴을 가르치기, 한 번에 하나의 프로젝트씩.*
+
+## 원문
+- [영문 원문](../../../../skills/continuous-learning-v2/SKILL.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

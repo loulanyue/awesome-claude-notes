@@ -1,13 +1,14 @@
 ---
 name: energy-procurement
 description: 电力与燃气采购、电价优化、需量电费管理、可再生能源购电协议评估及多设施能源成本管理的编码化专业知识。基于能源采购经理在大型工商业用户中超过15年的经验。包括市场结构分析、对冲策略、负荷分析和可持续性报告框架。适用于采购能源、优化电价、管理需量电费、评估购电协议或制定能源策略时使用。license: Apache-2.0
+source_path: skills/energy-procurement/SKILL.md
 version: 1.0.0
 homepage: https://github.com/loulanyue/awesome-claude-notes
 origin: ECC
-metadata:
-  author: evos
-  clawdbot:
-    emoji: "⚡"
+metadata: 
+author: evos
+clawdbot: 
+emoji: "⚡"
 ---
 
 # 能源采购
@@ -218,3 +219,10 @@ metadata:
 
 * 在本技能之外，还需维护经批准的内部对冲政策、交易对手名单和费率变更日历。
 * 将特定设施的负荷曲线和公用事业合同元数据保持在规划工作流附近，以确保建议基于实际需求模式。
+
+## 原文
+- [英文原文](../../../../skills/energy-procurement/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

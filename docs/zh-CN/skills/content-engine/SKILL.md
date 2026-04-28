@@ -1,6 +1,7 @@
 ---
 name: content-engine
 description: 为X、LinkedIn、TikTok、YouTube、新闻通讯和跨平台重新利用的多平台活动创建平台原生内容系统。适用于当用户需要社交媒体帖子、帖子串、脚本、内容日历，或一个源资产在多个平台上清晰适配时。
+source_path: skills/content-engine/SKILL.md
 origin: ECC
 ---
 
@@ -95,3 +96,10 @@ origin: ECC
 * 没有通用的炒作语言
 * 除非特别要求，否则各平台间没有重复文案
 * 行动号召与内容和受众相匹配
+
+## 原文
+- [英文原文](../../../../skills/content-engine/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

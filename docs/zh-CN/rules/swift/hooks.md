@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.swift"
-  - "**/Package.swift"
+source_path: rules/swift/hooks.md
+paths: 
 ---
 
 # Swift 钩子
@@ -19,3 +18,11 @@ paths:
 ## 警告
 
 标记 `print()` 语句 — 在生产代码中请改用 `os.Logger` 或结构化日志记录。
+
+## 原文
+- [英文原文](../../../../rules/swift/hooks.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

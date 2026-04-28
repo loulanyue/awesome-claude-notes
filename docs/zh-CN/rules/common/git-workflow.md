@@ -1,3 +1,6 @@
+---
+source_path: rules/common/git-workflow.md
+---
 # Git 工作流程
 
 ## 提交信息格式
@@ -24,3 +27,11 @@
 
 > 有关 git 操作之前的完整开发流程（规划、TDD、代码审查），
 > 请参阅 [development-workflow.md](development-workflow.md)。
+
+## 原文
+- [英文原文](../../../../rules/common/git-workflow.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

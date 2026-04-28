@@ -2,6 +2,7 @@
 name: observer
 description: セッションの観察を分析してパターンを検出し、本能を作成するバックグラウンドエージェント。コスト効率のためにHaikuを使用します。
 model: haiku
+source_path: skills/continuous-learning-v2/agents/observer.md
 run_mode: background
 ---
 
@@ -135,3 +136,11 @@ Skill Creator(リポジトリ分析)から本能がインポートされる場�
 - `source_repo: "https://github.com/..."`
 
 これらは、より高い初期信頼度(0.7以上)を持つチーム/プロジェクトの規約として扱うべきです。
+
+## 原文
+- [英語版の原文](../../../../../skills/continuous-learning-v2/agents/observer.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../../README.md)
+- [skills/README.md](../../README.md)
+- [貢献ガイド](../../../../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: rules/common/hooks.md
+---
 # Sistema de Hooks
 
 ## Tipos de Hook
@@ -28,3 +31,10 @@ A lista de tarefas revela:
 - Itens extras desnecessários
 - Granularidade incorreta
 - Requisitos mal interpretados
+
+## Fonte canônica
+- [Documento original em inglês](../../../rules/common/hooks.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

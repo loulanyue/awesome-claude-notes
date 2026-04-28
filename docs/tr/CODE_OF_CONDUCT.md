@@ -1,3 +1,6 @@
+---
+source_path: CODE_OF_CONDUCT.md
+---
 # Katkıda Bulunanlar Sözleşmesi Davranış Kuralları
 
 ## Taahhüdümüz
@@ -102,3 +105,10 @@ uygulama merdiveni](https://github.com/mozilla/diversity)'nden ilham almıştır
 Bu davranış kuralları hakkında sık sorulan soruların cevapları için SSS'ye bakın:
 <https://www.contributor-covenant.org/faq>. Çeviriler şu adreste mevcuttur:
 <https://www.contributor-covenant.org/translations>.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../CODE_OF_CONDUCT.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](README.md)
+- [Katkı rehberi](../../CONTRIBUTING.md)

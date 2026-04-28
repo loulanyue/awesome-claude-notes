@@ -1,6 +1,7 @@
 ---
 name: django-security
 description: Django 安全最佳实践、认证、授权、CSRF 防护、SQL 注入预防、XSS 预防和安全部署配置。
+source_path: skills/django-security/SKILL.md
 origin: ECC
 ---
 
@@ -591,3 +592,10 @@ LOGGING = {
 | 更新 | 保持 Django 及其依赖项为最新版本 |
 
 请记住：安全是一个过程，而非产品。请定期审查并更新您的安全实践。
+
+## 原文
+- [英文原文](../../../../skills/django-security/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

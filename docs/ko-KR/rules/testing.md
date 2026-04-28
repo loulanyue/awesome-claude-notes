@@ -1,3 +1,6 @@
+---
+source_path: rules/common/testing.md
+---
 # 테스팅 요구사항
 
 ## 최소 테스트 커버리지: 80%
@@ -27,3 +30,10 @@
 ## 에이전트 지원
 
 - **tdd-guide** - 새 기능에 적극적으로 사용, 테스트 먼저 작성을 강제
+
+## 원문
+- [영문 원문](../../../rules/common/testing.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

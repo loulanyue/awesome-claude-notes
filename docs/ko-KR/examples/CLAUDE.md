@@ -1,3 +1,6 @@
+---
+source_path: examples/CLAUDE.md
+---
 # 프로젝트 CLAUDE.md 예제
 
 프로젝트 수준의 CLAUDE.md 파일 예제입니다. 프로젝트 루트에 배치하세요.
@@ -98,3 +101,10 @@ DEBUG=false
 - main 브랜치에 직접 커밋 금지
 - PR은 리뷰 필수
 - 병합 전 모든 테스트 통과 필수
+
+## 원문
+- [영문 원문](../../../examples/CLAUDE.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

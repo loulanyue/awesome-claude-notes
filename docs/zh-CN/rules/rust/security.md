@@ -1,6 +1,6 @@
 ---
-paths:
-  - "**/*.rs"
+source_path: rules/rust/security.md
+paths: 
 ---
 
 # Rust 安全
@@ -140,3 +140,11 @@ match order_service.find_by_id(id) {
 
 关于不安全代码指南和所有权模式，请参见技能：`rust-patterns`。
 关于通用安全检查清单，请参见技能：`security-review`。
+
+## 原文
+- [英文原文](../../../../rules/rust/security.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: python-testing
 description: 使用pytest的Python测试策略，包括TDD方法、夹具、模拟、参数化和覆盖率要求。
+source_path: skills/python-testing/SKILL.md
 origin: ECC
 ---
 
@@ -814,3 +815,10 @@ pytest --pdb
 | `assert` | 简单且可读的断言 |
 
 **记住**：测试也是代码。保持它们干净、可读且可维护。好的测试能发现错误；优秀的测试能预防错误。
+
+## 原文
+- [英文原文](../../../../skills/python-testing/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

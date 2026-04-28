@@ -1,6 +1,7 @@
 ---
 name: coding-standards
 description: 适用于TypeScript、JavaScript、React和Node.js开发的通用编码标准、最佳实践和模式。
+source_path: skills/coding-standards/SKILL.md
 origin: ECC
 ---
 
@@ -535,3 +536,10 @@ setTimeout(callback, DEBOUNCE_DELAY_MS)
 ```
 
 **记住**：代码质量不容妥协。清晰、可维护的代码能够实现快速开发和自信的重构。
+
+## 原文
+- [英文原文](../../../../skills/coding-standards/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

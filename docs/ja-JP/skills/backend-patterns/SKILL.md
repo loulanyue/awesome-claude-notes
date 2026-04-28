@@ -1,6 +1,7 @@
 ---
 name: backend-patterns
 description: Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
+source_path: skills/backend-patterns/SKILL.md
 ---
 
 # バックエンド開発パターン
@@ -585,3 +586,11 @@ export async function GET(request: Request) {
 ```
 
 **注意**: バックエンドパターンは、スケーラブルで保守可能なサーバーサイドアプリケーションを実現します。複雑さのレベルに適したパターンを選択してください。
+
+## 原文
+- [英語版の原文](../../../../skills/backend-patterns/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

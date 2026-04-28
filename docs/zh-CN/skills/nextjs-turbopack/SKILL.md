@@ -1,6 +1,7 @@
 ---
 name: nextjs-turbopack
 description: Next.js 16+ 和 Turbopack — 增量打包、文件系统缓存、开发速度，以及何时使用 Turbopack 与 webpack。
+source_path: skills/nextjs-turbopack/SKILL.md
 origin: ECC
 ---
 
@@ -42,3 +43,10 @@ next start
 * 保持使用较新的 Next.js 16.x 版本，以获得稳定的 Turbopack 和缓存行为。
 * 如果开发速度慢，请确保你正在使用 Turbopack（默认），并且缓存没有被不必要地清除。
 * 对于生产环境捆绑包大小问题，请使用你所用版本的官方 Next.js 捆绑包分析工具。
+
+## 原文
+- [英文原文](../../../../skills/nextjs-turbopack/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

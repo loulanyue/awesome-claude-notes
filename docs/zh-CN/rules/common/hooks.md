@@ -1,3 +1,6 @@
+---
+source_path: rules/common/hooks.md
+---
 # Hooks 系统
 
 ## Hook 类型
@@ -31,3 +34,11 @@
 * 额外不必要的项目
 * 粒度错误
 * 对需求的理解有误
+
+## 原文
+- [英文原文](../../../../rules/common/hooks.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

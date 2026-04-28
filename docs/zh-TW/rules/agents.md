@@ -1,3 +1,6 @@
+---
+source_path: rules/common/agents.md
+---
 # Agent 協調
 
 ## 可用 Agents
@@ -47,3 +50,10 @@
 - 安全專家
 - 一致性審查者
 - 冗餘檢查者
+
+## 原文
+- [英文原文](../../../rules/common/agents.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: coding-standards
 description: Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
+source_path: skills/coding-standards/SKILL.md
 ---
 
 # 程式碼標準與最佳實務
@@ -518,3 +519,10 @@ setTimeout(callback, DEBOUNCE_DELAY_MS)
 ```
 
 **記住**：程式碼品質是不可協商的。清晰、可維護的程式碼能實現快速開發和自信的重構。
+
+## 原文
+- [英文原文](../../../../skills/coding-standards/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

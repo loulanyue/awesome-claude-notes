@@ -1,3 +1,6 @@
+---
+source_path: rules/common/hooks.md
+---
 # Hook 系統
 
 ## Hook 類型
@@ -44,3 +47,10 @@
 - 多餘的不必要項目
 - 錯誤的粒度
 - 誤解的需求
+
+## 原文
+- [英文原文](../../../rules/common/hooks.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

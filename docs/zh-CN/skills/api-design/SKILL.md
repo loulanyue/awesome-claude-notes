@@ -1,6 +1,7 @@
 ---
 name: api-design
 description: REST API设计模式，包括资源命名、状态码、分页、过滤、错误响应、版本控制和生产API的速率限制。
+source_path: skills/api-design/SKILL.md
 origin: ECC
 ---
 
@@ -521,3 +522,10 @@ func (h *UserHandler) CreateUser(w http.ResponseWriter, r *http.Request) {
 * \[ ] 响应未泄露内部细节（堆栈跟踪、SQL 错误）
 * \[ ] 与现有端点命名一致（camelCase 对比 snake\_case）
 * \[ ] 已记录（更新了 OpenAPI/Swagger 规范）
+
+## 原文
+- [英文原文](../../../../skills/api-design/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,8 +1,9 @@
 ---
 name: agent-eval
 description: 编码代理（Claude Code、Aider、Codex等）在自定义任务上的直接比较，包含通过率、成本、时间和一致性指标
-origin: ECC
 tools: Read, Write, Edit, Bash, Grep, Glob
+source_path: skills/agent-eval/SKILL.md
+origin: ECC
 ---
 
 # Agent Eval 技能
@@ -147,3 +148,10 @@ judge:
 ## 链接
 
 * 仓库：[github.com/joaquinhuigomez/agent-eval](https://github.com/joaquinhuigomez/agent-eval)
+
+## 原文
+- [英文原文](../../../../skills/agent-eval/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

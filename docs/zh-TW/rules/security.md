@@ -1,3 +1,6 @@
+---
+source_path: rules/common/security.md
+---
 # 安全性指南
 
 ## 強制安全性檢查
@@ -34,3 +37,10 @@ if (!apiKey) {
 3. 在繼續前修復關鍵問題
 4. 輪換任何暴露的密鑰
 5. 審查整個程式碼庫是否有類似問題
+
+## 原文
+- [英文原文](../../../rules/common/security.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: configure-ecc
 description: awesome claude notes のインタラクティブなインストーラー — スキルとルールの選択とインストールをユーザーレベルまたはプロジェクトレベルのディレクトリへガイドし、パスを検証し、必要に応じてインストールされたファイルを最適化します。
+source_path: skills/configure-ecc/SKILL.md
 ---
 
 # Configure awesome claude notes (ECC)
@@ -296,3 +297,11 @@ rm -rf /tmp/awesome-claude-notes
 ### "プロジェクトレベルのインストール後のパス参照エラー"
 - 一部のスキルは `~/.claude/` パスを前提としています。ステップ4の検証を実行してこれらを見つけて修正します。
 - `continuous-learning-v2` の場合、`~/.claude/homunculus/` ディレクトリは常にユーザーレベルです — これは想定されており、エラーではありません。
+
+## 原文
+- [英語版の原文](../../../../skills/configure-ecc/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

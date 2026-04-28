@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.swift"
-  - "**/Package.swift"
+source_path: rules/swift/coding-style.md
+paths: 
 ---
 
 # Swift 编码风格
@@ -46,3 +45,11 @@ func load(id: String) throws(LoadError) -> Item {
 * `Sendable` 值类型用于跨越隔离边界的数据
 * Actors 用于共享可变状态
 * 结构化并发 (`async let`, `TaskGroup`) 而非非结构化的 `Task {}`
+
+## 原文
+- [英文原文](../../../../rules/swift/coding-style.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

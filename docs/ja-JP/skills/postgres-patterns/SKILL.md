@@ -1,6 +1,7 @@
 ---
 name: postgres-patterns
 description: PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices.
+source_path: skills/postgres-patterns/SKILL.md
 ---
 
 # PostgreSQL パターン
@@ -144,3 +145,11 @@ SELECT pg_reload_conf();
 ---
 
 *[Supabase Agent Skills](Supabase Agent Skills (credit: Supabase team))（MITライセンス）に基づく*
+
+## 原文
+- [英語版の原文](../../../../skills/postgres-patterns/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

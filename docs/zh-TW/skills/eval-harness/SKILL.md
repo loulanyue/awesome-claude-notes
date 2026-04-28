@@ -2,6 +2,7 @@
 name: eval-harness
 description: Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles
 tools: Read, Write, Edit, Bash, Grep, Glob
+source_path: skills/eval-harness/SKILL.md
 ---
 
 # Eval Harness 技能
@@ -225,3 +226,10 @@ EVAL 報告：add-authentication
 回歸：3/3 通過（pass^3：100%）
 狀態：準備發佈
 ```
+
+## 原文
+- [英文原文](../../../../skills/eval-harness/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: laravel-security
 description: Laravel 安全最佳实践，涵盖认证/授权、验证、CSRF、批量赋值、文件上传、密钥管理、速率限制和安全部署。
+source_path: skills/laravel-security/SKILL.md
 origin: ECC
 ---
 
@@ -283,3 +284,10 @@ Route::get('/invoices/{invoice}/download', [InvoiceController::class, 'download'
     ->name('downloads.invoice')
     ->middleware('signed');
 ```
+
+## 原文
+- [英文原文](../../../../skills/laravel-security/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

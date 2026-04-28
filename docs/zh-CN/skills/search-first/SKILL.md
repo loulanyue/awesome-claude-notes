@@ -1,6 +1,7 @@
 ---
 name: search-first
 description: 研究优先于编码的工作流程。在编写自定义代码之前，搜索现有的工具、库和模式。调用研究员代理。
+source_path: skills/search-first/SKILL.md
 origin: ECC
 ---
 
@@ -173,3 +174,10 @@ origin: ECC
 * **忽略 MCP**：不检查 MCP 服务器是否已提供该能力
 * **过度定制**：对库进行如此厚重的包装以至于失去了其优势
 * **依赖项膨胀**：为了一个小功能安装一个庞大的包
+
+## 原文
+- [英文原文](../../../../skills/search-first/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

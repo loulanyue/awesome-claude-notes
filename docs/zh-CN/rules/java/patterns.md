@@ -1,6 +1,6 @@
 ---
-paths:
-  - "**/*.java"
+source_path: rules/java/patterns.md
+paths: 
 ---
 
 # Java 模式
@@ -145,3 +145,11 @@ public record ApiResponse<T>(boolean success, T data, String error) {
 
 有关 Spring Boot 架构模式，请参见技能：`springboot-patterns`。
 有关实体设计和查询优化，请参见技能：`jpa-patterns`。
+
+## 原文
+- [英文原文](../../../../rules/java/patterns.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

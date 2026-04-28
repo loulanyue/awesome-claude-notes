@@ -1,9 +1,6 @@
 ---
-paths:
-  - "**/*.ts"
-  - "**/*.tsx"
-  - "**/*.js"
-  - "**/*.jsx"
+source_path: rules/typescript/hooks.md
+paths: 
 ---
 
 # TypeScript/JavaScript 钩子
@@ -21,3 +18,11 @@ paths:
 ## Stop 钩子
 
 * **console.log 审计**：在会话结束前，检查所有修改过的文件中是否存在 `console.log`
+
+## 原文
+- [英文原文](../../../../rules/typescript/hooks.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

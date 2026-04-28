@@ -1,3 +1,6 @@
+---
+source_path: skills/security-review/cloud-infrastructure-security.md
+---
 | name | description |
 |------|-------------|
 | cloud-infrastructure-security | 在部署到云平台、配置基础设施、管理IAM策略、设置日志记录/监控或实现CI/CD流水线时使用此技能。提供符合最佳实践的云安全检查清单。 |
@@ -359,3 +362,10 @@ resource "aws_db_instance" "good" {
 * [Terraform 安全最佳实践](https://www.terraform.io/docs/cloud/guides/recommended-practices/)
 
 **请记住**：云配置错误是数据泄露的主要原因。一个暴露的S3存储桶或一个权限过大的IAM策略就可能危及整个基础设施。始终遵循最小权限原则和深度防御策略。
+
+## 原文
+- [英文原文](../../../../skills/security-review/cloud-infrastructure-security.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

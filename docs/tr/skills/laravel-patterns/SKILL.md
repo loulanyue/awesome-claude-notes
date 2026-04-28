@@ -1,6 +1,7 @@
 ---
 name: laravel-patterns
 description: Laravel architecture patterns, routing/controllers, Eloquent ORM, service layers, queues, events, caching, and API resources for production apps.
+source_path: skills/laravel-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -413,3 +414,10 @@ return response()->json([
 
 - Gizli bilgileri `.env`'de ve yapılandırmayı `config/*.php`'de tutun
 - Ortama özel yapılandırma geçersiz kılmaları kullanın ve production'da `config:cache` kullanın
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/laravel-patterns/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

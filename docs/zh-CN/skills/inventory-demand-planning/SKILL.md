@@ -1,13 +1,14 @@
 ---
 name: inventory-demand-planning
 description: 为多地点零售商提供需求预测、安全库存优化、补货规划及促销提升估算的编码化专业知识。基于拥有15年以上管理数百个SKU经验的需求规划师的专业知识。包括预测方法选择、ABC/XYZ分析、季节性过渡管理及供应商谈判框架。适用于预测需求、设定安全库存、规划补货、管理促销或优化库存水平时使用。license: Apache-2.0
+source_path: skills/inventory-demand-planning/SKILL.md
 version: 1.0.0
 homepage: https://github.com/loulanyue/awesome-claude-notes
 origin: ECC
-metadata:
-  author: evos
-  clawdbot:
-    emoji: "📊"
+metadata: 
+author: evos
+clawdbot: 
+emoji: "📊"
 ---
 
 # 库存需求规划
@@ -231,3 +232,10 @@ metadata:
 
 * 将此技能与您的 SKU 细分模型、服务水平政策和规划师覆盖审计日志结合使用。
 * 将促销失误、供应商延迟和预测覆盖的事后分析存储在规划工作流旁边，以便边缘情况保持可操作性。
+
+## 原文
+- [英文原文](../../../../skills/inventory-demand-planning/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

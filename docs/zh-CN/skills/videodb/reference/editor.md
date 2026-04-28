@@ -1,3 +1,6 @@
+---
+source_path: skills/videodb/reference/editor.md
+---
 # 时间线编辑指南
 
 VideoDB 提供了一个非破坏性的时间线编辑器，用于从多个素材合成视频、添加文本和图像叠加、混合音轨以及修剪片段——所有这些都在服务器端完成，无需重新编码或本地工具。可用于修剪、合并片段、在视频上叠加音频/音乐、添加字幕以及叠加文本或图像。
@@ -441,3 +444,10 @@ VideoDB 有两个独立的时间线系统。它们**不可互换**：
 * **静音视频音频**：在 `AudioAsset` 上设置 `disable_other_tracks=True`，以便在叠加音乐或旁白时静音原始视频音频。
 * **淡入淡出限制**：`fade_in_duration` 和 `fade_out_duration` 在 `AudioAsset` 上最长不超过 5 秒。
 * **生成媒体**：使用 `coll.generate_music()`、`coll.generate_sound_effect()`、`coll.generate_voice()` 和 `coll.generate_image()` 创建可立即用作时间轴素材的媒体。
+
+## 原文
+- [英文原文](../../../../../skills/videodb/reference/editor.md)
+
+## 导航
+- [中文文档导航](../../../README.md)
+- [贡献指南](../../../../../CONTRIBUTING.md)

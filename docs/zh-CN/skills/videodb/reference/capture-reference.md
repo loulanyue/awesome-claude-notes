@@ -1,3 +1,6 @@
+---
+source_path: skills/videodb/reference/capture-reference.md
+---
 # 捕获参考
 
 VideoDB 捕获会话的代码级详情。工作流程指南请参阅 [capture.md](capture.md)。
@@ -414,3 +417,10 @@ system_audio = channels.system_audio.default
   │   exported     │ ──> Access video_id, stream_url, player_url
   └───────────────┘
 ```
+
+## 原文
+- [英文原文](../../../../../skills/videodb/reference/capture-reference.md)
+
+## 导航
+- [中文文档导航](../../../README.md)
+- [贡献指南](../../../../../CONTRIBUTING.md)

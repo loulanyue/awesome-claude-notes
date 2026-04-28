@@ -1,6 +1,7 @@
 ---
 name: golang-patterns
 description: 用于构建健壮、高效且可维护的Go应用程序的惯用Go模式、最佳实践和约定。
+source_path: skills/golang-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -672,3 +673,10 @@ func (c *Counter) Increment() { c.n++ }        // Pointer receiver
 ```
 
 **记住**：Go 代码应该以最好的方式显得“乏味”——可预测、一致且易于理解。如有疑问，保持简单。
+
+## 原文
+- [英文原文](../../../../skills/golang-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

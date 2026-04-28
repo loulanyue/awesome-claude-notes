@@ -1,6 +1,7 @@
 ---
 name: tdd-workflow
 description: 新機能の作成、バグ修正、コードのリファクタリング時にこのスキルを使用します。ユニット、統合、E2Eテストを含む80%以上のカバレッジでテスト駆動開発を強制します。
+source_path: skills/tdd-workflow/SKILL.md
 ---
 
 # テスト駆動開発ワークフロー
@@ -407,3 +408,11 @@ npm test && npm run lint
 ---
 
 **覚えておいてください**：テストはオプションではありません。テストは自信を持ってリファクタリングし、迅速に開発し、本番の信頼性を可能にする安全網です。
+
+## 原文
+- [英語版の原文](../../../../skills/tdd-workflow/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

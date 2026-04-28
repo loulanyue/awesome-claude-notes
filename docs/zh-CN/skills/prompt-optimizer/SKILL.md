@@ -1,9 +1,10 @@
 ---
 name: prompt-optimizer
 description: 分析原始提示，识别意图和差距，匹配ECC组件（技能/命令/代理/钩子），并输出一个可直接粘贴的优化提示。仅提供咨询角色——绝不自行执行任务。触发时机：当用户说“优化提示”、“改进我的提示”、“如何编写提示”、“帮我优化这个指令”或明确要求提高提示质量时。中文等效表达同样触发：“优化prompt”、“改进prompt”、“怎么写prompt”、“帮我优化这个指令”。不触发时机：当用户希望直接执行任务，或说“直接做”时。不触发时机：当用户说“优化代码”、“优化性能”、“optimize performance”、“optimize this code”时——这些是重构/性能优化任务，而非提示优化。origin: community
-metadata:
-  author: YannJY02
-  version: "1.0.0"
+source_path: skills/prompt-optimizer/SKILL.md
+metadata: 
+author: YannJY02
+version: "1.0.0"
 ---
 
 # Prompt 优化器
@@ -376,3 +377,10 @@ Research → Plan → Implement (TDD) → Review → Verify → Commit
 | `blueprint` | 史诗级范围的优化提示（作为技能调用，而非命令） |
 | `strategic-compact` | 长会话上下文管理 |
 | `cost-aware-llm-pipeline` | Token 优化推荐 |
+
+## 原文
+- [英文原文](../../../../skills/prompt-optimizer/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: golang-patterns
 description: Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications.
+source_path: skills/golang-patterns/SKILL.md
 ---
 
 # Go 開發模式
@@ -671,3 +672,10 @@ func (c *Counter) Increment() { c.n++ }        // 指標接收器
 ```
 
 **記住**：Go 程式碼應該以最好的方式無聊 - 可預測、一致且易於理解。有疑慮時，保持簡單。
+
+## 原文
+- [英文原文](../../../../skills/golang-patterns/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

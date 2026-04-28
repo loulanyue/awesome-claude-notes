@@ -1,6 +1,7 @@
 ---
 name: docker-patterns
 description: Yerel geliştirme, konteyner güvenliği, ağ, volume stratejileri ve multi-servis orkestrasyon için Docker ve Docker Compose kalıpları.
+source_path: skills/docker-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -362,3 +363,10 @@ docker network inspect <project>_default
 # KÖTÜ: Secret'ları docker-compose.yml'e koymak
 # .env dosyaları (gitignore'lanmış) veya Docker secrets kullanın
 ```
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/docker-patterns/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

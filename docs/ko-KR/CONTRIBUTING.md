@@ -1,3 +1,6 @@
+---
+source_path: CONTRIBUTING.md
+---
 # awesome claude notes에 기여하기
 
 기여에 관심을 가져주셔서 감사합니다! 이 저장소는 Claude Code 사용자를 위한 커뮤니티 리소스입니다.
@@ -451,3 +454,10 @@ docs: improve contributing guide
 ---
 
 기여해 주셔서 감사합니다! 함께 훌륭한 리소스를 만들어 갑시다.
+
+## 원문
+- [영문 원문](../../CONTRIBUTING.md)
+
+## 탐색
+- [한국어 문서 안내](README.md)
+- [기여 가이드](../../CONTRIBUTING.md)

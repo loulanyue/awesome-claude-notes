@@ -1,3 +1,6 @@
+---
+source_path: CHANGELOG.md
+---
 # Değişiklik Günlüğü
 
 ## 1.9.0 - 2026-03-20
@@ -147,3 +150,10 @@
 
 - [zarazhangrui](https://github.com/zarazhangrui) tarafından ilham alındı
 - [humanplane](https://github.com/humanplane) tarafından homunculus-ilhamlı
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../CHANGELOG.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](README.md)
+- [Katkı rehberi](../../CONTRIBUTING.md)

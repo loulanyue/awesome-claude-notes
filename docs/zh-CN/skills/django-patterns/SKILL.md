@@ -1,6 +1,7 @@
 ---
 name: django-patterns
 description: Django架构模式，使用DRF设计REST API，ORM最佳实践，缓存，信号，中间件，以及生产级Django应用程序。
+source_path: skills/django-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -732,3 +733,10 @@ Product.objects.filter(stock=0).delete()
 | 中间件 | 请求/响应处理 |
 
 请记住：Django 提供了许多快捷方式，但对于生产应用程序来说，结构和组织比简洁的代码更重要。为可维护性而构建。
+
+## 原文
+- [英文原文](../../../../skills/django-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,8 +1,6 @@
 ---
-paths:
-  - "**/*.php"
-  - "**/composer.lock"
-  - "**/composer.json"
+source_path: rules/php/security.md
+paths: 
 ---
 
 # PHP 安全
@@ -36,3 +34,11 @@ paths:
 ## 参考
 
 有关 Laravel 特定安全指南，请参阅技能：`laravel-security`。
+
+## 原文
+- [英文原文](../../../../rules/php/security.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: security-review
 description: 認証の追加、ユーザー入力の処理、シークレットの操作、APIエンドポイントの作成、支払い/機密機能の実装時にこのスキルを使用します。包括的なセキュリティチェックリストとパターンを提供します。
+source_path: skills/security-review/SKILL.md
 ---
 
 # セキュリティレビュースキル
@@ -492,3 +493,11 @@ test('enforces rate limits', async () => {
 ---
 
 **覚えておいてください**：セキュリティはオプションではありません。1つの脆弱性がプラットフォーム全体を危険にさらす可能性があります。疑わしい場合は、慎重に判断してください。
+
+## 原文
+- [英語版の原文](../../../../skills/security-review/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

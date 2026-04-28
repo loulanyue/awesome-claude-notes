@@ -1,6 +1,7 @@
 ---
 name: django-tdd
 description: Django 测试策略，包括 pytest-django、TDD 方法、factory_boy、模拟、覆盖率以及测试 Django REST Framework API。
+source_path: skills/django-tdd/SKILL.md
 origin: ECC
 ---
 
@@ -727,3 +728,10 @@ open htmlcov/index.html
 | `mail.outbox` | 检查已发送的邮件 |
 
 记住：测试即文档。好的测试解释了你的代码应如何工作。保持测试简单、可读和可维护。
+
+## 原文
+- [英文原文](../../../../skills/django-tdd/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

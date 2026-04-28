@@ -1,3 +1,6 @@
+---
+source_path: rules/common/testing.md
+---
 # 測試需求
 
 ## 最低測試覆蓋率：80%
@@ -28,3 +31,10 @@
 
 - **tdd-guide** - 主動用於新功能，強制先撰寫測試
 - **e2e-runner** - Playwright E2E 測試專家
+
+## 原文
+- [英文原文](../../../rules/common/testing.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

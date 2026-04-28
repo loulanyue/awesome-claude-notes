@@ -1,3 +1,6 @@
+---
+source_path: examples/user-CLAUDE.md
+---
 # Exemplo de CLAUDE.md no Nível de Usuário
 
 Este é um exemplo de arquivo CLAUDE.md no nível de usuário. Coloque em `~/.claude/CLAUDE.md`.
@@ -107,3 +110,10 @@ Você tem sucesso quando:
 ---
 
 **Filosofia**: Design agent-first, execução paralela, planejar antes de agir, testar antes de codar, segurança sempre.
+
+## Fonte canônica
+- [Documento original em inglês](../../../examples/user-CLAUDE.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

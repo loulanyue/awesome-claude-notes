@@ -1,8 +1,6 @@
 ---
-paths:
-  - "**/*.go"
-  - "**/go.mod"
-  - "**/go.sum"
+source_path: rules/golang/coding-style.md
+paths: 
 ---
 # Go Kodlama Stili
 
@@ -30,3 +28,11 @@ if err != nil {
 ## Referans
 
 Kapsamlı Go idiom'ları ve pattern'leri için skill: `golang-patterns` dosyasına bakın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/golang/coding-style.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

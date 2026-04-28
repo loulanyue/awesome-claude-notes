@@ -1,6 +1,7 @@
 ---
 name: tdd-workflow
 description: Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.
+source_path: skills/tdd-workflow/SKILL.md
 ---
 
 # 測試驅動開發工作流程
@@ -407,3 +408,10 @@ npm test && npm run lint
 ---
 
 **記住**：測試不是可選的。它們是實現自信重構、快速開發和生產可靠性的安全網。
+
+## 原文
+- [英文原文](../../../../skills/tdd-workflow/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

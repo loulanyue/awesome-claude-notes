@@ -1,6 +1,7 @@
 ---
 name: django-verification
 description: "Django项目的验证循环：迁移、代码检查、带覆盖率的测试、安全扫描，以及在发布或PR前的部署就绪检查。"
+source_path: skills/django-verification/SKILL.md
 origin: ECC
 ---
 
@@ -473,3 +474,10 @@ jobs:
 | 差异统计 | `git diff --stat` |
 
 请记住：自动化验证可以发现常见问题，但不能替代在预发布环境中的手动代码审查和测试。
+
+## 原文
+- [英文原文](../../../../skills/django-verification/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

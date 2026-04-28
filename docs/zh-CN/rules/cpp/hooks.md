@@ -1,12 +1,6 @@
 ---
-paths:
-  - "**/*.cpp"
-  - "**/*.hpp"
-  - "**/*.cc"
-  - "**/*.hh"
-  - "**/*.cxx"
-  - "**/*.h"
-  - "**/CMakeLists.txt"
+source_path: rules/cpp/hooks.md
+paths: 
 ---
 
 # C++ 钩子
@@ -38,3 +32,11 @@ ctest --test-dir build --output-on-failure
 3. **cppcheck** — 补充分析
 4. **cmake build** — 编译
 5. **ctest** — 使用清理器执行测试
+
+## 原文
+- [英文原文](../../../../rules/cpp/hooks.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

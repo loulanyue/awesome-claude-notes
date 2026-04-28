@@ -1,3 +1,6 @@
+---
+source_path: rules/common/performance.md
+---
 # Performans Optimizasyonu
 
 ## Model Seçim Stratejisi
@@ -53,3 +56,11 @@ Build başarısız olursa:
 2. Hata mesajlarını analiz et
 3. Aşamalı olarak düzelt
 4. Her düzeltmeden sonra doğrula
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/common/performance.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

@@ -193,6 +193,16 @@ const LOCALIZED_DOC_LOCALES = [
   }
 ];
 
+const CANONICAL_PATH_CANDIDATES = [
+  (relativePath) => relativePath,
+  (relativePath) => `docs/${relativePath}`,
+  (relativePath) => {
+    const match = relativePath.match(/^rules\/([^/]+)\.md$/);
+    return match ? `rules/common/${match[1]}.md` : null;
+  }
+];
+
 module.exports = {
+  CANONICAL_PATH_CANDIDATES,
   LOCALIZED_DOC_LOCALES
 };

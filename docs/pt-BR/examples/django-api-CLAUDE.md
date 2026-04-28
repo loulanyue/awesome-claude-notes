@@ -1,3 +1,6 @@
+---
+source_path: examples/django-api-CLAUDE.md
+---
 # Django REST API — CLAUDE.md de Projeto
 
 > Exemplo real para uma API Django REST Framework com PostgreSQL e Celery.
@@ -306,3 +309,10 @@ pytest --lf
 - Branches de feature a partir da `main`, PRs obrigatórios
 - CI: ruff (lint + format), mypy (types), pytest (tests), safety (dep check)
 - Deploy: imagem Docker, gerenciada via Kubernetes ou Railway
+
+## Fonte canônica
+- [Documento original em inglês](../../../examples/django-api-CLAUDE.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

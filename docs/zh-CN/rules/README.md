@@ -1,3 +1,6 @@
+---
+source_path: rules/README.md
+---
 # 规则
 
 ## 结构
@@ -103,3 +106,10 @@ cp -r rules/php ~/.claude/rules/php
 `rules/common/` 中可能被语言特定文件覆盖的规则会标记为：
 
 > **语言说明**：对于此模式不符合语言习惯的语言，此规则可能会被语言特定规则覆盖。
+
+## 原文
+- [英文原文](../../../rules/README.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [贡献指南](../../../CONTRIBUTING.md)

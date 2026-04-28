@@ -1,6 +1,7 @@
 ---
 name: django-security
 description: Django security best practices, authentication, authorization, CSRF protection, SQL injection prevention, XSS prevention, and secure deployment configurations.
+source_path: skills/django-security/SKILL.md
 ---
 
 # Django セキュリティベストプラクティス
@@ -590,3 +591,11 @@ LOGGING = {
 | 更新 | DjangoとDependenciesを最新に保つ |
 
 **覚えておいてください**: セキュリティは製品ではなく、プロセスです。定期的にセキュリティプラクティスをレビューし、更新してください。
+
+## 原文
+- [英語版の原文](../../../../skills/django-security/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: examples/CLAUDE.md
+---
 # Örnek Proje CLAUDE.md
 
 Bu, örnek bir proje seviyesi CLAUDE.md dosyasıdır. Bunu proje kök dizininize yerleştirin.
@@ -98,3 +101,11 @@ DEBUG=false
 - Asla doğrudan main'e commit yapmayın
 - PR'lar review gerektirir
 - Merge'den önce tüm testler geçmeli
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../examples/CLAUDE.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [examples/README.md](README.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

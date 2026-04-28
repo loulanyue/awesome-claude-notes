@@ -1,3 +1,6 @@
+---
+source_path: rules/common/agents.md
+---
 # 智能体编排
 
 ## 可用智能体
@@ -51,3 +54,11 @@
 * 安全专家
 * 一致性审查员
 * 冗余检查器
+
+## 原文
+- [英文原文](../../../../rules/common/agents.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

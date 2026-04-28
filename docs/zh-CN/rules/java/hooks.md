@@ -1,9 +1,6 @@
 ---
-paths:
-  - "**/*.java"
-  - "**/pom.xml"
-  - "**/build.gradle"
-  - "**/build.gradle.kts"
+source_path: rules/java/hooks.md
+paths: 
 ---
 
 # Java 钩子
@@ -17,3 +14,11 @@ paths:
 * **google-java-format**：编辑后自动格式化 `.java` 文件
 * **checkstyle**：编辑Java文件后运行样式检查
 * **./mvnw compile** 或 **./gradlew compileJava**：变更后验证编译
+
+## 原文
+- [英文原文](../../../../rules/java/hooks.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

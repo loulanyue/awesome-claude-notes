@@ -1,6 +1,7 @@
 ---
 name: java-coding-standards
 description: "Spring Boot服务的Java编码标准：命名、不可变性、Optional用法、流、异常、泛型和项目布局。"
+source_path: skills/java-coding-standards/SKILL.md
 origin: ECC
 ---
 
@@ -145,3 +146,10 @@ log.error("failed_fetch_market slug={}", slug, ex);
 * 倾向于确定性测试；没有隐藏的休眠
 
 **记住**：保持代码意图明确、类型安全且可观察。除非证明有必要，否则优先考虑可维护性而非微优化。
+
+## 原文
+- [英文原文](../../../../skills/java-coding-standards/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

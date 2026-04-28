@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.cs"
-  - "**/*.csx"
+source_path: rules/csharp/coding-style.md
+paths: 
 ---
 
 # C# 编码风格
@@ -71,3 +70,11 @@ public async Task<Order> LoadOrderAsync(
 * 使用 `dotnet format` 进行格式化和分析器修复
 * 保持 `using` 指令有序，并移除未使用的导入
 * 仅当表达式体成员保持可读性时才优先使用
+
+## 原文
+- [英文原文](../../../../rules/csharp/coding-style.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.py"
-  - "**/*.pyi"
+source_path: rules/python/security.md
+paths: 
 ---
 
 # Python 安全
@@ -29,3 +28,11 @@ api_key = os.environ["OPENAI_API_KEY"]  # Raises KeyError if missing
 ## 参考
 
 查看技能：`django-security` 以获取 Django 特定的安全指南（如适用）。
+
+## 原文
+- [英文原文](../../../../rules/python/security.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

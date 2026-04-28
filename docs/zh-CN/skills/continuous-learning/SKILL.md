@@ -1,6 +1,7 @@
 ---
 name: continuous-learning
 description: 自动从Claude Code会话中提取可重复使用的模式，并将其保存为学习到的技能以供将来使用。
+source_path: skills/continuous-learning/SKILL.md
 origin: ECC
 ---
 
@@ -118,3 +119,10 @@ Homunculus v2 采用了更复杂的方法：
 5. **演进路径** - 将相关本能聚类为技能/命令
 
 参见：`docs/continuous-learning-v2-spec.md` 以获取完整规范。
+
+## 原文
+- [英文原文](../../../../skills/continuous-learning/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

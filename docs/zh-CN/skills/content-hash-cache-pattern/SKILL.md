@@ -1,6 +1,7 @@
 ---
 name: content-hash-cache-pattern
 description: 使用SHA-256内容哈希缓存昂贵的文件处理结果——路径无关、自动失效、服务层分离。
+source_path: skills/content-hash-cache-pattern/SKILL.md
 origin: ECC
 ---
 
@@ -159,3 +160,10 @@ data = dataclasses.asdict(entry)  # Use manual serialization instead
 * 必须始终保持最新的数据（实时数据流）
 * 缓存条目可能极其庞大的情况（应考虑使用流式处理）
 * 结果依赖于文件内容之外参数的情况（例如，不同的提取配置）
+
+## 原文
+- [英文原文](../../../../skills/content-hash-cache-pattern/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

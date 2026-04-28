@@ -1,6 +1,7 @@
 ---
 name: django-patterns
 description: DRF ile Django mimari desenleri, REST API tasarımı, ORM en iyi uygulamaları, caching, signal'ler, middleware ve production-grade Django uygulamaları.
+source_path: skills/django-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -732,3 +733,10 @@ Product.objects.filter(stock=0).delete()
 | Middleware | Request/response işleme |
 
 Unutmayın: Django birçok kısayol sağlar, ancak production uygulamaları için yapı ve organizasyon kısa koddan daha önemlidir. Bakımı kolay olacak şekilde oluşturun.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/django-patterns/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

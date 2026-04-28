@@ -1,8 +1,6 @@
 ---
-paths:
-  - "**/*.go"
-  - "**/go.mod"
-  - "**/go.sum"
+source_path: rules/golang/security.md
+paths: 
 ---
 # Go Güvenlik
 
@@ -32,3 +30,11 @@ Timeout kontrolü için daima `context.Context` kullan:
 ctx, cancel := context.WithTimeout(ctx, 5*time.Second)
 defer cancel()
 ```
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/golang/security.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: rules/common/performance.md
+---
 # Otimização de Desempenho
 
 ## Estratégia de Seleção de Modelo
@@ -53,3 +56,10 @@ Se o build falhar:
 2. Analise mensagens de erro
 3. Corrija incrementalmente
 4. Verifique após cada correção
+
+## Fonte canônica
+- [Documento original em inglês](../../../rules/common/performance.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

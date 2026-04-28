@@ -1,3 +1,6 @@
+---
+source_path: rules/common/performance.md
+---
 # 성능 최적화
 
 ## 모델 선택 전략
@@ -53,3 +56,10 @@
 2. 에러 메시지 분석
 3. 점진적으로 수정
 4. 각 수정 후 검증
+
+## 원문
+- [영문 원문](../../../rules/common/performance.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

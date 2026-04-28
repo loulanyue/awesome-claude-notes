@@ -1,6 +1,7 @@
 ---
 name: continuous-learning
 description: Claude Code 세션에서 재사용 가능한 패턴을 자동으로 추출하여 향후 사용을 위한 학습된 스킬로 저장합니다.
+source_path: skills/continuous-learning/SKILL.md
 origin: ECC
 ---
 
@@ -146,3 +147,10 @@ Homunculus v2는 더 정교한 접근법을 취합니다:
 5. **진화 경로** - 관련 본능을 스킬/명령어로 클러스터링
 
 자세한 사양은 [`continuous-learning-v2-spec.md`](../../../continuous-learning-v2-spec.md)를 참조하세요.
+
+## 원문
+- [영문 원문](../../../../skills/continuous-learning/SKILL.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: examples/laravel-api-CLAUDE.md
+---
 # Laravel API — 项目 CLAUDE.md
 
 > 使用 PostgreSQL、Redis 和队列的 Laravel API 真实案例。
@@ -309,3 +312,10 @@ final class OrdersControllerTest extends TestCase
     }
 }
 ```
+
+## 原文
+- [英文原文](../../../examples/laravel-api-CLAUDE.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [贡献指南](../../../CONTRIBUTING.md)

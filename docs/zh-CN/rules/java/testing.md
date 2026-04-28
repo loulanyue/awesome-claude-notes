@@ -1,6 +1,6 @@
 ---
-paths:
-  - "**/*.java"
+source_path: rules/java/testing.md
+paths: 
 ---
 
 # Java 测试
@@ -131,3 +131,11 @@ class OrderRepositoryIT {
 
 关于使用 MockMvc 和 Testcontainers 的 Spring Boot TDD 模式，请参阅技能：`springboot-tdd`。
 关于测试期望，请参阅技能：`java-coding-standards`。
+
+## 原文
+- [英文原文](../../../../rules/java/testing.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

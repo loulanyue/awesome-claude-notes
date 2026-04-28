@@ -1,3 +1,6 @@
+---
+source_path: examples/CLAUDE.md
+---
 # Exemplo de CLAUDE.md de Projeto
 
 Este é um exemplo de arquivo CLAUDE.md no nível de projeto. Coloque-o na raiz do seu projeto.
@@ -98,3 +101,10 @@ DEBUG=false
 - Nunca commitar direto na main
 - PRs exigem revisão
 - Todos os testes devem passar antes do merge
+
+## Fonte canônica
+- [Documento original em inglês](../../../examples/CLAUDE.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

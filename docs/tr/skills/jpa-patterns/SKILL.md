@@ -1,6 +1,7 @@
 ---
 name: jpa-patterns
 description: Spring Boot'ta entity tasarımı, ilişkiler, sorgu optimizasyonu, transaction'lar, auditing, indeksleme, sayfalama ve pooling için JPA/Hibernate kalıpları.
+source_path: skills/jpa-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -149,3 +150,10 @@ spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 - Logları kullanarak SQL verimliliğini assert et: parametre değerleri için `logging.level.org.hibernate.SQL=DEBUG` ve `logging.level.org.hibernate.orm.jdbc.bind=TRACE` ayarla
 
 **Hatırla**: Entity'leri yalın, sorguları kasıtlı ve transaction'ları kısa tut. Fetch stratejileri ve projections ile N+1'i önle, ve okuma/yazma yolların için indeksle.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/jpa-patterns/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)
