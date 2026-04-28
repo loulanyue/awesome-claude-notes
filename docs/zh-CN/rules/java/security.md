@@ -1,6 +1,6 @@
 ---
-paths:
-  - "**/*.java"
+source_path: rules/java/security.md
+paths: 
 ---
 
 # Java 安全
@@ -99,3 +99,11 @@ try {
 
 关于 Spring Security 认证与授权模式，请参见技能：`springboot-security`。
 关于通用安全检查清单，请参见技能：`security-review`。
+
+## 原文
+- [英文原文](../../../../rules/java/security.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: strategic-compact
 description: Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.
+source_path: skills/strategic-compact/SKILL.md
 ---
 
 # 策略性壓縮技能
@@ -61,3 +62,10 @@ description: Suggests manual context compaction at logical intervals to preserve
 
 - [Longform Guide](https://x.com/affaanmustafa/status/2014040193557471352) - Token 優化章節
 - 記憶持久性 hooks - 用於壓縮後存活的狀態
+
+## 原文
+- [英文原文](../../../../skills/strategic-compact/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

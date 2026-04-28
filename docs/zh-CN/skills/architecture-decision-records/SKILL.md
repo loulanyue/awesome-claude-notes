@@ -1,6 +1,7 @@
 ---
 name: architecture-decision-records
 description: 在Claude Code会话期间，将做出的架构决策捕获为结构化的架构决策记录（ADR）。自动检测决策时刻，记录上下文、考虑的替代方案和理由。维护一个ADR日志，以便未来的开发人员理解代码库为何以当前方式构建。
+source_path: skills/architecture-decision-records/SKILL.md
 origin: ECC
 ---
 
@@ -181,3 +182,10 @@ proposed → accepted → [deprecated | superseded by ADR-NNNN]
 
 * **规划代理**：当规划者提出架构变更时，建议创建 ADR
 * **代码审查代理**：标记引入架构变更但未附带相应 ADR 的 PR
+
+## 原文
+- [英文原文](../../../../skills/architecture-decision-records/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

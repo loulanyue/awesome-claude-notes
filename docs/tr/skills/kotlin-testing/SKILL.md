@@ -1,6 +1,7 @@
 ---
 name: kotlin-testing
 description: Kotest, MockK, coroutine testi, property-based testing ve Kover coverage ile Kotlin test kalıpları. İdiomatic Kotlin uygulamalarıyla TDD metodolojisini takip eder.
+source_path: skills/kotlin-testing/SKILL.md
 origin: ECC
 ---
 
@@ -576,3 +577,10 @@ test:
 ```
 
 **Hatırla**: Testler dokümantasyondur. Kotlin kodunuzun nasıl kullanılması gerektiğini gösterirler. Testleri okunabilir yapmak için Kotest'in açıklayıcı matcher'larını ve bağımlılıkları temiz mock'lamak için MockK kullanın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/kotlin-testing/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

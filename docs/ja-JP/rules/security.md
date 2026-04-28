@@ -1,3 +1,6 @@
+---
+source_path: rules/common/security.md
+---
 # セキュリティガイドライン
 
 ## 必須セキュリティチェック
@@ -27,3 +30,11 @@
 3. 継続前に CRITICAL 問題を修正
 4. 露出したシークレットをローテーション
 5. 同様の問題がないかコードベース全体をレビュー
+
+## 原文
+- [英語版の原文](../../../rules/common/security.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [rules/README.md](README.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

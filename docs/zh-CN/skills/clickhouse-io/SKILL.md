@@ -1,6 +1,7 @@
 ---
 name: clickhouse-io
 description: ClickHouse数据库模式、查询优化、分析以及高性能分析工作负载的数据工程最佳实践。
+source_path: skills/clickhouse-io/SKILL.md
 origin: ECC
 ---
 
@@ -443,3 +444,10 @@ pgClient.on('notification', async (msg) => {
 * 查看慢查询日志
 
 **记住**: ClickHouse 擅长分析工作负载。根据查询模式设计表，批量插入，并利用物化视图进行实时聚合。
+
+## 原文
+- [英文原文](../../../../skills/clickhouse-io/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

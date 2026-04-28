@@ -1,6 +1,7 @@
 ---
 name: rust-patterns
 description: 地道的Rust模式、所有权、错误处理、特质、并发，以及构建安全、高性能应用程序的最佳实践。
+source_path: skills/rust-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -497,3 +498,10 @@ async fn bad_async() {
 ```
 
 **请记住**：如果它能编译，那它很可能是正确的 —— 但前提是你要避免 `unwrap()`，最小化 `unsafe`，并让类型系统为你工作。
+
+## 原文
+- [英文原文](../../../../skills/rust-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

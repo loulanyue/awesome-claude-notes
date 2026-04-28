@@ -1,3 +1,6 @@
+---
+source_path: examples/user-CLAUDE.md
+---
 # ユーザーレベル CLAUDE.md の例
 
 これはユーザーレベル CLAUDE.md ファイルの例です。`~/.claude/CLAUDE.md` に配置してください。
@@ -101,3 +104,10 @@
 ---
 
 **哲学**: エージェント優先設計、並列実行、行動前に計画、コード前にテスト、常にセキュリティ。
+
+## 原文
+- [英語版の原文](../../../examples/user-CLAUDE.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

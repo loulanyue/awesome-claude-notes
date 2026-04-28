@@ -1,6 +1,7 @@
 ---
 name: frontend-patterns
 description: Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
+source_path: skills/frontend-patterns/SKILL.md
 ---
 
 # 前端開發模式
@@ -629,3 +630,10 @@ export function Modal({ isOpen, onClose, children }: ModalProps) {
 ```
 
 **記住**：現代前端模式能實現可維護、高效能的使用者介面。選擇符合你專案複雜度的模式。
+
+## 原文
+- [英文原文](../../../../skills/frontend-patterns/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

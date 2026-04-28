@@ -1,6 +1,7 @@
 ---
 name: backend-patterns
 description: Node.js, Express ve Next.js API routes için backend mimari kalıpları, API tasarımı, veritabanı optimizasyonu ve sunucu tarafı en iyi uygulamalar.
+source_path: skills/backend-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -596,3 +597,10 @@ export async function GET(request: Request) {
 ```
 
 **Unutmayın**: Backend kalıpları ölçeklenebilir, sürdürülebilir sunucu tarafı uygulamalar sağlar. Karmaşıklık seviyenize uyan kalıpları seçin.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/backend-patterns/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

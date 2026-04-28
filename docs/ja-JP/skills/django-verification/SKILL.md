@@ -1,6 +1,7 @@
 ---
 name: django-verification
 description: Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR.
+source_path: skills/django-verification/SKILL.md
 ---
 
 # Django 検証ループ
@@ -458,3 +459,11 @@ jobs:
 | 差分統計 | `git diff --stat` |
 
 **覚えておいてください**: 自動化された検証は一般的な問題を捕捉しますが、手動でのコードレビューとステージング環境でのテストに代わるものではありません。
+
+## 原文
+- [英語版の原文](../../../../skills/django-verification/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

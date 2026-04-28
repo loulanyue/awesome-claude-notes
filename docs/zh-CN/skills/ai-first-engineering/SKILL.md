@@ -1,6 +1,7 @@
 ---
 name: ai-first-engineering
 description: 团队中人工智能代理生成大部分实施输出的工程运营模型。
+source_path: skills/ai-first-engineering/SKILL.md
 origin: ECC
 ---
 
@@ -53,3 +54,10 @@ origin: ECC
 * 对涉及的领域要求回归测试覆盖率
 * 明确的边界情况断言
 * 接口边界的集成检查
+
+## 原文
+- [英文原文](../../../../skills/ai-first-engineering/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

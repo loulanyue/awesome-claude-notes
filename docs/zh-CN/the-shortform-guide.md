@@ -1,3 +1,6 @@
+---
+source_path: the-shortform-guide.md
+---
 # Claude Code 简明指南
 
 ![标题：Anthropic 黑客马拉松获胜者 - Claude Code 技巧与窍门](../../assets/images/shortform/00-header.png)
@@ -430,3 +433,10 @@ affoon:~ ctx:65% Opus 4.5 19:52
 ***
 
 *在纽约与 [@DRodriguezFX](https://x.com/DRodriguezFX) 一起构建 [zenith.chat](https://zenith.chat) 赢得了 Anthropic x Forum Ventures 黑客马拉松*
+
+## 原文
+- [英文原文](../../the-shortform-guide.md)
+
+## 导航
+- [中文文档导航](README.md)
+- [贡献指南](../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: continuous-learning
 description: Automatically extract reusable patterns from Claude Code sessions and save them as learned skills for future use.
+source_path: skills/continuous-learning/SKILL.md
 ---
 
 # 持續學習技能
@@ -108,3 +109,10 @@ Homunculus v2 採用更複雜的方法：
 5. **演化路徑** - 將相關本能聚類為技能/指令
 
 參見：`docs/continuous-learning-v2-spec.md` 完整規格。
+
+## 原文
+- [英文原文](../../../../skills/continuous-learning/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

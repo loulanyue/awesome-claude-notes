@@ -1,3 +1,6 @@
+---
+source_path: rules/common/patterns.md
+---
 # 常見模式
 
 ## API 回應格式
@@ -53,3 +56,10 @@ interface Repository<T> {
    - 實作規劃
 3. 複製最佳匹配作為基礎
 4. 在經過驗證的結構中迭代
+
+## 原文
+- [英文原文](../../../rules/common/patterns.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

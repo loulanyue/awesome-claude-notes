@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.py"
-  - "**/*.pyi"
+source_path: rules/python/coding-style.md
+paths: 
 ---
 
 # Python 编码风格
@@ -41,3 +40,11 @@ class Point(NamedTuple):
 ## 参考
 
 查看技能：`python-patterns` 以获取全面的 Python 惯用法和模式。
+
+## 原文
+- [英文原文](../../../../rules/python/coding-style.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

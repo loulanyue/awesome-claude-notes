@@ -1,6 +1,7 @@
 ---
 name: laravel-verification
 description: Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security scans, and deployment readiness.
+source_path: skills/laravel-verification/SKILL.md
 origin: ECC
 ---
 
@@ -177,3 +178,10 @@ php artisan route:cache
 php artisan view:cache
 php artisan schedule:list
 ```
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/laravel-verification/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

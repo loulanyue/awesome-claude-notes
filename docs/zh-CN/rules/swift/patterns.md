@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.swift"
-  - "**/Package.swift"
+source_path: rules/swift/patterns.md
+paths: 
 ---
 
 # Swift 模式
@@ -65,3 +64,11 @@ struct UserService {
 
 查看技能：`swift-actor-persistence` 以了解基于 actor 的持久化模式。
 查看技能：`swift-protocol-di-testing` 以了解基于协议的依赖注入和测试。
+
+## 原文
+- [英文原文](../../../../rules/swift/patterns.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

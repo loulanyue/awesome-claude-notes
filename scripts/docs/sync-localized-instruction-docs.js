@@ -2,13 +2,21 @@
 
 const fs = require('fs');
 const path = require('path');
-const { LOCALIZED_DOC_LOCALES } = require('./localized-instruction-docs-config');
+const {
+  CANONICAL_PATH_CANDIDATES,
+  LOCALIZED_DOC_LOCALES
+} = require('./localized-instruction-docs-config');
 
 const ROOT_DIR = path.join(__dirname, '../..');
 const DOCS_DIR = path.join(ROOT_DIR, 'docs');
 const ROOT_GUIDE_START = '<!-- localized-instruction-docs:start -->';
 const ROOT_GUIDE_END = '<!-- localized-instruction-docs:end -->';
 const TYPE_ORDER = ['commands', 'agents', 'contexts'];
+const GENERATED_INDEX_RELATIVE_PATHS = new Set([
+  'agents/README.md',
+  'commands/README.md',
+  'contexts/README.md'
+]);
 
 function extractFrontmatter(content) {
   const cleanContent = content.replace(/^\uFEFF/, '');
@@ -65,6 +73,10 @@ function extractTitle(body, fallbackFile) {
   return match ? match[1].trim() : fallbackFile.replace(/\.md$/, '');
 }
 
+function relativePathFromLocaleRoot(locale, filePath) {
+  return path.relative(path.join(DOCS_DIR, locale.id), filePath).replace(/\\/g, '/');
+}
+
 function relativeDocLinks(locale, currentType) {
   const links = [
     { label: locale.rootReadmeLabel, href: '../README.md' }
@@ -113,6 +125,64 @@ function localizedTypeDir(locale, type) {
   return path.join(DOCS_DIR, locale.id, type);
 }
 
+function resolveCanonicalSourcePath(relativePath) {
+  for (const buildCandidate of CANONICAL_PATH_CANDIDATES) {
+    const candidate = buildCandidate(relativePath);
+    if (!candidate) continue;
+    if (fs.existsSync(path.join(ROOT_DIR, candidate))) {
+      return candidate;
+    }
+  }
+  return null;
+}
+
+function listLocaleMarkdownFiles(locale) {
+  const localeRoot = path.join(DOCS_DIR, locale.id);
+  const results = [];
+
+  function walk(currentDir) {
+    if (!fs.existsSync(currentDir)) return;
+    const entries = fs.readdirSync(currentDir, { withFileTypes: true });
+    for (const entry of entries) {
+      const fullPath = path.join(currentDir, entry.name);
+      if (entry.isDirectory()) {
+        walk(fullPath);
+        continue;
+      }
+      if (entry.isFile() && entry.name.endsWith('.md')) {
+        results.push(relativePathFromLocaleRoot(locale, fullPath));
+      }
+    }
+  }
+
+  walk(localeRoot);
+  return results.sort();
+}
+
+function getManagedLocalizedDocPaths(locale) {
+  return listLocaleMarkdownFiles(locale).filter((relativePath) => {
+    if (relativePath === 'README.md') return false;
+    if (GENERATED_INDEX_RELATIVE_PATHS.has(relativePath)) return false;
+    return Boolean(resolveCanonicalSourcePath(relativePath));
+  });
+}
+
+function buildRelativeLink(fromRelativePath, targetRelativePath) {
+  const fromDir = path.posix.dirname(fromRelativePath);
+  return path.posix.relative(fromDir, targetRelativePath) || '.';
+}
+
+function buildLocaleRelativeLink(locale, fromRelativePath, targetRelativePath) {
+  const fromPath = path.posix.join('docs', locale.id, fromRelativePath);
+  const targetPath = path.posix.join('docs', locale.id, targetRelativePath);
+  return path.posix.relative(path.posix.dirname(fromPath), targetPath) || '.';
+}
+
+function buildRepoRelativeLink(locale, fromRelativePath, targetRepoPath) {
+  const fromPath = path.posix.join('docs', locale.id, fromRelativePath);
+  return path.posix.relative(path.posix.dirname(fromPath), targetRepoPath) || '.';
+}
+
 function cleanupTailSections(body, locale) {
   const headings = [
     locale.sourceHeading,
@@ -137,11 +207,66 @@ function cleanupTailSections(body, locale) {
   return nextBody.trimEnd();
 }
 
+function buildManagedDocNavigationLinks(locale, relativePath) {
+  const links = [
+    {
+      label: locale.rootReadmeLabel,
+      href: buildLocaleRelativeLink(locale, relativePath, 'README.md')
+    }
+  ];
+
+  const topLevelDir = relativePath.split('/')[0];
+  const categoryReadme = `${topLevelDir}/README.md`;
+  if (
+    categoryReadme !== relativePath &&
+    !GENERATED_INDEX_RELATIVE_PATHS.has(categoryReadme) &&
+    fs.existsSync(path.join(DOCS_DIR, locale.id, categoryReadme))
+  ) {
+    links.push({
+      label: `${topLevelDir}/README.md`,
+      href: buildLocaleRelativeLink(locale, relativePath, categoryReadme)
+    });
+  }
+
+  if (TYPE_ORDER.includes(topLevelDir)) {
+    links.push({
+      label: 'Command → Agent / Skill Map',
+      href: buildRepoRelativeLink(locale, relativePath, 'docs/COMMAND-AGENT-MAP.md')
+    });
+  }
+
+  links.push({
+    label: locale.contributingGuideLabel,
+    href: buildRepoRelativeLink(locale, relativePath, 'CONTRIBUTING.md')
+  });
+
+  return links;
+}
+
+function buildManagedDocNavigationSection(locale, relativePath, sourcePath) {
+  const lines = [
+    `## ${locale.sourceHeading}`,
+    `- [${locale.sourceLinkLabel}](${buildRepoRelativeLink(locale, relativePath, sourcePath)})`,
+    '',
+    `## ${locale.navigationHeading}`
+  ];
+
+  for (const link of buildManagedDocNavigationLinks(locale, relativePath)) {
+    lines.push(`- [${link.label}](${link.href})`);
+  }
+
+  return lines.join('\n');
+}
+
 function upsertLocalizedDoc(locale, type, file) {
+  const relativePath = `${type}/${file}`;
+  const sourcePath = resolveCanonicalSourcePath(relativePath);
   const fullPath = path.join(localizedTypeDir(locale, type), file);
   const original = fs.readFileSync(fullPath, 'utf-8').replace(/\r\n/g, '\n');
   const parsed = extractFrontmatter(original);
-  const canonicalFrontmatter = readCanonicalFrontmatter(type, file);
+  const canonicalFrontmatter = sourcePath
+    ? (extractFrontmatter(fs.readFileSync(path.join(ROOT_DIR, sourcePath), 'utf-8')) || { data: {} }).data
+    : {};
 
   let frontmatter = {};
   let body = original;
@@ -159,11 +284,46 @@ function upsertLocalizedDoc(locale, type, file) {
     frontmatter.description = canonicalFrontmatter.description;
   }
 
-  frontmatter.source_path = `${type}/${file}`;
+  frontmatter.source_path = sourcePath || `${type}/${file}`;
   body = cleanupTailSections(body, locale);
 
   const nextContent = `${serializeFrontmatter(frontmatter)}${body}\n\n${buildNavigationSection(locale, type, file)}\n`;
   fs.writeFileSync(fullPath, nextContent);
+}
+
+function upsertManagedLocalizedMarkdown(locale, relativePath) {
+  const fullPath = path.join(DOCS_DIR, locale.id, relativePath);
+  const sourcePath = resolveCanonicalSourcePath(relativePath);
+  if (!sourcePath) return false;
+
+  const original = fs.readFileSync(fullPath, 'utf-8').replace(/\r\n/g, '\n');
+  const parsed = extractFrontmatter(original);
+  const canonicalParsed = extractFrontmatter(fs.readFileSync(path.join(ROOT_DIR, sourcePath), 'utf-8'));
+  const canonicalFrontmatter = canonicalParsed ? canonicalParsed.data : {};
+
+  let frontmatter = {};
+  let body = original;
+
+  if (parsed) {
+    frontmatter = { ...parsed.data };
+    body = parsed.body;
+  }
+
+  if (!frontmatter.description && canonicalFrontmatter.description) {
+    frontmatter.description = canonicalFrontmatter.description;
+  }
+
+  const contextFile = relativePath.match(/^contexts\/(.+)$/);
+  if (contextFile && !frontmatter.description) {
+    frontmatter.description = locale.contextDescriptions[contextFile[1]] || 'Localized shared context document.';
+  }
+
+  frontmatter.source_path = sourcePath;
+  body = cleanupTailSections(body, locale);
+
+  const nextContent = `${serializeFrontmatter(frontmatter)}${body}\n\n${buildManagedDocNavigationSection(locale, relativePath, sourcePath)}\n`;
+  fs.writeFileSync(fullPath, nextContent);
+  return true;
 }
 
 function collectLocalizedEntries(locale, type) {
@@ -281,6 +441,12 @@ function upsertRootGuide(locale, counts) {
 function syncLocale(locale) {
   let updatedCount = 0;
 
+  for (const relativePath of getManagedLocalizedDocPaths(locale)) {
+    if (upsertManagedLocalizedMarkdown(locale, relativePath)) {
+      updatedCount += 1;
+    }
+  }
+
   for (const type of TYPE_ORDER) {
     const dir = localizedTypeDir(locale, type);
     if (!fs.existsSync(dir)) continue;
@@ -332,5 +498,7 @@ if (require.main === module) {
 }
 
 module.exports = {
+  getManagedLocalizedDocPaths,
+  resolveCanonicalSourcePath,
   syncLocalizedInstructionDocs
 };

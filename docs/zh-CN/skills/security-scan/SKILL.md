@@ -1,6 +1,7 @@
 ---
 name: security-scan
 description: 使用AgentShield扫描您的Claude代码配置（.claude/目录），以发现安全漏洞、配置错误和注入风险。检查CLAUDE.md、settings.json、MCP服务器、钩子和代理定义。
+source_path: skills/security-scan/SKILL.md
 origin: ECC
 ---
 
@@ -170,3 +171,10 @@ npx ecc-agentshield init
 
 * **GitHub**: [github.com/affaan-m/agentshield](https://github.com/affaan-m/agentshield)
 * **npm**: [npmjs.com/package/ecc-agentshield](https://www.npmjs.com/package/ecc-agentshield)
+
+## 原文
+- [英文原文](../../../../skills/security-scan/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

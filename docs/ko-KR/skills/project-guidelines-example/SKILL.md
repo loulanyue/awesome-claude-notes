@@ -1,6 +1,7 @@
 ---
 name: project-guidelines-example
 description: "실제 프로덕션 애플리케이션을 기반으로 한 프로젝트별 스킬 템플릿 예시."
+source_path: skills/project-guidelines-example/SKILL.md
 origin: ECC
 ---
 
@@ -347,3 +348,10 @@ SUPABASE_KEY=eyJ...
 - `backend-patterns.md` - API 및 데이터베이스 패턴
 - `frontend-patterns.md` - React 및 Next.js 패턴
 - `tdd-workflow/` - 테스트 주도 개발 방법론
+
+## 원문
+- [영문 원문](../../../../skills/project-guidelines-example/SKILL.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

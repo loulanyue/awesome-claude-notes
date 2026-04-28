@@ -1,3 +1,6 @@
+---
+source_path: rules/common/hooks.md
+---
 # Hooks システム
 
 ## Hook タイプ
@@ -28,3 +31,11 @@ Todo リストが明らかにすること:
 - 不要な余分な項目
 - 粒度の誤り
 - 誤解された要件
+
+## 原文
+- [英語版の原文](../../../rules/common/hooks.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [rules/README.md](README.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

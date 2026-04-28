@@ -1,3 +1,6 @@
+---
+source_path: rules/common/hooks.md
+---
 # Hooks Sistemi
 
 ## Hook Tipleri
@@ -28,3 +31,11 @@ Todo listesi şunları ortaya çıkarır:
 - Fazladan gereksiz öğeler
 - Yanlış detay düzeyi
 - Yanlış yorumlanmış gereksinimler
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/common/hooks.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

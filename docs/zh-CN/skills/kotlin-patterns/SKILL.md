@@ -1,6 +1,7 @@
 ---
 name: kotlin-patterns
 description: 惯用的Kotlin模式、最佳实践和约定，用于构建健壮、高效且可维护的Kotlin应用程序，包括协程、空安全和DSL构建器。
+source_path: skills/kotlin-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -712,3 +713,10 @@ user?.address?.city?.let { process(it) }
 ```
 
 **请记住**：Kotlin 代码应简洁但可读。利用类型系统确保安全，优先使用不可变性，并使用协程处理并发。如有疑问，让编译器帮助你。
+
+## 原文
+- [英文原文](../../../../skills/kotlin-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

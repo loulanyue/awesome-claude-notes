@@ -1,3 +1,6 @@
+---
+source_path: CODE_OF_CONDUCT.md
+---
 # 贡献者公约行为准则
 
 ## 我们的承诺
@@ -81,3 +84,10 @@
 关于本行为准则的常见问题解答，请参阅 FAQ 页面：
 <https://www.contributor-covenant.org/faq>。其他语言翻译版本可在
 <https://www.contributor-covenant.org/translations> 查阅。
+
+## 原文
+- [英文原文](../../CODE_OF_CONDUCT.md)
+
+## 导航
+- [中文文档导航](README.md)
+- [贡献指南](../../CONTRIBUTING.md)

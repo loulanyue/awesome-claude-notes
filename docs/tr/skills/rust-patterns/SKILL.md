@@ -1,6 +1,7 @@
 ---
 name: rust-patterns
 description: Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe, performant applications.
+source_path: skills/rust-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -497,3 +498,10 @@ async fn bad_async() {
 ```
 
 **Unutmayın**: Derlenir ise muhtemelen doğrudur — ama sadece `unwrap()` kullanmaktan kaçınır, `unsafe`'i minimize eder ve tip sisteminin sizin için çalışmasına izin verirseniz.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/rust-patterns/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

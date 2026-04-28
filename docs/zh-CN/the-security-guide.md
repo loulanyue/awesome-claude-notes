@@ -1,3 +1,6 @@
+---
+source_path: the-security-guide.md
+---
 # 智能体安全：攻击向量与隔离
 
 *一切关于 Claude Code / 研究 / 安全*
@@ -205,3 +208,10 @@ Unit42 发现，在具有长对话历史的智能体中，持久性提示注入�
 | 链接预览数据泄露向量 | https://www.scworld.com/news/ai-agents-vulnerable-to-data-leaks-via-malicious-link-previews |
 
 ***
+
+## 原文
+- [英文原文](../../the-security-guide.md)
+
+## 导航
+- [中文文档导航](README.md)
+- [贡献指南](../../CONTRIBUTING.md)

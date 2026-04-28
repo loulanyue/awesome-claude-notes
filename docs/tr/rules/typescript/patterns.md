@@ -1,9 +1,6 @@
 ---
-paths:
-  - "**/*.ts"
-  - "**/*.tsx"
-  - "**/*.js"
-  - "**/*.jsx"
+source_path: rules/typescript/patterns.md
+paths: 
 ---
 # TypeScript/JavaScript Pattern'leri
 
@@ -50,3 +47,11 @@ interface Repository<T> {
   delete(id: string): Promise<void>
 }
 ```
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/typescript/patterns.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

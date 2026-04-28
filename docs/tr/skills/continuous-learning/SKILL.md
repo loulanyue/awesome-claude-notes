@@ -1,6 +1,7 @@
 ---
 name: continuous-learning
 description: Claude Code oturumlarından yeniden kullanılabilir kalıpları otomatik olarak çıkarın ve gelecekte kullanmak üzere öğrenilmiş skill'ler olarak kaydedin.
+source_path: skills/continuous-learning/SKILL.md
 origin: ECC
 ---
 
@@ -117,3 +118,10 @@ Homunculus v2 daha sofistike bir yaklaşım benimsiyor:
 5. **Evrim yolu** - İlgili instinct'leri skill/command'lara kümeleme
 
 Bkz: Tam spec için `docs/continuous-learning-v2-spec.md`.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/continuous-learning/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

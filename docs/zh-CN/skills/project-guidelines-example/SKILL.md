@@ -1,6 +1,7 @@
 ---
 name: project-guidelines-example
 description: "基于真实生产应用的示例项目特定技能模板。"
+source_path: skills/project-guidelines-example/SKILL.md
 origin: ECC
 ---
 
@@ -352,3 +353,10 @@ SUPABASE_KEY=eyJ...
 * `backend-patterns.md` - API 和数据库模式
 * `frontend-patterns.md` - React 和 Next.js 模式
 * `tdd-workflow/` - 测试驱动开发方法论
+
+## 原文
+- [英文原文](../../../../skills/project-guidelines-example/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

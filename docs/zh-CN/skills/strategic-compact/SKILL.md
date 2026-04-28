@@ -1,6 +1,7 @@
 ---
 name: strategic-compact
 description: 建议在逻辑间隔处手动压缩上下文，以在任务阶段中保留上下文，而非任意的自动压缩。
+source_path: skills/strategic-compact/SKILL.md
 origin: ECC
 ---
 
@@ -138,3 +139,10 @@ origin: ECC
 * [长篇指南](https://x.com/affaanmustafa/status/2014040193557471352) — Token 优化部分
 * 记忆持久化钩子 — 用于在压缩后保留状态
 * `continuous-learning` 技能 — 在会话结束前提取模式
+
+## 原文
+- [英文原文](../../../../skills/strategic-compact/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

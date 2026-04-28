@@ -1,6 +1,6 @@
 ---
-paths:
-  - "**/*.java"
+source_path: rules/java/coding-style.md
+paths: 
 ---
 
 # Java 编码风格
@@ -115,3 +115,11 @@ public class OrderNotFoundException extends RuntimeException {
 
 完整编码标准及示例，请参阅技能：`java-coding-standards`。
 JPA/Hibernate 实体设计模式，请参阅技能：`jpa-patterns`。
+
+## 原文
+- [英文原文](../../../../rules/java/coding-style.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

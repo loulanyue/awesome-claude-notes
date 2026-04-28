@@ -1,3 +1,6 @@
+---
+source_path: examples/user-CLAUDE.md
+---
 # 用户级别 CLAUDE.md 示例
 
 这是一个用户级别 CLAUDE.md 文件的示例。放置在 `~/.claude/CLAUDE.md`。
@@ -116,3 +119,10 @@
 ***
 
 **哲学**：代理优先设计，并行执行，先计划后行动，先测试后编码，安全至上。
+
+## 原文
+- [英文原文](../../../examples/user-CLAUDE.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [贡献指南](../../../CONTRIBUTING.md)

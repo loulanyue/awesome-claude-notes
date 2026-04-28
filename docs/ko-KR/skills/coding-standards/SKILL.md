@@ -1,6 +1,7 @@
 ---
 name: coding-standards
 description: TypeScript, JavaScript, React, Node.js 개발을 위한 범용 코딩 표준, 모범 사례 및 패턴.
+source_path: skills/coding-standards/SKILL.md
 origin: ECC
 ---
 
@@ -528,3 +529,10 @@ setTimeout(callback, DEBOUNCE_DELAY_MS)
 ```
 
 **기억하세요**: 코드 품질은 타협할 수 없습니다. 명확하고 유지보수 가능한 코드가 빠른 개발과 자신감 있는 리팩터링을 가능하게 합니다.
+
+## 원문
+- [영문 원문](../../../../skills/coding-standards/SKILL.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

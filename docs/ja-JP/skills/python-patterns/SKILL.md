@@ -1,6 +1,7 @@
 ---
 name: python-patterns
 description: Pythonic イディオム、PEP 8標準、型ヒント、堅牢で効率的かつ保守可能なPythonアプリケーションを構築するためのベストプラクティス。
+source_path: skills/python-patterns/SKILL.md
 ---
 
 # Python開発パターン
@@ -747,3 +748,11 @@ except SpecificError as e:
 ```
 
 **覚えておいてください**: Pythonコードは読みやすく、明示的で、最小の驚きの原則に従うべきです。迷ったときは、巧妙さよりも明確さを優先してください。
+
+## 原文
+- [英語版の原文](../../../../skills/python-patterns/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

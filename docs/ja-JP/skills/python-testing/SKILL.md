@@ -1,6 +1,7 @@
 ---
 name: python-testing
 description: pytest、TDD手法、フィクスチャ、モック、パラメータ化、カバレッジ要件を使用したPythonテスト戦略。
+source_path: skills/python-testing/SKILL.md
 ---
 
 # Pythonテストパターン
@@ -813,3 +814,11 @@ pytest --pdb
 | `assert` | シンプルで読みやすいアサーション |
 
 **覚えておいてください**: テストもコードです。それらをクリーンで、読みやすく、保守可能に保ちましょう。良いテストはバグをキャッチし、優れたテストはそれらを防ぎます。
+
+## 原文
+- [英語版の原文](../../../../skills/python-testing/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: springboot-tdd
 description: Test-driven development for Spring Boot using JUnit 5, Mockito, MockMvc, Testcontainers, and JaCoCo. Use when adding features, fixing bugs, or refactoring.
+source_path: skills/springboot-tdd/SKILL.md
 ---
 
 # Spring Boot TDD ワークフロー
@@ -155,3 +156,11 @@ class MarketBuilder {
 - Gradle: `./gradlew test jacocoTestReport`
 
 **覚えておいてください**: テストは高速で、分離され、決定論的に保ちます。実装の詳細ではなく、動作をテストします。
+
+## 原文
+- [英語版の原文](../../../../skills/springboot-tdd/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

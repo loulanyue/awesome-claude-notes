@@ -1,3 +1,6 @@
+---
+source_path: rules/common/development-workflow.md
+---
 # 开发工作流程
 
 > 本文档在 [common/git-workflow.md](git-workflow.md) 的基础上进行了扩展，涵盖了在 git 操作之前发生的完整功能开发过程。
@@ -36,3 +39,11 @@
    * 详细的提交信息
    * 遵循约定式提交格式
    * 提交信息格式和 PR 流程请参阅 [git-workflow.md](git-workflow.md)
+
+## 原文
+- [英文原文](../../../../rules/common/development-workflow.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

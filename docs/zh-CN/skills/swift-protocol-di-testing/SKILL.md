@@ -1,6 +1,7 @@
 ---
 name: swift-protocol-di-testing
 description: 基于协议的依赖注入，用于可测试的Swift代码——使用聚焦协议和Swift Testing模拟文件系统、网络和外部API。
+source_path: skills/swift-protocol-di-testing/SKILL.md
 origin: ECC
 ---
 
@@ -188,3 +189,10 @@ func testReadError() async {
 * 测试在真实环境中难以触发的错误处理路径时
 * 构建需要在应用、测试和 SwiftUI 预览上下文中工作的模块时
 * 需要使用可测试架构的、采用 Swift 并发（actor、结构化并发）的应用
+
+## 原文
+- [英文原文](../../../../skills/swift-protocol-di-testing/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,9 +1,6 @@
 ---
-paths:
-  - "**/*.ts"
-  - "**/*.tsx"
-  - "**/*.js"
-  - "**/*.jsx"
+source_path: rules/typescript/security.md
+paths: 
 ---
 
 # TypeScript/JavaScript 安全
@@ -27,3 +24,11 @@ if (!apiKey) {
 ## 代理支持
 
 * 使用 **security-reviewer** 技能进行全面的安全审计
+
+## 原文
+- [英文原文](../../../../rules/typescript/security.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

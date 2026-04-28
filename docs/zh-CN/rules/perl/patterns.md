@@ -1,10 +1,6 @@
 ---
-paths:
-  - "**/*.pl"
-  - "**/*.pm"
-  - "**/*.t"
-  - "**/*.psgi"
-  - "**/*.cgi"
+source_path: rules/perl/patterns.md
+paths: 
 ---
 
 # Perl 模式
@@ -75,3 +71,11 @@ carton exec prove -lr t/
 ## 参考
 
 查看技能：`perl-patterns` 以获取全面的现代 Perl 模式和惯用法。
+
+## 原文
+- [英文原文](../../../../rules/perl/patterns.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

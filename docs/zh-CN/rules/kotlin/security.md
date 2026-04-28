@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.kt"
-  - "**/*.kts"
+source_path: rules/kotlin/security.md
+paths: 
 ---
 
 # Kotlin 安全
@@ -81,3 +80,11 @@ fun findByName(input: String): List<ItemEntity>
 * 在 WebView 中加载 URL 前，先进行验证
 * 切勿暴露访问敏感数据的 `@JavascriptInterface` 方法
 * 使用 `WebViewClient.shouldOverrideUrlLoading()` 来控制导航
+
+## 原文
+- [英文原文](../../../../rules/kotlin/security.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

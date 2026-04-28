@@ -1,3 +1,6 @@
+---
+source_path: skills/security-review/cloud-infrastructure-security.md
+---
 | name | description |
 |------|-------------|
 | cloud-infrastructure-security | Use this skill when deploying to cloud platforms, configuring infrastructure, managing IAM policies, setting up logging/monitoring, or implementing CI/CD pipelines. Provides cloud security checklist aligned with best practices. |
@@ -359,3 +362,10 @@ resource "aws_db_instance" "good" {
 - [Terraform Security Best Practices](https://www.terraform.io/docs/cloud/guides/recommended-practices/)
 
 **記住**：雲端錯誤設定是資料外洩的主要原因。單一暴露的 S3 bucket 或過於寬鬆的 IAM 政策可能危及你的整個基礎設施。總是遵循最小權限原則和深度防禦。
+
+## 原文
+- [英文原文](../../../../skills/security-review/cloud-infrastructure-security.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

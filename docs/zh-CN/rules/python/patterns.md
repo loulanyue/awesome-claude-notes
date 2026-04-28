@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.py"
-  - "**/*.pyi"
+source_path: rules/python/patterns.md
+paths: 
 ---
 
 # Python 模式
@@ -38,3 +37,11 @@ class CreateUserRequest:
 ## 参考
 
 查看技能：`python-patterns`，了解包括装饰器、并发和包组织在内的综合模式。
+
+## 原文
+- [英文原文](../../../../rules/python/patterns.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

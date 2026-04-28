@@ -1,3 +1,6 @@
+---
+source_path: CONTRIBUTING.md
+---
 # Contribuindo para o awesome claude notes
 
 Obrigado por querer contribuir! Este repositório é um recurso comunitário para usuários do Claude Code.
@@ -424,3 +427,10 @@ Como você testou isso.
 ---
 
 Obrigado por contribuir! Vamos construir um ótimo recurso juntos.
+
+## Fonte canônica
+- [Documento original em inglês](../../CONTRIBUTING.md)
+
+## Navegação
+- [Documentação em Português (BR)](README.md)
+- [Guia de contribuição](../../CONTRIBUTING.md)

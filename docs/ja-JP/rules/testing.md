@@ -1,3 +1,6 @@
+---
+source_path: rules/common/testing.md
+---
 # テスト要件
 
 ## 最低テストカバレッジ: 80%
@@ -27,3 +30,11 @@
 ## Agent サポート
 
 - **tdd-guide** - 新機能に対して積極的に使用、テストファーストを強制
+
+## 原文
+- [英語版の原文](../../../rules/common/testing.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [rules/README.md](README.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

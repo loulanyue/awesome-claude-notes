@@ -1,3 +1,6 @@
+---
+source_path: TROUBLESHOOTING.md
+---
 # Sorun Giderme Rehberi
 
 awesome claude notes (ECC) eklentisi için yaygın sorunlar ve çözümler.
@@ -420,3 +423,10 @@ Hala sorunlar yaşıyorsanız:
 - [CONTRIBUTING.md](./CONTRIBUTING.md) - Geliştirme rehberleri
 - [docs/](../) - Detaylı dokümantasyon
 - [examples/](./examples/) - Kullanım örnekleri
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../TROUBLESHOOTING.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](README.md)
+- [Katkı rehberi](../../CONTRIBUTING.md)

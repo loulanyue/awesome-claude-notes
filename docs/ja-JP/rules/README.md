@@ -1,3 +1,6 @@
+---
+source_path: rules/README.md
+---
 # ルール
 
 ## 構造
@@ -79,3 +82,10 @@ cp -r rules/golang ~/.claude/rules/golang
    > このファイルは `../common/xxx.md` を <言語> 固有のコンテンツで拡張します。
    ```
 4. 利用可能な既存のスキルを参照するか、`skills/` 配下に新しいものを作成してください。
+
+## 原文
+- [英語版の原文](../../../rules/README.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

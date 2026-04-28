@@ -1,3 +1,6 @@
+---
+source_path: the-security-guide.md
+---
 # Her Şey Agentic Güvenliğe Dair Kısa Kılavuz
 
 _everything claude code / araştırma / güvenlik_
@@ -453,3 +456,10 @@ Kurulumunuzu tarayın: [github.com/affaan-m/agentshield](https://github.com/affa
 gidip yapın ve ayrıca bu repo'ları kaydedin:
 - [github.com/loulanyue/awesome-claude-notes](https://github.com/loulanyue/awesome-claude-notes)
 - [github.com/affaan-m/agentshield](https://github.com/affaan-m/agentshield)
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../the-security-guide.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](README.md)
+- [Katkı rehberi](../../CONTRIBUTING.md)

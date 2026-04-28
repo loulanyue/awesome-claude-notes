@@ -1,3 +1,6 @@
+---
+source_path: examples/user-CLAUDE.md
+---
 # 사용자 수준 CLAUDE.md 예제
 
 사용자 수준 CLAUDE.md 파일 예제입니다. `~/.claude/CLAUDE.md`에 배치하세요.
@@ -107,3 +110,10 @@
 ---
 
 **철학**: Agent 우선 설계, 병렬 실행, 실행 전 계획, 코드 전 테스트, 항상 보안 우선.
+
+## 원문
+- [영문 원문](../../../examples/user-CLAUDE.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

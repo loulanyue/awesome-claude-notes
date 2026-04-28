@@ -1,6 +1,7 @@
 ---
 name: backend-patterns
 description: Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
+source_path: skills/backend-patterns/SKILL.md
 ---
 
 # 後端開發模式
@@ -585,3 +586,10 @@ export async function GET(request: Request) {
 ```
 
 **記住**：後端模式能實現可擴展、可維護的伺服器端應用程式。選擇符合你複雜度等級的模式。
+
+## 原文
+- [英文原文](../../../../skills/backend-patterns/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

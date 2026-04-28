@@ -1,3 +1,6 @@
+---
+source_path: CONTRIBUTING.md
+---
 # awesome claude notes'a Katkıda Bulunma
 
 Katkıda bulunmak istediğiniz için teşekkürler! Bu repo, Claude Code kullanıcıları için bir topluluk kaynağıdır.
@@ -459,3 +462,10 @@ Bunu nasıl test ettiniz.
 ---
 
 Katkıda bulunduğunuz için teşekkürler! Birlikte harika bir kaynak oluşturalım.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../CONTRIBUTING.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](README.md)
+- [Katkı rehberi](../../CONTRIBUTING.md)

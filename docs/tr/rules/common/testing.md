@@ -1,3 +1,6 @@
+---
+source_path: rules/common/testing.md
+---
 # Test Gereksinimleri
 
 ## Minimum Test Coverage: %80
@@ -27,3 +30,11 @@ ZORUNLU iş akışı:
 ## Agent Desteği
 
 - **tdd-guide** - Yeni özellikler için PROAKTİF olarak kullan, test-önce-yaz'ı zorlar
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/common/testing.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

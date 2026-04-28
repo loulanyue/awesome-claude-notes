@@ -1,8 +1,6 @@
 ---
-paths:
-  - "**/*.go"
-  - "**/go.mod"
-  - "**/go.sum"
+source_path: rules/golang/patterns.md
+paths: 
 ---
 # Go Pattern'leri
 
@@ -43,3 +41,11 @@ func NewUserService(repo UserRepository, logger Logger) *UserService {
 ## Referans
 
 Concurrency, hata yönetimi ve paket organizasyonu dahil kapsamlı Go pattern'leri için skill: `golang-patterns` dosyasına bakın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/golang/patterns.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

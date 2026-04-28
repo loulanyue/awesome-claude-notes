@@ -1,6 +1,7 @@
 ---
 name: golang-patterns
 description: 견고하고 효율적이며 유지보수 가능한 Go 애플리케이션 구축을 위한 관용적 Go 패턴, 모범 사례 및 규칙.
+source_path: skills/golang-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -673,3 +674,10 @@ func (c *Counter) Increment() { c.n++ }        // Pointer receiver
 ```
 
 **기억하세요**: Go 코드는 최고의 의미에서 지루해야 합니다 - 예측 가능하고, 일관적이며, 이해하기 쉽게. 의심스러울 때는 단순하게 유지하세요.
+
+## 원문
+- [영문 원문](../../../../skills/golang-patterns/SKILL.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

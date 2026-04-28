@@ -1,3 +1,6 @@
+---
+source_path: SPONSORING.md
+---
 # ECC'ye Sponsor Olma
 
 ECC, Claude Code, Cursor, OpenCode ve Codex app/CLI genelinde açık kaynaklı bir ajan performans sistemi olarak sürdürülmektedir.
@@ -41,3 +44,10 @@ Kesin komut parçacıkları ve tekrarlanabilir çekme süreci için [`docs/busin
 
 - GitHub Sponsors: [https://github.com/sponsors/affaan-m](https://github.com/sponsors/affaan-m)
 - Proje sitesi: [https://ecc.tools](https://ecc.tools)
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../SPONSORING.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](README.md)
+- [Katkı rehberi](../../CONTRIBUTING.md)

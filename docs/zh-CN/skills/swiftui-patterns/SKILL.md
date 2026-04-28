@@ -1,6 +1,7 @@
 ---
 name: swiftui-patterns
 description: SwiftUI 架构模式，使用 @Observable 进行状态管理，视图组合，导航，性能优化，以及现代 iOS/macOS UI 最佳实践。
+source_path: skills/swiftui-patterns/SKILL.md
 ---
 
 # SwiftUI 模式
@@ -134,126 +135,9 @@ extension View {
 }
 ```
 
+## 原文
+- [英文原文](../../../../skills/swiftui-patterns/SKILL.md)
+
 ## 导航
-
-### 类型安全的 NavigationStack
-
-使用 `NavigationStack` 与 `NavigationPath` 来实现程序化、类型安全的路由：
-
-```swift
-@Observable
-final class Router {
-    var path = NavigationPath()
-
-    func navigate(to destination: Destination) {
-        path.append(destination)
-    }
-
-    func popToRoot() {
-        path = NavigationPath()
-    }
-}
-
-enum Destination: Hashable {
-    case detail(Item.ID)
-    case settings
-    case profile(User.ID)
-}
-
-struct RootView: View {
-    @State private var router = Router()
-
-    var body: some View {
-        NavigationStack(path: $router.path) {
-            HomeView()
-                .navigationDestination(for: Destination.self) { dest in
-                    switch dest {
-                    case .detail(let id): ItemDetailView(itemID: id)
-                    case .settings: SettingsView()
-                    case .profile(let id): ProfileView(userID: id)
-                    }
-                }
-        }
-        .environment(router)
-    }
-}
-```
-
-## 性能
-
-### 为大型集合使用惰性容器
-
-`LazyVStack` 和 `LazyHStack` 仅在视图可见时才创建它们：
-
-```swift
-ScrollView {
-    LazyVStack(spacing: 8) {
-        ForEach(items) { item in
-            ItemRow(item: item)
-        }
-    }
-}
-```
-
-### 稳定的标识符
-
-在 `ForEach` 中始终使用稳定、唯一的 ID —— 避免使用数组索引：
-
-```swift
-// Use Identifiable conformance or explicit id
-ForEach(items, id: \.stableID) { item in
-    ItemRow(item: item)
-}
-```
-
-### 避免在 body 中进行昂贵操作
-
-* 切勿在 `body` 内执行 I/O、网络调用或繁重计算
-* 使用 `.task {}` 处理异步工作 —— 当视图消失时它会自动取消
-* 在滚动视图中谨慎使用 `.sensoryFeedback()` 和 `.geometryGroup()`
-* 在列表中最小化使用 `.shadow()`、`.blur()` 和 `.mask()` —— 它们会触发屏幕外渲染
-
-### 遵循 Equatable
-
-对于 body 计算昂贵的视图，遵循 `Equatable` 以跳过不必要的重新渲染：
-
-```swift
-struct ExpensiveChartView: View, Equatable {
-    let dataPoints: [DataPoint] // DataPoint must conform to Equatable
-
-    static func == (lhs: Self, rhs: Self) -> Bool {
-        lhs.dataPoints == rhs.dataPoints
-    }
-
-    var body: some View {
-        // Complex chart rendering
-    }
-}
-```
-
-## 预览
-
-使用 `#Preview` 宏配合内联模拟数据以进行快速迭代：
-
-```swift
-#Preview("Empty state") {
-    ItemListView(viewModel: ItemListViewModel(repository: EmptyMockRepository()))
-}
-
-#Preview("Loaded") {
-    ItemListView(viewModel: ItemListViewModel(repository: PopulatedMockRepository()))
-}
-```
-
-## 应避免的反模式
-
-* 在新代码中使用 `ObservableObject` / `@Published` / `@StateObject` / `@EnvironmentObject` —— 迁移到 `@Observable`
-* 将异步工作直接放在 `body` 或 `init` 中 —— 使用 `.task {}` 或显式的加载方法
-* 在不拥有数据的子视图中将视图模型创建为 `@State` —— 改为从父视图传递
-* 使用 `AnyView` 类型擦除 —— 对于条件视图，优先选择 `@ViewBuilder` 或 `Group`
-* 在向 Actor 传递数据或从 Actor 接收数据时忽略 `Sendable` 要求
-
-## 参考
-
-查看技能：`swift-actor-persistence` 以了解基于 Actor 的持久化模式。
-查看技能：`swift-protocol-di-testing` 以了解基于协议的 DI 和使用 Swift Testing 进行测试。
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

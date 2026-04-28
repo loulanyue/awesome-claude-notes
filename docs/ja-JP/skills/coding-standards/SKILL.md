@@ -1,6 +1,7 @@
 ---
 name: coding-standards
 description: TypeScript、JavaScript、React、Node.js開発のための汎用コーディング標準、ベストプラクティス、パターン。
+source_path: skills/coding-standards/SKILL.md
 ---
 
 # コーディング標準とベストプラクティス
@@ -525,3 +526,11 @@ setTimeout(callback, DEBOUNCE_DELAY_MS)
 ```
 
 **覚えておいてください**: コード品質は妥協できません。明確で保守可能なコードにより、迅速な開発と自信を持ったリファクタリングが可能になります。
+
+## 原文
+- [英語版の原文](../../../../skills/coding-standards/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

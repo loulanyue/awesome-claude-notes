@@ -1,6 +1,7 @@
 ---
 name: laravel-security
 description: Laravel security best practices for authn/authz, validation, CSRF, mass assignment, file uploads, secrets, rate limiting, and secure deployment.
+source_path: skills/laravel-security/SKILL.md
 origin: ECC
 ---
 
@@ -283,3 +284,10 @@ Route::get('/invoices/{invoice}/download', [InvoiceController::class, 'download'
     ->name('downloads.invoice')
     ->middleware('signed');
 ```
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/laravel-security/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

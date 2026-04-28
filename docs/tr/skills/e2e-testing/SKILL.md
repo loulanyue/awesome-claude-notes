@@ -1,6 +1,7 @@
 ---
 name: e2e-testing
 description: Playwright E2E test kalıpları, Page Object Model, yapılandırma, CI/CD entegrasyonu, artifact yönetimi ve kararsız test stratejileri.
+source_path: skills/e2e-testing/SKILL.md
 origin: ECC
 ---
 
@@ -324,3 +325,10 @@ test('trade execution', async ({ page }) => {
   await expect(page.locator('[data-testid="trade-success"]')).toBeVisible()
 })
 ```
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/e2e-testing/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: iterative-retrieval
 description: 서브에이전트 컨텍스트 문제를 해결하기 위한 점진적 컨텍스트 검색 개선 패턴
+source_path: skills/iterative-retrieval/SKILL.md
 origin: ECC
 ---
 
@@ -209,3 +210,10 @@ When retrieving context for this task:
 - [The Longform Guide](https://x.com/affaanmustafa/status/2014040193557471352) - 서브에이전트 오케스트레이션 섹션
 - `continuous-learning` 스킬 - 시간이 지남에 따라 개선되는 패턴
 - `~/.claude/agents/`의 에이전트 정의
+
+## 원문
+- [영문 원문](../../../../skills/iterative-retrieval/SKILL.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

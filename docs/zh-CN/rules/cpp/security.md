@@ -1,12 +1,6 @@
 ---
-paths:
-  - "**/*.cpp"
-  - "**/*.hpp"
-  - "**/*.cc"
-  - "**/*.hh"
-  - "**/*.cxx"
-  - "**/*.h"
-  - "**/CMakeLists.txt"
+source_path: rules/cpp/security.md
+paths: 
 ---
 
 # C++ 安全
@@ -50,3 +44,11 @@ paths:
 ## 参考
 
 查看技能：`cpp-coding-standards` 以获取详细的安全指南。
+
+## 原文
+- [英文原文](../../../../rules/cpp/security.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: laravel-tdd
 description: Test-driven development for Laravel with PHPUnit and Pest, factories, database testing, fakes, and coverage targets.
+source_path: skills/laravel-tdd/SKILL.md
 origin: ECC
 ---
 
@@ -281,3 +282,10 @@ final class DashboardInertiaTest extends TestCase
 ```
 
 Testleri Inertia yanıtlarıyla uyumlu tutmak için ham JSON assertion'ları yerine `assertInertia` tercih edin.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/laravel-tdd/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

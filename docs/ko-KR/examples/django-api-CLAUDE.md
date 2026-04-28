@@ -1,3 +1,6 @@
+---
+source_path: examples/django-api-CLAUDE.md
+---
 # Django REST API — 프로젝트 CLAUDE.md
 
 > PostgreSQL과 Celery를 사용하는 Django REST Framework API의 실전 예시입니다.
@@ -306,3 +309,10 @@ pytest --lf
 - `main`에서 feature 브랜치 생성, PR 필수
 - CI: ruff (린트 + 포맷), mypy (타입), pytest (테스트), safety (의존성 검사)
 - 배포: Docker 이미지, Kubernetes 또는 Railway로 관리
+
+## 원문
+- [영문 원문](../../../examples/django-api-CLAUDE.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

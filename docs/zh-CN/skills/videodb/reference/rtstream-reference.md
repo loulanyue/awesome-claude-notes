@@ -1,3 +1,6 @@
+---
+source_path: skills/videodb/reference/rtstream-reference.md
+---
 # RTStream 参考
 
 RTStream 操作的代码级详情。工作流程指南请参阅 [rtstream.md](rtstream.md)。
@@ -565,3 +568,10 @@ except InvalidRequestError as exc:
     else:
         raise
 ```
+
+## 原文
+- [英文原文](../../../../../skills/videodb/reference/rtstream-reference.md)
+
+## 导航
+- [中文文档导航](../../../README.md)
+- [贡献指南](../../../../../CONTRIBUTING.md)

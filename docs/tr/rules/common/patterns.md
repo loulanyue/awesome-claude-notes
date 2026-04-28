@@ -1,3 +1,6 @@
+---
+source_path: rules/common/patterns.md
+---
 # Yaygın Pattern'ler
 
 ## Skeleton Projeler
@@ -29,3 +32,11 @@ Tüm API yanıtları için tutarlı bir zarf kullan:
 - Data payload ekle (hata durumunda nullable)
 - Hata mesajı alanı ekle (başarı durumunda nullable)
 - Sayfalandırılmış yanıtlar için metadata ekle (total, page, limit)
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/common/patterns.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

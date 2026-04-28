@@ -1,3 +1,6 @@
+---
+source_path: rules/common/performance.md
+---
 # 效能優化
 
 ## 模型選擇策略
@@ -45,3 +48,10 @@
 2. 分析錯誤訊息
 3. 增量修復
 4. 每次修復後驗證
+
+## 原文
+- [英文原文](../../../rules/common/performance.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

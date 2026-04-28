@@ -1,12 +1,6 @@
 ---
-paths:
-  - "**/*.cpp"
-  - "**/*.hpp"
-  - "**/*.cc"
-  - "**/*.hh"
-  - "**/*.cxx"
-  - "**/*.h"
-  - "**/CMakeLists.txt"
+source_path: rules/cpp/coding-style.md
+paths: 
 ---
 
 # C++ 编码风格
@@ -43,3 +37,11 @@ paths:
 ## 参考
 
 有关全面的 C++ 编码标准和指南，请参阅技能：`cpp-coding-standards`。
+
+## 原文
+- [英文原文](../../../../rules/cpp/coding-style.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

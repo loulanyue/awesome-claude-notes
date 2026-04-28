@@ -1,3 +1,6 @@
+---
+source_path: rules/common/agents.md
+---
 # Agent オーケストレーション
 
 ## 利用可能な Agent
@@ -47,3 +50,11 @@
 - セキュリティエキスパート
 - 一貫性レビュー担当
 - 冗長性チェック担当
+
+## 原文
+- [英語版の原文](../../../rules/common/agents.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [rules/README.md](README.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

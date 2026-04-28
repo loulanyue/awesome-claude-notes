@@ -1,3 +1,6 @@
+---
+source_path: examples/user-CLAUDE.md
+---
 # Kullanıcı Seviyesi CLAUDE.md Örneği
 
 Bu, örnek bir kullanıcı seviyesi CLAUDE.md dosyasıdır. `~/.claude/CLAUDE.md` konumuna yerleştirin.
@@ -107,3 +110,11 @@ Birincil editör olarak Zed kullanıyorum:
 ---
 
 **Felsefe**: Agent-first tasarım, paralel yürütme, eylemden önce plan, koddan önce test, her zaman güvenlik.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../examples/user-CLAUDE.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [examples/README.md](README.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

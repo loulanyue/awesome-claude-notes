@@ -1,3 +1,6 @@
+---
+source_path: examples/saas-nextjs-CLAUDE.md
+---
 # SaaS 애플리케이션 — 프로젝트 CLAUDE.md
 
 > Next.js + Supabase + Stripe SaaS 애플리케이션을 위한 실제 사용 예제입니다.
@@ -164,3 +167,10 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 - `main`에서 기능 브랜치 생성, PR 필수
 - CI 실행 항목: lint, 타입 체크, 단위 테스트, E2E 테스트
 - 배포: PR 시 Vercel 미리보기, `main` 병합 시 프로덕션 배포
+
+## 원문
+- [영문 원문](../../../examples/saas-nextjs-CLAUDE.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

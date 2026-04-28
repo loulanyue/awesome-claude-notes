@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.swift"
-  - "**/Package.swift"
+source_path: rules/swift/testing.md
+paths: 
 ---
 
 # Swift 测试
@@ -44,3 +43,11 @@ swift test --enable-code-coverage
 ## 参考
 
 关于基于协议的依赖注入和 Swift Testing 的模拟模式，请参阅技能：`swift-protocol-di-testing`。
+
+## 原文
+- [英文原文](../../../../rules/swift/testing.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

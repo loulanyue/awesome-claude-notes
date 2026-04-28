@@ -1,6 +1,6 @@
 ---
-paths:
-  - "**/*.rs"
+source_path: rules/rust/patterns.md
+paths: 
 ---
 
 # Rust 设计模式
@@ -167,3 +167,11 @@ pub enum ApiResponse<T: serde::Serialize> {
 ## 参考资料
 
 参见技能：`rust-patterns`，其中包含全面的模式，涵盖所有权、trait、泛型、并发和异步。
+
+## 原文
+- [英文原文](../../../../rules/rust/patterns.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

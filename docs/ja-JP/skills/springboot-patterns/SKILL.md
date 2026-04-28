@@ -1,6 +1,7 @@
 ---
 name: springboot-patterns
 description: Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work.
+source_path: skills/springboot-patterns/SKILL.md
 ---
 
 # Spring Boot 開発パターン
@@ -302,3 +303,11 @@ Springの`@Scheduled`を使用するか、キュー（Kafka、SQS、RabbitMQな�
 - `@NonNull`と`Optional`で適切にnull安全性を強制
 
 **覚えておいてください**: コントローラーは薄く、サービスは焦点を絞り、リポジトリはシンプルに、エラーは集中的に処理します。保守性とテスト可能性のために最適化してください。
+
+## 原文
+- [英語版の原文](../../../../skills/springboot-patterns/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

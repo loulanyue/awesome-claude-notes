@@ -1,6 +1,7 @@
 ---
 name: deep-research
 description: 使用firecrawl和exa MCPs进行多源深度研究。搜索网络、综合发现并交付带有来源引用的报告。适用于用户希望对任何主题进行有证据和引用的彻底研究时。
+source_path: skills/deep-research/SKILL.md
 origin: ECC
 ---
 
@@ -161,3 +162,10 @@ crawling_exa(url: "<url>", tokensNum: 5000)
 "美国房地产市场目前情况如何？"
 "调查 AI 代码编辑器的竞争格局"
 ```
+
+## 原文
+- [英文原文](../../../../skills/deep-research/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

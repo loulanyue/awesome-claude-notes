@@ -1,3 +1,6 @@
+---
+source_path: skills/videodb/reference/capture.md
+---
 # Capture 指南
 
 ## 概述
@@ -102,3 +105,10 @@ kill $(cat /tmp/videodb_ws_pid)
 * 收到 SIGINT/SIGTERM 时优雅关机
 * PID 文件，便于进程管理
 * 连接状态日志记录
+
+## 原文
+- [英文原文](../../../../../skills/videodb/reference/capture.md)
+
+## 导航
+- [中文文档导航](../../../README.md)
+- [贡献指南](../../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: enterprise-agent-ops
 description: 通过可观测性、安全边界和生命周期管理来操作长期运行的代理工作负载。
+source_path: skills/enterprise-agent-ops/SKILL.md
 origin: ECC
 ---
 
@@ -50,3 +51,10 @@ origin: ECC
 * systemd 服务
 * 容器编排器
 * CI/CD 门控
+
+## 原文
+- [英文原文](../../../../skills/enterprise-agent-ops/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

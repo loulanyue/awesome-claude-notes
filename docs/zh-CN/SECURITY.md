@@ -1,3 +1,6 @@
+---
+source_path: SECURITY.md
+---
 # 安全政策
 
 ## 支持版本
@@ -51,3 +54,10 @@
 * **安全指南**：[The Shorthand Guide to Everything Agentic Security](the-security-guide.md)
 * **OWASP MCP Top 10**：[owasp.org/www-project-mcp-top-10](https://owasp.org/www-project-mcp-top-10/)
 * **OWASP Agentic Applications Top 10**：[genai.owasp.org](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
+
+## 原文
+- [英文原文](../../SECURITY.md)
+
+## 导航
+- [中文文档导航](README.md)
+- [贡献指南](../../CONTRIBUTING.md)

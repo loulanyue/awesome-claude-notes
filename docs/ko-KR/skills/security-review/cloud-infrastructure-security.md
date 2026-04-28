@@ -1,3 +1,6 @@
+---
+source_path: skills/security-review/cloud-infrastructure-security.md
+---
 | name | description |
 |------|-------------|
 | cloud-infrastructure-security | 클라우드 플랫폼 배포, 인프라 구성, IAM 정책 관리, 로깅/모니터링 설정, CI/CD 파이프라인 구현 시 이 스킬을 사용하세요. 모범 사례에 맞춘 클라우드 보안 체크리스트를 제공합니다. |
@@ -359,3 +362,10 @@ resource "aws_db_instance" "good" {
 - [Terraform Security Best Practices](https://www.terraform.io/docs/cloud/guides/recommended-practices/)
 
 **기억하세요**: 클라우드 잘못된 구성은 데이터 유출의 주요 원인입니다. 하나의 노출된 S3 버킷이나 과도하게 허용적인 IAM 정책이 전체 인프라를 침해할 수 있습니다. 항상 최소 권한 원칙과 심층 방어를 따르세요.
+
+## 원문
+- [영문 원문](../../../../skills/security-review/cloud-infrastructure-security.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

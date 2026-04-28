@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.cs"
-  - "**/*.csx"
+source_path: rules/csharp/patterns.md
+paths: 
 ---
 
 # C# 模式
@@ -49,3 +48,11 @@ public sealed class PaymentsOptions
 * 在服务边界上依赖于接口
 * 保持构造函数专注；如果某个服务需要太多依赖项，请拆分其职责
 * 有意识地注册生命周期：无状态/共享服务使用单例，请求数据使用作用域，轻量级纯工作者使用瞬时
+
+## 原文
+- [英文原文](../../../../rules/csharp/patterns.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

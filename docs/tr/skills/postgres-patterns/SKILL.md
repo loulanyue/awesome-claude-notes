@@ -1,6 +1,7 @@
 ---
 name: postgres-patterns
 description: Sorgu optimizasyonu, şema tasarımı, indeksleme ve güvenlik için PostgreSQL veritabanı kalıpları. Supabase en iyi uygulamalarına dayanır.
+source_path: skills/postgres-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -145,3 +146,10 @@ SELECT pg_reload_conf();
 ---
 
 *Supabase Agent Skills'e dayanır (kredi: Supabase ekibi) (MIT License)*
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/postgres-patterns/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

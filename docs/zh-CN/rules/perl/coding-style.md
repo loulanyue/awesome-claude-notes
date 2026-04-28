@@ -1,10 +1,6 @@
 ---
-paths:
-  - "**/*.pl"
-  - "**/*.pm"
-  - "**/*.t"
-  - "**/*.psgi"
-  - "**/*.cgi"
+source_path: rules/perl/coding-style.md
+paths: 
 ---
 
 # Perl 编码风格
@@ -45,3 +41,11 @@ perlcritic --severity 3 --theme 'core || pbp || security' lib/
 ## 参考
 
 查看技能：`perl-patterns`，了解全面的现代 Perl 惯用法和最佳实践。
+
+## 原文
+- [英文原文](../../../../rules/perl/coding-style.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

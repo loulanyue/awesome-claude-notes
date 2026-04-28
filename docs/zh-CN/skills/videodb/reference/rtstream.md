@@ -1,3 +1,6 @@
+---
+source_path: skills/videodb/reference/rtstream.md
+---
 # RTStream 指南
 
 ## 概述
@@ -57,3 +60,10 @@ system_audios = session.get_rtstream("system_audio")
 | 脚本 | 描述 |
 |--------|-------------|
 | `scripts/ws_listener.py` | 用于实时 AI 结果的 WebSocket 事件监听器 |
+
+## 原文
+- [英文原文](../../../../../skills/videodb/reference/rtstream.md)
+
+## 导航
+- [中文文档导航](../../../README.md)
+- [贡献指南](../../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: ai-regression-testing
 description: AI辅助开发的回归测试策略。沙盒模式API测试，无需依赖数据库，自动化的缺陷检查工作流程，以及捕捉AI盲点的模式，其中同一模型编写和审查代码。
+source_path: skills/ai-regression-testing/SKILL.md
 origin: ECC
 ---
 
@@ -385,3 +386,10 @@ const handleRemove = async (id: string) => {
 * 因为“只是模拟数据”而跳过沙盒路径测试
 * 在单元测试足够时编写集成测试
 * 追求覆盖率百分比——追求回归预防
+
+## 原文
+- [英文原文](../../../../skills/ai-regression-testing/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

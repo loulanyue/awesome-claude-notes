@@ -1,8 +1,9 @@
 ---
 name: eval-harness
 description: Eval-driven development (EDD) ilkelerini uygulayan Claude Code oturumları için formal değerlendirme çerçevesi
-origin: ECC
 tools: Read, Write, Edit, Bash, Grep, Glob
+source_path: skills/eval-harness/SKILL.md
+origin: ECC
 ---
 
 # Eval Harness Skill
@@ -268,3 +269,10 @@ Davranış kalitesi sadece birim testlerle yakalanamadığında product eval'lar
 - `.claude/evals/<feature>.md` tanımı
 - `.claude/evals/<feature>.log` çalıştırma geçmişi
 - `docs/releases/<version>/eval-summary.md` yayın snapshot'ı
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/eval-harness/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

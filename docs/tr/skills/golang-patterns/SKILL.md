@@ -1,6 +1,7 @@
 ---
 name: golang-patterns
 description: İdiomatic Go desenler, en iyi uygulamalar ve sağlam, verimli ve bakımı kolay Go uygulamaları oluşturmak için konvansiyonlar.
+source_path: skills/golang-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -672,3 +673,10 @@ func (c *Counter) Increment() { c.n++ }        // Pointer receiver
 ```
 
 **Unutmayın**: Go kodu en iyi anlamda sıkıcı olmalıdır - öngörülebilir, tutarlı ve anlaşılması kolay. Şüphe duyduğunuzda, basit tutun.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/golang-patterns/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

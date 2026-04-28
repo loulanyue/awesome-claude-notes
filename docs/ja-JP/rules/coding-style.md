@@ -1,3 +1,6 @@
+---
+source_path: rules/common/coding-style.md
+---
 # コーディングスタイル
 
 ## 不変性（重要）
@@ -46,3 +49,11 @@
 - [ ] 適切なエラーハンドリング
 - [ ] ハードコードされた値がない（定数または設定を使用）
 - [ ] 変更がない（不変パターンを使用）
+
+## 原文
+- [英語版の原文](../../../rules/common/coding-style.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [rules/README.md](README.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: kotlin-testing
 description: 使用Kotest、MockK、协程测试、基于属性的测试和Kover覆盖率的Kotlin测试模式。遵循TDD方法论和地道的Kotlin实践。
+source_path: skills/kotlin-testing/SKILL.md
 origin: ECC
 ---
 
@@ -824,3 +825,10 @@ test:
 ```
 
 **记住**：测试就是文档。它们展示了你的 Kotlin 代码应如何使用。使用 Kotest 富有表现力的匹配器使测试可读，并使用 MockK 来清晰地模拟依赖项。
+
+## 原文
+- [英文原文](../../../../skills/kotlin-testing/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

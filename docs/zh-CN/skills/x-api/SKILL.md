@@ -1,6 +1,7 @@
 ---
 name: x-api
 description: X/Twitter API集成，用于发布推文、线程、读取时间线、搜索和分析。涵盖OAuth认证模式、速率限制和平台原生内容发布。当用户希望以编程方式与X交互时使用。
+source_path: skills/x-api/SKILL.md
 origin: ECC
 ---
 
@@ -208,3 +209,10 @@ else:
 
 * `content-engine` — 为 X 生成平台原生内容
 * `crosspost` — 在 X、LinkedIn 和其他平台分发内容
+
+## 原文
+- [英文原文](../../../../skills/x-api/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

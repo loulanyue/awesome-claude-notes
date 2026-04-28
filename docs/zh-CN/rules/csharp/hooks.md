@@ -1,11 +1,6 @@
 ---
-paths:
-  - "**/*.cs"
-  - "**/*.csx"
-  - "**/*.csproj"
-  - "**/*.sln"
-  - "**/Directory.Build.props"
-  - "**/Directory.Build.targets"
+source_path: rules/csharp/hooks.md
+paths: 
 ---
 
 # C# 钩子
@@ -24,3 +19,11 @@ paths:
 
 * 在结束涉及广泛 C# 更改的会话前，运行一次最终的 `dotnet build`
 * 当 `appsettings*.json` 文件被修改时发出警告，以防敏感信息被提交
+
+## 原文
+- [英文原文](../../../../rules/csharp/hooks.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

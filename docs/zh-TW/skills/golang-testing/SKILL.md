@@ -1,6 +1,7 @@
 ---
 name: golang-testing
 description: Go testing patterns including table-driven tests, subtests, benchmarks, fuzzing, and test coverage. Follows TDD methodology with idiomatic Go practices.
+source_path: skills/golang-testing/SKILL.md
 ---
 
 # Go 測試模式
@@ -708,3 +709,10 @@ test:
 ```
 
 **記住**：測試是文件。它們展示你的程式碼應該如何使用。清楚地撰寫並保持更新。
+
+## 原文
+- [英文原文](../../../../skills/golang-testing/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

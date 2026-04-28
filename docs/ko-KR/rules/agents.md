@@ -1,3 +1,6 @@
+---
+source_path: rules/common/agents.md
+---
 # 에이전트 오케스트레이션
 
 ## 사용 가능한 에이전트
@@ -50,3 +53,10 @@
 - 보안 전문가
 - 일관성 검토자
 - 중복 검사자
+
+## 원문
+- [영문 원문](../../../rules/common/agents.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

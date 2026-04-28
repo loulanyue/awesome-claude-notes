@@ -1,3 +1,6 @@
+---
+source_path: the-longform-guide.md
+---
 # 关于 Claude Code 的完整长篇指南
 
 ![Header: The Longform Guide to awesome claude notes](../../assets/images/longform/01-header.png)
@@ -356,3 +359,10 @@ alias q='cd ~/Desktop/projects'
 ***
 
 *两份指南中涵盖的所有内容都可以在 GitHub 上的 [awesome-claude-notes](https://github.com/loulanyue/awesome-claude-notes) 找到*
+
+## 原文
+- [英文原文](../../the-longform-guide.md)
+
+## 导航
+- [中文文档导航](README.md)
+- [贡献指南](../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: rules/common/patterns.md
+---
 # 공통 패턴
 
 ## 스켈레톤 프로젝트
@@ -29,3 +32,10 @@
 - 데이터 페이로드 포함 (에러 시 null)
 - 에러 메시지 필드 포함 (성공 시 null)
 - 페이지네이션 응답에 메타데이터 포함 (total, page, limit)
+
+## 원문
+- [영문 원문](../../../rules/common/patterns.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

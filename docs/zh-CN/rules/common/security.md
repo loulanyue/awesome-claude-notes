@@ -1,3 +1,6 @@
+---
+source_path: rules/common/security.md
+---
 # 安全指南
 
 ## 强制性安全检查
@@ -29,3 +32,11 @@
 3. 在继续之前修复**关键**问题
 4. 轮换任何已暴露的密钥
 5. 审查整个代码库是否存在类似问题
+
+## 原文
+- [英文原文](../../../../rules/common/security.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

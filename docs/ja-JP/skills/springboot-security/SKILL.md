@@ -1,6 +1,7 @@
 ---
 name: springboot-security
 description: Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services.
+source_path: skills/springboot-security/SKILL.md
 ---
 
 # Spring Boot セキュリティレビュー
@@ -117,3 +118,11 @@ http
 - [ ] ログに機密データがない
 
 **注意**: デフォルトで拒否し、入力を検証し、最小権限を適用し、設定によるセキュリティを優先します。
+
+## 原文
+- [英語版の原文](../../../../skills/springboot-security/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

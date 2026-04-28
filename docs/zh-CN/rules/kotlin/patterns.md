@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.kt"
-  - "**/*.kts"
+source_path: rules/kotlin/patterns.md
+paths: 
 ---
 
 # Kotlin 模式
@@ -145,3 +144,11 @@ val client = httpClient {
 
 有关详细的协程模式，请参阅技能：`kotlin-coroutines-flows`。
 有关模块和分层模式，请参阅技能：`android-clean-architecture`。
+
+## 原文
+- [英文原文](../../../../rules/kotlin/patterns.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

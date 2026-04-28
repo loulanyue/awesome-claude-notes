@@ -1,6 +1,7 @@
 ---
 name: springboot-patterns
 description: Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work.
+source_path: skills/springboot-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -310,3 +311,10 @@ Spring'in `@Scheduled`'ını kullanın veya kuyruklar ile entegre olun (örn. Ka
 - `@NonNull` ve uygun yerlerde `Optional` ile null-safety zorlayın
 
 **Unutmayın**: Controller'ları ince, servisleri odaklı, repository'leri basit ve hataları merkezi olarak işlenmiş tutun. Bakım yapılabilirlik ve test edilebilirlik için optimize edin.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/springboot-patterns/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

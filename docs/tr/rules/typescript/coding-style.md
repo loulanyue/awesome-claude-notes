@@ -1,9 +1,6 @@
 ---
-paths:
-  - "**/*.ts"
-  - "**/*.tsx"
-  - "**/*.js"
-  - "**/*.jsx"
+source_path: rules/typescript/coding-style.md
+paths: 
 ---
 # TypeScript/JavaScript Kodlama Stili
 
@@ -197,3 +194,11 @@ const validated: UserInput = userSchema.parse(input)
 - Production kodunda `console.log` ifadeleri yok
 - Bunun yerine uygun logging kütüphaneleri kullan
 - Otomatik tespit için hook'lara bakın
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/typescript/coding-style.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: skills/videodb/reference/streaming.md
+---
 # 流媒体与播放
 
 VideoDB 按需生成流媒体，返回 HLS 兼容的 URL，可在任何标准视频播放器中即时播放。无需渲染时间或导出等待——编辑、搜索和组合内容可立即流式传输。
@@ -404,3 +407,10 @@ print(f"Event recap: {stream_url}")
 * **TextStyle 默认值**：`TextStyle` 默认为 `font='Sans'`、`fontcolor='black'`。对于文本背景色，请使用 `boxcolor`（而非 `bgcolor`）。
 * **与生成结合**：使用 `coll.generate_music(prompt, duration)` 和 `coll.generate_image(prompt, aspect_ratio)` 为时间线组合创建资产。
 * **播放**：`.play()` 在默认系统浏览器中打开流媒体 URL。对于编程使用，请直接处理 URL 字符串。
+
+## 原文
+- [英文原文](../../../../../skills/videodb/reference/streaming.md)
+
+## 导航
+- [中文文档导航](../../../README.md)
+- [贡献指南](../../../../../CONTRIBUTING.md)

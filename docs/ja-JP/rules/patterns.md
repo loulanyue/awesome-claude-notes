@@ -1,3 +1,6 @@
+---
+source_path: rules/common/patterns.md
+---
 # 共通パターン
 
 ## スケルトンプロジェクト
@@ -29,3 +32,11 @@
 - データペイロードを含める（エラー時は null）
 - エラーメッセージフィールドを含める（成功時は null）
 - ページネーションされたレスポンスにメタデータを含める（total, page, limit）
+
+## 原文
+- [英語版の原文](../../../rules/common/patterns.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [rules/README.md](README.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

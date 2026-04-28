@@ -1,6 +1,7 @@
 ---
 name: database-migrations
 description: Şema değişiklikleri, veri migration'ları, rollback'ler ve PostgreSQL, MySQL ve yaygın ORM'ler (Prisma, Drizzle, Django, TypeORM, golang-migrate) arasında sıfır kesinti deployment'ları için veritabanı migration en iyi uygulamaları.
+source_path: skills/database-migrations/SKILL.md
 origin: ECC
 ---
 
@@ -317,3 +318,10 @@ Gün 7: Migration eski status sütununu kaldırır
 | Büyük tabloda inline indeks | Build sırasında yazmaları engeller | CREATE INDEX CONCURRENTLY |
 | Tek migration'da şema + veri | Rollback zor, uzun transaction'lar | Ayrı migration'lar |
 | Kodu kaldırmadan önce sütun kaldırma | Eksik sütunda uygulama hataları | Önce kodu kaldır, sonra sütunu sonraki deploy'da kaldır |
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/database-migrations/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

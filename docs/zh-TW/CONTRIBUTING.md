@@ -1,3 +1,6 @@
+---
+source_path: CONTRIBUTING.md
+---
 # 貢獻 awesome claude notes
 
 感謝您想要貢獻。本儲存庫旨在成為 Claude Code 使用者的社群資源。
@@ -189,3 +192,10 @@ git push origin add-python-reviewer
 ---
 
 感謝您的貢獻。讓我們一起打造優質的資源。
+
+## 原文
+- [英文原文](../../CONTRIBUTING.md)
+
+## 導航
+- [繁體中文文件導航](README.md)
+- [貢獻指南](../../CONTRIBUTING.md)

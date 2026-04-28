@@ -1,13 +1,14 @@
 ---
 name: production-scheduling
 description: 为离散和批量制造中的生产调度、作业排序、产线平衡、换模优化和瓶颈解决提供编码化专业知识。基于拥有15年以上经验的生产调度师的知识。包括约束理论/鼓-缓冲-绳、快速换模、设备综合效率分析、中断响应框架以及企业资源计划/制造执行系统交互模式。适用于调度生产、解决瓶颈、优化换模、应对中断或平衡制造产线时。license: Apache-2.0
+source_path: skills/production-scheduling/SKILL.md
 version: 1.0.0
 homepage: https://github.com/loulanyue/awesome-claude-notes
 origin: ECC
-metadata:
-  author: evos
-  clawdbot:
-    emoji: "🏭"
+metadata: 
+author: evos
+clawdbot: 
+emoji: "🏭"
 ---
 
 # 生产排程
@@ -228,3 +229,10 @@ metadata:
 
 * 将此技能与您的约束层次结构、计划冻结窗口策略和加急批准阈值结合使用。
 * 在工作流程旁记录实际计划遵守失败情况及根本原因，以便排序规则随时间改进。
+
+## 原文
+- [英文原文](../../../../skills/production-scheduling/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

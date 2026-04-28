@@ -1,6 +1,7 @@
 ---
 name: coding-standards
 description: TypeScript, JavaScript, React ve Node.js geliştirme için evrensel kodlama standartları, en iyi uygulamalar ve kalıplar.
+source_path: skills/coding-standards/SKILL.md
 origin: ECC
 ---
 
@@ -528,3 +529,10 @@ setTimeout(callback, DEBOUNCE_DELAY_MS)
 ```
 
 **Unutmayın**: Kod kalitesi pazarlık konusu değildir. Açık, sürdürülebilir kod hızlı geliştirme ve güvenli refactoring sağlar.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/coding-standards/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

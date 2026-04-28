@@ -1,6 +1,7 @@
 ---
 name: cost-aware-llm-pipeline
 description: LLM API 使用成本优化模式 —— 基于任务复杂度的模型路由、预算跟踪、重试逻辑和提示缓存。
+source_path: skills/cost-aware-llm-pipeline/SKILL.md
 origin: ECC
 ---
 
@@ -181,3 +182,10 @@ def process(text: str, config: Config, tracker: CostTracker) -> tuple[Result, Co
 * 成本快速累积的批处理流水线
 * 需要智能路由的多模型架构
 * 需要预算护栏的生产系统
+
+## 原文
+- [英文原文](../../../../skills/cost-aware-llm-pipeline/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

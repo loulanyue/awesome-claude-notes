@@ -1,9 +1,6 @@
 ---
-paths:
-  - "**/*.ts"
-  - "**/*.tsx"
-  - "**/*.js"
-  - "**/*.jsx"
+source_path: rules/typescript/coding-style.md
+paths: 
 ---
 
 # TypeScript/JavaScript 编码风格
@@ -198,3 +195,11 @@ const validated: UserInput = userSchema.parse(input)
 * 生产代码中不允许出现 `console.log` 语句
 * 请使用适当的日志库替代
 * 查看钩子以进行自动检测
+
+## 原文
+- [英文原文](../../../../rules/typescript/coding-style.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

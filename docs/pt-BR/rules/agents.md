@@ -1,3 +1,6 @@
+---
+source_path: rules/common/agents.md
+---
 # Orquestração de Agentes
 
 ## Agentes Disponíveis
@@ -48,3 +51,10 @@ Para problemas complexos, use subagentes com papéis divididos:
 - Especialista em segurança
 - Revisor de consistência
 - Verificador de redundância
+
+## Fonte canônica
+- [Documento original em inglês](../../../rules/common/agents.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

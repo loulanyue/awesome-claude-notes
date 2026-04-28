@@ -1,6 +1,7 @@
 ---
 name: golang-testing
 description: Table-driven testler, subtestler, benchmark'lar, fuzzing ve test coverage içeren Go test desenleri. TDD metodolojisi ile idiomatic Go uygulamalarını takip eder.
+source_path: skills/golang-testing/SKILL.md
 origin: ECC
 ---
 
@@ -718,3 +719,10 @@ test:
 ```
 
 **Unutmayın**: Testler dokümantasyondur. Kodunuzun nasıl kullanılması gerektiğini gösterirler. Testleri açık yazın ve güncel tutun.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/golang-testing/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

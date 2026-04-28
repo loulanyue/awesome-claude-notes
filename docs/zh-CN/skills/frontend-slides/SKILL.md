@@ -1,6 +1,7 @@
 ---
 name: frontend-slides
 description: 从零开始或通过转换PowerPoint文件创建令人惊艳、动画丰富的HTML演示文稿。当用户想要构建演示文稿、将PPT/PPTX转换为网页格式，或为演讲/推介创建幻灯片时使用。帮助非设计师通过视觉探索而非抽象选择发现他们的美学。
+source_path: skills/frontend-slides/SKILL.md
 origin: ECC
 ---
 
@@ -193,3 +194,10 @@ origin: ECC
 * 动画有意义，不喧闹
 * 尊重减少动效设置
 * 在交付时解释文件路径和自定义点
+
+## 原文
+- [英文原文](../../../../skills/frontend-slides/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: django-patterns
 description: Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps.
+source_path: skills/django-patterns/SKILL.md
 ---
 
 # Django 開発パターン
@@ -731,3 +732,11 @@ Product.objects.filter(stock=0).delete()
 | ミドルウェア | リクエスト/レスポンス処理 |
 
 **覚えておいてください**: Djangoは多くのショートカットを提供しますが、本番アプリケーションでは、構造と組織が簡潔なコードよりも重要です。保守性を重視して構築してください。
+
+## 原文
+- [英語版の原文](../../../../skills/django-patterns/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

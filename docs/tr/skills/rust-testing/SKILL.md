@@ -1,6 +1,7 @@
 ---
 name: rust-testing
 description: Rust testing patterns including unit tests, integration tests, async testing, property-based testing, mocking, and coverage. Follows TDD methodology.
+source_path: skills/rust-testing/SKILL.md
 origin: ECC
 ---
 
@@ -498,3 +499,10 @@ test:
 ```
 
 **Unutmayın**: Testler dokümantasyondur. Kodunuzun nasıl kullanılması gerektiğini gösterirler. Onları net yazın ve güncel tutun.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/rust-testing/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

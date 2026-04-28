@@ -1,3 +1,6 @@
+---
+source_path: the-shortform-guide.md
+---
 # Claude Code'un Her Şeyine Dair Kısa Kılavuz
 
 ![Header: Anthropic Hackathon Winner - Tips & Tricks for Claude Code](../../assets/images/shortform/00-header.png)
@@ -429,3 +432,10 @@ affoon:~ ctx:65% Opus 4.5 19:52
 ---
 
 *NYC'de [@DRodriguezFX](https://x.com/DRodriguezFX) ile [zenith.chat](https://zenith.chat) oluşturarak Anthropic x Forum Ventures hackathon'unu kazandım*
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../the-shortform-guide.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](README.md)
+- [Katkı rehberi](../../CONTRIBUTING.md)

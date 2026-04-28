@@ -1,6 +1,7 @@
 ---
 name: deployment-patterns
 description: Deployment iş akışları, CI/CD pipeline kalıpları, Docker konteynerizasyonu, sağlık kontrolleri, rollback stratejileri ve web uygulamaları için üretim hazırlığı kontrol listeleri.
+source_path: skills/deployment-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -425,3 +426,10 @@ Herhangi bir üretim deployment'ından önce:
 - [ ] Veritabanı migration'ı üretim boyutundaki veriye karşı test edilmiş
 - [ ] Yaygın hata senaryoları için runbook
 - [ ] Nöbet rotasyonu ve yükseltme yolu tanımlanmış
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../skills/deployment-patterns/SKILL.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: android-clean-architecture
 description: 适用于Android和Kotlin多平台项目的Clean Architecture模式——模块结构、依赖规则、用例、仓库以及数据层模式。
+source_path: skills/android-clean-architecture/SKILL.md
 origin: ECC
 ---
 
@@ -337,3 +338,10 @@ plugins { id("kmp-library") }
 
 查看技能：`compose-multiplatform-patterns` 了解 UI 模式。
 查看技能：`kotlin-coroutines-flows` 了解异步模式。
+
+## 原文
+- [英文原文](../../../../skills/android-clean-architecture/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

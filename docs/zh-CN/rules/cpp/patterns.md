@@ -1,12 +1,6 @@
 ---
-paths:
-  - "**/*.cpp"
-  - "**/*.hpp"
-  - "**/*.cc"
-  - "**/*.hh"
-  - "**/*.cxx"
-  - "**/*.h"
-  - "**/CMakeLists.txt"
+source_path: rules/cpp/patterns.md
+paths: 
 ---
 
 # C++ 模式
@@ -50,3 +44,11 @@ private:
 ## 参考
 
 有关全面的 C++ 模式和反模式，请参阅技能：`cpp-coding-standards`。
+
+## 原文
+- [英文原文](../../../../rules/cpp/patterns.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

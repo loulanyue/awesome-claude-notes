@@ -1,6 +1,7 @@
 ---
 name: deployment-patterns
 description: 部署工作流、CI/CD流水线模式、Docker容器化、健康检查、回滚策略以及Web应用程序的生产就绪检查清单。
+source_path: skills/deployment-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -430,3 +431,10 @@ npx prisma migrate resolve --rolled-back <migration-name>
 * \[ ] 数据库迁移已针对生产规模的数据进行测试
 * \[ ] 常见故障场景的应急预案
 * \[ ] 待命轮换和升级路径已定义
+
+## 原文
+- [英文原文](../../../../skills/deployment-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

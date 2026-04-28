@@ -1,6 +1,6 @@
 ---
-paths:
-  - "**/*.rs"
+source_path: rules/rust/testing.md
+paths: 
 ---
 
 # Rust 测试
@@ -154,3 +154,11 @@ cargo test --doc                 # Doc tests only
 ## 参考
 
 有关全面的测试模式（包括基于属性的测试、夹具以及使用 Criterion 进行基准测试），请参阅技能：`rust-testing`。
+
+## 原文
+- [英文原文](../../../../rules/rust/testing.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

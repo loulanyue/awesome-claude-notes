@@ -1,3 +1,6 @@
+---
+source_path: rules/common/coding-style.md
+---
 # 程式碼風格
 
 ## 不可變性（關鍵）
@@ -68,3 +71,10 @@ const validated = schema.parse(input)
 - [ ] 沒有 console.log 陳述式
 - [ ] 沒有寫死的值
 - [ ] 沒有變異（使用不可變模式）
+
+## 原文
+- [英文原文](../../../rules/common/coding-style.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

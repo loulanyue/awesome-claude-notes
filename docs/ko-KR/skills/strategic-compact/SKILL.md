@@ -1,6 +1,7 @@
 ---
 name: strategic-compact
 description: 임의의 자동 컴팩션 대신 논리적 간격에서 수동 컨텍스트 압축을 제안하여 작업 단계를 통해 컨텍스트를 보존합니다.
+source_path: skills/strategic-compact/SKILL.md
 origin: ECC
 ---
 
@@ -103,3 +104,10 @@ origin: ECC
 - [The Longform Guide](https://x.com/affaanmustafa/status/2014040193557471352) -- 토큰 최적화 섹션
 - 메모리 영속성 Hook -- 컴팩션에서 살아남는 상태를 위해
 - `continuous-learning` 스킬 -- 세션 종료 전 패턴 추출
+
+## 원문
+- [영문 원문](../../../../skills/strategic-compact/SKILL.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

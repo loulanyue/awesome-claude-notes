@@ -1,9 +1,6 @@
 ---
-paths:
-  - "**/*.cs"
-  - "**/*.csx"
-  - "**/*.csproj"
-  - "**/appsettings*.json"
+source_path: rules/csharp/security.md
+paths: 
 ---
 
 # C# 安全性
@@ -57,3 +54,11 @@ await connection.QueryAsync<Order>(sql, new { customerId });
 ## 参考资料
 
 有关更广泛的应用安全审查清单，请参阅技能：`security-review`。
+
+## 原文
+- [英文原文](../../../../rules/csharp/security.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

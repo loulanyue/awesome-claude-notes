@@ -1,3 +1,6 @@
+---
+source_path: skills/videodb/reference/generative.md
+---
 # 生成式媒体指南
 
 VideoDB 提供 AI 驱动的图像、视频、音乐、音效、语音和文本内容生成。所有生成方法均在 **Collection** 对象上。
@@ -329,3 +332,10 @@ print(result["output"]["topics"])
 * **组合生成类型**：生成图像用于叠加、生成音乐用于背景、生成语音用于旁白，然后使用时间线进行组合（参见 [editor.md](editor.md)）。
 * **提示质量很重要**：描述性、具体的提示在所有生成类型中都能产生更好的结果。
 * **图像的宽高比**：从 `"1:1"`、`"9:16"`、`"16:9"`、`"4:3"` 或 `"3:4"` 中选择。
+
+## 原文
+- [英文原文](../../../../../skills/videodb/reference/generative.md)
+
+## 导航
+- [中文文档导航](../../../README.md)
+- [贡献指南](../../../../../CONTRIBUTING.md)

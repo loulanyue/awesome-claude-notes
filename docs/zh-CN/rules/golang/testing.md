@@ -1,8 +1,6 @@
 ---
-paths:
-  - "**/*.go"
-  - "**/go.mod"
-  - "**/go.sum"
+source_path: rules/golang/testing.md
+paths: 
 ---
 
 # Go 测试
@@ -30,3 +28,11 @@ go test -cover ./...
 ## 参考
 
 查看技能：`golang-testing` 以获取详细的 Go 测试模式和辅助工具。
+
+## 原文
+- [英文原文](../../../../rules/golang/testing.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.rs"
-  - "**/Cargo.toml"
+source_path: rules/rust/hooks.md
+paths: 
 ---
 
 # Rust 钩子
@@ -15,3 +14,11 @@ paths:
 * **cargo fmt**：编辑后自动格式化 `.rs` 文件
 * **cargo clippy**：编辑 Rust 文件后运行 lint 检查
 * **cargo check**：更改后验证编译（比 `cargo build` 更快）
+
+## 原文
+- [英文原文](../../../../rules/rust/hooks.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

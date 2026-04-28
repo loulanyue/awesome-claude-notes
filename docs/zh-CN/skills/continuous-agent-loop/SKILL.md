@@ -1,6 +1,7 @@
 ---
 name: continuous-agent-loop
 description: 具有质量门、评估和恢复控制的连续自主代理循环模式。
+source_path: skills/continuous-agent-loop/SKILL.md
 origin: ECC
 ---
 
@@ -44,3 +45,10 @@ Start
 * 运行 `/harness-audit`
 * 将范围缩小到失败单元
 * 使用明确的验收标准重放
+
+## 原文
+- [英文原文](../../../../skills/continuous-agent-loop/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

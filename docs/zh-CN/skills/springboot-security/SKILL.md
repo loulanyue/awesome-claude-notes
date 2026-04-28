@@ -1,6 +1,7 @@
 ---
 name: springboot-security
 description: Java Spring Boot 服务中认证/授权、验证、CSRF、密钥、标头、速率限制和依赖安全性的 Spring Security 最佳实践。
+source_path: skills/springboot-security/SKILL.md
 origin: ECC
 ---
 
@@ -270,3 +271,10 @@ public class RateLimitFilter extends OncePerRequestFilter {
 * \[ ] 日志不包含敏感数据
 
 **记住**：默认拒绝、验证输入、最小权限、优先采用安全配置。
+
+## 原文
+- [英文原文](../../../../skills/springboot-security/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

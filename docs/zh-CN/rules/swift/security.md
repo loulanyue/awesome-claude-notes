@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.swift"
-  - "**/Package.swift"
+source_path: rules/swift/security.md
+paths: 
 ---
 
 # Swift 安全
@@ -32,3 +31,11 @@ guard let apiKey, !apiKey.isEmpty else {
 * 在显示之前清理所有用户输入，以防止注入攻击
 * 使用带验证的 `URL(string:)`，而不是强制解包
 * 在处理来自外部源（API、深度链接、剪贴板）的数据之前，先进行验证
+
+## 原文
+- [英文原文](../../../../rules/swift/security.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

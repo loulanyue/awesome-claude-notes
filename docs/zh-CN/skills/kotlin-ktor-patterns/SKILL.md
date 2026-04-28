@@ -1,6 +1,7 @@
 ---
 name: kotlin-ktor-patterns
 description: Ktor 服务器模式，包括路由 DSL、插件、身份验证、Koin DI、kotlinx.serialization、WebSockets 和 testApplication 测试。
+source_path: skills/kotlin-ktor-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -687,3 +688,10 @@ fun Application.configureDI() {
 | `testApplication { }` | 集成测试 |
 
 **记住**：Ktor 是围绕 Kotlin 协程和 DSL 设计的。保持路由精简，将逻辑推送到服务层，并使用 Koin 进行依赖注入。使用 `testApplication` 进行测试以获得完整的集成覆盖。
+
+## 原文
+- [英文原文](../../../../skills/kotlin-ktor-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

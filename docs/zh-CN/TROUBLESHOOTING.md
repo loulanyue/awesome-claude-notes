@@ -1,3 +1,6 @@
+---
+source_path: TROUBLESHOOTING.md
+---
 # 故障排除指南
 
 awesome claude notes (ECC) 插件的常见问题与解决方案。
@@ -444,3 +447,10 @@ find ~/.claude/plugins -name "*.sh" -exec dos2unix {} \;
 * [CONTRIBUTING.md](CONTRIBUTING.md) - 开发指南
 * [docs/](..) - 详细文档
 * [examples/](../../examples) - 使用示例
+
+## 原文
+- [英文原文](../../TROUBLESHOOTING.md)
+
+## 导航
+- [中文文档导航](README.md)
+- [贡献指南](../../CONTRIBUTING.md)

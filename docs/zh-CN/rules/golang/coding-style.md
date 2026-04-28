@@ -1,8 +1,6 @@
 ---
-paths:
-  - "**/*.go"
-  - "**/go.mod"
-  - "**/go.sum"
+source_path: rules/golang/coding-style.md
+paths: 
 ---
 
 # Go 编码风格
@@ -31,3 +29,11 @@ if err != nil {
 ## 参考
 
 查看技能：`golang-patterns` 以获取全面的 Go 语言惯用法和模式。
+
+## 原文
+- [英文原文](../../../../rules/golang/coding-style.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

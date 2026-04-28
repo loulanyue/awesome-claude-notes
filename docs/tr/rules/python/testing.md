@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.py"
-  - "**/*.pyi"
+source_path: rules/python/testing.md
+paths: 
 ---
 # Python Testing
 
@@ -36,3 +35,11 @@ def test_database_connection():
 ## Referans
 
 Detaylı pytest pattern'leri ve fixture'lar için skill: `python-testing` dosyasına bakın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/python/testing.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

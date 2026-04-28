@@ -1,3 +1,6 @@
+---
+source_path: rules/common/patterns.md
+---
 # Padrões Comuns
 
 ## Projetos Skeleton
@@ -29,3 +32,10 @@ Use um envelope consistente para todas as respostas de API:
 - Incluir o payload de dados (nullable em caso de erro)
 - Incluir campo de mensagem de erro (nullable em caso de sucesso)
 - Incluir metadados para respostas paginadas (total, página, limite)
+
+## Fonte canônica
+- [Documento original em inglês](../../../rules/common/patterns.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

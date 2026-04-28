@@ -1,3 +1,6 @@
+---
+source_path: SPONSORS.md
+---
 # Sponsorlar
 
 Bu projeye sponsor olan herkese teşekkürler! Desteğiniz ECC ekosisteminin büyümesini sağlıyor.
@@ -57,3 +60,10 @@ Kopyala/yapıştır metrik çekme iş akışı için [`docs/business/metrics-and
 ---
 
 *Otomatik güncellenir. Son senkronizasyon: Şubat 2026*
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../SPONSORS.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](README.md)
+- [Katkı rehberi](../../CONTRIBUTING.md)

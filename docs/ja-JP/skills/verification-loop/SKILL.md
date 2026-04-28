@@ -1,3 +1,7 @@
+---
+description: "A comprehensive verification system for Claude Code sessions."
+source_path: skills/verification-loop/SKILL.md
+---
 # 検証ループスキル
 
 Claude Codeセッション向けの包括的な検証システム。
@@ -118,3 +122,11 @@ Lint:       [成功/失敗] (X警告)
 
 このスキルはPostToolUseフックを補完しますが、より深い検証を提供します。
 フックは問題を即座に捕捉; このスキルは包括的なレビューを提供。
+
+## 原文
+- [英語版の原文](../../../../skills/verification-loop/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: CHANGELOG.md
+---
 # 更新日志
 
 ## 1.9.0 - 2026-03-20
@@ -147,3 +150,10 @@
 
 * 灵感来自 [zarazhangrui](https://github.com/zarazhangrui)
 * homunculus 灵感来自 [humanplane](https://github.com/humanplane)
+
+## 原文
+- [英文原文](../../CHANGELOG.md)
+
+## 导航
+- [中文文档导航](README.md)
+- [贡献指南](../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: perl-security
 description: 全面的Perl安全指南，涵盖污染模式、输入验证、安全进程执行、DBI参数化查询、Web安全（XSS/SQLi/CSRF）以及perlcritic安全策略。
+source_path: skills/perl-security/SKILL.md
 origin: ECC
 ---
 
@@ -501,3 +502,10 @@ print $cgi->redirect($user_url);         # Open redirect
 ```
 
 **请记住**：Perl 的灵活性很强大，但需要纪律。对面向 Web 的代码使用污染模式，使用允许列表验证所有输入，对每个查询使用 DBI 占位符，并根据上下文对所有输出进行编码。纵深防御——绝不依赖单一防护层。
+
+## 原文
+- [英文原文](../../../../skills/perl-security/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: CLAUDE.md
+---
 # CLAUDE.md
 
 本文件为 Claude Code (claude.ai/code) 处理此仓库代码时提供指导。
@@ -59,3 +62,10 @@ node tests/hooks/hooks.test.js
 * 钩子：带有匹配器和钩子数组的 JSON
 
 文件命名：小写字母并用连字符连接（例如 `python-reviewer.md`, `tdd-workflow.md`）
+
+## 原文
+- [英文原文](../../CLAUDE.md)
+
+## 导航
+- [中文文档导航](README.md)
+- [贡献指南](../../CONTRIBUTING.md)

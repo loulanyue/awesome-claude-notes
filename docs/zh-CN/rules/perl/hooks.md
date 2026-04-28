@@ -1,10 +1,6 @@
 ---
-paths:
-  - "**/*.pl"
-  - "**/*.pm"
-  - "**/*.t"
-  - "**/*.psgi"
-  - "**/*.cgi"
+source_path: rules/perl/hooks.md
+paths: 
 ---
 
 # Perl 钩子
@@ -21,3 +17,11 @@ paths:
 ## 警告
 
 * 警告在非脚本 `.pm` 文件中使用 `print` — 应使用 `say` 或日志模块（例如，`Log::Any`）
+
+## 原文
+- [英文原文](../../../../rules/perl/hooks.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

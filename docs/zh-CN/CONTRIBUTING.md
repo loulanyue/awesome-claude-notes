@@ -1,3 +1,6 @@
+---
+source_path: CONTRIBUTING.md
+---
 # 为 awesome claude notes 做贡献
 
 感谢您想要贡献！这个仓库是 Claude Code 用户的社区资源。
@@ -463,3 +466,10 @@ docs: 完善贡献指南
 ***
 
 感谢您的贡献！让我们共同构建一个出色的资源。
+
+## 原文
+- [英文原文](../../CONTRIBUTING.md)
+
+## 导航
+- [中文文档导航](README.md)
+- [贡献指南](../../CONTRIBUTING.md)

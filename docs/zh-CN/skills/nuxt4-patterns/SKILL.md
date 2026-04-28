@@ -1,6 +1,7 @@
 ---
 name: nuxt4-patterns
 description: Nuxt 4 应用模式，涵盖水合安全、性能优化、路由规则、懒加载，以及使用 useFetch 和 useAsyncData 进行 SSR 安全的数据获取。
+source_path: skills/nuxt4-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -98,3 +99,10 @@ export default defineNuxtConfig({
 * 非关键数据是懒加载的，并具有明确的加载 UI
 * 路由规则符合页面的 SEO 和新鲜度要求
 * 重量级交互式组件是懒加载或延迟水合的
+
+## 原文
+- [英文原文](../../../../skills/nuxt4-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: visa-doc-translate
 description: 将签证申请文件（图片）翻译成英文，并创建包含原文和译文的双语PDF
+source_path: skills/visa-doc-translate/SKILL.md
 ---
 
 您正在协助翻译用于签证申请的签证申请文件。
@@ -117,3 +118,10 @@ pip install pyobjc-framework-Vision pyobjc-framework-Quartz
    * 第 2 页：专业的英文翻译
 
 非常适合需要翻译文件的澳大利亚、美国、加拿大、英国及其他国家的签证申请。
+
+## 原文
+- [英文原文](../../../../skills/visa-doc-translate/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

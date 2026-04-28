@@ -1,3 +1,6 @@
+---
+source_path: rules/common/git-workflow.md
+---
 # Git 工作流程
 
 ## Commit 訊息格式
@@ -43,3 +46,10 @@
 4. **Commit 與推送**
    - 詳細的 commit 訊息
    - 遵循 conventional commits 格式
+
+## 原文
+- [英文原文](../../../rules/common/git-workflow.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

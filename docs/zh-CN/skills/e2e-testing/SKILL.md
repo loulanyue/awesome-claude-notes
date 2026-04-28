@@ -1,6 +1,7 @@
 ---
 name: e2e-testing
 description: Playwright E2E 测试模式、页面对象模型、配置、CI/CD 集成、工件管理和不稳定测试策略。
+source_path: skills/e2e-testing/SKILL.md
 origin: ECC
 ---
 
@@ -327,3 +328,10 @@ test('trade execution', async ({ page }) => {
   await expect(page.locator('[data-testid="trade-success"]')).toBeVisible()
 })
 ```
+
+## 原文
+- [英文原文](../../../../skills/e2e-testing/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

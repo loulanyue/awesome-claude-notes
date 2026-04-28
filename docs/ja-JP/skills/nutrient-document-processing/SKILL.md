@@ -1,6 +1,7 @@
 ---
 name: nutrient-document-processing
 description: Nutrient DWS API を使用してドキュメントの処理、変換、OCR、抽出、編集、署名、フォーム入力を行います。PDF、DOCX、XLSX、PPTX、HTML、画像に対応しています。
+source_path: skills/nutrient-document-processing/SKILL.md
 ---
 
 # Nutrient Document Processing
@@ -162,3 +163,11 @@ curl -X POST https://api.nutrient.io/build \
 - [API Playground](https://dashboard.nutrient.io/processor-api/playground/)
 - [完全な API ドキュメント](https://www.nutrient.io/guides/dws-processor/)
 - [npm MCP サーバー](https://www.npmjs.com/package/@nutrient-sdk/dws-mcp-server)
+
+## 原文
+- [英語版の原文](../../../../skills/nutrient-document-processing/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: springboot-verification
 description: Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR.
+source_path: skills/springboot-verification/SKILL.md
 ---
 
 # Spring Boot 検証ループ
@@ -98,3 +99,11 @@ git diff
 - 短いループを維持: `mvn -T 4 test` + spotbugs で迅速なフィードバック
 
 **注意**: 迅速なフィードバックは遅い驚きに勝ります。ゲートを厳格に保ち、本番システムでは警告を欠陥として扱います。
+
+## 原文
+- [英語版の原文](../../../../skills/springboot-verification/SKILL.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../../README.md)
+- [skills/README.md](../README.md)
+- [貢献ガイド](../../../../CONTRIBUTING.md)

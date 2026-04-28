@@ -1,3 +1,6 @@
+---
+source_path: rules/common/coding-style.md
+---
 # 코딩 스타일
 
 ## 불변성 (중요)
@@ -46,3 +49,10 @@
 - [ ] 적절한 에러 처리가 되어 있는가
 - [ ] 하드코딩된 값이 없는가 (상수나 설정 사용)
 - [ ] 변이가 없는가 (불변 패턴 사용)
+
+## 원문
+- [영문 원문](../../../rules/common/coding-style.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

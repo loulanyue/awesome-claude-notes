@@ -1,6 +1,7 @@
 ---
 name: swift-concurrency-6-2
 description: Swift 6.2 可接近的并发性 — 默认单线程，@concurrent 用于显式后台卸载，隔离一致性用于主 actor 类型。
+source_path: skills/swift-concurrency-6-2/SKILL.md
 ---
 
 # Swift 6.2 可接近的并发
@@ -215,3 +216,10 @@ processedPhotos[item.id] = await processor.extractSticker(data: data, with: item
 * 在采用 Xcode 26 期间解决数据竞争安全编译器错误
 * 构建以 MainActor 为中心的应用架构（大多数 UI 应用）
 * 性能优化 — 将特定的繁重计算卸载到后台
+
+## 原文
+- [英文原文](../../../../skills/swift-concurrency-6-2/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

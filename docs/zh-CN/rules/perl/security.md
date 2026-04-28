@@ -1,10 +1,6 @@
 ---
-paths:
-  - "**/*.pl"
-  - "**/*.pm"
-  - "**/*.t"
-  - "**/*.psgi"
-  - "**/*.cgi"
+source_path: rules/perl/security.md
+paths: 
 ---
 
 # Perl 安全
@@ -68,3 +64,11 @@ perlcritic --severity 4 --theme security lib/
 ## 参考
 
 有关全面的 Perl 安全模式、污染模式和安全 I/O，请参阅技能：`perl-security`。
+
+## 原文
+- [英文原文](../../../../rules/perl/security.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: rules/common/git-workflow.md
+---
 # Git İş Akışı
 
 ## Commit Mesaj Formatı
@@ -22,3 +25,11 @@ PR oluştururken:
 
 > Git işlemlerinden önce tam geliştirme süreci (planlama, TDD, kod incelemesi) için
 > [development-workflow.md](./development-workflow.md) dosyasına bakın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/common/git-workflow.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

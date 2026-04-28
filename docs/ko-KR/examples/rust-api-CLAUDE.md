@@ -1,3 +1,6 @@
+---
+source_path: examples/rust-api-CLAUDE.md
+---
 # Rust API Service — 프로젝트 CLAUDE.md
 
 > Axum, PostgreSQL, Docker를 사용하는 Rust API 서비스의 실전 예시입니다.
@@ -289,3 +292,10 @@ cargo fmt -- --check
 - `main`에서 feature 브랜치 생성, PR 필수
 - CI: `cargo fmt --check`, `cargo clippy`, `cargo test`, `cargo audit`
 - 배포: `scratch` 또는 `distroless` 베이스를 사용한 Docker 멀티스테이지 빌드
+
+## 원문
+- [영문 원문](../../../examples/rust-api-CLAUDE.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

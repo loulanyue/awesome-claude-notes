@@ -1,8 +1,6 @@
 ---
-paths:
-  - "**/*.cs"
-  - "**/*.csx"
-  - "**/*.csproj"
+source_path: rules/csharp/testing.md
+paths: 
 ---
 
 # C# 测试
@@ -45,3 +43,11 @@ public sealed class OrderServiceTests
 * 目标行覆盖率 80% 以上
 * 将覆盖率重点放在领域逻辑、验证、身份验证和失败路径上
 * 在 CI 中运行 `dotnet test` 并启用覆盖率收集（在可用的情况下）
+
+## 原文
+- [英文原文](../../../../rules/csharp/testing.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

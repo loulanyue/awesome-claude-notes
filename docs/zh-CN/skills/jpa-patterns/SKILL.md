@@ -1,6 +1,7 @@
 ---
 name: jpa-patterns
 description: Spring Boot中的JPA/Hibernate模式，用于实体设计、关系处理、查询优化、事务管理、审计、索引、分页和连接池。
+source_path: skills/jpa-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -153,3 +154,10 @@ spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 * 使用日志断言 SQL 效率：设置 `logging.level.org.hibernate.SQL=DEBUG` 和 `logging.level.org.hibernate.orm.jdbc.bind=TRACE` 以查看参数值
 
 **请记住**：保持实体精简，查询有针对性，事务简短。通过获取策略和投影来预防 N+1 问题，并根据读写路径建立索引。
+
+## 原文
+- [英文原文](../../../../skills/jpa-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

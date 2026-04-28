@@ -1,3 +1,6 @@
+---
+source_path: examples/CLAUDE.md
+---
 # 示例项目 CLAUDE.md
 
 这是一个示例项目级别的 CLAUDE.md 文件。请将其放置在您的项目根目录下。
@@ -98,3 +101,10 @@ DEBUG=false
 * 切勿直接提交到主分支
 * 合并请求需要审核
 * 合并前所有测试必须通过
+
+## 原文
+- [英文原文](../../../examples/CLAUDE.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [贡献指南](../../../CONTRIBUTING.md)

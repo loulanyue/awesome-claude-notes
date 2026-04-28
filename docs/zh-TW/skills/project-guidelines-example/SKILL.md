@@ -1,3 +1,7 @@
+---
+description: "Example project-specific skill template based on a real production application."
+source_path: skills/project-guidelines-example/SKILL.md
+---
 # 專案指南技能（範例）
 
 這是專案特定技能的範例。使用此作為你自己專案的範本。
@@ -343,3 +347,10 @@ SUPABASE_KEY=eyJ...
 - `backend-patterns.md` - API 和資料庫模式
 - `frontend-patterns.md` - React 和 Next.js 模式
 - `tdd-workflow/` - 測試驅動開發方法論
+
+## 原文
+- [英文原文](../../../../skills/project-guidelines-example/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

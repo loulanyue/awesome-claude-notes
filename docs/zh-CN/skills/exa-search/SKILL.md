@@ -1,6 +1,7 @@
 ---
 name: exa-search
 description: 通过Exa MCP进行神经搜索，适用于网络、代码和公司研究。当用户需要网络搜索、代码示例、公司情报、人员查找，或使用Exa神经搜索引擎进行AI驱动的深度研究时使用。
+source_path: skills/exa-search/SKILL.md
 origin: ECC
 ---
 
@@ -107,3 +108,10 @@ get_code_context_exa(query: "WebAssembly 组件模型示例", tokensNum: 4000)
 
 * `deep-research` — 使用 firecrawl + exa 的完整研究工作流
 * `market-research` — 带有决策框架的业务导向研究
+
+## 原文
+- [英文原文](../../../../skills/exa-search/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

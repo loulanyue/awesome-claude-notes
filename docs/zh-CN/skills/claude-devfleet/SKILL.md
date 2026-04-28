@@ -1,6 +1,7 @@
 ---
 name: claude-devfleet
 description: 通过Claude DevFleet协调多智能体编码任务——规划项目、在隔离的工作树中并行调度智能体、监控进度并读取结构化报告。
+source_path: skills/claude-devfleet/SKILL.md
 origin: community
 ---
 
@@ -102,3 +103,10 @@ DevFleet 默认最多同时运行 3 个智能体（可通过 `DEVFLEET_MAX_AGENT
 * 任务依赖关系构成一个有向无环图（DAG）——不要创建循环依赖。
 * 每个智能体在独立的 git worktree 中运行，并在完成时自动合并。如果发生合并冲突，更改将保留在智能体的 worktree 分支上，以便手动解决。
 * 手动创建任务时，如果希望它们在依赖项完成时自动触发，请始终设置 `auto_dispatch=true`。没有此标志，任务将保持 `draft` 状态。
+
+## 原文
+- [英文原文](../../../../skills/claude-devfleet/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

@@ -1,3 +1,6 @@
+---
+source_path: skills/videodb/reference/search.md
+---
 # 搜索与索引指南
 
 搜索功能允许您使用自然语言查询、精确关键词或视觉场景描述来查找视频中的特定时刻。
@@ -228,3 +231,10 @@ print(stream_url)
 * **处理“未找到结果”**：当没有结果匹配时，`video.search()` 会引发 `InvalidRequestError`。始终将搜索调用包装在 try/except 中，并将 `"No results found"` 视为空结果集。
 * **过滤场景搜索噪声**：对于模糊查询，语义场景搜索可能会返回低相关性的结果。使用 `score_threshold=0.3`（或更高值）来过滤噪声。
 * **幂等索引**：使用 `index_spoken_words(force=True)` 可以安全地重新索引。`index_scenes()` 没有 `force` 参数——将其包装在 try/except 中，并使用 `re.search(r"id\s+([a-f0-9]+)", str(e))` 从错误消息中提取现有的 `scene_index_id`。
+
+## 原文
+- [英文原文](../../../../../skills/videodb/reference/search.md)
+
+## 导航
+- [中文文档导航](../../../README.md)
+- [贡献指南](../../../../../CONTRIBUTING.md)

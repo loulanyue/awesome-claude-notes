@@ -1,3 +1,6 @@
+---
+source_path: rules/common/performance.md
+---
 # 性能优化
 
 ## 模型选择策略
@@ -61,3 +64,11 @@
 2. 分析错误信息
 3. 逐步修复
 4. 每次修复后进行验证
+
+## 原文
+- [英文原文](../../../../rules/common/performance.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

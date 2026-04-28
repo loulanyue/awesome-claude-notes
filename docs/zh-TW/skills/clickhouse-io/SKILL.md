@@ -1,6 +1,7 @@
 ---
 name: clickhouse-io
 description: ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.
+source_path: skills/clickhouse-io/SKILL.md
 ---
 
 # ClickHouse 分析模式
@@ -427,3 +428,10 @@ pgClient.on('notification', async (msg) => {
 - 審查慢查詢日誌
 
 **記住**：ClickHouse 擅長分析工作負載。為你的查詢模式設計表格，批量插入，並利用物化視圖進行即時聚合。
+
+## 原文
+- [英文原文](../../../../skills/clickhouse-io/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

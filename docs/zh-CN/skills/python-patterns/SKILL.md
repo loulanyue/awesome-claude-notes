@@ -1,6 +1,7 @@
 ---
 name: python-patterns
 description: Pythonic 惯用法、PEP 8 标准、类型提示以及构建稳健、高效且可维护的 Python 应用程序的最佳实践。
+source_path: skills/python-patterns/SKILL.md
 origin: ECC
 ---
 
@@ -748,3 +749,10 @@ except SpecificError as e:
 ```
 
 **记住**：Python 代码应该具有可读性、显式性，并遵循最小意外原则。如有疑问，优先考虑清晰性而非巧妙性。
+
+## 原文
+- [英文原文](../../../../skills/python-patterns/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

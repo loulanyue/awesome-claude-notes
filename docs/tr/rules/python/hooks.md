@@ -1,7 +1,6 @@
 ---
-paths:
-  - "**/*.py"
-  - "**/*.pyi"
+source_path: rules/python/hooks.md
+paths: 
 ---
 # Python Hooks
 
@@ -17,3 +16,11 @@ paths:
 ## Uyarılar
 
 - Düzenlenen dosyalarda `print()` ifadeleri hakkında uyar (bunun yerine `logging` modülü kullan)
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/python/hooks.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

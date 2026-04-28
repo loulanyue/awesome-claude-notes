@@ -1,9 +1,6 @@
 ---
-paths:
-  - "**/*.ts"
-  - "**/*.tsx"
-  - "**/*.js"
-  - "**/*.jsx"
+source_path: rules/typescript/hooks.md
+paths: 
 ---
 # TypeScript/JavaScript Hooks
 
@@ -20,3 +17,11 @@ paths:
 ## Stop Hooks
 
 - **console.log audit**: Session bitmeden önce değiştirilen tüm dosyalarda `console.log` kontrolü yap
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../../rules/typescript/hooks.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../../README.md)
+- [rules/README.md](../README.md)
+- [Katkı rehberi](../../../../CONTRIBUTING.md)

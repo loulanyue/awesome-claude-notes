@@ -9,6 +9,10 @@
 const fs = require('fs');
 const path = require('path');
 const { LOCALIZED_DOC_LOCALES } = require('../docs/localized-instruction-docs-config');
+const {
+  getManagedLocalizedDocPaths,
+  resolveCanonicalSourcePath
+} = require('../docs/sync-localized-instruction-docs');
 
 const ROOT_DIR = path.join(__dirname, '../..');
 const TARGETS = [
@@ -182,6 +186,55 @@ function validateInstructionDocs() {
       for (const section of target.requiredSections || []) {
         if (!content.includes(`\n${section}\n`)) {
           console.error(`ERROR: ${target.label} ${file} - Missing "${section}" section`);
+          hasErrors = true;
+        }
+      }
+    }
+  }
+
+  for (const locale of LOCALIZED_DOC_LOCALES) {
+    const managedPaths = getManagedLocalizedDocPaths(locale)
+      .filter(relativePath => !/^(commands|agents|contexts)\//.test(relativePath));
+
+    for (const relativePath of managedPaths) {
+      const filePath = path.join(ROOT_DIR, 'docs', locale.id, relativePath);
+      let content;
+      try {
+        content = fs.readFileSync(filePath, 'utf-8');
+      } catch (err) {
+        console.error(`ERROR: localized markdown (${locale.id}) ${relativePath} - ${err.message}`);
+        hasErrors = true;
+        continue;
+      }
+
+      validatedCount += 1;
+      const frontmatter = extractFrontmatter(content);
+      if (!frontmatter) {
+        console.error(`ERROR: localized markdown (${locale.id}) ${relativePath} - Missing frontmatter`);
+        hasErrors = true;
+        continue;
+      }
+
+      const sourcePath = frontmatter.source_path;
+      const expectedSourcePath = resolveCanonicalSourcePath(relativePath);
+      if (!sourcePath || !String(sourcePath).trim()) {
+        console.error(`ERROR: localized markdown (${locale.id}) ${relativePath} - Missing frontmatter source_path`);
+        hasErrors = true;
+      } else if (expectedSourcePath && String(sourcePath).trim() !== expectedSourcePath) {
+        console.error(
+          `ERROR: localized markdown (${locale.id}) ${relativePath} - source_path must be "${expectedSourcePath}"`
+        );
+        hasErrors = true;
+      } else if (!fs.existsSync(path.join(ROOT_DIR, String(sourcePath).trim()))) {
+        console.error(
+          `ERROR: localized markdown (${locale.id}) ${relativePath} - source_path does not exist: ${String(sourcePath).trim()}`
+        );
+        hasErrors = true;
+      }
+
+      for (const section of [`## ${locale.sourceHeading}`, `## ${locale.navigationHeading}`]) {
+        if (!content.includes(`\n${section}\n`)) {
+          console.error(`ERROR: localized markdown (${locale.id}) ${relativePath} - Missing "${section}" section`);
           hasErrors = true;
         }
       }

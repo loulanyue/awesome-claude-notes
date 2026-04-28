@@ -1,6 +1,7 @@
 ---
 name: iterative-retrieval
 description: Pattern for progressively refining context retrieval to solve the subagent context problem
+source_path: skills/iterative-retrieval/SKILL.md
 ---
 
 # 迭代檢索模式
@@ -200,3 +201,10 @@ async function iterativeRetrieve(task, maxCycles = 3) {
 - [Longform Guide](https://x.com/affaanmustafa/status/2014040193557471352) - 子 agent 協調章節
 - `continuous-learning` 技能 - 用於隨時間改進的模式
 - `~/.claude/agents/` 中的 Agent 定義
+
+## 原文
+- [英文原文](../../../../skills/iterative-retrieval/SKILL.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

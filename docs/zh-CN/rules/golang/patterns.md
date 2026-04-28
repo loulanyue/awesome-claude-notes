@@ -1,8 +1,6 @@
 ---
-paths:
-  - "**/*.go"
-  - "**/go.mod"
-  - "**/go.sum"
+source_path: rules/golang/patterns.md
+paths: 
 ---
 
 # Go 模式
@@ -44,3 +42,11 @@ func NewUserService(repo UserRepository, logger Logger) *UserService {
 ## 参考
 
 有关全面的 Go 模式（包括并发、错误处理和包组织），请参阅技能：`golang-patterns`。
+
+## 原文
+- [英文原文](../../../../rules/golang/patterns.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [rules/README.md](../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

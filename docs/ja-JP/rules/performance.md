@@ -1,3 +1,6 @@
+---
+source_path: rules/common/performance.md
+---
 # パフォーマンス最適化
 
 ## モデル選択戦略
@@ -53,3 +56,11 @@
 2. エラーメッセージを分析
 3. 段階的に修正
 4. 各修正後に検証
+
+## 原文
+- [英語版の原文](../../../rules/common/performance.md)
+
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [rules/README.md](README.md)
+- [貢献ガイド](../../../CONTRIBUTING.md)

@@ -1,6 +1,7 @@
 ---
 name: foundation-models-on-device
 description: 苹果FoundationModels框架用于设备上的LLM——文本生成、使用@Generable进行引导生成、工具调用，以及在iOS 26+中的快照流。
+source_path: skills/foundation-models-on-device/SKILL.md
 ---
 
 # FoundationModels：设备端 LLM（iOS 26）
@@ -242,3 +243,10 @@ var body: some View {
 * 必须离线工作的 AI 辅助功能
 * 逐步显示生成内容的流式 UI
 * 通过工具调用（搜索、计算、查找）执行特定领域的 AI 操作
+
+## 原文
+- [英文原文](../../../../skills/foundation-models-on-device/SKILL.md)
+
+## 导航
+- [中文文档导航](../../README.md)
+- [贡献指南](../../../../CONTRIBUTING.md)

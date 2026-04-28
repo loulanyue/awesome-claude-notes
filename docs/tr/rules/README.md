@@ -1,3 +1,6 @@
+---
+source_path: rules/README.md
+---
 # Kurallar (Rules)
 
 Claude Code için kodlama kuralları ve en iyi uygulamalar.
@@ -59,3 +62,10 @@ Bu kurallar Claude Code tarafından otomatik olarak yüklenir ve uygulanır. Kur
 ## Orijinal Dokümantasyon
 
 Bu dokümantasyonun İngilizce orijinali `rules/` dizininde bulunmaktadır.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../rules/README.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)
