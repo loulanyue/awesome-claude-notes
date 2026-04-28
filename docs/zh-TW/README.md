@@ -478,3 +478,14 @@ MIT - 自由使用、依需求修改、如可能請回饋貢獻。
 ---
 
 **如果有幫助請為本儲存庫加星。閱讀兩份指南。打造偉大的作品。**
+
+<!-- localized-instruction-docs:start -->
+## 文件導航
+
+這些索引頁可協助你依命令、代理與上下文快速瀏覽本地化 instruction docs。
+
+- [命令索引](./commands/README.md) (18)
+- [代理索引](./agents/README.md) (12)
+- [Command → Agent / Skill Map](../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../CONTRIBUTING.md)
+<!-- localized-instruction-docs:end -->

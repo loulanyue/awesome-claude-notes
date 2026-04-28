@@ -1,3 +1,7 @@
+---
+description: Aktif implementasyon çalışmasına odaklanmak için kullanılan paylaşılan bağlam.
+source_path: contexts/dev.md
+---
 # Geliştirme Bağlamı
 
 Mod: Aktif geliştirme
@@ -18,3 +22,14 @@ Odak: Uygulama, kodlama, özellik geliştirme
 - Kod değişiklikleri için Edit, Write
 - Test/build çalıştırmak için Bash
 - Kod bulmak için Grep, Glob
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../contexts/dev.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

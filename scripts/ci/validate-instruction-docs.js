@@ -8,6 +8,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { LOCALIZED_DOC_LOCALES } = require('../docs/localized-instruction-docs-config');
 
 const ROOT_DIR = path.join(__dirname, '../..');
 const TARGETS = [
@@ -27,33 +28,36 @@ const TARGETS = [
     requireDescription: true
   }
 ];
-const LOCALIZED_TARGETS = [
-  {
-    dir: path.join(ROOT_DIR, 'docs/ja-JP/commands'),
-    label: 'localized command',
-    requireDescription: true,
-    requireSourcePath: true,
-    expectedSourcePrefix: 'commands/',
-    requiredSections: ['## 原文', '## ナビゲーション']
-  },
-  {
-    dir: path.join(ROOT_DIR, 'docs/ja-JP/agents'),
-    label: 'localized agent',
-    requireDescription: true,
-    requireSourcePath: true,
-    expectedSourcePrefix: 'agents/',
-    requiredFrontmatterFields: ['name', 'tools', 'model'],
-    requiredSections: ['## 原文', '## ナビゲーション']
-  },
-  {
-    dir: path.join(ROOT_DIR, 'docs/ja-JP/contexts'),
-    label: 'localized context',
-    requireDescription: true,
-    requireSourcePath: true,
-    expectedSourcePrefix: 'contexts/',
-    requiredSections: ['## 原文', '## ナビゲーション']
-  }
-];
+const LOCALIZED_TARGETS = LOCALIZED_DOC_LOCALES.flatMap((locale) => {
+  const headingSections = [`## ${locale.sourceHeading}`, `## ${locale.navigationHeading}`];
+  return [
+    {
+      dir: path.join(ROOT_DIR, `docs/${locale.id}/commands`),
+      label: `localized command (${locale.id})`,
+      requireDescription: true,
+      requireSourcePath: true,
+      expectedSourcePrefix: 'commands/',
+      requiredSections: headingSections
+    },
+    {
+      dir: path.join(ROOT_DIR, `docs/${locale.id}/agents`),
+      label: `localized agent (${locale.id})`,
+      requireDescription: true,
+      requireSourcePath: true,
+      expectedSourcePrefix: 'agents/',
+      requiredFrontmatterFields: ['name', 'tools', 'model'],
+      requiredSections: headingSections
+    },
+    {
+      dir: path.join(ROOT_DIR, `docs/${locale.id}/contexts`),
+      label: `localized context (${locale.id})`,
+      requireDescription: true,
+      requireSourcePath: true,
+      expectedSourcePrefix: 'contexts/',
+      requiredSections: headingSections
+    }
+  ];
+});
 
 function extractFrontmatter(content) {
   const cleanContent = content.replace(/^\uFEFF/, '');

@@ -1,5 +1,6 @@
 ---
 description: Configure seu package manager preferido (npm/pnpm/yarn/bun)
+source_path: commands/setup-pm.md
 disable-model-invocation: true
 ---
 
@@ -78,3 +79,13 @@ Para ver os resultados atuais da detecção de package manager, rode:
 ```bash
 node scripts/setup-package-manager.js --detect
 ```
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/setup-pm.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

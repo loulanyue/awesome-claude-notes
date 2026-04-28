@@ -1,3 +1,7 @@
+---
+description: "Multi-model collaborative planning - Context retrieval + Dual-model analysis → Generate step-by-step implementation plan."
+source_path: commands/multi-plan.md
+---
 # Plan - Multi-Model İşbirlikçi Planlama
 
 Multi-model işbirlikçi planlama - Context retrieval + Dual-model analiz → Adım adım implementation planı oluştur.
@@ -266,3 +270,14 @@ Kullanıcı onayladıktan sonra, **manuel** olarak çalıştır:
 3. **Güven Kuralları** – Backend Codex'i takip eder, Frontend Gemini'yi takip eder
 4. Harici modellerin **sıfır dosya sistemi yazma erişimi**
 5. **SESSION_ID Devri** – Plan sonunda `CODEX_SESSION` / `GEMINI_SESSION` içermeli (`/ccg:execute resume <SESSION_ID>` kullanımı için)
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/multi-plan.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

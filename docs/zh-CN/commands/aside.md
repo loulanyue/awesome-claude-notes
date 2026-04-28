@@ -1,5 +1,6 @@
 ---
 description: 在不打断或丢失当前任务上下文的情况下，快速回答一个附带问题。回答后自动恢复工作。
+source_path: commands/aside.md
 ---
 
 # 旁述指令
@@ -171,3 +172,14 @@ Node.js server but would be a real problem with worker threads or clustering.
 * 保持回答聚焦：目标是快速为用户扫清障碍，而不是进行长篇大论
 * 如果旁述引发了更广泛的讨论，请先完成当前任务，除非旁述揭示了阻碍
 * 除非明确与任务结果相关，否则旁述内容不会保存到会话文件中
+
+## 原文
+- [英文原文](../../../commands/aside.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

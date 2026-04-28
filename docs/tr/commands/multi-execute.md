@@ -1,3 +1,7 @@
+---
+description: "Multi-model collaborative execution - Get prototype from plan → Claude refactors and implements → Multi-model audit and delivery."
+source_path: commands/multi-execute.md
+---
 # Execute - Multi-Model İşbirlikçi Execution
 
 Multi-model işbirlikçi execution - Plandan prototype al → Claude refactor edip implement eder → Multi-model audit ve teslimat.
@@ -313,3 +317,14 @@ Audit geçtikten sonra, kullanıcıya rapor et:
 1. `/ccg:plan` plan + SESSION_ID oluşturur
 2. Kullanıcı "Y" ile onaylar
 3. `/ccg:execute` planı okur, SESSION_ID'yi yeniden kullanır, implementation'ı çalıştırır
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/multi-execute.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

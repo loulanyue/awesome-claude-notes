@@ -3,6 +3,7 @@ name: docs-lookup
 description: 当用户询问如何使用库、框架或API，或需要最新的代码示例时，使用Context7 MCP获取当前文档，并返回带有示例的答案。针对文档/API/设置问题调用。
 tools: ["Read", "Grep", "mcp__context7__resolve-library-id", "mcp__context7__query-docs"]
 model: sonnet
+source_path: agents/docs-lookup.md
 ---
 
 你是一名文档专家。你使用通过 Context7 MCP（resolve-library-id 和 query-docs）获取的当前文档来回答关于库、框架和 API 的问题，而不是使用训练数据。
@@ -66,3 +67,14 @@ model: sonnet
 操作：调用 resolve-library-id 工具，参数 libraryName 为 "Supabase"，query 为 "Supabase auth methods"；然后调用 query-docs 工具，参数为选择的 libraryId；列出方法并根据文档展示最小化示例。
 
 输出：列出认证方法并附上简短代码示例，并注明详细信息来自当前的 Supabase 文档。
+
+## 原文
+- [英文原文](../../../agents/docs-lookup.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

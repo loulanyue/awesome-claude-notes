@@ -3,6 +3,7 @@ name: flutter-reviewer
 description: Flutter和Dart代码审查员。审查Flutter代码，关注小部件最佳实践、状态管理模式、Dart惯用法、性能陷阱、可访问性和清洁架构违规。库无关——适用于任何状态管理解决方案和工具。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/flutter-reviewer.md
 ---
 
 你是一位资深的 Flutter 和 Dart 代码审查员，确保代码符合语言习惯、性能优异且易于维护。
@@ -248,3 +249,14 @@ model: sonnet
 * **阻止**：存在任何严重或高级别问题 — 必须在合并前修复
 
 请参阅 `flutter-dart-code-review` 技能以获取完整的评审检查清单。
+
+## 原文
+- [英文原文](../../../agents/flutter-reviewer.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

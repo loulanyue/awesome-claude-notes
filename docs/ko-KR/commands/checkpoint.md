@@ -1,6 +1,7 @@
 ---
 name: checkpoint
 description: 워크플로우에서 checkpoint를 생성, 검증, 조회 또는 정리합니다.
+source_path: commands/checkpoint.md
 ---
 
 # Checkpoint 명령어
@@ -77,3 +78,13 @@ $ARGUMENTS:
 - `verify <name>` - 이름이 지정된 checkpoint와 검증합니다
 - `list` - 모든 checkpoint를 표시합니다
 - `clear` - 이전 checkpoint를 제거합니다 (최근 5개만 유지)
+
+## 원문
+- [영문 원문](../../../commands/checkpoint.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

@@ -1,3 +1,7 @@
+---
+description: "Safely identify and remove dead code with test verification at every step."
+source_path: commands/refactor-clean.md
+---
 # 重構清理
 
 透過測試驗證安全地識別和移除無用程式碼：
@@ -26,3 +30,13 @@
 6. 顯示已清理項目的摘要
 
 在執行測試前絕不刪除程式碼！
+
+## 原文
+- [英文原文](../../../commands/refactor-clean.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

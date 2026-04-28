@@ -1,6 +1,7 @@
 ---
 name: evolve
 description: 分析本能并建议或生成进化结构
+source_path: commands/evolve.md
 command: true
 ---
 
@@ -192,3 +193,14 @@ evolved_from:
 [基于聚类本能生成的内容]
 
 ```
+
+## 原文
+- [英文原文](../../../commands/evolve.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

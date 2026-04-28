@@ -1,3 +1,7 @@
+---
+description: "Safely identify and remove dead code with test verification at every step."
+source_path: commands/refactor-clean.md
+---
 # Refactor Clean
 
 Identifique e remova código morto com segurança, com verificação de testes em cada passo.
@@ -78,3 +82,13 @@ All tests passing ✅
 - **Uma remoção por vez** — Mudanças atômicas facilitam rollback
 - **Se houver dúvida, pule** — Melhor manter código morto do que quebrar produção
 - **Não refatore durante limpeza** — Separe responsabilidades (limpar primeiro, refatorar depois)
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/refactor-clean.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

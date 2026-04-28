@@ -1,3 +1,7 @@
+---
+description: 用于专注调研、比较和资料收集的共享上下文。
+source_path: contexts/research.md
+---
 # 研究背景
 
 模式：探索、调查、学习
@@ -28,3 +32,14 @@
 ## 输出
 
 先呈现发现，后提出建议
+
+## 原文
+- [英文原文](../../../contexts/research.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

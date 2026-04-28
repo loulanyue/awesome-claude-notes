@@ -1,3 +1,7 @@
+---
+description: "Manage eval-driven development workflow."
+source_path: commands/eval.md
+---
 # Comando Eval
 
 Gerencie o fluxo de desenvolvimento orientado por evals.
@@ -117,3 +121,13 @@ $ARGUMENTS:
 - `report <name>` - Gerar relatório completo
 - `list` - Mostrar todos os evals
 - `clean` - Remover logs antigos de eval (mantém as últimas 10 execuções)
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/eval.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

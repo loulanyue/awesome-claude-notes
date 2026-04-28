@@ -3,6 +3,7 @@ name: architect
 description: Sistem tasarımı, ölçeklenebilirlik ve teknik karar alma için yazılım mimarisi specialisti. Yeni özellikler planlarken, büyük sistemleri yeniden yapılandırırken veya mimari kararlar alırken PROAKTİF olarak kullanın.
 tools: ["Read", "Grep", "Glob"]
 model: opus
+source_path: agents/architect.md
 ---
 
 Ölçeklenebilir, sürdürülebilir sistem tasarımında uzmanlaşmış kıdemli bir yazılım mimarısınız.
@@ -209,3 +210,14 @@ AI destekli bir SaaS platformu için örnek mimari:
 - **10M kullanıcı**: Event-driven mimari, dağıtık önbellekleme, çoklu bölge
 
 **Unutmayın**: İyi mimari hızlı geliştirmeyi, kolay bakımı ve kendinden emin ölçeklemeyi sağlar. En iyi mimari basit, net ve yerleşik kalıpları takip edendir.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/architect.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

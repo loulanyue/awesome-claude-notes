@@ -3,6 +3,7 @@ name: security-reviewer
 description: 安全漏洞检测与修复专家。在编写处理用户输入、身份验证、API端点或敏感数据的代码后主动使用。标记密钥、SSRF、注入、不安全的加密以及OWASP Top 10漏洞。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/security-reviewer.md
 ---
 
 # 安全审查员
@@ -110,3 +111,14 @@ npx eslint . --plugin security
 ***
 
 **请记住**：安全不是可选的。一个漏洞就可能给用户带来实际的财务损失。务必彻底、保持警惕、积极主动。
+
+## 原文
+- [英文原文](../../../agents/security-reviewer.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

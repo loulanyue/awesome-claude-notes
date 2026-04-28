@@ -3,6 +3,7 @@ name: build-error-resolver
 description: Especialista em resolução de erros de build e TypeScript. Use PROATIVAMENTE quando o build falhar ou ocorrerem erros de tipo. Corrige erros de build/tipo apenas com diffs mínimos, sem edições arquiteturais. Foca em deixar o build verde rapidamente.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/build-error-resolver.md
 ---
 
 # Resolvedor de Erros de Build
@@ -78,3 +79,13 @@ Para cada erro:
 |-------|----------|------|
 | CRÍTICO | Build completamente quebrado, sem servidor de dev | Corrigir imediatamente |
 | ALTO | Arquivo único falhando, erros de tipo em código novo | Corrigir em breve |
+
+## Fonte canônica
+- [Documento original em inglês](../../../agents/build-error-resolver.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

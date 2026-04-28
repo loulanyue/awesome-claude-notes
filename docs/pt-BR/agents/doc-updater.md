@@ -3,6 +3,7 @@ name: doc-updater
 description: Especialista em documentação e codemaps. Use PROATIVAMENTE para atualizar codemaps e documentação. Executa /update-codemaps e /update-docs, gera docs/CODEMAPS/*, atualiza READMEs e guias.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: haiku
+source_path: agents/doc-updater.md
 ---
 
 # Especialista em Documentação & Codemaps
@@ -97,3 +98,13 @@ Links para outros codemaps
 - [ ] Sem referências obsoletas
 
 ## Quando Atualizar
+
+## Fonte canônica
+- [Documento original em inglês](../../../agents/doc-updater.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

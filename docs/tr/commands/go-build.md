@@ -1,5 +1,6 @@
 ---
 description: Go build hatalarını, go vet uyarılarını ve linter sorunlarını aşamalı olarak düzelt. Minimal, cerrahi düzeltmeler için go-build-resolver agent'ını çağırır.
+source_path: commands/go-build.md
 ---
 
 # Go Build and Fix
@@ -181,3 +182,14 @@ Agent şu durumlarda durur ve raporlar:
 
 - Agent: `agents/go-build-resolver.md`
 - Skill: `skills/golang-patterns/`
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/go-build.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

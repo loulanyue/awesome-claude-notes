@@ -1,3 +1,7 @@
+---
+description: "Sync documentation with the codebase, generating from source-of-truth files."
+source_path: commands/update-docs.md
+---
 # 更新文件
 
 從單一真相來源同步文件：
@@ -29,3 +33,13 @@
 6. 顯示差異摘要
 
 單一真相來源：package.json 和 .env.example
+
+## 原文
+- [英文原文](../../../commands/update-docs.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

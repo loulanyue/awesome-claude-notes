@@ -1,5 +1,6 @@
 ---
 description: Test odaklı geliştirme (TDD) iş akışını zorlar. Interface'leri tasarla, ÖNCE testleri oluştur, sonra minimal kodu uygula. %80+ kod kapsama oranı sağla.
+source_path: commands/tdd.md
 ---
 
 # TDD Komutu
@@ -326,3 +327,14 @@ Bu komut, ECC tarafından sağlanan `tdd-guide` agent'ını çağırır.
 Manuel kurulumlar için, kaynak dosyalar şurada bulunur:
 - `agents/tdd-guide.md`
 - `skills/tdd-workflow/SKILL.md`
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/tdd.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

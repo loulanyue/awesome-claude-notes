@@ -16,3 +16,15 @@
 如果你是通过历史链接或第三方引用来到这里，也可以继续使用镜像文件：
 
 - [打开 README.zh-CN.md](../../README.zh-CN.md)
+
+<!-- localized-instruction-docs:start -->
+## 文档导航
+
+这些索引页帮助你按命令、代理和上下文快速浏览本地化 instruction docs。
+
+- [命令索引](./commands/README.md) (59)
+- [代理索引](./agents/README.md) (28)
+- [上下文索引](./contexts/README.md) (3)
+- [Command → Agent / Skill Map](../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../CONTRIBUTING.md)
+<!-- localized-instruction-docs:end -->

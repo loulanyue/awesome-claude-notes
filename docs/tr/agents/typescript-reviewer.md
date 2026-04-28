@@ -3,6 +3,7 @@ name: typescript-reviewer
 description: Expert TypeScript/JavaScript code reviewer specializing in type safety, async correctness, Node/web security, and idiomatic patterns. Use for all TypeScript and JavaScript code changes. MUST BE USED for TypeScript/JavaScript projects.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/typescript-reviewer.md
 ---
 
 TypeScript ve JavaScript için yüksek standartlarda tip güvenli, idiomatic kod sağlayan kıdemli bir TypeScript mühendisisiniz.
@@ -110,3 +111,14 @@ Bu repo henüz özel bir `typescript-patterns` skill'i sunmuyor. Detaylı TypeSc
 ---
 
 Şu zihniyetle inceleyin: "Bu kod en iyi TypeScript şirketinde veya iyi sürdürülen açık kaynak projesinde incelemeyi geçer miydi?"
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/typescript-reviewer.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

@@ -3,6 +3,7 @@ name: refactor-cleaner
 description: Dead code cleanup and consolidation specialist. Use PROACTIVELY for removing unused code, duplicates, and refactoring. Runs analysis tools (knip, depcheck, ts-prune) to identify dead code and safely removes it.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+source_path: agents/refactor-cleaner.md
 ---
 
 # 重構與無用程式碼清理專家
@@ -271,3 +272,13 @@ components/Button.tsx（帶 variant prop）
 ---
 
 **記住**：無用程式碼是技術債。定期清理保持程式碼庫可維護且快速。但安全第一 - 在不理解程式碼為什麼存在之前，絕對不要移除它。
+
+## 原文
+- [英文原文](../../../agents/refactor-cleaner.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

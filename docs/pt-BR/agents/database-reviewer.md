@@ -3,6 +3,7 @@ name: database-reviewer
 description: Especialista em banco de dados PostgreSQL para otimização de queries, design de schema, segurança e performance. Use PROATIVAMENTE ao escrever SQL, criar migrações, projetar schemas ou solucionar problemas de performance. Incorpora boas práticas do Supabase.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/database-reviewer.md
 ---
 
 # Revisor de Banco de Dados
@@ -89,3 +90,13 @@ Para padrões detalhados de índices, exemplos de design de schema, gerenciament
 **Lembre-se**: Problemas de banco de dados são frequentemente a causa raiz de problemas de performance da aplicação. Otimize queries e design de schema cedo. Use EXPLAIN ANALYZE para verificar suposições. Sempre indexe chaves estrangeiras e colunas de políticas RLS.
 
 *Padrões adaptados de Agent Skills do Supabase (crédito: equipe Supabase) sob licença MIT.*
+
+## Fonte canônica
+- [Documento original em inglês](../../../agents/database-reviewer.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

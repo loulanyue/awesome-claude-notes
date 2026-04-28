@@ -1,5 +1,6 @@
 ---
 description: 通过Claude DevFleet协调并行Claude Code代理——从自然语言规划项目，在隔离的工作树中调度代理，监控进度，并读取结构化报告。
+source_path: commands/devfleet.md
 ---
 
 # DevFleet — 多智能体编排
@@ -91,3 +92,14 @@ mcp__devfleet__get_report(mission_id="<mission_id>")
 * 智能体并发数是可配置的（默认：3）。超额的任务会排队，并在有空闲槽位时自动派发。检查 `get_dashboard()` 以了解槽位可用性。
 * 依赖关系形成一个 DAG — 切勿创建循环依赖
 * 每个智能体在完成时自动合并其 worktree。如果发生合并冲突，更改将保留在 worktree 分支上，以供手动解决。
+
+## 原文
+- [英文原文](../../../commands/devfleet.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

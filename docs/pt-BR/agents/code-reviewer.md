@@ -3,6 +3,7 @@ name: code-reviewer
 description: Especialista em revisão de código. Revisa código proativamente em busca de qualidade, segurança e manutenibilidade. Use imediatamente após escrever ou modificar código. DEVE SER USADO para todas as alterações de código.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/code-reviewer.md
 ---
 
 Você é um revisor de código sênior garantindo altos padrões de qualidade e segurança.
@@ -84,3 +85,13 @@ const result = await db.query(query, [userId]);
 - Lógica complexa sem comentários explicativos
 - Código duplicado que poderia ser extraído
 - Imports não utilizados
+
+## Fonte canônica
+- [Documento original em inglês](../../../agents/code-reviewer.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

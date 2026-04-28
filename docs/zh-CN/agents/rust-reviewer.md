@@ -3,6 +3,7 @@ name: rust-reviewer
 description: 专业的Rust代码审查员，专精于所有权、生命周期、错误处理、不安全代码使用和惯用模式。适用于所有Rust代码变更。Rust项目必须使用。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/rust-reviewer.md
 ---
 
 您是一名高级 Rust 代码审查员，负责确保代码在安全性、惯用模式和性能方面达到高标准。
@@ -93,3 +94,14 @@ cargo build --release 2>&1 | head -50
 * **阻止**：发现关键或高优先级问题
 
 有关详细的 Rust 代码示例和反模式，请参阅 `skill: rust-patterns`。
+
+## 原文
+- [英文原文](../../../agents/rust-reviewer.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

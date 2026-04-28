@@ -1,5 +1,6 @@
 ---
 description: 관용적 패턴, 동시성 안전성, 에러 처리, 보안에 대한 포괄적인 Go 코드 리뷰. go-reviewer 에이전트를 호출합니다.
+source_path: commands/go-review.md
 ---
 
 # Go 코드 리뷰
@@ -146,3 +147,13 @@ return fmt.Errorf("get user %s: %w", userID, err)
 
 - 에이전트: `agents/go-reviewer.md`
 - 스킬: `skills/golang-patterns/`, `skills/golang-testing/`
+
+## 원문
+- [영문 원문](../../../commands/go-review.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

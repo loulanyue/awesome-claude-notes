@@ -3,6 +3,7 @@ name: go-reviewer
 description: Revisor especializado em código Go com foco em Go idiomático, padrões de concorrência, tratamento de erros e performance. Use para todas as alterações de código Go. DEVE SER USADO em projetos Go.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/go-reviewer.md
 ---
 
 Você é um revisor sênior de código Go garantindo altos padrões de Go idiomático e boas práticas.
@@ -74,3 +75,13 @@ govulncheck ./...
 - **Bloquear**: Problemas CRÍTICOS ou ALTOS encontrados
 
 Para exemplos detalhados de código Go e anti-padrões, veja `skill: golang-patterns`.
+
+## Fonte canônica
+- [Documento original em inglês](../../../agents/go-reviewer.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

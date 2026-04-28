@@ -1,6 +1,7 @@
 ---
 name: instinct-status
 description: Öğrenilen içgüdüleri (proje + global) güven seviyesiyle göster
+source_path: commands/instinct-status.md
 command: true
 ---
 
@@ -57,3 +58,14 @@ python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py status
     █████████░  85%  validate-user-input [global]
               trigger: when handling user input
 ```
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/instinct-status.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

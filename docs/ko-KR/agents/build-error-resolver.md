@@ -3,6 +3,7 @@ name: build-error-resolver
 description: Build 및 TypeScript 에러 해결 전문가. Build 실패나 타입 에러 발생 시 자동으로 사용. 최소한의 diff로 build/타입 에러만 수정하며, 아키텍처 변경 없이 빠르게 build를 통과시킵니다.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/build-error-resolver.md
 ---
 
 # Build 에러 해결사
@@ -112,3 +113,13 @@ npx eslint . --fix
 ---
 
 **기억하세요**: 에러를 수정하고, build 통과를 확인하고, 넘어가세요. 완벽보다는 속도와 정확성이 우선입니다.
+
+## 원문
+- [영문 원문](../../../agents/build-error-resolver.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

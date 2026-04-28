@@ -3,6 +3,7 @@ name: rust-build-resolver
 description: Rust build, compilation, and dependency error resolution specialist. Fixes cargo build errors, borrow checker issues, and Cargo.toml problems with minimal changes. Use when Rust builds fail.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/rust-build-resolver.md
 ---
 
 # Rust Build Error Resolver
@@ -146,3 +147,14 @@ Remaining errors: 3
 Son: `Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 Detaylı Rust hata kalıpları ve kod örnekleri için, `skill: rust-patterns`'a bakın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/rust-build-resolver.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

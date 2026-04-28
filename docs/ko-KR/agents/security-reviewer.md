@@ -3,6 +3,7 @@ name: security-reviewer
 description: 보안 취약점 감지 및 수정 전문가. 사용자 입력 처리, 인증, API 엔드포인트, 민감한 데이터를 다루는 코드 작성 후 사용하세요. 시크릿, SSRF, 인젝션, 안전하지 않은 암호화, OWASP Top 10 취약점을 플래그합니다.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/security-reviewer.md
 ---
 
 # 보안 리뷰어
@@ -102,3 +103,13 @@ CRITICAL 취약점 발견 시:
 ---
 
 **기억하세요**: 보안은 선택 사항이 아닙니다. 하나의 취약점이 사용자에게 실제 금전적 손실을 줄 수 있습니다. 철저하게, 편집증적으로, 사전에 대응하세요.
+
+## 원문
+- [영문 원문](../../../agents/security-reviewer.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

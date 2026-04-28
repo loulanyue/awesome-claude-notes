@@ -1,5 +1,6 @@
 ---
 description: "Oturumdan yeniden kullanılabilir desenleri çıkar, kaydetmeden önce kaliteyi kendinden değerlendir ve doğru kayıt konumunu belirle (Global vs Proje)."
+source_path: commands/learn-eval.md
 ---
 
 # /learn-eval - Çıkar, Değerlendir, Sonra Kaydet
@@ -114,3 +115,14 @@ Bu versiyon, önceki 5 boyutlu sayısal puanlama rubriğini (Spesifiklik, Uygula
 - Gelecekteki oturumlarda zaman kazandıracak desenlere odaklanın
 - Skill'leri odaklı tutun — skill başına bir desen
 - Karar Ekle olduğunda, yeni dosya oluşturmak yerine mevcut skill'e ekleyin
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/learn-eval.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

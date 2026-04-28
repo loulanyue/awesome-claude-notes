@@ -1,5 +1,6 @@
 ---
 description: Generate and run end-to-end tests with Playwright. Creates test journeys, runs tests, captures screenshots/videos/traces, and uploads artifacts.
+source_path: commands/e2e.md
 ---
 
 # E2E 指令
@@ -113,3 +114,13 @@ npx playwright show-report
 
 此指令呼叫位於以下位置的 `e2e-runner` Agent：
 `~/.claude/agents/e2e-runner.md`
+
+## 原文
+- [英文原文](../../../commands/e2e.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

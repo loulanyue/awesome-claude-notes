@@ -1,5 +1,6 @@
 ---
 description: 全面的 C++ 代码审查，涵盖内存安全、现代 C++ 惯用法、并发性和安全性。调用 cpp-reviewer 代理。
+source_path: commands/cpp-review.md
 ---
 
 # C++ 代码审查
@@ -138,3 +139,14 @@ void processUser(const User& user) {
 - 代理：`agents/cpp-reviewer.md`
 - 技能：`skills/cpp-coding-standards/`, `skills/cpp-testing/`
 ```
+
+## 原文
+- [英文原文](../../../commands/cpp-review.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

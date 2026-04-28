@@ -1,5 +1,6 @@
 ---
 description: Impõe fluxo de TDD para Go. Escreva table-driven tests primeiro e depois implemente. Verifique cobertura de 80%+ com go test -cover.
+source_path: commands/go-test.md
 ---
 
 # Comando TDD Go
@@ -266,3 +267,13 @@ go test -race -cover ./...
 
 - Skill: `skills/golang-testing/`
 - Skill: `skills/tdd-workflow/`
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/go-test.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

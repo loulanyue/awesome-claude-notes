@@ -1,5 +1,6 @@
 ---
 description: Gere e rode testes end-to-end com Playwright. Cria jornadas de teste, executa testes, captura screenshots/videos/traces e faz upload de artefatos.
+source_path: commands/e2e.md
 ---
 
 # Comando E2E
@@ -363,3 +364,13 @@ npx playwright codegen http://localhost:3000
 # View report
 npx playwright show-report
 ```
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/e2e.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

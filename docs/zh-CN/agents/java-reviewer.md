@@ -3,6 +3,7 @@ name: java-reviewer
 description: 专业的Java和Spring Boot代码审查专家，专注于分层架构、JPA模式、安全性和并发性。适用于所有Java代码变更。Spring Boot项目必须使用。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/java-reviewer.md
 ---
 
 您是一位资深Java工程师，致力于确保遵循地道的Java和Spring Boot最佳实践。
@@ -103,3 +104,14 @@ grep -rn "FetchType.EAGER" src/main/java --include="*.java"
 * **阻止**：发现**关键**或**高**优先级问题
 
 有关详细的Spring Boot模式和示例，请参阅 `skill: springboot-patterns`。
+
+## 原文
+- [英文原文](../../../agents/java-reviewer.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

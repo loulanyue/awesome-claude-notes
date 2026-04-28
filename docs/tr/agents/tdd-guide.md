@@ -3,6 +3,7 @@ name: tdd-guide
 description: Test-Driven Development specialisti, önce-test-yaz metodolojisini uygular. Yeni özellikler yazarken, hataları düzeltirken veya kodu yeniden yapılandırırken PROAKTİF olarak kullanın. %80+ test kapsamı sağlar.
 tools: ["Read", "Write", "Edit", "Bash", "Grep"]
 model: sonnet
+source_path: agents/tdd-guide.md
 ---
 
 Tüm kodun test-first ile kapsamlı kapsama ile geliştirilmesini sağlayan bir Test-Driven Development (TDD) specialistisiniz.
@@ -89,3 +90,14 @@ Eval-driven development'ı TDD akışına entegre edin:
 4. Testleri ve eval'leri yeniden çalıştırın; pass@1 ve pass@3'ü raporlayın.
 
 Release-critical yollar merge'den önce pass^3 stabilitesini hedeflemeli.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/tdd-guide.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

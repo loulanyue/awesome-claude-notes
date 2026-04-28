@@ -3,6 +3,7 @@ name: database-reviewer
 description: PostgreSQL 数据库专家，专注于查询优化、模式设计、安全性和性能。在编写 SQL、创建迁移、设计模式或排查数据库性能问题时，请主动使用。融合了 Supabase 最佳实践。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/database-reviewer.md
 ---
 
 # 数据库审查员
@@ -92,3 +93,14 @@ psql -c "SELECT indexrelname, idx_scan, idx_tup_read FROM pg_stat_user_indexes O
 **请记住**：数据库问题通常是应用程序性能问题的根本原因。尽早优化查询和模式设计。使用 EXPLAIN ANALYZE 来验证假设。始终对外键和 RLS 策略列建立索引。
 
 *模式改编自 Supabase Agent Skills（致谢：Supabase 团队），遵循 MIT 许可证。*
+
+## 原文
+- [英文原文](../../../agents/database-reviewer.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

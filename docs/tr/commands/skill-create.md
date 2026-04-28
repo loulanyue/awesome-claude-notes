@@ -1,6 +1,7 @@
 ---
 name: skill-create
 description: Kodlama desenlerini çıkarmak ve SKILL.md dosyaları oluşturmak için yerel git geçmişini analiz et. Skill Creator GitHub App'ın yerel versiyonu.
+source_path: commands/skill-create.md
 allowed_tools: ["Bash", "Read", "Write", "Grep", "Glob"]
 ---
 
@@ -172,3 +173,14 @@ Gelişmiş özellikler için (10k+ commit, ekip paylaşımı, otomatik PR'lar), 
 ---
 
 *[awesome claude notes](https://github.com/loulanyue/awesome-claude-notes)'un bir parçası*
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/skill-create.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

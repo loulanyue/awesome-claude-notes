@@ -3,6 +3,7 @@ name: e2e-runner
 description: End-to-end testing specialist using Vercel Agent Browser (preferred) with Playwright fallback. Use PROACTIVELY for generating, maintaining, and running E2E tests. Manages test journeys, quarantines flaky tests, uploads artifacts (screenshots, videos, traces), and ensures critical user flows work.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+source_path: agents/e2e-runner.md
 ---
 
 # E2E 測試執行器
@@ -301,3 +302,13 @@ E2E 測試執行後：
 ---
 
 **記住**：E2E 測試是進入生產環境前的最後一道防線。它們能捕捉單元測試遺漏的整合問題。投資時間讓它們穩定、快速且全面。
+
+## 原文
+- [英文原文](../../../agents/e2e-runner.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

@@ -1,5 +1,6 @@
 ---
 description: 通过 Context7 查找库或主题的当前文档。
+source_path: commands/docs.md
 ---
 
 # /docs
@@ -30,3 +31,14 @@ description: 通过 Context7 查找库或主题的当前文档。
 ## 输出
 
 用户收到一个简短、准确的答案，该答案基于当前文档，并附带任何有帮助的代码片段。如果 Context7 不可用，则说明情况，并根据训练数据回答问题，并注明文档可能已过时。
+
+## 原文
+- [英文原文](../../../commands/docs.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

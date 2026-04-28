@@ -1,3 +1,7 @@
+---
+description: "Incrementally fix build and type errors with minimal, safe changes."
+source_path: commands/build-fix.md
+---
 # Build and Fix
 
 Build ve tip hatalarını minimal, güvenli değişikliklerle aşamalı olarak düzelt.
@@ -60,3 +64,14 @@ Sonuçları göster:
 | Build aracı yanlış yapılandırması | Config dosyasını oku; çalışan varsayılanlarla karşılaştır |
 
 Güvenlik için bir seferde bir hatayı düzelt. Refactoring yerine minimal diff'leri tercih et.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/build-fix.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

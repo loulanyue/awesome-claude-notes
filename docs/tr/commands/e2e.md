@@ -1,5 +1,6 @@
 ---
 description: Playwright ile end-to-end testler oluştur ve çalıştır. Test yolculukları oluşturur, testleri çalıştırır, ekran görüntüleri/videolar/izlemeler yakalar ve artifact'ları yükler.
+source_path: commands/e2e.md
 ---
 
 # E2E Komutu
@@ -363,3 +364,14 @@ npx playwright codegen http://localhost:3000
 # Raporu görüntüle
 npx playwright show-report
 ```
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/e2e.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

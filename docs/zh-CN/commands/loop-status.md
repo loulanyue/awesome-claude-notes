@@ -1,3 +1,7 @@
+---
+description: "Inspect active loop state, progress, and failure signals."
+source_path: commands/loop-status.md
+---
 # 循环状态命令
 
 检查活动循环状态、进度和故障信号。
@@ -23,3 +27,14 @@
 $ARGUMENTS:
 
 * `--watch` 可选
+
+## 原文
+- [英文原文](../../../commands/loop-status.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

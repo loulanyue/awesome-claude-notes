@@ -3,6 +3,7 @@ name: database-reviewer
 description: PostgreSQL database specialist for query optimization, schema design, security, and performance. Use PROACTIVELY when writing SQL, creating migrations, designing schemas, or troubleshooting database performance. Incorporates Supabase best practices.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+source_path: agents/database-reviewer.md
 ---
 
 # 資料庫審查員
@@ -376,3 +377,13 @@ RETURNING *;
 **記住**：資料庫問題通常是應用程式效能問題的根本原因。儘早優化查詢和結構描述設計。使用 EXPLAIN ANALYZE 驗證假設。總是為外鍵和 RLS 政策欄位建立索引。
 
 *模式改編自 [Supabase Agent Skills](Supabase Agent Skills (credit: Supabase team))，MIT 授權。*
+
+## 原文
+- [英文原文](../../../agents/database-reviewer.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

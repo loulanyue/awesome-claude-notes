@@ -1,3 +1,7 @@
+---
+description: "Manage eval-driven development workflow."
+source_path: commands/eval.md
+---
 # Eval 커맨드
 
 평가 기반 개발 워크플로우를 관리합니다.
@@ -118,3 +122,13 @@ $ARGUMENTS:
 - `report <name>` - 전체 보고서 생성
 - `list` - 모든 평가 표시
 - `clean` - 오래된 평가 로그 제거 (최근 10회 실행 유지)
+
+## 원문
+- [영문 원문](../../../commands/eval.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

@@ -1,3 +1,7 @@
+---
+description: "Comprehensive security and quality review of uncommitted changes:"
+source_path: commands/code-review.md
+---
 # 코드 리뷰
 
 커밋되지 않은 변경사항에 대한 포괄적인 보안 및 품질 리뷰를 수행합니다:
@@ -38,3 +42,13 @@
 4. CRITICAL 또는 HIGH 이슈가 발견되면 commit을 차단합니다
 
 보안 취약점이 있는 코드는 절대 승인하지 마세요!
+
+## 원문
+- [영문 원문](../../../commands/code-review.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

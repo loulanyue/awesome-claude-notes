@@ -1,6 +1,7 @@
 ---
 name: instinct-import
 description: İçgüdüleri dosya veya URL'den proje/global kapsama aktar
+source_path: commands/instinct-import.md
 command: true
 ---
 
@@ -112,3 +113,14 @@ New instincts saved to: ~/.claude/homunculus/instincts/inherited/
 
 Run /instinct-status to see all instincts.
 ```
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/instinct-import.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

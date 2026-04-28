@@ -3,6 +3,7 @@ name: kotlin-build-resolver
 description: Kotlin/Gradle build, compilation, and dependency error resolution specialist. Fixes build errors, Kotlin compiler errors, and Gradle issues with minimal changes. Use when Kotlin builds fail.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/kotlin-build-resolver.md
 ---
 
 # Kotlin Build Error Resolver
@@ -116,3 +117,14 @@ Remaining errors: 2
 Son: `Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 Detaylı Kotlin kalıpları ve kod örnekleri için, `skill: kotlin-patterns`'a bakın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/kotlin-build-resolver.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

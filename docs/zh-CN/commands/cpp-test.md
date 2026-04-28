@@ -1,5 +1,6 @@
 ---
 description: 为 C++ 强制执行 TDD 工作流程。先编写 GoogleTest 测试，然后实现。使用 gcov/lcov 验证覆盖率。
+source_path: commands/cpp-test.md
 ---
 
 # C++ TDD 命令
@@ -255,3 +256,14 @@ genhtml coverage.info --output-directory coverage_html
 
 * 技能：`skills/cpp-testing/`
 * 技能：`skills/tdd-workflow/`
+
+## 原文
+- [英文原文](../../../commands/cpp-test.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

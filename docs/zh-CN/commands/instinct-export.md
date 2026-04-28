@@ -1,6 +1,7 @@
 ---
 name: instinct-export
 description: 将项目/全局范围的本能导出到文件
+source_path: commands/instinct-export.md
 command: /instinct-export
 ---
 
@@ -65,3 +66,14 @@ Use functional patterns over classes.
 * `--min-confidence <n>`: 最低置信度阈值
 * `--output <file>`: 输出文件路径（省略时打印到标准输出）
 * `--scope <project|global|all>`: 导出范围（默认：`all`）
+
+## 原文
+- [英文原文](../../../commands/instinct-export.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

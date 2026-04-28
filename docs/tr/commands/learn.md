@@ -1,3 +1,7 @@
+---
+description: "Analyze the current session and extract any patterns worth saving as skills."
+source_path: commands/learn.md
+---
 # /learn - Yeniden Kullanılabilir Desenleri Çıkar
 
 Mevcut oturumu analiz et ve skill olarak kaydetmeye değer desenleri çıkar.
@@ -68,3 +72,14 @@ Mevcut oturumu analiz et ve skill olarak kaydetmeye değer desenleri çıkar.
 - Tek seferlik sorunları çıkarmayın (belirli API kesintileri, vb.)
 - Gelecekteki oturumlarda zaman kazandıracak desenlere odaklanın
 - Skill'leri odaklı tutun - skill başına bir desen
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/learn.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

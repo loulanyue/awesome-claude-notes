@@ -1,6 +1,7 @@
 ---
 name: instinct-export
 description: İçgüdüleri proje/global kapsamdan bir dosyaya aktar
+source_path: commands/instinct-export.md
 command: /instinct-export
 ---
 
@@ -64,3 +65,14 @@ Use functional patterns over classes.
 - `--min-confidence <n>`: Minimum güven eşiği
 - `--output <file>`: Çıktı dosya yolu (atlandığında stdout'a yazdırır)
 - `--scope <project|global|all>`: Dışa aktarma kapsamı (varsayılan: `all`)
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/instinct-export.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

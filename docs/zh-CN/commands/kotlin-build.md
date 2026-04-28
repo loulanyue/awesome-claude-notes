@@ -1,5 +1,6 @@
 ---
 description: 逐步修复 Kotlin/Gradle 构建错误、编译器警告和依赖项问题。调用 kotlin-build-resolver 代理进行最小化、精准的修复。
+source_path: commands/kotlin-build.md
 ---
 
 # Kotlin 构建与修复
@@ -174,3 +175,14 @@ Build Status: ✅ SUCCESS
 
 * 代理：`agents/kotlin-build-resolver.md`
 * 技能：`skills/kotlin-patterns/`
+
+## 原文
+- [英文原文](../../../commands/kotlin-build.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

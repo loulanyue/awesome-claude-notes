@@ -1,3 +1,7 @@
+---
+description: "Analyze the current session and extract any patterns worth saving as skills."
+source_path: commands/learn.md
+---
 # /learn - 擷取可重用模式
 
 分析目前的工作階段並擷取值得儲存為技能的模式。
@@ -68,3 +72,13 @@
 - 不要擷取一次性問題（特定 API 停機等）
 - 專注於會在未來工作階段節省時間的模式
 - 保持技能專注 - 每個技能一個模式
+
+## 原文
+- [英文原文](../../../commands/learn.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

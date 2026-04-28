@@ -3,6 +3,7 @@ name: loop-operator
 description: Operate autonomous agent loops, monitor progress, and intervene safely when loops stall.
 tools: ["Read", "Grep", "Glob", "Bash", "Edit"]
 model: sonnet
+source_path: agents/loop-operator.md
 color: orange
 ---
 
@@ -34,3 +35,14 @@ Aşağıdaki koşullardan herhangi biri doğruysa eskale edin:
 - özdeş yığın izleriyle tekrarlanan hatalar
 - bütçe penceresinin dışında maliyet sapması
 - kuyruk ilerlemesini engelleyen birleştirme çakışmaları
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/loop-operator.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

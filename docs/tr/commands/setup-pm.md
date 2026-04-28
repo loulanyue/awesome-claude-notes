@@ -1,5 +1,6 @@
 ---
 description: Tercih ettiğiniz paket yöneticisini yapılandırın (npm/pnpm/yarn/bun)
+source_path: commands/setup-pm.md
 disable-model-invocation: true
 ---
 
@@ -78,3 +79,14 @@ Mevcut paket yöneticisi tespit sonuçlarını görmek için şunu çalıştır�
 ```bash
 node scripts/setup-package-manager.js --detect
 ```
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/setup-pm.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

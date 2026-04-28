@@ -3,6 +3,7 @@ name: code-reviewer
 description: 전문 코드 리뷰 스페셜리스트. 코드 품질, 보안, 유지보수성을 사전에 검토합니다. 코드 작성 또는 수정 후 즉시 사용하세요. 모든 코드 변경에 반드시 사용해야 합니다.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/code-reviewer.md
 ---
 
 시니어 코드 리뷰어로서 높은 코드 품질과 보안 기준을 보장합니다.
@@ -235,3 +236,13 @@ AI 생성 변경사항 리뷰 시 우선순위:
 비용 인식 체크:
 - 명확한 추론 필요 없이 더 비싼 모델로 에스컬레이션하는 워크플로우를 플래그하세요.
 - 결정론적 리팩토링에는 저비용 티어를 기본으로 사용하도록 권장하세요.
+
+## 원문
+- [영문 원문](../../../agents/code-reviewer.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

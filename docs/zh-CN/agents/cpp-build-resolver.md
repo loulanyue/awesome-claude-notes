@@ -3,6 +3,7 @@ name: cpp-build-resolver
 description: C++构建、CMake和编译错误解决专家。以最小改动修复构建错误、链接器问题和模板错误。在C++构建失败时使用。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/cpp-build-resolver.md
 ---
 
 # C++ 构建错误解决器
@@ -89,3 +90,14 @@ cmake --build build --clean-first
 最终：`Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 有关详细的 C++ 模式和代码示例，请参阅 `skill: cpp-coding-standards`。
+
+## 原文
+- [英文原文](../../../agents/cpp-build-resolver.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

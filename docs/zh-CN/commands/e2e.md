@@ -1,5 +1,6 @@
 ---
 description: 使用 Playwright 生成并运行端到端测试。创建测试旅程、运行测试、捕获截图/视频/跟踪，并上传工件。
+source_path: commands/e2e.md
 ---
 
 # E2E 命令
@@ -372,3 +373,14 @@ npx playwright codegen http://localhost:3000
 # View report
 npx playwright show-report
 ```
+
+## 原文
+- [英文原文](../../../commands/e2e.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

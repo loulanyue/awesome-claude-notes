@@ -1,3 +1,7 @@
+---
+description: "Comprehensive security and quality review of uncommitted changes:"
+source_path: commands/code-review.md
+---
 # Code Review
 
 Commit edilmemiş değişikliklerin kapsamlı güvenlik ve kalite incelemesi:
@@ -38,3 +42,14 @@ Commit edilmemiş değişikliklerin kapsamlı güvenlik ve kalite incelemesi:
 4. KRİTİK veya YÜKSEK sorunlar bulunursa commit'i engelle
 
 Güvenlik açıklıkları olan kodu asla onaylamayın!
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/code-review.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

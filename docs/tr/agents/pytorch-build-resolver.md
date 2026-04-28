@@ -3,6 +3,7 @@ name: pytorch-build-resolver
 description: PyTorch runtime, CUDA, and training error resolution specialist. Fixes tensor shape mismatches, device errors, gradient issues, DataLoader problems, and mixed precision failures with minimal changes. Use when PyTorch training or inference crashes.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/pytorch-build-resolver.md
 ---
 
 # PyTorch Build/Runtime Error Resolver
@@ -118,3 +119,14 @@ Son: `Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 ---
 
 PyTorch best practice'leri için, [resmi PyTorch dokümantasyonu](https://pytorch.org/docs/stable/) ve [PyTorch forumları](https://discuss.pytorch.org/)'na başvurun.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/pytorch-build-resolver.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

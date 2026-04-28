@@ -1,3 +1,7 @@
+---
+description: "Analyze the current session and extract any patterns worth saving as skills."
+source_path: commands/learn.md
+---
 # /learn - Extrair Padrões Reutilizáveis
 
 Analise a sessão atual e extraia padrões que valem ser salvos como skills.
@@ -68,3 +72,13 @@ Crie um arquivo de skill em `~/.claude/skills/learned/[pattern-name].md`:
 - Não extraia problemas de uso único (indisponibilidade específica de API etc.)
 - Foque em padrões que vão economizar tempo em sessões futuras
 - Mantenha skills focadas - um padrão por skill
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/learn.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

@@ -1,5 +1,6 @@
 ---
 description: 针对多智能体工作流程的顺序和tmux/worktree编排指南。
+source_path: commands/orchestrate.md
 ---
 
 # 编排命令
@@ -240,3 +241,14 @@ $ARGUMENTS:
 3. 处理认证/支付/个人身份信息时**使用安全审查代理**
 4. **保持交接文档简洁** - 关注下一个代理需要什么
 5. 如有需要，**在代理之间运行验证**
+
+## 原文
+- [英文原文](../../../commands/orchestrate.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

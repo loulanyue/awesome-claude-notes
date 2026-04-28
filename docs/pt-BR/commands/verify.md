@@ -1,3 +1,7 @@
+---
+description: "Run comprehensive verification on current codebase state."
+source_path: commands/verify.md
+---
 # Comando Verification
 
 Rode verificação abrangente no estado atual do codebase.
@@ -57,3 +61,13 @@ $ARGUMENTS podem ser:
 - `full` - Todas as checagens (padrão)
 - `pre-commit` - Checagens relevantes para commits
 - `pre-pr` - Checagens completas mais security scan
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/verify.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

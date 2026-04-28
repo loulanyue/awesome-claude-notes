@@ -1,3 +1,7 @@
+---
+description: "Create or verify a checkpoint in your workflow."
+source_path: commands/checkpoint.md
+---
 # Comando Checkpoint
 
 Crie ou verifique um checkpoint no seu fluxo.
@@ -72,3 +76,13 @@ $ARGUMENTS:
 - `verify <name>` - Verificar contra checkpoint nomeado
 - `list` - Mostrar todos os checkpoints
 - `clear` - Remover checkpoints antigos (mantém os últimos 5)
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/checkpoint.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

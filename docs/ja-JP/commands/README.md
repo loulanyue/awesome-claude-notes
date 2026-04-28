@@ -1,120 +1,44 @@
 # コマンド
 
-コマンドはスラッシュ（`/command-name`）で起動するユーザー起動アクションです。有用なワークフローと開発タスクを実行します。
+コマンドはスラッシュ（`/command-name`）で起動するユーザーワークフローです。
 
-## コマンドカテゴリ
+## 収録ファイル
+- [ビルド修正](./build-fix.md)
+- [チェックポイントコマンド](./checkpoint.md)
+- [コードレビュー](./code-review.md)
+- [E2E コマンド](./e2e.md)
+- [Evalコマンド](./eval.md)
+- [Evolveコマンド](./evolve.md)
+- [Go Build and Fix](./go-build.md)
+- [Go Code Review](./go-review.md)
+- [Go TDD コマンド](./go-test.md)
+- [インスティンクトエクスポートコマンド](./instinct-export.md)
+- [インスティンクトインポートコマンド](./instinct-import.md)
+- [インスティンクトステータスコマンド](./instinct-status.md)
+- [/learn - 再利用可能なパターンの抽出](./learn.md)
+- [Backend - バックエンド中心の開発](./multi-backend.md)
+- [Execute - マルチモデル協調実装](./multi-execute.md)
+- [Frontend - フロントエンド中心の開発](./multi-frontend.md)
+- [Plan - マルチモデル協調計画](./multi-plan.md)
+- [Workflow - マルチモデル協調開発](./multi-workflow.md)
+- [Orchestrateコマンド](./orchestrate.md)
+- [PM2 初期化](./pm2.md)
+- [Python Code Review](./python-review.md)
+- [Refactor Clean](./refactor-clean.md)
+- [Sessionsコマンド](./sessions.md)
+- [パッケージマネージャーの設定](./setup-pm.md)
+- [/skill-create - ローカルスキル生成](./skill-create.md)
+- [TDDコマンド](./tdd.md)
+- [テストカバレッジ](./test-coverage.md)
+- [コードマップの更新](./update-codemaps.md)
+- [Update Documentation](./update-docs.md)
+- [検証コマンド](./verify.md)
 
-### ビルド & エラー修正
-- `/build-fix` - ビルドエラーを修正
-- `/go-build` - Go ビルドエラーを解決
-- `/go-test` - Go テストを実行
-
-### コード品質
-- `/code-review` - コード変更をレビュー
-- `/python-review` - Python コードをレビュー
-- `/go-review` - Go コードをレビュー
-
-### テスト & 検証
-- `/tdd` - テスト駆動開発ワークフロー
-- `/e2e` - E2E テストを実行
-- `/test-coverage` - テストカバレッジを確認
-- `/verify` - 実装を検証
-
-### 計画 & 実装
-- `/plan` - 機能実装計画を作成
-- `/skill-create` - 新しいスキルを作成
-- `/multi-*` - マルチプロジェクト ワークフロー
-
-### ドキュメント
-- `/update-docs` - ドキュメントを更新
-- `/update-codemaps` - Codemap を更新
-
-### 開発 & デプロイ
-- `/checkpoint` - 実装チェックポイント
-- `/evolve` - 機能を進化
-- `/learn` - プロジェクトについて学ぶ
-- `/orchestrate` - ワークフロー調整
-- `/pm2` - PM2 デプロイメント管理
-- `/setup-pm` - PM2 を設定
-- `/sessions` - セッション管理
-
-### インスティンク機能
-- `/instinct-import` - インスティンク をインポート
-- `/instinct-export` - インスティンク をエクスポート
-- `/instinct-status` - インスティンク ステータス
-
-## コマンド実行
-
-Claude Code でコマンドを実行：
-
-```bash
-/plan
-/tdd
-/code-review
-/build-fix
-```
-
-または AI エージェントから：
-
-```
-ユーザー：「新しい機能を計画して」
-Claude：実行 → `/plan` コマンド
-```
-
-## 関連ドキュメント
-
+## ナビゲーション
+- [日本語ドキュメント一覧](../README.md)
+- [コマンド一覧](../commands/README.md)
 - [エージェント一覧](../agents/README.md)
 - [コンテキスト一覧](../contexts/README.md)
 - [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
 - [貢献ガイド](../../../CONTRIBUTING.md)
 
-## よく使うコマンド
-
-### 開発ワークフロー
-1. `/plan` - 実装計画を作成
-2. `/tdd` - テストを書いて機能を実装
-3. `/code-review` - コード品質をレビュー
-4. `/build-fix` - ビルドエラーを修正
-5. `/e2e` - E2E テストを実行
-6. `/update-docs` - ドキュメントを更新
-
-### デバッグワークフロー
-1. `/verify` - 実装を検証
-2. `/code-review` - 品質をチェック
-3. `/build-fix` - エラーを修正
-4. `/test-coverage` - カバレッジを確認
-
-## カスタムコマンドを追加
-
-カスタムコマンドを作成するには：
-
-1. `commands/` に `.md` ファイルを作成
-2. Frontmatter を追加：
-
-```markdown
----
-description: Brief description shown in /help
----
-
-# Command Name
-
-## Purpose
-
-What this command does.
-
-## Usage
-
-\`\`\`
-/command-name [args]
-\`\`\`
-
-## Workflow
-
-1. Step 1
-2. Step 2
-3. Step 3
-```
-
----
-
-**覚えておいてください**：コマンドはワークフローを自動化し、繰り返しタスクを簡素化します。チームの一般的なパターンに対する新しいコマンドを作成することをお勧めします。

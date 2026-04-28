@@ -1,3 +1,7 @@
+---
+description: 用于专注审查、验证和风险识别的共享上下文。
+source_path: contexts/review.md
+---
 # 代码审查上下文
 
 模式：PR 审查，代码分析
@@ -23,3 +27,14 @@
 ## 输出格式
 
 按文件分组发现的问题，严重性优先
+
+## 原文
+- [英文原文](../../../contexts/review.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

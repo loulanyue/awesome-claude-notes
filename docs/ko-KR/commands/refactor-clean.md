@@ -1,3 +1,7 @@
+---
+description: "Safely identify and remove dead code with test verification at every step."
+source_path: commands/refactor-clean.md
+---
 # Refactor Clean
 
 사용하지 않는 코드를 안전하게 식별하고 매 단계마다 테스트 검증을 수행하여 제거합니다.
@@ -78,3 +82,13 @@ Dead Code Cleanup
 - **한 번에 하나씩 삭제** --- 원자적 변경으로 롤백이 쉬움
 - **확실하지 않으면 건너뛰기** --- 프로덕션을 깨뜨리는 것보다 사용하지 않는 코드를 유지하는 것이 나음
 - **정리하면서 리팩토링하지 않기** --- 관심사 분리 (먼저 정리, 나중에 리팩토링)
+
+## 원문
+- [영문 원문](../../../commands/refactor-clean.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

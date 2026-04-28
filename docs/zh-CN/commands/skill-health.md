@@ -1,6 +1,7 @@
 ---
 name: skill-health
 description: 显示技能组合健康仪表板，包含图表和分析
+source_path: commands/skill-health.md
 command: true
 ---
 
@@ -52,3 +53,14 @@ node "$ECC_ROOT/scripts/skills-health.js" --dashboard --json
 * **故障模式** — 聚类故障原因并显示水平条形图
 * **待处理修订** — 等待审查的修订提案
 * **版本历史** — 每个技能的版本快照时间线
+
+## 原文
+- [英文原文](../../../commands/skill-health.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

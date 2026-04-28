@@ -1,5 +1,6 @@
 ---
 description: 테스트 주도 개발 워크플로우 강제. 인터페이스를 스캐폴딩하고, 테스트를 먼저 생성한 후 통과할 최소한의 코드를 구현합니다. 80% 이상 커버리지를 보장합니다.
+source_path: commands/tdd.md
 ---
 
 # TDD 커맨드
@@ -324,3 +325,13 @@ Coverage: 100% ✅ (목표: 80%)
 
 그리고 `tdd-workflow` 스킬을 참조할 수 있습니다:
 `~/.claude/skills/tdd-workflow/`
+
+## 원문
+- [영문 원문](../../../commands/tdd.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

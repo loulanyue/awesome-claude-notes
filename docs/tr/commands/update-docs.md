@@ -1,3 +1,7 @@
+---
+description: "Sync documentation with the codebase, generating from source-of-truth files."
+source_path: commands/update-docs.md
+---
 # Update Documentation
 
 Dokümanları codebase ile senkronize et, truth-of-source dosyalarından oluştur.
@@ -82,3 +86,14 @@ Skipped:  docs/API.md (no changes detected)
 - **Manuel bölümleri koru**: Sadece oluşturulan bölümleri güncelle; elle yazılmış prose'u bozulmamış bırak
 - **Oluşturulan içeriği işaretle**: Oluşturulan bölümlerin etrafında `<!-- AUTO-GENERATED -->` marker'ları kullan
 - **İstenmeyen doküman oluşturma**: Sadece komut açıkça talep ederse yeni doküman dosyaları oluştur
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/update-docs.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

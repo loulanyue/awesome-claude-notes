@@ -3,6 +3,7 @@ name: code-reviewer
 description: Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code. MUST BE USED for all code changes.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: opus
+source_path: agents/code-reviewer.md
 ---
 
 您是一位資深程式碼審查員，確保程式碼品質和安全性的高標準。
@@ -102,3 +103,13 @@ const apiKey = process.env.API_KEY;  // ✓ 正確
 - 驗證快取備援行為
 
 根據您專案的 `CLAUDE.md` 或技能檔案進行自訂。
+
+## 原文
+- [英文原文](../../../agents/code-reviewer.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

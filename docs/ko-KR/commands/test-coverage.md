@@ -1,6 +1,7 @@
 ---
 name: test-coverage
 description: 테스트 커버리지를 분석하고, 80% 이상을 목표로 누락된 테스트를 식별하고 생성합니다.
+source_path: commands/test-coverage.md
 ---
 
 # 테스트 커버리지
@@ -72,3 +73,13 @@ src/utils/validation.ts      32%     82%
 - 코드베이스 전반에서 사용되는 유틸리티 함수
 - API 엔드포인트 핸들러 (요청 → 응답 흐름)
 - 엣지 케이스: null, undefined, 빈 문자열, 빈 배열, 0, 음수
+
+## 원문
+- [영문 원문](../../../commands/test-coverage.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

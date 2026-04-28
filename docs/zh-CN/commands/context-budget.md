@@ -1,5 +1,6 @@
 ---
 description: 分析跨代理、技能、MCP服务器和规则的上下文窗口使用情况，以寻找优化机会。有助于减少令牌开销并避免性能警告。
+source_path: commands/context-budget.md
 ---
 
 # 上下文预算优化器
@@ -27,3 +28,14 @@ $ARGUMENTS
 4. 向用户输出格式化的上下文预算报告
 
 该技能负责所有扫描逻辑、令牌估算、问题检测和报告格式化。
+
+## 原文
+- [英文原文](../../../commands/context-budget.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

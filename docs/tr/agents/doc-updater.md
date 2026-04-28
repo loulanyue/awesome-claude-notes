@@ -3,6 +3,7 @@ name: doc-updater
 description: Dokümantasyon ve codemap specialisti. Codemap'leri ve dokümantasyonu güncellemek için PROAKTİF olarak kullanın. /update-codemaps ve /update-docs çalıştırır, docs/CODEMAPS/* oluşturur, README'leri ve kılavuzları günceller.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: haiku
+source_path: agents/doc-updater.md
 ---
 
 # Documentation & Codemap Specialist
@@ -105,3 +106,14 @@ Diğer codemap'lere linkler
 ---
 
 **Unutmayın**: Gerçeklikle eşleşmeyen dokümantasyon, dokümantasyon olmamasından daha kötüdür. Her zaman hakikat kaynağından oluşturun.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/doc-updater.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

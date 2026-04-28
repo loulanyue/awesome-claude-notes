@@ -3,6 +3,7 @@ name: cpp-reviewer
 description: Expert C++ code reviewer specializing in memory safety, modern C++ idioms, concurrency, and performance. Use for all C++ code changes. MUST BE USED for C++ projects.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/cpp-reviewer.md
 ---
 
 Modern C++ ve en iyi uygulamaların yüksek standartlarını sağlayan kıdemli bir C++ kod inceleyicisisiniz.
@@ -70,3 +71,14 @@ cmake --build build 2>&1 | head -50
 - **Engelle**: KRİTİK veya YÜKSEK sorunlar bulundu
 
 Detaylı C++ kodlama standartları ve karşı desenler için, `skill: cpp-coding-standards` bölümüne bakın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/cpp-reviewer.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

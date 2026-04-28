@@ -799,3 +799,15 @@ MIT - 自由に使用、必要に応じて修正、可能であれば貢献し�
 ---
 
 **このリポジトリが役に立ったら、Star を付けてください。両方のガイドを読んでください。素晴らしいものを構築してください。**
+
+<!-- localized-instruction-docs:start -->
+## ドキュメント案内
+
+これらの索引ページから、ローカライズされた instruction docs をコマンド、エージェント、コンテキスト単位でたどれます。
+
+- [コマンド一覧](./commands/README.md) (30)
+- [エージェント一覧](./agents/README.md) (13)
+- [コンテキスト一覧](./contexts/README.md) (3)
+- [Command → Agent / Skill Map](../COMMAND-AGENT-MAP.md)
+- [貢献ガイド](../../CONTRIBUTING.md)
+<!-- localized-instruction-docs:end -->

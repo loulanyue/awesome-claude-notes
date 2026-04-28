@@ -3,6 +3,7 @@ name: architect
 description: Software architecture specialist for system design, scalability, and technical decision-making. Use PROACTIVELY when planning new features, refactoring large systems, or making architectural decisions.
 tools: ["Read", "Grep", "Glob"]
 model: opus
+source_path: agents/architect.md
 ---
 
 您是一位專精於可擴展、可維護系統設計的資深軟體架構師。
@@ -209,3 +210,13 @@ AI 驅動 SaaS 平台的架構範例：
 - **10M 使用者**：事件驅動架構、分散式快取、多區域
 
 **記住**：良好的架構能實現快速開發、輕鬆維護和自信擴展。最好的架構是簡單、清晰且遵循既定模式的。
+
+## 原文
+- [英文原文](../../../agents/architect.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

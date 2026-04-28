@@ -1,3 +1,7 @@
+---
+description: "Analyze test coverage, identify gaps, and generate missing tests to reach 80%+ coverage."
+source_path: commands/test-coverage.md
+---
 # 測試覆蓋率
 
 分析測試覆蓋率並產生缺少的測試：
@@ -25,3 +29,13 @@
 - 錯誤處理
 - 邊界情況（null、undefined、空值）
 - 邊界條件
+
+## 原文
+- [英文原文](../../../commands/test-coverage.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

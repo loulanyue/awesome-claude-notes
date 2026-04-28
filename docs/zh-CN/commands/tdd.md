@@ -1,5 +1,6 @@
 ---
 description: 强制执行测试驱动开发工作流。首先搭建接口，生成测试，然后实现最小化代码以通过测试。确保 80%+ 覆盖率。
+source_path: commands/tdd.md
 ---
 
 # TDD 命令
@@ -328,3 +329,14 @@ Coverage: 100% ✅ (Target: 80%)
 - `agents/tdd-guide.md`
 - `skills/tdd-workflow/SKILL.md`
 ```
+
+## 原文
+- [英文原文](../../../commands/tdd.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

@@ -455,3 +455,15 @@ MIT - Özgürce kullanın, ihtiyaç duyduğunuz gibi değiştirin, yapabiliyorsa
 ---
 
 **Bu repo size yardımcı olduysa yıldızlayın. Her iki rehberi de okuyun. Harika bir şey yapın.**
+
+<!-- localized-instruction-docs:start -->
+## Dokümantasyon rehberi
+
+Bu dizin sayfaları, yerelleştirilmiş instruction docs içeriğini komutlar, ajanlar ve bağlamlar üzerinden hızlıca gezmenizi sağlar.
+
+- [Komut dizini](./commands/README.md) (30)
+- [Ajan dizini](./agents/README.md) (28)
+- [Bağlam dizini](./contexts/README.md) (3)
+- [Command → Agent / Skill Map](../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../CONTRIBUTING.md)
+<!-- localized-instruction-docs:end -->

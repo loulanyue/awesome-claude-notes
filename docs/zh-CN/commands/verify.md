@@ -1,3 +1,7 @@
+---
+description: "Run comprehensive verification on current codebase state."
+source_path: commands/verify.md
+---
 # 验证命令
 
 对当前代码库状态执行全面验证。
@@ -58,3 +62,14 @@ $ARGUMENTS 可以是：
 * `full` - 所有检查（默认）
 * `pre-commit` - 与提交相关的检查
 * `pre-pr` - 完整检查加安全扫描
+
+## 原文
+- [英文原文](../../../commands/verify.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

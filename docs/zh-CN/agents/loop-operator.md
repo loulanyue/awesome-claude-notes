@@ -3,6 +3,7 @@ name: loop-operator
 description: 操作自主代理循环，监控进度，并在循环停滞时安全地进行干预。
 tools: ["Read", "Grep", "Glob", "Bash", "Edit"]
 model: sonnet
+source_path: agents/loop-operator.md
 color: orange
 ---
 
@@ -35,3 +36,14 @@ color: orange
 * 具有相同堆栈跟踪的重复故障
 * 成本漂移超出预算窗口
 * 合并冲突阻塞队列前进
+
+## 原文
+- [英文原文](../../../agents/loop-operator.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

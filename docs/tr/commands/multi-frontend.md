@@ -1,3 +1,7 @@
+---
+description: "Frontend-focused workflow (Research → Ideation → Plan → Execute → Optimize → Review), Gemini-led."
+source_path: commands/multi-frontend.md
+---
 # Frontend - Frontend Odaklı Geliştirme
 
 Frontend odaklı iş akışı (Research → Ideation → Plan → Execute → Optimize → Review), Gemini liderliğinde.
@@ -156,3 +160,14 @@ Review geri bildirimlerini entegre et, kullanıcı onayından sonra optimizasyon
 2. **Codex frontend görüşleri sadece referans için**
 3. Harici modellerin **sıfır dosya sistemi yazma erişimi**
 4. Claude tüm kod yazma ve dosya operasyonlarını yönetir
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/multi-frontend.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

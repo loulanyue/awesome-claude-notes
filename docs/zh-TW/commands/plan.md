@@ -1,5 +1,6 @@
 ---
 description: Restate requirements, assess risks, and create step-by-step implementation plan. WAIT for user CONFIRM before touching any code.
+source_path: commands/plan.md
 ---
 
 # Plan 指令
@@ -111,3 +112,13 @@ Agent（planner）：
 
 此指令呼叫位於以下位置的 `planner` Agent：
 `~/.claude/agents/planner.md`
+
+## 原文
+- [英文原文](../../../commands/plan.md)
+
+## 導航
+- [繁體中文文件導航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [貢獻指南](../../../CONTRIBUTING.md)

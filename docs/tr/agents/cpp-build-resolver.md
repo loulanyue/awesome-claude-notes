@@ -3,6 +3,7 @@ name: cpp-build-resolver
 description: C++ build, CMake, and compilation error resolution specialist. Fixes build errors, linker issues, and template errors with minimal changes. Use when C++ builds fail.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/cpp-build-resolver.md
 ---
 
 # C++ Build Hata Çözücü
@@ -88,3 +89,14 @@ Kalan hatalar: 3
 Son: `Build Durumu: BAŞARILI/BAŞARISIZ | Düzeltilen Hatalar: N | Değiştirilen Dosyalar: liste`
 
 Detaylı C++ desenleri ve kod örnekleri için, `skill: cpp-coding-standards` bölümüne bakın.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/cpp-build-resolver.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

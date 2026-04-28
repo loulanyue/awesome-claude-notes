@@ -1,5 +1,6 @@
 ---
 description: 逐步修复Go构建错误、go vet警告和linter问题。调用go-build-resolver代理进行最小化、精确的修复。
+source_path: commands/go-build.md
 ---
 
 # Go 构建与修复
@@ -181,3 +182,14 @@ ok      project/internal/handler   0.023s
 - 代理: `agents/go-build-resolver.md`
 - 技能: `skills/golang-patterns/`
 ```
+
+## 原文
+- [英文原文](../../../commands/go-build.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

@@ -3,6 +3,7 @@ name: e2e-runner
 description: 使用Vercel Agent Browser（首选）和Playwright备选方案进行端到端测试的专家。主动用于生成、维护和运行E2E测试。管理测试流程，隔离不稳定的测试，上传工件（截图、视频、跟踪），并确保关键用户流程正常运行。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/e2e-runner.md
 ---
 
 # E2E 测试运行器
@@ -108,3 +109,14 @@ test('flaky: market search', async ({ page }) => {
 ***
 
 **记住**：端到端测试是上线前的最后一道防线。它们能捕获单元测试遗漏的集成问题。投资于稳定性、速度和覆盖率。
+
+## 原文
+- [英文原文](../../../agents/e2e-runner.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

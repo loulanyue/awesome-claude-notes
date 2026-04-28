@@ -1,5 +1,6 @@
 ---
 description: Playwright로 E2E 테스트를 생성하고 실행합니다. 테스트 여정을 만들고, 테스트를 실행하며, 스크린샷/비디오/트레이스를 캡처하고, 아티팩트를 업로드합니다.
+source_path: commands/e2e.md
 ---
 
 # E2E 커맨드
@@ -332,3 +333,13 @@ npx playwright codegen http://localhost:3000
 # 보고서 확인
 npx playwright show-report
 ```
+
+## 원문
+- [영문 원문](../../../commands/e2e.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

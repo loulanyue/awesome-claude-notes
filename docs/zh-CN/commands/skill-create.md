@@ -1,6 +1,7 @@
 ---
 name: skill-create
 description: 分析本地Git历史以提取编码模式并生成SKILL.md文件。Skill Creator GitHub应用的本地版本。
+source_path: commands/skill-create.md
 allowed_tools: ["Bash", "Read", "Write", "Grep", "Glob"]
 ---
 
@@ -174,3 +175,14 @@ src/
 ***
 
 *属于 [awesome claude notes](https://github.com/loulanyue/awesome-claude-notes)*
+
+## 原文
+- [英文原文](../../../commands/skill-create.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

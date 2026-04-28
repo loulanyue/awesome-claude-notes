@@ -3,6 +3,7 @@ name: security-reviewer
 description: Güvenlik açığı tespit ve düzeltme specialisti. Kullanıcı girdisi, kimlik doğrulama, API endpoint'leri veya hassas veri işleyen kod yazdıktan sonra PROAKTİF olarak kullanın. Secret'ları, SSRF, injection, güvensiz kriptografiyi ve OWASP Top 10 güvenlik açıklarını işaretler.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+source_path: agents/security-reviewer.md
 ---
 
 # Security Reviewer
@@ -106,3 +107,14 @@ Detaylı güvenlik açığı kalıpları, kod örnekleri, rapor şablonları ve 
 ---
 
 **Unutmayın**: Güvenlik opsiyonel değildir. Bir güvenlik açığı kullanıcılara gerçek mali kayıplara mal olabilir. Titiz olun, paranoyak olun, proaktif olun.
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../agents/security-reviewer.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

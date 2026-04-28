@@ -1,6 +1,7 @@
 ---
 name: evolve
 description: İçgüdüleri analiz et ve evrimleşmiş yapılar öner veya oluştur
+source_path: commands/evolve.md
 command: true
 ---
 
@@ -176,3 +177,14 @@ evolved_from:
 
 [Kümelenmiş içgüdülere dayalı oluşturulan içerik]
 ```
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/evolve.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

@@ -1,5 +1,6 @@
 ---
 description: 管理Claude Code会话历史、别名和会话元数据。
+source_path: commands/sessions.md
 ---
 
 # Sessions 命令
@@ -338,3 +339,14 @@ $ARGUMENTS:
 * 别名存储在 `~/.claude/session-aliases.json`
 * 会话 ID 可以缩短（通常前 4-8 个字符就足够唯一）
 * 为经常引用的会话使用别名
+
+## 原文
+- [英文原文](../../../commands/sessions.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

@@ -1,3 +1,7 @@
+---
+description: "Auto-analyze project and generate PM2 service commands."
+source_path: commands/pm2.md
+---
 # PM2 Init
 
 Projeyi otomatik analiz et ve PM2 servis komutları oluştur.
@@ -270,3 +274,14 @@ pm2 resurrect          # Kaydedilen process'leri geri yükle
 
 **İpucu:** Basitleştirilmiş komutları etkinleştirmek için ilk başlatmadan sonra `pm2 save` çalıştırın.
 ```
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/pm2.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

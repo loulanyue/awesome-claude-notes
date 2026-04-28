@@ -1,3 +1,7 @@
+---
+description: "Comprehensive security and quality review of uncommitted changes:"
+source_path: commands/code-review.md
+---
 # Code Review
 
 Revisão completa de segurança e qualidade das mudanças não commitadas:
@@ -38,3 +42,13 @@ Revisão completa de segurança e qualidade das mudanças não commitadas:
 4. Bloqueie commit se houver problemas CRITICAL ou HIGH
 
 Nunca aprove código com vulnerabilidades de segurança!
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/code-review.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

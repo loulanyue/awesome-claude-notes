@@ -3,6 +3,7 @@ name: go-reviewer
 description: 专业的Go代码审查专家，专注于地道Go语言、并发模式、错误处理和性能优化。适用于所有Go代码变更。必须用于Go项目。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+source_path: agents/go-reviewer.md
 ---
 
 您是一名高级 Go 代码审查员，确保符合 Go 语言惯用法和最佳实践的高标准。
@@ -81,3 +82,14 @@ govulncheck ./...
 * **阻止**：发现关键或高优先级问题
 
 有关详细的 Go 代码示例和反模式，请参阅 `skill: golang-patterns`。
+
+## 原文
+- [英文原文](../../../agents/go-reviewer.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

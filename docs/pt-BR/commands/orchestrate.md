@@ -1,5 +1,6 @@
 ---
 description: Orientação de orquestração sequencial e tmux/worktree para fluxos multiagente.
+source_path: commands/orchestrate.md
 ---
 
 # Comando Orchestrate
@@ -228,3 +229,13 @@ $ARGUMENTS:
 3. **Use security-reviewer** para auth/pagamento/PII
 4. **Mantenha handoffs concisos** - foque no que o próximo agente precisa
 5. **Rode verificação** entre agentes quando necessário
+
+## Fonte canônica
+- [Documento original em inglês](../../../commands/orchestrate.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

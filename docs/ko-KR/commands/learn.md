@@ -1,3 +1,7 @@
+---
+description: "Analyze the current session and extract any patterns worth saving as skills."
+source_path: commands/learn.md
+---
 # /learn - 재사용 가능한 패턴 추출
 
 현재 세션을 분석하고 스킬로 저장할 가치가 있는 패턴을 추출합니다.
@@ -68,3 +72,13 @@
 - 일회성 이슈는 추출하지 않기 (특정 API 장애 등)
 - 향후 세션에서 시간을 절약할 수 있는 패턴에 집중
 - 스킬은 집중적으로 - 스킬당 하나의 패턴
+
+## 원문
+- [영문 원문](../../../commands/learn.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

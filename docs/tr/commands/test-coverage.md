@@ -1,3 +1,7 @@
+---
+description: "Analyze test coverage, identify gaps, and generate missing tests to reach 80%+ coverage."
+source_path: commands/test-coverage.md
+---
 # Test Coverage
 
 Test coverage'ını analiz et, eksiklikleri tanımla ve 80%+ coverage'a ulaşmak için eksik test'leri oluştur.
@@ -67,3 +71,14 @@ Overall:               67%     84%  ✅
 - Codebase genelinde kullanılan utility fonksiyonları
 - API endpoint handler'ları (request → response akışı)
 - Edge case'ler: null, undefined, empty string, empty array, zero, negatif sayılar
+
+## Kaynak belge
+- [İngilizce kanonik belge](../../../commands/test-coverage.md)
+
+## Gezinme
+- [Türkçe dokümantasyon](../README.md)
+- [Komut dizini](../commands/README.md)
+- [Ajan dizini](../agents/README.md)
+- [Bağlam dizini](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Katkı rehberi](../../../CONTRIBUTING.md)

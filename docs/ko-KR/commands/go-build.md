@@ -1,5 +1,6 @@
 ---
 description: Go build 에러, go vet 경고, 린터 이슈를 점진적으로 수정합니다. 최소한의 정밀한 수정을 위해 go-build-resolver 에이전트를 호출합니다.
+source_path: commands/go-build.md
 ---
 
 # Go Build and Fix
@@ -181,3 +182,13 @@ Build 상태: ✅ 성공
 
 - 에이전트: `agents/go-build-resolver.md`
 - 스킬: `skills/golang-patterns/`
+
+## 원문
+- [영문 원문](../../../commands/go-build.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)

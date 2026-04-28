@@ -1,3 +1,7 @@
+---
+description: "Start a managed autonomous loop pattern with safety defaults."
+source_path: commands/loop-start.md
+---
 # 循环启动命令
 
 使用安全默认设置启动一个受管理的自主循环模式。
@@ -31,3 +35,14 @@ $ARGUMENTS:
 
 * `<pattern>` 可选 (`sequential|continuous-pr|rfc-dag|infinite`)
 * `--mode safe|fast` 可选
+
+## 原文
+- [英文原文](../../../commands/loop-start.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)

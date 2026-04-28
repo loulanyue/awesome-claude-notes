@@ -1,3 +1,7 @@
+---
+description: "Multi-model collaborative execution - Get prototype from plan → Claude refactors and implements → Multi-model audit and delivery."
+source_path: commands/multi-execute.md
+---
 # 执行 - 多模型协同执行
 
 多模型协同执行 - 从计划获取原型 → Claude 重构并实施 → 多模型审计与交付。
@@ -319,3 +323,14 @@ mcp__ace-tool__search_context({
 1. `/ccg:plan` 生成计划 + SESSION\_ID
 2. 用户用“Y”确认
 3. `/ccg:execute` 读取计划，重用 SESSION\_ID，执行实施
+
+## 原文
+- [英文原文](../../../commands/multi-execute.md)
+
+## 导航
+- [中文文档导航](../README.md)
+- [命令索引](../commands/README.md)
+- [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [贡献指南](../../../CONTRIBUTING.md)
