@@ -17,6 +17,9 @@ const GENERATED_INDEX_RELATIVE_PATHS = new Set([
   'commands/README.md',
   'contexts/README.md'
 ]);
+const SEEDABLE_NON_MARKDOWN_PATHS = new Set([
+  'examples/statusline.json'
+]);
 
 function extractFrontmatter(content) {
   const cleanContent = content.replace(/^\uFEFF/, '');
@@ -159,12 +162,61 @@ function listLocaleMarkdownFiles(locale) {
   return results.sort();
 }
 
+function listLocaleFiles(locale, predicate) {
+  const localeRoot = path.join(DOCS_DIR, locale.id);
+  const results = [];
+
+  function walk(currentDir) {
+    if (!fs.existsSync(currentDir)) return;
+    const entries = fs.readdirSync(currentDir, { withFileTypes: true });
+    for (const entry of entries) {
+      const fullPath = path.join(currentDir, entry.name);
+      if (entry.isDirectory()) {
+        walk(fullPath);
+        continue;
+      }
+      if (entry.isFile() && predicate(entry.name, fullPath)) {
+        results.push(relativePathFromLocaleRoot(locale, fullPath));
+      }
+    }
+  }
+
+  walk(localeRoot);
+  return results.sort();
+}
+
 function getManagedLocalizedDocPaths(locale) {
   return listLocaleMarkdownFiles(locale).filter((relativePath) => {
     if (relativePath === 'README.md') return false;
     if (GENERATED_INDEX_RELATIVE_PATHS.has(relativePath)) return false;
     return Boolean(resolveCanonicalSourcePath(relativePath));
   });
+}
+
+function collectSeedableLocalizedDocPaths() {
+  const relativePaths = new Set();
+
+  for (const type of TYPE_ORDER) {
+    const dir = path.join(ROOT_DIR, type);
+    if (!fs.existsSync(dir)) continue;
+
+    for (const file of fs.readdirSync(dir).filter((entry) => entry.endsWith('.md')).sort()) {
+      relativePaths.add(`${type}/${file}`);
+    }
+  }
+
+  for (const locale of LOCALIZED_DOC_LOCALES) {
+    const localePaths = listLocaleFiles(locale, (name) => name.endsWith('.md') || name.endsWith('.json'));
+    for (const relativePath of localePaths) {
+      if (relativePath === 'README.md') continue;
+      if (GENERATED_INDEX_RELATIVE_PATHS.has(relativePath)) continue;
+      if (resolveCanonicalSourcePath(relativePath) || SEEDABLE_NON_MARKDOWN_PATHS.has(relativePath)) {
+        relativePaths.add(relativePath);
+      }
+    }
+  }
+
+  return Array.from(relativePaths).sort();
 }
 
 function buildRelativeLink(fromRelativePath, targetRelativePath) {
@@ -438,8 +490,39 @@ function upsertRootGuide(locale, counts) {
   fs.writeFileSync(readmePath, nextContent);
 }
 
-function syncLocale(locale) {
+function seedMissingLocalizedDocs(locale, candidateRelativePaths = collectSeedableLocalizedDocPaths()) {
+  let seededCount = 0;
+
+  for (const relativePath of candidateRelativePaths) {
+    const localizedPath = path.join(DOCS_DIR, locale.id, relativePath);
+    if (fs.existsSync(localizedPath)) continue;
+
+    const canonicalPath = resolveCanonicalSourcePath(relativePath) || relativePath;
+    const sourcePath = path.join(ROOT_DIR, canonicalPath);
+    if (!fs.existsSync(sourcePath)) continue;
+
+    fs.mkdirSync(path.dirname(localizedPath), { recursive: true });
+
+    if (relativePath.endsWith('.json')) {
+      fs.copyFileSync(sourcePath, localizedPath);
+    } else {
+      const original = fs.readFileSync(sourcePath, 'utf-8').replace(/\r\n/g, '\n');
+      const nextContent = original.endsWith('\n') ? original : `${original}\n`;
+      fs.writeFileSync(localizedPath, nextContent);
+    }
+
+    seededCount += 1;
+  }
+
+  return seededCount;
+}
+
+function syncLocale(locale, options = {}) {
   let updatedCount = 0;
+
+  if (options.seedMissing) {
+    updatedCount += seedMissingLocalizedDocs(locale, options.candidateRelativePaths);
+  }
 
   for (const relativePath of getManagedLocalizedDocPaths(locale)) {
     if (upsertManagedLocalizedMarkdown(locale, relativePath)) {
@@ -468,13 +551,21 @@ function syncLocale(locale) {
 
 function parseLocaleArgs(argv) {
   const ids = [];
+  let seedMissing = false;
   for (let i = 0; i < argv.length; i += 1) {
     if (argv[i] === '--locale' && argv[i + 1]) {
       ids.push(argv[i + 1]);
       i += 1;
+      continue;
+    }
+    if (argv[i] === '--seed-missing') {
+      seedMissing = true;
     }
   }
-  return ids;
+  return {
+    localeIds: ids,
+    seedMissing
+  };
 }
 
 function syncLocalizedInstructionDocs(options = {}) {
@@ -485,20 +576,22 @@ function syncLocalizedInstructionDocs(options = {}) {
   let updatedCount = 0;
   for (const locale of LOCALIZED_DOC_LOCALES) {
     if (selectedIds && !selectedIds.has(locale.id)) continue;
-    updatedCount += syncLocale(locale);
+    updatedCount += syncLocale(locale, options);
   }
 
   return updatedCount;
 }
 
 if (require.main === module) {
-  const localeIds = parseLocaleArgs(process.argv.slice(2));
-  const updatedCount = syncLocalizedInstructionDocs({ localeIds });
+  const cliOptions = parseLocaleArgs(process.argv.slice(2));
+  const updatedCount = syncLocalizedInstructionDocs(cliOptions);
   console.log(`Synchronized ${updatedCount} localized instruction docs`);
 }
 
 module.exports = {
+  collectSeedableLocalizedDocPaths,
   getManagedLocalizedDocPaths,
   resolveCanonicalSourcePath,
+  seedMissingLocalizedDocs,
   syncLocalizedInstructionDocs
 };
