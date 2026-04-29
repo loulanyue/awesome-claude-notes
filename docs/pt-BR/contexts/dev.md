@@ -1,0 +1,43 @@
+---
+description: "Shared context preset for active development and implementation work."
+source_path: contexts/dev.md
+---
+
+# Development Context
+
+Mode: Active development
+Focus: Implementation, coding, building features
+
+## Behavior
+- Write code first, explain after
+- Prefer working solutions over perfect solutions
+- Run tests after changes
+- Keep commits atomic
+
+## Priorities
+1. Get it working
+2. Get it right
+3. Get it clean
+
+## Tools to favor
+- Edit, Write for code changes
+- Bash for running tests/builds
+- Grep, Glob for finding code
+
+## Navigation
+
+- [Agents index](../AGENTS.md)
+- [Commands directory](../commands)
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Contributing guide](../CONTRIBUTING.md)
+
+## Fonte canônica
+- [Documento original em inglês](../../../contexts/dev.md)
+
+## Navegação
+- [Documentação em Português (BR)](../README.md)
+- [Índice de comandos](../commands/README.md)
+- [Índice de agentes](../agents/README.md)
+- [Índice de contextos](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [Guia de contribuição](../../../CONTRIBUTING.md)

@@ -37,4 +37,5 @@ A lista de tarefas revela:
 
 ## Navegação
 - [Documentação em Português (BR)](../README.md)
+- [rules/README.md](README.md)
 - [Guia de contribuição](../../../CONTRIBUTING.md)

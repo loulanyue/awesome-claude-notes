@@ -513,8 +513,9 @@ MIT — consulte o [arquivo LICENSE](../../LICENSE) para detalhes.
 
 Esses índices ajudam a navegar pelos instruction docs localizados por comando, agente e contexto.
 
-- [Índice de comandos](./commands/README.md) (18)
-- [Índice de agentes](./agents/README.md) (12)
+- [Índice de comandos](./commands/README.md) (60)
+- [Índice de agentes](./agents/README.md) (28)
+- [Índice de contextos](./contexts/README.md) (3)
 - [Command → Agent / Skill Map](../COMMAND-AGENT-MAP.md)
 - [Guia de contribuição](../../CONTRIBUTING.md)
 <!-- localized-instruction-docs:end -->

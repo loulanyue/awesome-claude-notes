@@ -275,5 +275,6 @@ go test -race -cover ./...
 - [Documentação em Português (BR)](../README.md)
 - [Índice de comandos](../commands/README.md)
 - [Índice de agentes](../agents/README.md)
+- [Índice de contextos](../contexts/README.md)
 - [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
 - [Guia de contribuição](../../../CONTRIBUTING.md)

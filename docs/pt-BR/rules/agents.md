@@ -57,4 +57,5 @@ Para problemas complexos, use subagentes com papéis divididos:
 
 ## Navegação
 - [Documentação em Português (BR)](../README.md)
+- [rules/README.md](README.md)
 - [Guia de contribuição](../../../CONTRIBUTING.md)
