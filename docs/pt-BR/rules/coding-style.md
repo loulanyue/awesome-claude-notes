@@ -55,4 +55,5 @@ Antes de marcar o trabalho como concluído:
 
 ## Navegação
 - [Documentação em Português (BR)](../README.md)
+- [rules/README.md](README.md)
 - [Guia de contribuição](../../../CONTRIBUTING.md)

@@ -38,4 +38,5 @@ Use um envelope consistente para todas as respostas de API:
 
 ## Navegação
 - [Documentação em Português (BR)](../README.md)
+- [rules/README.md](README.md)
 - [Guia de contribuição](../../../CONTRIBUTING.md)
