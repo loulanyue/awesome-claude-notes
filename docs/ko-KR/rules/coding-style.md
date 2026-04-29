@@ -55,4 +55,5 @@ source_path: rules/common/coding-style.md
 
 ## 탐색
 - [한국어 문서 안내](../README.md)
+- [rules/README.md](README.md)
 - [기여 가이드](../../../CONTRIBUTING.md)

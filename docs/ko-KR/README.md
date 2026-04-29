@@ -735,8 +735,9 @@ MIT - 자유롭게 사용하고, 필요에 따라 수정하고, 가능하다면 
 
 이 색인 페이지를 통해 현지화된 instruction docs를 명령어, 에이전트, 컨텍스트 기준으로 빠르게 탐색할 수 있습니다.
 
-- [명령어 색인](./commands/README.md) (18)
-- [에이전트 색인](./agents/README.md) (12)
+- [명령어 색인](./commands/README.md) (60)
+- [에이전트 색인](./agents/README.md) (28)
+- [컨텍스트 색인](./contexts/README.md) (3)
 - [Command → Agent / Skill Map](../COMMAND-AGENT-MAP.md)
 - [기여 가이드](../../CONTRIBUTING.md)
 <!-- localized-instruction-docs:end -->
