@@ -1,0 +1,57 @@
+---
+source_path: rules/typescript/patterns.md
+paths: 
+---
+# TypeScript/JavaScript Patterns
+
+> This file extends [common/patterns.md](../common/patterns.md) with TypeScript/JavaScript specific content.
+
+## API Response Format
+
+```typescript
+interface ApiResponse<T> {
+  success: boolean
+  data?: T
+  error?: string
+  meta?: {
+    total: number
+    page: number
+    limit: number
+  }
+}
+```
+
+## Custom Hooks Pattern
+
+```typescript
+export function useDebounce<T>(value: T, delay: number): T {
+  const [debouncedValue, setDebouncedValue] = useState<T>(value)
+
+  useEffect(() => {
+    const handler = setTimeout(() => setDebouncedValue(value), delay)
+    return () => clearTimeout(handler)
+  }, [value, delay])
+
+  return debouncedValue
+}
+```
+
+## Repository Pattern
+
+```typescript
+interface Repository<T> {
+  findAll(filters?: Filters): Promise<T[]>
+  findById(id: string): Promise<T | null>
+  create(data: CreateDto): Promise<T>
+  update(id: string, data: UpdateDto): Promise<T>
+  delete(id: string): Promise<void>
+}
+```
+
+## 원문
+- [영문 원문](../../../../rules/typescript/patterns.md)
+
+## 탐색
+- [한국어 문서 안내](../../README.md)
+- [rules/README.md](../README.md)
+- [기여 가이드](../../../../CONTRIBUTING.md)

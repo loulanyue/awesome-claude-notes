@@ -1,0 +1,50 @@
+---
+name: prune
+description: Delete pending instincts older than 30 days that were never promoted
+source_path: commands/prune.md
+command: true
+---
+
+# Prune Pending Instincts
+
+Remove expired pending instincts that were auto-generated but never reviewed or promoted.
+
+## Implementation
+
+Run the instinct CLI using the plugin root path:
+
+```bash
+python3 "${CLAUDE_PLUGIN_ROOT}/skills/continuous-learning-v2/scripts/instinct-cli.py" prune
+```
+
+Or if `CLAUDE_PLUGIN_ROOT` is not set (manual installation):
+
+```bash
+python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py prune
+```
+
+## Usage
+
+```
+/prune                    # Delete instincts older than 30 days
+/prune --max-age 60      # Custom age threshold (days)
+/prune --dry-run         # Preview without deleting
+```
+
+## Navigation
+
+- [Command → Agent / Skill Map](../docs/COMMAND-AGENT-MAP.md)
+- [Agents index](../AGENTS.md)
+- [Contexts directory](../contexts)
+- [Contributing guide](../CONTRIBUTING.md)
+
+## 원문
+- [영문 원문](../../../commands/prune.md)
+
+## 탐색
+- [한국어 문서 안내](../README.md)
+- [명령어 색인](../commands/README.md)
+- [에이전트 색인](../agents/README.md)
+- [컨텍스트 색인](../contexts/README.md)
+- [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
+- [기여 가이드](../../../CONTRIBUTING.md)
