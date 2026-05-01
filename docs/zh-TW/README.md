@@ -484,8 +484,9 @@ MIT - 自由使用、依需求修改、如可能請回饋貢獻。
 
 這些索引頁可協助你依命令、代理與上下文快速瀏覽本地化 instruction docs。
 
-- [命令索引](./commands/README.md) (18)
-- [代理索引](./agents/README.md) (12)
+- [命令索引](./commands/README.md) (60)
+- [代理索引](./agents/README.md) (28)
+- [上下文索引](./contexts/README.md) (3)
 - [Command → Agent / Skill Map](../COMMAND-AGENT-MAP.md)
 - [貢獻指南](../../CONTRIBUTING.md)
 <!-- localized-instruction-docs:end -->
