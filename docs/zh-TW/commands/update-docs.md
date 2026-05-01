@@ -41,5 +41,6 @@ source_path: commands/update-docs.md
 - [繁體中文文件導航](../README.md)
 - [命令索引](../commands/README.md)
 - [代理索引](../agents/README.md)
+- [上下文索引](../contexts/README.md)
 - [Command → Agent / Skill Map](../../COMMAND-AGENT-MAP.md)
 - [貢獻指南](../../../CONTRIBUTING.md)

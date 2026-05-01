@@ -1,0 +1,41 @@
+---
+source_path: rules/common/hooks.md
+---
+# Hooks System
+
+## Hook Types
+
+- **PreToolUse**: Before tool execution (validation, parameter modification)
+- **PostToolUse**: After tool execution (auto-format, checks)
+- **Stop**: When session ends (final verification)
+
+## Auto-Accept Permissions
+
+Use with caution:
+- Enable for trusted, well-defined plans
+- Disable for exploratory work
+- Never use dangerously-skip-permissions flag
+- Configure `allowedTools` in `~/.claude.json` instead
+
+## TodoWrite Best Practices
+
+Use TodoWrite tool to:
+- Track progress on multi-step tasks
+- Verify understanding of instructions
+- Enable real-time steering
+- Show granular implementation steps
+
+Todo list reveals:
+- Out of order steps
+- Missing items
+- Extra unnecessary items
+- Wrong granularity
+- Misinterpreted requirements
+
+## 原文
+- [英文原文](../../../../rules/common/hooks.md)
+
+## 導航
+- [繁體中文文件導航](../../README.md)
+- [rules/README.md](../README.md)
+- [貢獻指南](../../../../CONTRIBUTING.md)

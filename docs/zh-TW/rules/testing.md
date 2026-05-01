@@ -37,4 +37,5 @@ source_path: rules/common/testing.md
 
 ## 導航
 - [繁體中文文件導航](../README.md)
+- [rules/README.md](README.md)
 - [貢獻指南](../../../CONTRIBUTING.md)
