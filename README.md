@@ -174,3 +174,6 @@ MIT。欢迎按现有目录约定贡献新的 agents、skills、commands、hooks
    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=loulanyue/awesome-claude-notes&type=date&legend=top-left" />
  </picture>
 </a>
+
+
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts: 4 Markdown templates + 5 Claude Code skills (crm-everything, open-loops, watchers, morning-briefing, session-digest). Start every session context-full, not context-zero. MIT, one-command install.
