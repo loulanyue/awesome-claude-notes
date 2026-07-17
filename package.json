@@ -120,7 +120,7 @@
     "c8": "^10.1.2",
     "eslint": "^9.39.2",
     "globals": "^17.1.0",
-    "markdownlint-cli": "^0.47.0"
+    "markdownlint-cli": "^0.49.1"
   },
   "engines": {
     "node": ">=18"
