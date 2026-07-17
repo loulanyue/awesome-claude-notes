@@ -62,6 +62,8 @@
   an explicit upstream provenance and synchronization policy.
 - Aligned the root `VERSION` file with `package.json` and hardened the MCP health-check
   test harness against inherited fail-open state and masked subprocess timeouts.
+- Added an AI-readable `llms.txt` entry point and CI validation for every declared npm
+  publish and executable path.
 - Selective install architecture with manifest resolution (`install-plan.js`, `install-apply.js`) (#509, #512)
 - SQLite state store with query CLI for tracking installed components (#510)
 - Session adapters for structured session recording (#511)

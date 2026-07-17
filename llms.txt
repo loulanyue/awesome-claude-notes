@@ -1,0 +1,32 @@
+# awesome claude notes
+
+> Independent community distribution of AI coding workflow assets derived from affaan-m/ECC, focused on Chinese documentation, packaging, and cross-harness use.
+
+Core documentation:
+- README.md
+- ROADMAP.md
+- GOVERNANCE.md
+- UPSTREAM.md
+- CONTRIBUTING.md
+- TROUBLESHOOTING.md
+- docs/SELECTIVE-INSTALL-ARCHITECTURE.md
+
+Core assets:
+- agents/
+- commands/
+- skills/
+- hooks/
+- rules/
+- mcp-configs/
+- manifests/
+
+CLI entry points:
+- npx ecc <language>
+- npx ecc-install <language>
+- node scripts/install-plan.js --profile <name> --target <harness>
+- node scripts/install-apply.js --profile <name> --target <harness>
+
+Provenance and support:
+- Upstream source: https://github.com/affaan-m/ECC
+- Distribution repository: https://github.com/loulanyue/awesome-claude-notes
+- Security reports: use the repository Security tab, not a public Issue
