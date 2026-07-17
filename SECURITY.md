@@ -14,7 +14,9 @@ If you discover a security vulnerability in ECC, please report it responsibly.
 
 **Do not open a public GitHub issue for security vulnerabilities.**
 
-Instead, email **security@ecc.tools** with:
+Instead, open a private
+[GitHub Security Advisory](https://github.com/loulanyue/awesome-claude-notes/security/advisories/new)
+for this distribution with:
 
 - A description of the vulnerability
 - Steps to reproduce
@@ -43,7 +45,10 @@ This policy covers:
 - Hook scripts that execute on your machine
 - Install/uninstall/repair lifecycle scripts
 - MCP configurations shipped with ECC
-- The AgentShield security scanner ([github.com/affaan-m/agentshield](https://github.com/affaan-m/agentshield))
+- Distribution-specific packaging, documentation, and synchronization changes
+
+Issues that only affect the official upstream project should also be reported according to
+[affaan-m/ECC's security policy](https://github.com/affaan-m/ECC/security/policy).
 
 ## Security Resources
 

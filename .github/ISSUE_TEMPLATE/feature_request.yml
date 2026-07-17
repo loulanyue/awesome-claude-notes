@@ -1,0 +1,32 @@
+name: Feature proposal
+description: Propose a maintainable improvement with a concrete use case
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and use case
+      description: Who has this problem, and in which workflow?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the expected workflow, interface, or example invocation.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing Issues and did not find a duplicate.
+          required: true
+        - label: I can help validate, document, or implement this proposal.

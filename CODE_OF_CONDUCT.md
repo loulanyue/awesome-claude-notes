@@ -59,8 +59,9 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-.
+reported to `@loulanyue` using a private contact method listed on the maintainer's
+GitHub profile. If immediate platform action is required, use GitHub's built-in
+block and abuse-reporting tools.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the

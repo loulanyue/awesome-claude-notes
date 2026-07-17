@@ -26,6 +26,11 @@ awesome claude notes 提供已经打磨过的 agents、skills、commands、rules
 MCP configs 和跨平台脚本，帮助你更快搭起一套可落地的 agent harness，而不是从零
 拼装目录、提示词和自动化流程。
 
+> [!IMPORTANT]
+> 本仓库是基于 [affaan-m/ECC](https://github.com/affaan-m/ECC) 的独立社区发行版，
+> 重点维护中文文档、打包与跨工具使用体验，并非官方上游。原作者、贡献者和 MIT
+> 许可证信息均予以保留；同步与差异策略见 [`UPSTREAM.md`](UPSTREAM.md)。
+
 ## 为什么会用它
 
 你通常会在下面这些场景里需要这个仓库：
@@ -156,6 +161,9 @@ Node.js 版本要求见 `package.json`（`>=18`）。
 ## 贡献与许可
 
 - 贡献指南：[`CONTRIBUTING.md`](CONTRIBUTING.md)
+- 路线图：[`ROADMAP.md`](ROADMAP.md)
+- 项目治理：[`GOVERNANCE.md`](GOVERNANCE.md)
+- 上游关系：[`UPSTREAM.md`](UPSTREAM.md)
 - 安全说明：[`SECURITY.md`](SECURITY.md)
 - 许可证：[`LICENSE`](LICENSE)
 

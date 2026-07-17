@@ -1,0 +1,52 @@
+name: Bug report
+description: Report a reproducible problem in this distribution
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Include commands, configuration, and the smallest reproducible example.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Repository version, Node.js, operating system, harness, and installation path.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Installation or upgrade
+        - Agent or skill
+        - Command or hook
+        - Claude Code
+        - Codex
+        - Cursor
+        - OpenCode
+        - Documentation or translation
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing Issues and did not find a duplicate.
+          required: true
+        - label: I removed secrets, tokens, and personal paths from the report.
+          required: true

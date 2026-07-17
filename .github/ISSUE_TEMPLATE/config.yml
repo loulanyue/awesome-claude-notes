@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Troubleshooting guide
+    url: https://github.com/loulanyue/awesome-claude-notes/blob/main/TROUBLESHOOTING.md
+    about: Check common installation and runtime problems before opening an Issue.
+  - name: Private security report
+    url: https://github.com/loulanyue/awesome-claude-notes/security/advisories/new
+    about: Do not report vulnerabilities in a public Issue.

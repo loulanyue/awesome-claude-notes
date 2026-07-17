@@ -66,6 +66,7 @@ function runHook(input, env = {}) {
     env: {
       ...process.env,
       ECC_HOOK_PROFILE: 'standard',
+      ECC_MCP_HEALTH_FAIL_OPEN: '',
       ...env
     },
     timeout: 15000,
@@ -73,7 +74,7 @@ function runHook(input, env = {}) {
   });
 
   return {
-    code: result.status || 0,
+    code: result.status ?? (result.error ? 1 : 0),
     stdout: result.stdout || '',
     stderr: result.stderr || ''
   };

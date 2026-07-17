@@ -523,7 +523,8 @@ How you tested this.
 ## Questions?
 
 - **Issues:** [github.com/loulanyue/awesome-claude-notes/issues](https://github.com/loulanyue/awesome-claude-notes/issues)
-- **X/Twitter:** [@affaanmustafa](https://x.com/affaanmustafa)
+- **Roadmap:** [ROADMAP.md](ROADMAP.md)
+- **Governance and upstream relationship:** [GOVERNANCE.md](GOVERNANCE.md) and [UPSTREAM.md](UPSTREAM.md)
 
 ---
 
