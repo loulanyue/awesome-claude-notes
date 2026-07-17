@@ -1,0 +1,45 @@
+name: Publish GitHub Package
+
+on:
+  workflow_dispatch:
+  release:
+    types:
+      - published
+
+permissions:
+  contents: read
+  packages: write
+
+concurrency:
+  group: github-package-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Publish npm package mirror
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "20"
+          cache: npm
+          registry-url: https://npm.pkg.github.com
+          scope: "@loulanyue"
+      - run: npm ci
+      - run: npm test
+      - name: Prepare GitHub Packages metadata
+        run: |
+          npm pkg set name=@loulanyue/awesome-claude-notes
+          npm pkg set publishConfig.registry=https://npm.pkg.github.com
+      - name: Publish package
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          package_version=$(node -p "require('./package.json').version")
+          if npm view "@loulanyue/awesome-claude-notes@$package_version" version --registry=https://npm.pkg.github.com >/dev/null 2>&1; then
+            echo "@loulanyue/awesome-claude-notes@$package_version is already published."
+            exit 0
+          fi
+          npm publish --access public
