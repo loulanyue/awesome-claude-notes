@@ -20,6 +20,8 @@
 
 > 一套面向 Claude Code 与多种 AI coding harness 的生产级工作流资产库。
 
+Access to 28 agents, 125 skills, and 60 commands, packaged for practical multi-harness development.
+
 把 AI coding agent 从“偶尔好用”，推进到“稳定可复用”。
 
 awesome claude notes 提供已经打磨过的 agents、skills、commands、rules、hooks、
@@ -77,6 +79,14 @@ npx ecc typescript
 
 如果你是手动安装命令，也可以直接使用：
 `/plan "Add user authentication"`。
+
+## 资源规模一览
+
+| Capability | Coverage | Notes |
+| --- | --- | --- |
+| Agents | ✅ 28 agents | Planner, architect, reviewer, resolver, and domain specialists |
+| Commands | ✅ 60 commands | Slash commands for planning, TDD, review, and orchestration |
+| Skills | ✅ 125 skills | Workflow, engineering, domain, and platform knowledge modules |
 
 ## 接下来该看哪份文档
 
