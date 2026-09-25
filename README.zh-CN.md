@@ -41,6 +41,10 @@ MCP configs 和跨平台脚本，帮助你更快搭起一套可落地的 agent h
 - **更少重复搭建**：不用自己从头整理 agents、skills、rules、hooks 和 MCP 配置。
 - **更好的跨工具迁移**：同一套资产可复用到多个 agent / IDE / CLI 组合中。
 
+## 精选专题与行业深度笔记
+
+- 🎙️ [**2026 云栖大会 · 开幕式暨主论坛 全景演讲文字实录与精读笔记（完整典藏版）**](docs/keynotes/2026-yunqi-conference-keynote-transcript-and-notes.md)：涵盖杭州市委书记与市长致辞、阿里蔡崇信五层全栈 AI 体系、吴泳铭《机器正在成为思考的主力》、Qwen 真实世界智能体、平头哥真武 V900 芯片、李飞飞 Agentic Cloud（智能体云架构）与荣耀 Agent Harness、中国平安 3000 亿 Token 落地实践。
+
 > 说明：当前仓库默认以中文作为根 README 展示，`README.zh-CN.md`
 > 为同步镜像；旧资料里出现的历史仓库名通常只是旧截图或旧安装残留。
 
